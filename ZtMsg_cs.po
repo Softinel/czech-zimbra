@@ -1,0 +1,2534 @@
+#. ### ***** BEGIN LICENSE BLOCK *****# Zimbra Collaboration Suite Web Client# Copyright (C) 2013, 2014 Zimbra, Inc.# # This program is free software: you can redistribute it and/or modify it under# the terms of the GNU General Public License as published by the Free Software Foundation,# version 2 of the License.# # This program is distributed in the hope that it will be useful, but WITHOUT ANY WARRANTY;# without even the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.# See the GNU General Public License for more details.# You should have received a copy of the GNU General Public License along with this program.# If not, see <http://www.gnu.org/licenses/>.# ***** END LICENSE BLOCK *****#
+#. extracted from ZtMsg.properties, ZtMsg_sk.properties
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2015-03-20 15:35+0200\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Translate Toolkit 1.9.0\n"
+
+#. # Login
+#: htmlMobileClient
+msgid "Switch to the mobile version"
+msgstr "Prepnúť na mobilnú verziu"
+
+#. # Bookmark Title
+#: zimbraTitle
+msgid "Zimbra"
+msgstr "Zimbra"
+
+#. # Splash Screen
+#: splashScreenAppName
+msgid "Touch Client"
+msgstr "Dotykový klient"
+
+#: splashScreenCopyright
+msgid ""
+"Copyright © 2005-2014 Zimbra, Inc. All rights reserved. \"Zimbra\" is a "
+"registered trademark of Zimbra, Inc."
+msgstr ""
+"Copyright © 2005-2007 Zimbra, Inc. Všetky práva vyhradené. „Zimbra“ je "
+"registrovanou obchodnou značkou Zimbra, Inc."
+
+#. # App menu
+#: applicationsGroup
+msgid "Applications"
+msgstr "Aplikácie"
+
+#: otherGroup
+msgctxt "otherGroup"
+msgid "Other"
+msgstr "Iné"
+
+#: appMail
+msgid "Mail"
+msgstr "Pošta"
+
+#: appContacts
+msgctxt "appContacts"
+msgid "Contacts"
+msgstr "Kontakty"
+
+#: appCalendar
+msgctxt "appCalendar"
+msgid "Calendar"
+msgstr "Kalendár"
+
+#. # Alert dialogs
+#: error
+msgid "Error"
+msgstr "Chyba"
+
+#: warning
+msgctxt "warning"
+msgid "Warning"
+msgstr "Upozornenie"
+
+#. # Generic cross-app button text
+#: yes
+msgid "Yes"
+msgstr "Áno"
+
+#: no
+msgid "No"
+msgstr "Nie"
+
+#: ok
+msgid "OK"
+msgstr "OK"
+
+#: cancel
+msgid "Cancel"
+msgstr "Zrušiť"
+
+#: del
+msgid "Delete"
+msgstr "Odstrániť"
+
+#: edit
+msgid "Edit"
+msgstr "Upraviť"
+
+#: search
+msgid "Search"
+msgstr "Hľadať"
+
+#: more
+msgid "More"
+msgstr "Ďalšie"
+
+#: save
+msgid "Save"
+msgstr "Uložiť"
+
+#: done
+msgid "Done"
+msgstr "Hotovo"
+
+#. # Placeholders for list panel
+#: loadingCalendar
+msgid "Loading calendar..."
+msgstr "Načítava sa kalendár..."
+
+#: loadingContacts
+msgid "Loading contacts..."
+msgstr "Načítavajú sa kontakty..."
+
+#: loadingConvs
+msgid "Loading conversations..."
+msgstr "Načítavajú sa konverzácie..."
+
+#: noContacts
+msgid "No contacts found"
+msgstr "Nenašli sa žiadne kontakty"
+
+#: noConvs
+msgid "No conversations found"
+msgstr "Nenašli sa žiadne konverzácie"
+
+#: loadMore
+msgid "Load More..."
+msgstr "Načítať ďalšie..."
+
+#: pullToRefresh
+msgid "Pull down to refresh"
+msgstr "Obsah obnovíte potiahnutím"
+
+#. # Placeholders for item panel
+#: emptyConvPanel
+msgid "Tap a conversation to view it"
+msgstr "Dotknutím sa konverzácie ju zobrazíte"
+
+#: emptyContactPanel
+msgid "Tap a contact to view it"
+msgstr "Dotknutím sa kontaktu ho zobrazíte"
+
+#. # Application Update and Exit
+#: appUpdateTitle
+msgid "Application Update"
+msgstr "Aktualizácia aplikácie"
+
+#: appUpdateMsg
+msgid "This application has been successfully updated. Reload now?"
+msgstr "Táto aplikácia bola úspešne aktualizovaná. Načítať teraz?"
+
+#: appExitWarning
+msgid ""
+"Doing so will terminate Zimbra Touch Client, and you will lose any unsaved "
+"changes."
+msgstr ""
+"Týmto ukončíte Dotykového klienta Zimbra a stratíte všetky neuložené zmeny."
+
+#. # Top-level overview with apps
+#: settings
+msgid "Settings"
+msgstr "Nastavenia"
+
+#: logout
+msgid "Sign Out"
+msgstr "Odhlásiť sa"
+
+#. # Overview titles for showing folder trees
+#: addressBooks
+msgid "Address Books"
+msgstr "Adresáre"
+
+#: folders
+msgid "Folders"
+msgstr "Priečinky"
+
+#: searches
+msgid "Searches"
+msgstr "Hľadania"
+
+#: tags
+msgctxt "tags"
+msgid "Tags"
+msgstr "Štítky"
+
+#: calendars
+msgid "Calendars"
+msgstr "Kalendáre"
+
+#. # System folder names
+#: folderInbox
+msgid "Inbox"
+msgstr "Prijaté"
+
+#: folderTrash
+msgid "Trash"
+msgstr "Kôš"
+
+#: folderJunk
+msgid "Junk"
+msgstr "Spam"
+
+#: folderSent
+msgctxt "folderSent"
+msgid "Sent"
+msgstr "Odoslané"
+
+#: folderDrafts
+msgid "Drafts"
+msgstr "Rozpísané"
+
+#: folderContacts
+msgctxt "folderContacts"
+msgid "Contacts"
+msgstr "Kontakty"
+
+#: folderEmailedContacts
+msgid "Emailed Contacts"
+msgstr "Emailové kontakty"
+
+#: folderCalendar
+msgctxt "folderCalendar"
+msgid "Calendar"
+msgstr "Kalendár"
+
+#. # Folder management (create, rename)
+#: newFolder
+msgid "New Folder"
+msgstr "Nový priečinok"
+
+#: newTag
+msgid "New Tag"
+msgstr "Nový štítok"
+
+#: editFolder
+msgid "Edit Folder"
+msgstr "Upraviť priečinok"
+
+#: editTag
+msgid "Edit Tag"
+msgstr "Upraviť štítok"
+
+#: folderName
+msgid "Folder name"
+msgstr "Názov priečinka"
+
+#: tagName
+msgid "Tag name"
+msgstr "Názov štítka"
+
+#: colorLabel
+msgid "Color"
+msgstr "Farba"
+
+#: folderLocationLabel
+msgctxt "folderLocationLabel"
+msgid "Location"
+msgstr "Umiestnenie"
+
+#: nameMissing
+msgid "Name is required."
+msgstr "Názov je povinný."
+
+#: nameTooLong
+msgid "The name must be at most {0} characters long."
+msgstr "Názov musí mať najviac {0} znakov."
+
+#: nameInvalid
+msgctxt "nameInvalid"
+msgid "\"{0}\" is not a valid name. It contains at least one invalid character."
+msgstr "„{0}“ nie je platný názov. Obsahuje aspoň jeden neplatný znak."
+
+#: noChangesMade
+msgid "No changes made."
+msgstr "Neboli vykonané žiadne zmeny."
+
+#. # Internal system folder names
+#: distributionLists
+msgid "Distribution Lists"
+msgstr "Distribučné zoznamy"
+
+#. # List toolbar title
+#: searchResults
+msgid "Search Results"
+msgstr "Výsledky hľadania"
+
+#. # Units to show how recently a message was received
+#: minute
+msgctxt "minute"
+msgid "m"
+msgstr "m"
+
+#: minutes
+msgctxt "minutes"
+msgid "m"
+msgstr "m"
+
+#: hour
+msgctxt "hour"
+msgid "h"
+msgstr "h"
+
+#: hours
+msgctxt "hours"
+msgid "h"
+msgstr "h"
+
+#: day
+msgctxt "day"
+msgid "d"
+msgstr "d"
+
+#: days
+msgctxt "days"
+msgid "d"
+msgstr "d"
+
+#: week
+msgctxt "week"
+msgid "w"
+msgstr "w"
+
+#: weeks
+msgctxt "weeks"
+msgid "w"
+msgstr "w"
+
+#: year
+msgctxt "year"
+msgid "y"
+msgstr "y"
+
+#: years
+msgctxt "years"
+msgid "y"
+msgstr "y"
+
+#. # Phrase that shows how recently a message or conversation was received
+#. ## receivedNow should be as terse as possible - <5 characters !!!
+#: receivedNow
+msgid "now"
+msgstr "teraz"
+
+#: receivedRecently
+msgid "{0}{1}"
+msgstr "{0}{1}"
+
+#. # Headers (used in message header display, compose labels, and to find quoted content)
+#: toHdr
+msgid "To"
+msgstr "Komu"
+
+#: ccHdr
+msgid "Cc"
+msgstr "Kópia"
+
+#: bccHdr
+msgid "Bcc"
+msgstr "Skrytá kópia"
+
+#: dateHdr
+msgctxt "dateHdr"
+msgid "Date"
+msgstr "Dátum"
+
+#: fromHdr
+msgid "From"
+msgstr "Od"
+
+#: sentHdr
+msgctxt "sentHdr"
+msgid "Sent"
+msgstr "Odoslané"
+
+#: subjectHdr
+msgctxt "subjectHdr"
+msgid "Subject"
+msgstr "Predmet"
+
+#: tagsHdr
+msgctxt "tagsHdr"
+msgid "Tags"
+msgstr "Štítky"
+
+#: onBehalfOfMidLabel
+msgctxt "onBehalfOfMidLabel"
+msgid "on behalf of"
+msgstr "v mene"
+
+#: byWayOfMidLabel
+msgid "by way of"
+msgstr "prostredníctvom"
+
+#: unknown
+msgid "Unknown"
+msgstr "Neznáme"
+
+#. # Email subject prefixes
+#: fwPrefix
+msgid "Fw:"
+msgstr "Fw:"
+
+#: fwdPrefix
+msgid "Fwd:"
+msgstr "Fwd:"
+
+#: rePrefix
+msgid "Re:"
+msgstr "Re:"
+
+#. # Mail actions (menu items)
+#: markRead
+msgid "Mark read"
+msgstr "Označiť ako prečítané"
+
+#: markUnread
+msgid "Mark unread"
+msgstr "Označiť ako neprečítané"
+
+#: flag
+msgid "Flag"
+msgstr "Označiť"
+
+#: unflag
+msgid "Unflag"
+msgstr "Odznačiť"
+
+#: reply
+msgid "Reply"
+msgstr "Odpovedať"
+
+#: replyAll
+msgid "Reply to all"
+msgstr "Odpovedať všetkým"
+
+#: forward
+msgid "Forward"
+msgstr "Preposlať"
+
+#: move
+msgid "Move"
+msgstr "Presunúť"
+
+#: tag
+msgid "Tag"
+msgstr "Označiť"
+
+#: markSpam
+msgid "Spam"
+msgstr "Spam"
+
+#: markNotSpam
+msgid "Not spam"
+msgstr "Nie je Spam"
+
+#: convMarkRead
+msgid "Mark conversation read"
+msgstr "Označiť konverzáciu ako prečítanú"
+
+#: convMarkUnread
+msgid "Mark conversation unread"
+msgstr "Označiť konverzáciu ako neprečítanú"
+
+#: convFlag
+msgid "Flag conversation"
+msgstr "Označiť konverzáciu"
+
+#: convUnflag
+msgid "Unflag conversation"
+msgstr "Odznačiť konverzáciu"
+
+#: convMove
+msgid "Move conversation"
+msgstr "Presunúť konverzáciu"
+
+#: convTag
+msgid "Tag conversation"
+msgstr "Označiť konverzáciu"
+
+#: convSwitchToMessageView
+msgid "Switch to message view"
+msgstr "Prepnúť na zobrazenie správy"
+
+#: msgSwitchToConvView
+msgid "Switch to conv view"
+msgstr "Prepnite na zobrazenie konverzácie"
+
+#: removeTag
+msgid "Remove Tag"
+msgstr "Odstrániť štítok"
+
+#: newMessage
+msgid "New Message"
+msgstr "Nová správa"
+
+#: addContact
+msgid "Add to Contacts"
+msgstr "Pridať do kontaktov"
+
+#. # Message header
+#: from
+msgid "from"
+msgstr "od"
+
+#: obo
+msgctxt "obo"
+msgid "on behalf of"
+msgstr "v mene"
+
+#: to
+msgid "to"
+msgstr "komu"
+
+#: showDetails
+msgid "details"
+msgstr "Podrobnosti"
+
+#: hideDetails
+msgid "hide details"
+msgstr "Skryť podrobnosti"
+
+#. # Conversation header
+#: noSubject
+msgid "[no subject]"
+msgstr "[bez predmetu]"
+
+#. # Attachments section
+#. # 0 = content type (eg "image/xjpeg")
+#: unknownAttType
+msgid "Unknown <{0}>"
+msgstr "Neznáma <{0}>"
+
+#: bytes
+msgid "B"
+msgstr "B"
+
+#: kilobytes
+msgid "KB"
+msgstr "KB"
+
+#: megabytes
+msgid "MB"
+msgstr "MB"
+
+#. # Progress when uploading an attachment
+#: attUploadProgress
+msgid "Uploading: {percent}%"
+msgstr "Nahrávanie: {percent} %"
+
+#. # "Show Images" info bar
+#: imagesNotLoaded
+msgid "Remote images have not been loaded."
+msgstr "Vzdialené obrázky neboli načítané."
+
+#: loadImages
+msgid "Load Images"
+msgstr "Načítať obrázky"
+
+#. # Warning for truncated message
+#: messageTruncated
+msgid "This message is very large. Not all of it is being shown."
+msgstr "Táto správa je veľmi veľká. Nezobrazuje sa celá."
+
+#: messageTruncatedLink
+msgid "Show entire message"
+msgstr "Zobraziť celú správu"
+
+#. # Message body
+#: showQuotedText
+msgid "show quoted text"
+msgstr "zobraziť citovaný text"
+
+#: hideQuotedText
+msgid "hide quoted text"
+msgstr "skryť citovaný text"
+
+#. # Invite
+#: invStartLabel
+msgctxt "invStartLabel"
+msgid "Start"
+msgstr "Začiatok"
+
+#: invEndLabel
+msgctxt "invEndLabel"
+msgid "End"
+msgstr "Koniec"
+
+#: invLocationLabel
+msgctxt "invLocationLabel"
+msgid "Location"
+msgstr "Umiestnenie"
+
+#: invOrganizerLabel
+msgid "Organizer"
+msgstr "Organizátor"
+
+#: invSentByLabel
+msgid "Sent By"
+msgstr "Odoslal"
+
+#: invAttendeesLabel
+msgctxt "invAttendeesLabel"
+msgid "Attendees"
+msgstr "Účastníci"
+
+#: invOptionalAttendeesLabel
+msgid "Optional"
+msgstr "Nepovinné"
+
+#. # Used for all-day appointment
+#: invDateLabel
+msgctxt "invDateLabel"
+msgid "Date"
+msgstr "Dátum"
+
+#: invRespondLabel
+msgid "Respond"
+msgstr "Odpovedať"
+
+#: invSubjectLabel
+msgctxt "invSubjectLabel"
+msgid "Subject"
+msgstr "Predmet"
+
+#: invStatusLabel
+msgid "Status"
+msgstr "Stav"
+
+#: invIntendedFor
+msgid "Intended for"
+msgstr "Určené pre"
+
+#: invReminderLabel
+msgctxt "invReminderLabel"
+msgid "Reminder"
+msgstr "Pripomenutie"
+
+#: invReminderText
+msgid "minutes before"
+msgstr "minút pred"
+
+#: invRecurLabel
+msgid "Repeats"
+msgstr "Opakovania"
+
+#: inviteNotCurrent
+msgid "Invitation is not current"
+msgstr "Pozvánka nie je aktuálna"
+
+#: time
+msgid "Time"
+msgstr "Čas"
+
+#: recurDailyEveryDay
+msgid "Every day;"
+msgstr "Každý deň;"
+
+#: recurDailyEveryWeekday
+msgid "Every weekday;"
+msgstr "Každý deň v týždni;"
+
+#: recurDailyEveryNumDays
+msgid "Every {0} days;"
+msgstr "Každých {0} dní;"
+
+#: recurWeeklyEveryWeekday
+msgid "Every {0};"
+msgstr "Vždy v {0};"
+
+#: recurWeeklyEveryNumWeeksDate
+msgid "Every {0} week(s) on {1};"
+msgstr "Každých {0} týždňov v {1};"
+
+#: recurMonthlyEveryNumMonthsDate
+msgid "Day {0} of every {1} month(s);"
+msgstr "{0}. deň každých {1} mesiacov;"
+
+#: recurYearlyEveryMonth
+msgid "The {0} {1} of every {2};"
+msgstr "{0} {1}, každý {2};"
+
+#: recurYearlyEveryDate
+msgid "Every year on {0} {1};"
+msgstr "Každý rok {0} {1};"
+
+#: recurMonthly
+msgid "The {0} {1} of every {2} month(s);"
+msgstr "{0} {1} deň každých {2} mesiacov;"
+
+#: recurStart
+msgid "Effective {0}"
+msgstr "Počínajúc {0}"
+
+#: recurEndNone
+msgid "No end date;"
+msgstr "Bez dátumu ukončenia;"
+
+#: recurEndNumber
+msgid "End after {0} occurrence(s);"
+msgstr "Ukončiť po {0} výskytoch;"
+
+#: recurEndByDate
+msgid "End by {0};"
+msgstr "Ukončiť {0};"
+
+#: recurBlurb
+msgid "{0} {2} {1}"
+msgstr "{0} {2} {1}"
+
+#: recurLast
+msgid "last"
+msgstr "posledný"
+
+#: recurFirst
+msgid "first"
+msgstr "prvý"
+
+#: recurSecond
+msgid "second"
+msgstr "druhý"
+
+#: recurThird
+msgid "third"
+msgstr "tretí"
+
+#: recurFourth
+msgid "fourth"
+msgstr "štvrtý"
+
+#: recurDay
+msgid "day"
+msgstr "deň"
+
+#: recurWeekend
+msgid "weekend day"
+msgstr "deň víkendu"
+
+#: recurWeekday
+msgid "weekday"
+msgstr "deň v týždni"
+
+#: recurNoEndDate
+msgid "No end date"
+msgstr "Bez dátumu ukončenia"
+
+#. # Invite actions
+#: acceptAction
+msgid "Accept"
+msgstr "Prijať"
+
+#: tentativeAction
+msgctxt "tentativeAction"
+msgid "Tentative"
+msgstr "Nezáväzne prijať"
+
+#: declineAction
+msgid "Decline"
+msgstr "Zamietnuť"
+
+#: accepted
+msgid "Accepted"
+msgstr "Prijaté"
+
+#: declined
+msgid "Declined"
+msgstr "Zamietnuté"
+
+#: tentative
+msgctxt "tentative"
+msgid "Tentative"
+msgstr "Nezáväzne prijaté"
+
+#: noresponse
+msgid "No response"
+msgstr "Bez odpovede"
+
+#. # Invite reply content
+#: invReplyAcceptText
+msgid "Yes, I will attend."
+msgstr "Áno, zúčastním sa."
+
+#: invReplyTentativeText
+msgid "I might attend."
+msgstr "Možno sa zúčastním."
+
+#: invReplyDeclineText
+msgid "No, I won't attend."
+msgstr "Nie, nezúčastním sa."
+
+#. # Invite I've responded to
+#: inviteAccepted
+msgid "Invite Accepted"
+msgstr "Pozvánka prijatá"
+
+#: inviteAcceptedTentatively
+msgid "Invite Accepted Tentatively"
+msgstr "Pozvánka nezáväzne prijatá"
+
+#: inviteDeclined
+msgid "Invite Declined"
+msgstr "Pozvánka zamietnutá"
+
+#. # Invites for which I've received responses
+#: inviteMsgAccepted
+msgid "{0} has accepted the invitation."
+msgstr "{0} prijal pozvanie."
+
+#: inviteMsgDeclined
+msgid "{0} has declined the invitation."
+msgstr "{0} odmietol pozvanie."
+
+#: inviteMsgTentative
+msgid "{0} has tentatively accepted the invitation."
+msgstr "{0} nezáväzne prijal pozvanie."
+
+#. # Appointment View related
+#: attendeeEditWarning
+msgid ""
+"Changes that you make apply only to your local copy of the appointment. "
+"Changes made by the organizer will overwrite your changes."
+msgstr ""
+"Zmeny, ktoré vykonáte sa použijú iba na vašu lokálnu kópiu schôdzky. Zmeny "
+"vykonané organizátorom prepíšu vaše zmeny."
+
+#: attendeesTitle
+msgctxt "attendeesTitle"
+msgid "Attendees"
+msgstr "Účastníci"
+
+#. # Toast
+#: invReplySent
+msgid "Invite reply sent"
+msgstr "Odpoveď na pozvánku odoslaná"
+
+#. # MIME types (attachments)
+#: mimeAdobePdfDocument
+msgid "Adobe PDF"
+msgstr "Adobe PDF"
+
+#: mimeAdobePsDocument
+msgid "Adobe Postscript"
+msgstr "Adobe Postscript"
+
+#: mimeApplication
+msgid "Application"
+msgstr "aplikácia"
+
+#: mimeAudio
+msgid "Audio"
+msgstr "Zvuk"
+
+#: mimeBmpImage
+msgid "Bitmap Image"
+msgstr "Bitmapový obrázok"
+
+#: mimeCalendar
+msgctxt "mimeCalendar"
+msgid "Calendar"
+msgstr "Kalendáre"
+
+#: mimeEnrichedText
+msgid "Enriched Text"
+msgstr "Obohatený text"
+
+#: mimeGifImage
+msgid "GIF Image"
+msgstr "Obrázok GIF"
+
+#: mimeHtmlDocument
+msgid "HTML"
+msgstr "HTML"
+
+#: mimeImage
+msgid "Image"
+msgstr "Obrázok"
+
+#: mimeJavaSource
+msgid "Java Source Code"
+msgstr "Zdrojový kód Java"
+
+#: mimeJpegImage
+msgid "JPEG Image"
+msgstr "Obrázok JPEG"
+
+#: mimeMailMessage
+msgid "Mail Message"
+msgstr "Poštová správa"
+
+#: mimeMp3Audio
+msgid "MP3 Audio"
+msgstr "Zvuk MP3"
+
+#: mimeMsDownload
+msgid "Microsoft DLL"
+msgstr "Microsoft DLL"
+
+#: mimeMsExcelDocument
+msgid "Microsoft Excel"
+msgstr "Microsoft Excel"
+
+#: mimeMsPPTDocument
+msgid "Microsoft PowerPoint"
+msgstr "Microsoft PowerPoint"
+
+#: mimeMsProjectDocument
+msgid "Microsoft Project"
+msgstr "Microsoft Project"
+
+#: mimeMsVisioDocument
+msgid "Microsoft Visio"
+msgstr "Microsoft Visio"
+
+#: mimeMsWMV
+msgid "Windows Media Video"
+msgstr "Windows Media Video"
+
+#: mimeMsWordDocument
+msgid "Microsoft Word"
+msgstr "Microsoft Word"
+
+#: mimePngImage
+msgid "PNG Image"
+msgstr "Obrázok PNG"
+
+#: mimeTextDocuments
+msgid "Text Documents"
+msgstr "Textové dokumenty"
+
+#: mimeTextFile
+msgid "Text File"
+msgstr "Textový súbor"
+
+#: mimeTiffImage
+msgid "TIFF Image"
+msgstr "Obrázok TIFF"
+
+#: mimeUnknownBinaryType
+msgid "Unknown Binary Type"
+msgstr "Neznámy binárny typ"
+
+#: mimeVideo
+msgid "Video"
+msgstr "Video"
+
+#: mimeWaveAudio
+msgid "WAV Audio"
+msgstr "Zvuk WAV"
+
+#: mimeXmlDocument
+msgid "XML"
+msgstr "XML"
+
+#: mimeZimbraDocument
+msgid "Zimbra Document"
+msgstr "Dokument Zimbra"
+
+#: mimeZimbraPresentation
+msgid "Zimbra Presentation"
+msgstr "Prezentácia Zimbra"
+
+#: mimeZimbraSpreadsheet
+msgid "Zimbra Spreadsheet"
+msgstr "Tabuľka Zimbra"
+
+#: mimeZipFile
+msgid "Zip File"
+msgstr "Súbor zip"
+
+#. # Compose form: title, button labels, errors
+#: compose
+msgid "Compose"
+msgstr "Napísať"
+
+#: send
+msgid "Send"
+msgstr "Poslať"
+
+#: saveDraftWarning
+msgid "Save current message as draft?"
+msgstr "Uložiť súčasnú správu ako rozpísanú?"
+
+#: showCcBcc
+msgid "Show Cc/Bcc"
+msgstr "Zobraziť (Slepú) kópiu"
+
+#: hideCcBcc
+msgid "Hide Cc/Bcc"
+msgstr "Skryť (Slepú) kópiu"
+
+#: attach
+msgid "Attach"
+msgstr "Priložiť"
+
+#: errorNoAddresses
+msgid "There must be at least one recipient"
+msgstr "Musí existovať aspoň jeden príjemca"
+
+#: errorNoSubject
+msgid "No subject. Send anyway?"
+msgstr "Nebol uvedený predmet. Poslať napriek tomu?"
+
+#. # Phrases used while composing, or to find quoted content
+#: changed
+msgid "changed"
+msgstr "zmenené"
+
+#: forwardedMessage
+msgid "Forwarded Message"
+msgstr "Preposlaná správa"
+
+#: forwardedMessage1
+msgid "Begin forwarded message:"
+msgstr "Začiatok preposlanej správy:"
+
+#: on
+msgid "on"
+msgstr " "
+
+#: originalMessage
+msgid "Original Message"
+msgstr "Pôvodná správa"
+
+#: originalAppointment
+msgid "Original Appointment"
+msgstr "Pôvodná schôdzka"
+
+#: wrote
+msgid "wrote"
+msgstr "napísal(a)"
+
+#: addOriginalAttachments
+msgid "Add attachments from original message"
+msgstr "Pridať prílohy z pôvodnej správy"
+
+#: removeAttachment
+msgid "Remove"
+msgstr "Odstrániť"
+
+#. # Toast messages that the user sees after performing an action on a message or conversation
+#: moveMessage
+msgid "Message moved to {0}"
+msgstr "Správa presunutá do {0}"
+
+#: moveConversation
+msgid "Conversation moved to {0}"
+msgstr "Konverzácia presunutá do {0}"
+
+#: moveContact
+msgid "{0} moved to {1}"
+msgstr "{0} presunutá do {1}"
+
+#: draftSaved
+msgid "Draft saved"
+msgstr "Rozpísaná správa uložená"
+
+#: undo
+msgid "Undo"
+msgstr "Späť"
+
+#: messageSent
+msgid "Message sent"
+msgstr "Správa poslaná"
+
+#: tagAdded
+msgid "Tag \"{0}\" added"
+msgstr "Štítok „{0}“ pridaný"
+
+#: tagRemoved
+msgid "Tag \"{0}\" removed"
+msgstr "Štítok „{0}“ odstránený"
+
+#: messageDeleted
+msgid "Message permanently deleted"
+msgstr "Správa trvale odstránená"
+
+#: convDeleted
+msgid "Conversation deleted"
+msgstr "Konverzácia odstránená"
+
+#: messageMarkedRead
+msgid "Message marked read"
+msgstr "Správa označená ako prečítaná"
+
+#: messageMarkedUnread
+msgid "Message marked unread"
+msgstr "Správa označená ako neprečítaná"
+
+#: convMarkedRead
+msgid "Conversation marked read"
+msgstr "Konverzácia označená ako prečítaná"
+
+#: convMarkedUnread
+msgid "Conversation marked unread"
+msgstr "Konverzácia označená ako neprečítaná"
+
+#: messageFlagged
+msgid "Message flagged"
+msgstr "Správa označená"
+
+#: messageUnflagged
+msgid "Message unflagged"
+msgstr "Správa odznačená"
+
+#: convFlagged
+msgid "Conversation flagged"
+msgstr "Konverzácia označená"
+
+#: convUnflagged
+msgid "Conversation unflagged"
+msgstr "Konverzácia odznačená"
+
+#. # Warning for permanent deletion
+#: hardDeleteMsgTitle
+msgid "Delete Message"
+msgstr "Odstrániť správu"
+
+#: hardDeleteMsgText
+msgid "This message will be permanently deleted. Continue?"
+msgstr "Táto správa bude trvale odstránená. Chcete pokračovať?"
+
+#: hardDeleteConvTitle
+msgid "Delete Conversation"
+msgstr "Odstrániť konverzáciu"
+
+#: hardDeleteConvText
+msgid ""
+"Messages in the conversation that are in {0} will be permanently deleted. "
+"Continue?"
+msgstr "Správy v konverzácii v {0} sa natrvalo odstránia. Chcete pokračovať?"
+
+#: hardDeleteFolderTitle
+msgid "Delete Folder"
+msgstr "Odstrániť priečinok"
+
+#: hardDeleteFolderText
+msgid "Are you sure you want to permanently delete the \"{0}\" folder?"
+msgstr "Ste si istý, že chcete natrvalo odstrániť priečinok „{0}“?"
+
+#: hardDeleteTagTitle
+msgid "Delete Tag"
+msgstr "Odstrániť štítok"
+
+#: hardDeleteTagText
+msgid "Are you sure you want to permanently delete the \"{0}\" tag?"
+msgstr "Ste si istý, že chcete natrvalo odstrániť štítok „{0}“?"
+
+#: hardDeleteContactTitle
+msgid "Delete Contact"
+msgstr "Odstrániť kontakt"
+
+#: hardDeleteContactText
+msgid "Are you sure you want to permanently delete the contact for \"{0}\"?"
+msgstr "Ste si istý, že chcete natrvalo odstrániť kontakt „{0}“?"
+
+#: hardDeleteApptTitle
+msgid "Delete Appointment"
+msgstr "Odstrániť schôdzku"
+
+#: hardDeleteApptText
+msgid "Are you sure you want to permanently delete this appointment?"
+msgstr "Ste si istý, že chcete trvale odstrániť túto schôdzku?"
+
+#. # Alert for trying to reply to a feed (RSS) message
+#: alertFeedReplyTitle
+msgctxt "alertFeedReplyTitle"
+msgid "Warning"
+msgstr "Upozornenie"
+
+#: alertFeedReplyText
+msgid "You cannot reply to a message in an RSS or ATOM feed."
+msgstr "Ste nemôže odpovedať na správu z kanála RSS alebo ATOM."
+
+#. # Quick reply placeholder text
+#: quickReplyPlaceholder
+msgid "Reply to {0}"
+msgstr "Odpovedať {0}"
+
+#: quickReplyTitle
+msgid "To {0}"
+msgstr "Pre {0}"
+
+#: and
+msgid "and"
+msgstr "a"
+
+#. # Client commands (search beginning with "$cmd:")
+#: version
+msgid "Version"
+msgstr "Verzia"
+
+#. # Strings for viewing, creating, or editing a contact
+#. # Contact fields
+#: email
+msgid "Email"
+msgstr "Email"
+
+#: phone
+msgid "Phone"
+msgstr "Telefón"
+
+#: fax
+msgid "Fax"
+msgstr "Fax"
+
+#: address
+msgid "Address"
+msgstr "Adresa"
+
+#: url
+msgid "URL"
+msgstr "URL"
+
+#. # Contact field types
+#: work
+msgid "Work"
+msgstr "Práca"
+
+#: home
+msgid "Home"
+msgstr "Domov"
+
+#: other
+msgctxt "other"
+msgid "Other"
+msgstr "Iné"
+
+#. # Phone types
+#: mobile
+msgid "Mobile"
+msgstr "Mobil"
+
+#: assistant
+msgid "Assistant"
+msgstr "Asistent"
+
+#: callback
+msgid "Callback"
+msgstr "Spätné volanie"
+
+#: car
+msgid "Car"
+msgstr "Auto"
+
+#: company
+msgctxt "company"
+msgid "Company"
+msgstr "Spoločnosť"
+
+#: workAlt
+msgid "Alternate Work"
+msgstr "Práca - alternatívne"
+
+#. # Address parts
+#: streetAdd
+msgid "Street Address"
+msgstr "Ulica"
+
+#: city
+msgid "City"
+msgstr "Mesto"
+
+#: state
+msgid "State"
+msgstr "Štát"
+
+#: postalcode
+msgid "Zipcode"
+msgstr "PSČ"
+
+#: country
+msgid "Country"
+msgstr "Krajina"
+
+#. # Form field placeholders
+#: placeholderPrefix
+msgid "Prefix"
+msgstr "Predpona"
+
+#: placeholderFirstName
+msgid "First Name"
+msgstr "Krstné meno"
+
+#: placeholderMiddleName
+msgid "Middle Name"
+msgstr "Stredné meno"
+
+#: placeholderMaidenName
+msgid "Maiden Name"
+msgstr "Rodné meno"
+
+#: placeholderLastName
+msgid "Last Name"
+msgstr "Priezvisko"
+
+#: placeholderSuffix
+msgid "Suffix"
+msgstr "Prípona"
+
+#: placeholderNickname
+msgid "Nickname"
+msgstr "Prezývka"
+
+#: placeholderJobTitle
+msgid "Job Title"
+msgstr "Pracovné zaradenie"
+
+#: placeholderDepartment
+msgid "Department"
+msgstr "Oddelenie"
+
+#: placeholderCompany
+msgctxt "placeholderCompany"
+msgid "Company"
+msgstr "Spoločnosť"
+
+#: placeholderSubject
+msgctxt "placeholderSubject"
+msgid "Subject"
+msgstr "Predmet"
+
+#: placeholderLocation
+msgctxt "placeholderLocation"
+msgid "Location"
+msgstr "Umiestnenie"
+
+#: placeholderEquipment
+msgctxt "placeholderEquipment"
+msgid "Equipment"
+msgstr "Vybavenie"
+
+#. # Strings needed during process of creating or editing a contact
+#: createContact
+msgid "New Contact"
+msgstr "Nový kontakt"
+
+#: contactCreated
+msgid "Contact Created"
+msgstr "Kontakt bol vytvorený"
+
+#: contactEdited
+msgid "Contact Edited"
+msgstr "Adresár bol aktualizovaný"
+
+#: editContact
+msgid "Edit Contact"
+msgstr "Upraviť kontakt"
+
+#: errorCreateContact
+msgid "Unable to Create Contact"
+msgstr "Nebolo možné vytvoriť kontakt"
+
+#: contactMovedToTrash
+msgid "Contact moved to trash"
+msgstr "Kontakt presunutý do Koša"
+
+#: contactDeleted
+msgid "Contact deleted"
+msgstr "Kontakt bol odstránený"
+
+#: errorEditContact
+msgid "Unable to Edit Contact"
+msgstr "Nebolo možné upraviť kontakt"
+
+#: errorNoFields
+msgid "There must be at least one field populated in the contact"
+msgstr "Kontakt musí mať aspoň jedno vyplnené pole"
+
+#: errorEditContactGroup
+msgid "Editing a contact group is not supported."
+msgstr "Úprava skupiny kontaktov nie je podporovaná."
+
+#: contactFormButtonAddField
+msgid "Add Field"
+msgstr "Pridať pole"
+
+#: contactFormButtonAddEmailAddress
+msgid "Add Email Address"
+msgstr "Pridať emailovú adresu"
+
+#: contactFormButtonAddPhoneNumber
+msgid "Add Phone Number"
+msgstr "Pridať telefónne číslo"
+
+#: contactFormButtonAddPhysicalAddress
+msgid "Add Physical Address"
+msgstr "Pridať fyzickú adresu"
+
+#: contactFormButtonAddWebsiteURL
+msgid "Add Website URL"
+msgstr "Pridať adresu URL webovej stránky"
+
+#: contactFormRemoveFieldConfirmationMessageHeader
+msgid "Confirmation"
+msgstr "Potvrdenie"
+
+#: contactFormRemoveFieldConfirmationMessageBody
+msgid "Are you sure you want to remove this field?"
+msgstr "Ste si istý, že chcete odstrániť toto pole?"
+
+#. # Distribution lists
+#: dlOwnerAndMember
+msgid "You are an owner and member of this list."
+msgstr "Ste vlastníkom a členom tohto zoznamu."
+
+#: dlOwner
+msgid "You are an owner of this list."
+msgstr "Ste vlastníkom tohto zoznamu."
+
+#: dlMember
+msgid "You are a member of this list."
+msgstr "Ste členom tohto zoznamu."
+
+#. # Generic compose/edit strings (new message, edit contact, etc)
+#: saveChangesWarning
+msgid "Do you want to save changes?"
+msgstr "Chcete uložiť zmeny?"
+
+#. # Server errors
+#: unknownError
+msgid "An unknown error occurred."
+msgstr "Vyskytla sa neznáma chyba."
+
+#: unknownErrorWithMsg
+msgid "An error occurred ({0})."
+msgstr "Vyskytla sa chyba ({0})."
+
+#: errorTimeout
+msgid "Request timed out."
+msgstr "Časové obmedzenie požiadavky vypršalo."
+
+#: errorServerUnavailable
+msgid "Cannot connect to server."
+msgstr "Nie je možné pripojiť sa k serveru."
+
+#: errorServerUnavailableLogout
+msgid "Cannot connect to server. To exit, close this window."
+msgstr ""
+"Nie je možné pripojiť sa k serveru. Ak chcete skončiť, zatvorte toto okno."
+
+#: account.MAINTENANCE_MODE
+msgctxt "account.MAINTENANCE_MODE"
+msgid "This account is currently in maintenance mode."
+msgstr "Tento účet je momentálne v režime údržby."
+
+#: account.NO_SUCH_ACCOUNT
+msgid "No such account exists."
+msgstr "Taký účet neexistuje."
+
+#: account.NO_SUCH_SAVED_SEARCH
+msgid "No such saved search exists."
+msgstr "Také uložené hľadanie neexistuje."
+
+#: account.ACCT_NO_SUCH_TAG
+msgctxt "account.ACCT_NO_SUCH_TAG"
+msgid "No such tag exists."
+msgstr "Taký štítok neexistuje."
+
+#: mail.ALREADY_EXISTS
+msgid "An object with that name already exists."
+msgstr "Objekt s týmto názvom už existuje."
+
+#: mail.MODIFY_CONFLICT
+msgid ""
+"Item version number conflict. Another version was added between edit and "
+"save."
+msgstr ""
+"Konflikt verzií položky. Iná verzia bola pridaná medzi začatím úprav a "
+"uložením."
+
+#: mail.INVALID_NAME
+msgctxt "mail.INVALID_NAME"
+msgid "\"{0}\" is not a valid name. It contains at least one invalid character."
+msgstr "„{0}“ nie je platný názov. Obsahuje aspoň jeden neplatný znak."
+
+#: mail.INVITE_OUT_OF_DATE
+msgid "The invite has been modified and is no longer current."
+msgstr "Pozvánka bola zmenená a už nie je aktuálna."
+
+#: mail.MAINTENANCE
+msgctxt "mail.MAINTENANCE"
+msgid "This account is currently in maintenance mode."
+msgstr "Tento účet je momentálne v režime údržby."
+
+#: mail.MESSAGE_TOO_BIG
+msgid ""
+"This message cannot be sent because it has exceeded the maximum allowed "
+"size."
+msgstr ""
+"Túto správu nie je možné odoslať, pretože prekročila maximálnu povolenú "
+"veľkosť."
+
+#: mail.NO_SUCH_CONV
+msgid "No such conversation exists."
+msgstr "Taká konverzácia neexistuje."
+
+#: mail.NO_SUCH_FOLDER
+msgid "No such folder exists."
+msgstr "Taký priečinok neexistuje."
+
+#: mail.NO_SUCH_ITEM
+msgid "Item \"{0}\" does not exist."
+msgstr "Položka „{0}“ neexistuje."
+
+#: mail.NO_SUCH_CALITEM
+msgid ""
+"Calendar or task item \"{0}\" does not exist. It may have been rescheduled."
+msgstr ""
+"Položka kalendára alebo úloha „{0}“ neexistuje. Je možné, že bola "
+"preplánovaná na iný čas."
+
+#: mail.NO_SUCH_MSG
+msgid "No such message exists."
+msgstr "Taká správa neexistuje."
+
+#: mail.NO_SUCH_PART
+msgid "No such message part exists."
+msgstr "Taká časť správy neexistuje."
+
+#: mail.NO_SUCH_TAG
+msgctxt "mail.NO_SUCH_TAG"
+msgid "No such tag exists."
+msgstr "Taký štítok neexistuje."
+
+#: mail.QUERY_PARSE_ERROR
+msgid "Unable to parse the search query."
+msgstr "Nebolo možné analyzovať vyhľadávací reťazec."
+
+#: mail.QUOTA_EXCEEDED
+msgid ""
+"Your message could not be sent because you have exceeded your mail quota."
+msgstr ""
+"Vašu správu nebolo možné odoslať, pretože ste prekročili svoju kvótu pre "
+"poštu."
+
+#: mail.TOO_MANY_CONTACTS
+msgid ""
+"Contact could not be created because you have exceeded your contact quota."
+msgstr ""
+"Kontakt nebolo možné vytvoriť, pretože ste prekročili svoju kvótu pre "
+"kontakty."
+
+#: mail.TOO_MANY_QUERY_TERMS_EXPANDED
+msgid "Please be more specific in your search criteria."
+msgstr "Prosím, upresnite svoje vyhľadávacie požiadavky."
+
+#. #mail.MAIL_UNABLE_TO_IMPORT_APPOINTMENTS = Unable to import. The chosen file may be invalid.
+#. #mail.MAIL_UNABLE_TO_IMPORT_CONTACTS = Unable to import. The chosen file may be invalid.
+#: mail.SEND_FAILURE
+msgid "Could not send message: {0}"
+msgstr "Nebolo možné odoslať správu: {0}"
+
+#: mail.SEND_ABORTED_ADDRESS_FAILURE
+msgid "Could not send message due to one or more invalid addresses: {0}"
+msgstr ""
+"Nebolo možné odoslať správu kvôli jednej alebo viacerým neplatným adresám: "
+"{0}"
+
+#: mail.TOO_MANY_TAGS
+msgid "A tag could not be created because you have exceeded the limit."
+msgstr "Štítok nebolo možné vytvoriť, pretože ste prekročili limit."
+
+#: service.PARSE_ERROR
+msgid "A parsing error has occurred."
+msgstr "Vyskytla sa chyba pri syntaktickej analýze."
+
+#: service.PERM_DENIED
+msgid "Permission denied."
+msgstr "Povolenie zamietnuté."
+
+#: service.FAILURE
+msgid "A network service error has occurred."
+msgstr "Vyskytla sa chyba sieťovej služby."
+
+#: service.INVALID_REQUEST
+msgid "An invalid request was made."
+msgstr "Bola uskutočnená neplatná požiadavka."
+
+#: service.UNKNOWN_DOCUMENT
+msgid "Server error (unknown command sent to server)."
+msgstr "Chyba servera (serveru bol odoslaný neznámy príkaz)."
+
+#: service.RESOURCE_UNREACHABLE
+msgid "Resource unreachable."
+msgstr "Zdroj je nedostupný."
+
+#: service.TEMPORARILY_UNAVAILABLE
+msgid "Service temporarily unavailable."
+msgstr "Služba je dočasne nedostupná."
+
+#: service.AUTH_REQUIRED
+msgid "Authentication Required"
+msgstr "Vyžaduje sa autentifikácia"
+
+#: service.AUTH_EXPIRED
+msgid "Your session has expired. Please login again."
+msgstr "Vaša relácia vypršala. Prosím, znova sa prihláste."
+
+#: service.AUTH_EXPIRED_title
+msgid "Authentication Expired"
+msgstr "Autentifikácia vypršala"
+
+#: service.WRONG_HOST
+msgid "Request was sent to the wrong server."
+msgstr "Požiadavka bola odoslaná na nesprávny server."
+
+#: service.NON_READONLY_OPERATION_DENIED
+msgid "The server is in read-only mode."
+msgstr "Server je v režime iba na čítanie."
+
+#: service.PROXY_ERROR
+msgid "Proxy error."
+msgstr "Chyba proxy."
+
+#: service.TOO_MANY_HOPS
+msgid "Too many hops between servers."
+msgstr "Príliš veľa serverov na ceste (príliš dlhá cesta)."
+
+#: service.ALREADY_IN_PROGRESS
+msgid "Operation already in progress."
+msgstr "Operácia už prebieha."
+
+#: service.NOT_IN_PROGRESS
+msgid "Operation not in progress."
+msgstr "Operácia neprebieha."
+
+#: service.INTERRUPTED
+msgid "The operation has been interrupted"
+msgstr "Operácia bola prerušená"
+
+#. #service.NO_SPELL_CHECK_URL = No spell check server defined.
+#. #Javascript disabled error
+#: errorJavaScriptRequired
+msgid ""
+"<h2> JavaScript must be enabled.</h2> <p> To use the Zimbra touch client, "
+"enable JavaScript by changing your browser options, then <a href=\"{0}\">try "
+"again</a> or <a href=\"{1}\">switch to the basic client</a>, which does not "
+"require JavaScript.</p>"
+msgstr ""
+"<h2> JavaScript musí byť povolený.</h2> <p> Aby ste mohli používať "
+"dotykového klienta Zimbra. Zdá sa však, že JavaScript je buď vypnutý alebo "
+"ho váš prehliadač nepodporuje. Aby ste mohli používať Zimbra, zapnite "
+"JavaScript v nastaveniach vášho prehliadača a potom <a href=\"{0}\">skúste "
+"znova</a> alebo <a href=\"{1}\">kliknutím sem</a> prepnite na základného "
+"klienta, ktorý nevyžaduje JavaScript.</p>"
+
+#: errorGoBack
+msgid "Go Back"
+msgstr "Prejsť späť"
+
+#. # Timezone names
+#: Africa/Algiers
+msgid "GMT +01:00 West Central Africa"
+msgstr "GMT +01:00 West Central Africa"
+
+#: America/Asuncion
+msgid "GMT -04:00 Asuncion"
+msgstr "GMT -04:00 Asuncion"
+
+#: Africa/Cairo
+msgid "GMT +02:00 Egypt"
+msgstr "GMT +02:00 Egypt"
+
+#: Africa/Casablanca
+msgid "GMT +00:00 Casablanca"
+msgstr "GMT +00:00 Casablanca"
+
+#: Africa/Monrovia
+msgid "GMT +00:00 Monrovia"
+msgstr "GMT +00:00 Monrovia"
+
+#: Africa/Harare
+msgid "GMT +02:00 Harare, Pretoria"
+msgstr "GMT +02:00 Harare, Pretoria"
+
+#: Africa/Nairobi
+msgid "GMT +03:00 Nairobi"
+msgstr "GMT +03:00 Nairobi"
+
+#: Africa/Windhoek
+msgid "GMT +01:00 Namibia"
+msgstr "GMT +01:00 Namibia"
+
+#: America/Bogota
+msgid "GMT -05:00 Colombia"
+msgstr "GMT -05:00 Colombia"
+
+#: America/Argentina/Buenos_Aires
+msgid "GMT -03:00 Argentina"
+msgstr "GMT -03:00 Argentina"
+
+#: America/Caracas
+msgid "GMT -04:30 Caracas"
+msgstr "GMT -04:30 Caracas"
+
+#: America/Cayenne
+msgid "GMT -03:00 Cayenne, Fortaleza"
+msgstr "GMT -03:00 Cayenne, Fortaleza"
+
+#: America/Chihuahua
+msgid "GMT -07:00 Chihuahua, La Paz, Mazatlan"
+msgstr "GMT -07:00 Chihuahua, La Paz, Mazatlan"
+
+#: America/Cuiaba
+msgid "GMT -04:00 Cuiaba"
+msgstr "GMT -04:00 Cuiaba"
+
+#: America/Godthab
+msgid "GMT -03:00 Greenland"
+msgstr "GMT -03:00 Greenland"
+
+#: America/Guatemala
+msgid "GMT -06:00 Central America"
+msgstr "GMT -06:00 Central America"
+
+#: America/Guyana
+msgid "GMT -04:00 Georgetown, La Paz, Manaus, San Juan"
+msgstr "GMT -04:00 Georgetown, La Paz, Manaus, San Juan"
+
+#: America/La_Paz
+msgid "GMT -04:00 La Paz"
+msgstr "GMT -04:00 La Paz"
+
+#: America/Manaus
+msgid "GMT -04:00 Manaus"
+msgstr "GMT -04:00 Manaus"
+
+#: America/Mexico_City
+msgid "GMT -06:00 Guadalajara, Mexico City, Monterrey"
+msgstr "GMT -06:00 Guadalajara, Mexico City, Monterrey"
+
+#: America/Montevideo
+msgid "GMT -03:00 Montevideo"
+msgstr "GMT -03:00 Montevideo"
+
+#: America/Santiago
+msgid "GMT -04:00 Pacific South America"
+msgstr "GMT -04:00 Pacific South America"
+
+#: America/Tijuana
+msgid "GMT -08:00 Baja California"
+msgstr "GMT -08:00 Baja California"
+
+#: Asia/Almaty
+msgid "GMT +06:00 Astana"
+msgstr "GMT +06:00 Astana"
+
+#: Asia/Amman
+msgid "GMT +02:00 Jordan"
+msgstr "GMT +02:00 Jordan"
+
+#: Asia/Baghdad
+msgid "GMT +03:00 Iraq"
+msgstr "GMT +03:00 Iraq"
+
+#: Asia/Baku
+msgid "GMT +04:00 Baku"
+msgstr "GMT +04:00 Baku"
+
+#: Asia/Bangkok
+msgid "GMT +07:00 Bangkok, Hanoi, Jakarta"
+msgstr "GMT +07:00 Bangkok, Hanoi, Jakarta"
+
+#: Asia/Beirut
+msgid "GMT +02:00 Beirut"
+msgstr "GMT +02:00 Beirut"
+
+#: Asia/Kolkata
+msgid "GMT +05:30 Chennai, Kolkata, Mumbai, New Delhi"
+msgstr "GMT +05:30 Chennai, Kolkata, Mumbai, New Delhi"
+
+#: Asia/Colombo
+msgid "GMT +05:30 Sri Jayawardenepura"
+msgstr "GMT +05:30 Sri Jayawardenepura"
+
+#: Asia/Damascus
+msgid "GMT +02:00 Damascus"
+msgstr "GMT +02:00 Damascus"
+
+#: Asia/Dhaka
+msgid "GMT +06:00 Dhaka"
+msgstr "GMT +06:00 Dhaka"
+
+#: Asia/Hong_Kong
+msgid "GMT +08:00 Beijing, Chongqing, Hong Kong, Urumqi"
+msgstr "GMT +08:00 Beijing, Chongqing, Hong Kong, Urumqi"
+
+#: Asia/Irkutsk
+msgid "GMT +08:00 Irkutsk"
+msgstr "GMT +08:00 Irkutsk"
+
+#: Asia/Jerusalem
+msgid "GMT +02:00 Jerusalem"
+msgstr "GMT +02:00 Jerusalem"
+
+#: Asia/Kabul
+msgid "GMT +04:30 Kabul"
+msgstr "GMT +04:30 Kabul"
+
+#: Asia/Kamchatka
+msgid "GMT +12:00 Petropavlovsk-Kamchatsky"
+msgstr "GMT +12:00 Petropavlovsk-Kamchatsky"
+
+#: Asia/Karachi
+msgid "GMT +05:00 Islamabad, Karachi"
+msgstr "GMT +05:00 Islamabad, Karachi"
+
+#: Asia/Katmandu
+msgid "GMT +05:45 Kathmandu"
+msgstr "GMT +05:45 Kathmandu"
+
+#: Asia/Krasnoyarsk
+msgid "GMT +07:00 Krasnoyarsk"
+msgstr "GMT +07:00 Krasnoyarsk"
+
+#: Asia/Kuala_Lumpur
+msgid "GMT +08:00 Kuala Lumpur, Singapore"
+msgstr "GMT +08:00 Kuala Lumpur, Singapore"
+
+#: Asia/Kuwait
+msgid "GMT +03:00 Kuwait, Riyadh"
+msgstr "GMT +03:00 Kuwait, Riyadh"
+
+#: Asia/Magadan
+msgid "GMT +10:00 Magadan, Solomon Is., New Caledonia"
+msgstr "GMT +10:00 Magadan, Solomon Is., New Caledonia"
+
+#: Asia/Muscat
+msgid "GMT +04:00 Abu Dhabi, Muscat"
+msgstr "GMT +04:00 Abu Dhabi, Muscat"
+
+#: Asia/Novosibirsk
+msgid "GMT +06:00 Novosibirsk"
+msgstr "GMT +06:00 Novosibirsk"
+
+#: Asia/Rangoon
+msgid "GMT +06:30 Rangoon"
+msgstr "GMT +06:30 Rangoon"
+
+#: Asia/Seoul
+msgid "GMT +09:00 Korea"
+msgstr "GMT +09:00 Korea"
+
+#: Asia/Taipei
+msgid "GMT +08:00 Taipei"
+msgstr "GMT +08:00 Taipei"
+
+#: Asia/Tashkent
+msgid "GMT +05:00 Tashkent"
+msgstr "GMT +05:00 Tashkent"
+
+#: Asia/Tbilisi
+msgid "GMT +04:00 Tbilisi"
+msgstr "GMT +04:00 Tbilisi"
+
+#: Asia/Tehran
+msgid "GMT +03:30 Tehran"
+msgstr "GMT +03:30 Tehran"
+
+#: Asia/Tokyo
+msgid "GMT +09:00 Japan"
+msgstr "GMT +09:00 Japan"
+
+#: Asia/Ulaanbaatar
+msgid "GMT +08:00 Ulaanbaatar"
+msgstr "GMT +08:00 Ulaanbaatar"
+
+#: Asia/Vladivostok
+msgid "GMT +10:00 Vladivostok"
+msgstr "GMT +10:00 Vladivostok"
+
+#: Asia/Yakutsk
+msgid "GMT +09:00 Yakutsk"
+msgstr "GMT +09:00 Yakutsk"
+
+#: Asia/Yekaterinburg
+msgid "GMT +05:00 Yekaterinburg"
+msgstr "GMT +05:00 Yekaterinburg"
+
+#: Asia/Yerevan
+msgid "GMT +04:00 Yerevan"
+msgstr "GMT +04:00 Yerevan"
+
+#: Atlantic/Azores
+msgid "GMT -01:00 Azores"
+msgstr "GMT -01:00 Azores"
+
+#: Atlantic/Cape_Verde
+msgid "GMT -01:00 Cape Verde Is."
+msgstr "GMT -01:00 Cape Verde Is."
+
+#: Atlantic/South_Georgia
+msgid "GMT -02:00 Mid-Atlantic"
+msgstr "GMT -02:00 Mid-Atlantic"
+
+#: Australia/Adelaide
+msgid "GMT +09:30 Adelaide"
+msgstr "GMT +09:30 Adelaide"
+
+#: Australia/Brisbane
+msgid "GMT +10:00 Brisbane"
+msgstr "GMT +10:00 Brisbane"
+
+#: Australia/Darwin
+msgid "GMT +09:30 Darwin"
+msgstr "GMT +09:30 Darwin"
+
+#: Australia/Hobart
+msgid "GMT +10:00 Hobart"
+msgstr "GMT +10:00 Hobart"
+
+#: Australia/Perth
+msgid "GMT +08:00 Perth"
+msgstr "GMT +08:00 Perth"
+
+#: Australia/Sydney
+msgid "GMT +10:00 Canberra, Melbourne, Sydney"
+msgstr "GMT +10:00 Canberra, Melbourne, Sydney"
+
+#: America/Sao_Paulo
+msgid "GMT -03:00 Brasilia"
+msgstr "GMT -03:00 Brasilia"
+
+#: America/Halifax
+msgid "GMT -04:00 Atlantic Time (Canada)"
+msgstr "GMT -04:00 Atlantic Time (Canada)"
+
+#: America/St_Johns
+msgid "GMT -03:30 Newfoundland"
+msgstr "GMT -03:30 Newfoundland"
+
+#: America/Regina
+msgid "GMT -06:00 Saskatchewan"
+msgstr "GMT -06:00 Saskatchewan"
+
+#: Etc/GMT-12
+msgid "GMT +12:00 GMT+12"
+msgstr "GMT +12:00 GMT+12"
+
+#: Etc/GMT+11
+msgid "GMT -11:00 GMT-11"
+msgstr "GMT -11:00 GMT-11"
+
+#: Etc/GMT+12
+msgid "GMT -12:00 Dateline"
+msgstr "GMT -12:00 Dateline"
+
+#: Etc/GMT+2
+msgid "GMT -02:00 GMT-02"
+msgstr "GMT -02:00 GMT-02"
+
+#: UTC
+msgid "GMT/UTC Coordinated Universal Time"
+msgstr "GMT/UTC Coordinated Universal Time"
+
+#: Europe/Athens
+msgid "GMT +02:00 Athens, Beirut, Bucharest, Istanbul"
+msgstr "GMT +02:00 Athens, Beirut, Bucharest, Istanbul"
+
+#: Europe/Belgrade
+msgid "GMT +01:00 Belgrade, Bratislava, Budapest, Ljubljana, Prague"
+msgstr "GMT +01:00 Belgrade, Bratislava, Budapest, Ljubljana, Prague"
+
+#: Europe/Berlin
+msgid "GMT +01:00 Amsterdam, Berlin, Bern, Rome, Stockholm, Vienna"
+msgstr "GMT +01:00 Amsterdam, Berlin, Bern, Rome, Stockholm, Vienna"
+
+#: Europe/Brussels
+msgid "GMT +01:00 Brussels, Copenhagen, Madrid, Paris"
+msgstr "GMT +01:00 Brussels, Copenhagen, Madrid, Paris"
+
+#: Europe/Helsinki
+msgid "GMT +02:00 Helsinki, Kyiv, Riga, Sofia, Tallinn, Vilnius"
+msgstr "GMT +02:00 Helsinki, Kyiv, Riga, Sofia, Tallinn, Vilnius"
+
+#: Europe/Istanbul
+msgid "GMT +02:00 Istanbul"
+msgstr "GMT +02:00 Istanbul"
+
+#: Europe/Kaliningrad
+msgid "GMT +02:00 Kaliningrad"
+msgstr "GMT +02:00 Kaliningrad"
+
+#: Europe/London
+msgid "GMT +00:00 Britain, Ireland, Portugal"
+msgstr "GMT +00:00 Britain, Ireland, Portugal"
+
+#: Europe/Minsk
+msgid "GMT +03:00 Minsk"
+msgstr "GMT +03:00 Minsk"
+
+#: Europe/Moscow
+msgid "GMT +03:00 Moscow, St. Petersburg, Volgograd"
+msgstr "GMT +03:00 Moscow, St. Petersburg, Volgograd"
+
+#: Europe/Warsaw
+msgid "GMT +01:00 Sarajevo, Skopje, Warsaw, Zagreb"
+msgstr "GMT +01:00 Sarajevo, Skopje, Warsaw, Zagreb"
+
+#: Indian/Mauritius
+msgid "GMT +04:00 Port Louis"
+msgstr "GMT +04:00 Port Louis"
+
+#: Pacific/Auckland
+msgid "GMT +12:00 New Zealand"
+msgstr "GMT +12:00 New Zealand"
+
+#: Pacific/Fiji
+msgid "GMT +12:00 Fiji"
+msgstr "GMT +12:00 Fiji"
+
+#: Pacific/Guadalcanal
+msgid "GMT +11.00 Solomon Is. / New Caledonia"
+msgstr "GMT +11.00 Solomon Is. / New Caledonia"
+
+#: Pacific/Guam
+msgid "GMT +10:00 Guam, Port Moresby"
+msgstr "GMT +10:00 Guam, Port Moresby"
+
+#: Pacific/Midway
+msgid "GMT -11:00 Samoa"
+msgstr "GMT -11:00 Samoa"
+
+#: Pacific/Tongatapu
+msgid "GMT +13:00 Nuku'alofa"
+msgstr "GMT +13:00 Nuku'alofa"
+
+#: America/Anchorage
+msgid "GMT -09:00 Alaska"
+msgstr "GMT -09:00 Alaska"
+
+#: America/Phoenix
+msgid "GMT -07:00 Arizona"
+msgstr "GMT -07:00 Arizona"
+
+#: America/Chicago
+msgid "GMT -06:00 US/Canada Central"
+msgstr "GMT -06:00 US/Canada Central"
+
+#: America/Indiana/Indianapolis
+msgid "GMT -05:00 Indiana (East)"
+msgstr "GMT -05:00 Indiana (East)"
+
+#: America/New_York
+msgid "GMT -05:00 US/Canada Eastern"
+msgstr "GMT -05:00 US/Canada Eastern"
+
+#: Pacific/Honolulu
+msgid "GMT -10:00 Hawaii"
+msgstr "GMT -10:00 Hawaii"
+
+#: America/Denver
+msgid "GMT -07:00 US/Canada Mountain"
+msgstr "GMT -07:00 US/Canada Mountain"
+
+#: America/Los_Angeles
+msgid "GMT -08:00 US/Canada Pacific"
+msgstr "GMT -08:00 US/Canada Pacific"
+
+#. #Calendar buttons
+#: calDayLabel
+msgid "Day"
+msgstr "Deň"
+
+#: calMonthLabel
+msgid "Month"
+msgstr "Mesiac"
+
+#: calYearLabel
+msgid "Year"
+msgstr "Rok"
+
+#: calTodayLabel
+msgid "Today"
+msgstr "Dnes"
+
+#: calWeekLabel
+msgid "Week"
+msgstr "Týždeň"
+
+#: calWorkWeekLabel
+msgid "Work Week"
+msgstr "Pracovný týždeň"
+
+#. #Appointment dialog buttons
+#: apptOpenInstance
+msgid "Open Instance"
+msgstr "Otvoriť inštanciu"
+
+#: apptOpenSeries
+msgid "Open Series"
+msgstr "Otvoriť postupnosť"
+
+#. # Strings needed during process of creating or editing an appointment
+#: create
+msgid "Create"
+msgstr "Vytvoriť"
+
+#: createAppointment
+msgid "New Event"
+msgstr "Nová udalosť"
+
+#: editAppointment
+msgid "Edit Event"
+msgstr "Upraviť udalosť"
+
+#: forwardAppointment
+msgid "Forward Event"
+msgstr "Preposlať udalosť"
+
+#: appointmentCreated
+msgid "Event Created"
+msgstr "Udalosť vytvorená"
+
+#: appointmentEdited
+msgid "Event Edited"
+msgstr "Udalosť upravená"
+
+#: invitationSent
+msgid "Invitation Sent"
+msgstr "Pozvánka odoslaná"
+
+#: invitationsSent
+msgid "Invitations Sent"
+msgstr "Pozvánky odoslané"
+
+#: appointmentExceptionNote
+msgid "This is an exception to the series."
+msgstr "Toto je výnimka z postupnosti."
+
+#: errorCreateAppt
+msgid "Unable to Create Appointment"
+msgstr "Nepodarilo sa vytvoriť schôdzku"
+
+#: errorInvalidApptEndBeforeStart
+msgid "The end time must occur after the start time."
+msgstr "Čas konca musí byť neskôr ako čas začiatku."
+
+#: errorMissingSubject
+msgid "Subject is a required field."
+msgstr "Predmet je pole, ktoré je treba povinne vyplniť."
+
+#: appointmentMovedToTrash
+msgid "Appointment moved to trash"
+msgstr "Schôdzka presunutá do Koša"
+
+#: appointmentDeleted
+msgid "Appointment deleted"
+msgstr "Schôdzka odstránená"
+
+#. # Appointment creation
+#: endLabel
+msgctxt "endLabel"
+msgid "End"
+msgstr "Koniec"
+
+#: equipmentLabel
+msgctxt "equipmentLabel"
+msgid "Equipment"
+msgstr "Vybavenie"
+
+#: locationLabel
+msgctxt "locationLabel"
+msgid "Location"
+msgstr "Umiestnenie"
+
+#: notes
+msgid "Notes"
+msgstr "Poznámky"
+
+#: repeatLabel
+msgid "Repeat"
+msgstr "Opakovanie"
+
+#: reminderLabel
+msgctxt "reminderLabel"
+msgid "Reminder"
+msgstr "Pripomenutie"
+
+#: subjectLabel
+msgctxt "subjectLabel"
+msgid "Subject"
+msgstr "Predmet"
+
+#: startLabel
+msgctxt "startLabel"
+msgid "Start"
+msgstr "Začiatok"
+
+#: titleLabel
+msgid "Title"
+msgstr "Názov"
+
+#: allDay
+msgid "All day"
+msgstr "Celodenná"
+
+#: addAttendeeLabel
+msgid "Add Attendee"
+msgstr "Pridať účastníka"
+
+#: response
+msgid "Response"
+msgstr "Odpoveď"
+
+#: display
+msgid "Display"
+msgstr "Zobraziť"
+
+#: calendarLabel
+msgctxt "calendarLabel"
+msgid "Calendar"
+msgstr "Kalendár"
+
+#: hourLabel
+msgid "Hour"
+msgstr "Hodina"
+
+#: minuteLabel
+msgid "Minute"
+msgstr "Minúta"
+
+#: secondsLabel
+msgid "Seconds"
+msgstr "Sekundy"
+
+#: msLabel
+msgid "Milliseconds"
+msgstr "Milisekundy"
+
+#: ampmLabel
+msgid "AM/PM"
+msgstr "dopoludnia/odpoludnia"
+
+#: amLabel
+msgid "AM"
+msgstr "dopoludnia"
+
+#: pmLabel
+msgid "PM"
+msgstr "odpoludnia"
+
+#. # Appointment cancellation
+#: apptCancelSubject
+msgid "Cancelled: {0}"
+msgstr "Zrušené: {0}"
+
+#. # Recurrence
+#: none
+msgid "None"
+msgstr "Žiadne"
+
+#: everyDay
+msgid "Every Day"
+msgstr "Každý deň"
+
+#: everyWeek
+msgid "Every Week"
+msgstr "Každý týždeň"
+
+#: everyMonth
+msgid "Every Month"
+msgstr "Každý mesiac"
+
+#: everyYear
+msgid "Every Year"
+msgstr "Každý rok"
+
+#. #Show as Options
+#: outOfOffice
+msgid "Out of Office"
+msgstr "Mimo kancelárie"
+
+#: free
+msgid "Free"
+msgstr "Voľný"
+
+#: busy
+msgid "Busy"
+msgstr "Zaneprázdnený"
+
+#. # Reminder Strings
+#: apptRemindNever
+msgid "Never"
+msgstr "Nikdy"
+
+#: apptRemindNDaysBefore
+msgid "{0} days before"
+msgstr "{0} dní pred"
+
+#: apptRemindNMinutesBefore
+msgid "{0} minutes before"
+msgstr "{0} minút pred"
+
+#: apptRemindNHoursBefore
+msgid "{0} hours before"
+msgstr "{0} hodín pred"
+
+#: apptRemindNWeeksBefore
+msgid "{0} weeks before"
+msgstr "{0} týždňov pred"
+
+#. # Strings for displaying dates
+#. # Days of the week, eg "Monday"
+#: weekdaySunday
+msgid "Sunday"
+msgstr "Nedeľa"
+
+#: weekdayMonday
+msgid "Monday"
+msgstr "Pondelok"
+
+#: weekdayTuesday
+msgid "Tuesday"
+msgstr "Utorok"
+
+#: weekdayWednesday
+msgid "Wednesday"
+msgstr "Streda"
+
+#: weekdayThursday
+msgid "Thursday"
+msgstr "Štvrtok"
+
+#: weekdayFriday
+msgid "Friday"
+msgstr "Piatok"
+
+#: weekdaySaturday
+msgid "Saturday"
+msgstr "Sobota"
+
+#. # Abbreviated days of the week, eg "Mon"; if omitted, same as long version
+#: weekdaySundayShort
+msgid "Sun"
+msgstr "Ned"
+
+#: weekdayMondayShort
+msgid "Mon"
+msgstr "Pon"
+
+#: weekdayTuesdayShort
+msgid "Tue"
+msgstr "Uto"
+
+#: weekdayWednesdayShort
+msgid "Wed"
+msgstr "Str"
+
+#: weekdayThursdayShort
+msgid "Thu"
+msgstr "Štv"
+
+#: weekdayFridayShort
+msgid "Fri"
+msgstr "Pia"
+
+#: weekdaySaturdayShort
+msgid "Sat"
+msgstr "Sob"
+
+#. # Months of the year, eg "February"
+#: monthJanuary
+msgid "January"
+msgstr "január"
+
+#: monthFebruary
+msgid "February"
+msgstr "február"
+
+#: monthMarch
+msgid "March"
+msgstr "marec"
+
+#: monthApril
+msgid "April"
+msgstr "apríl"
+
+#: monthMay
+msgctxt "monthMay"
+msgid "May"
+msgstr "máj"
+
+#: monthJune
+msgid "June"
+msgstr "jún"
+
+#: monthJuly
+msgid "July"
+msgstr "júl"
+
+#: monthAugust
+msgid "August"
+msgstr "august"
+
+#: monthSeptember
+msgid "September"
+msgstr "september"
+
+#: monthOctober
+msgid "October"
+msgstr "október"
+
+#: monthNovember
+msgid "November"
+msgstr "november"
+
+#: monthDecember
+msgid "December"
+msgstr "december"
+
+#. # Abbreviated months of the year, eg "Feb"; if omitted, same as long version
+#: monthJanuaryShort
+msgid "Jan"
+msgstr "jan"
+
+#: monthFebruaryShort
+msgid "Feb"
+msgstr "feb"
+
+#: monthMarchShort
+msgid "Mar"
+msgstr "mar"
+
+#: monthAprilShort
+msgid "Apr"
+msgstr "apr"
+
+#: monthMayShort
+msgctxt "monthMayShort"
+msgid "May"
+msgstr "máj"
+
+#: monthJuneShort
+msgid "Jun"
+msgstr "jún"
+
+#: monthJulyShort
+msgid "Jul"
+msgstr "júl"
+
+#: monthAugustShort
+msgid "Aug"
+msgstr "aug"
+
+#: monthSeptemberShort
+msgid "Sep"
+msgstr "sep"
+
+#: monthOctoberShort
+msgid "Oct"
+msgstr "okt"
+
+#: monthNovemberShort
+msgid "Nov"
+msgstr "nov"
+
+#: monthDecemberShort
+msgid "Dec"
+msgstr "dec"
+
+#. # Date formats# For date formatting options, see http://docs.sencha.com/touch/2-0/#!/api/Ext.Date
+#. # Date/time shown in detailed msg header: February 11, 2014 2:53:29 PM
+#: msgDetailHdrFormat
+msgid "F j, Y g:i:s A"
+msgstr "j. F Y, G:i:s"
+
+#. # Date/time shown in an invite: Thursday, March 7, 2013 at 3:30 pm
+#: invDateTimeFormat
+msgid "l, F j, Y \\a\\t g:i A"
+msgstr "l, j. F Y, G:i:s"
+
+#. # Date shown in an invite: Thursday, March 7, 2013
+#: invDateFormat
+msgid "l, F j, Y"
+msgstr "l, j. F Y"
+
+#. #Date shown in the create appointment form: Thur, Mar 7, 2013
+#: invShortDateFormat
+msgid "D, M j, Y"
+msgstr "D, j. M Y"
+
+#. # Date without year: Wednesday, July 10
+#: invDateOnlyFormat
+msgid "l, F j"
+msgstr "l, j. F"
+
+#. # Start/End time in appt view: 1:00 pm
+#: invTimeFormat
+msgid "g:i A"
+msgstr "G:i"
+
+#. # Date displayed in the calendar day/month view
+#: dayViewDateFormat
+msgid "D, M j"
+msgstr "D, j. M"
+
+#: monthViewDateFormat
+msgid "F Y"
+msgstr "F Y"
+
+#: durationHours
+msgid "{0} - {1}"
+msgstr "{0} - {1}"
+
+#: durationMultiDays
+msgid "{0} {1} - {2} {3}"
+msgstr "{0} {1} - {2} {3}"
+
+#. # Date format without day: July 10, 2014
+#: dateFormatNoDay
+msgid "F j, Y"
+msgstr "j. F Y"
+
+#. # Strings for message view
+#: emptyMsgPanel
+msgid "Tap a message to view it"
+msgstr "Dotknutím sa správy ju zobrazíte"
+
+#: loadingMessages
+msgid "Loading messages..."
+msgstr "Načítavajú sa správy..."
+
+#: noMessages
+msgid "No messages found"
+msgstr "Neboli nájdené žiadne správy"

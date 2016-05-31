@@ -1,0 +1,562 @@
+#. extracted from ZMsg.properties, ZMsg_cs.properties
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2015-03-20 15:35+0200\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Translate Toolkit 1.9.0\n"
+
+#. # 
+#. # ***** BEGIN LICENSE BLOCK *****
+#. # Zimbra Collaboration Suite Web Client
+#. # Copyright (C) 2005, 2006, 2007, 2008, 2009, 2010, 2011, 2013, 2014 Zimbra, Inc.
+#. # 
+#. # This program is free software: you can redistribute it and/or modify it under
+#. # the terms of the GNU General Public License as published by the Free Software Foundation,
+#. # version 2 of the License.
+#. # 
+#. # This program is distributed in the hope that it will be useful, but WITHOUT ANY WARRANTY;
+#. # without even the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
+#. # See the GNU General Public License for more details.
+#. # You should have received a copy of the GNU General Public License along with this program.
+#. # If not, see <http://www.gnu.org/licenses/>.
+#. # ***** END LICENSE BLOCK *****
+#. #
+#: errorEmptyResponse
+msgid "Received empty response from server"
+msgstr "Byla obdržena prázdná odpověď od serveru"
+
+#: errorMaintenanceMode
+msgid "The account is in maintenance mode"
+msgstr "Účet se nachází v režimu údržby!"
+
+#: BAD_JSON_RESPONSE
+msgctxt "BAD_JSON_RESPONSE"
+msgid "A network error has occurred."
+msgstr "Vyskytla se síťová chyba."
+
+#: EMPTY_RESPONSE
+msgid "Cannot connect to server."
+msgstr "Není možné se připojit k serveru."
+
+#: NETWORK_ERROR
+msgctxt "NETWORK_ERROR"
+msgid "A network error has occurred."
+msgstr "Vyskytla se síťová chyba."
+
+#: SOAP_ERROR
+msgctxt "SOAP_ERROR"
+msgid "A network error has occurred."
+msgstr "Vyskytla se síťová chyba."
+
+#: CSFE_SVC_ERROR
+msgctxt "CSFE_SVC_ERROR"
+msgid "A network service error has occurred."
+msgstr "Vyskytla se chyba síťové služby."
+
+#: account.AUTH_FAILED
+msgid ""
+"The username or password is incorrect. Verify that CAPS LOCK is not on, and "
+"then retype the current username and password."
+msgstr ""
+"Uživatelské jméno nebo heslo je nesprávné. Ověřte, že nemáte zapnutý CAPS "
+"LOCK a potom znovu napište vaše uživatelské jméno a heslo. "
+
+#: account.CHANGE_PASSWORD
+msgid "Your password is no longer valid. Please choose a new password."
+msgstr "Vaše heslo už není platné. Prosím, zvolte si nové heslo. "
+
+#: account.INVALID_PASSWORD
+msgid "You have entered an invalid password."
+msgstr "Zadali jste neplatné heslo. "
+
+#: account.INVALID_PREF_NAME
+msgid "Invalid preference name."
+msgstr "Neplatný název volby."
+
+#: account.INVALID_PREF_VALUE
+msgid "Invalid preference value."
+msgstr "Neplatná hodnota volby."
+
+#: account.MAINTENANCE_MODE
+msgctxt "account.MAINTENANCE_MODE"
+msgid "This account is currently in maintenance mode."
+msgstr "Tento účet je momentálně v režimu údržby."
+
+#: account.NO_SUCH_ACCOUNT
+msgid "No such account exists."
+msgstr "Takový účet neexistuje."
+
+#: account.NO_SUCH_SAVED_SEARCH
+msgid "No such saved search exists."
+msgstr "Takové hledání neexistuje."
+
+#: account.ACCT_NO_SUCH_TAG
+msgctxt "account.ACCT_NO_SUCH_TAG"
+msgid "No such tag exists."
+msgstr "Takový štítek neexistuje."
+
+#: account.TOO_MANY_IDENTITIES
+msgid ""
+"The identity could not be created because you have exceeded your identity "
+"quota."
+msgstr ""
+"Identitu nebylo možné vytvořit, protože jste překročili kvótu vašich "
+"identit."
+
+#: account.PASSWORD_CHANGE_TOO_SOON
+msgid "Password cannot be changed too soon."
+msgstr "heslo není možné tak brzy změnit."
+
+#: account.PASSWORD_LOCKED
+msgid ""
+"Password locked. User not allowed to change password. Please contact your "
+"System Administrator."
+msgstr ""
+"Heslo bylo uzamčeno. Uživatel nemůže měnit heslo. Prosím, kontaktujte svého "
+"správce."
+
+#: account.PASSWORD_RECENTLY_USED
+msgid ""
+"The password you submitted has recently been used. Please choose a different "
+"password."
+msgstr ""
+"Heslo, které jste odeslali, bylo nedávno použito. Prosím, zvolte si jiné "
+"heslo."
+
+#. # {0} = filename
+#: formatter.INVALID_FORMAT
+msgid "Invalid file format for file \"{0}\"."
+msgstr ""
+
+#. # {0} = view, {1} = folder name
+#: formatter.INVALID_TYPE
+msgid "Folder \"{1}\" cannot contain items of type \"{0}\"."
+msgstr ""
+
+#. # {0} = item name
+#: formatter.MISMATCHED_META
+msgid "Meta information for item \"{0}\" does not match content."
+msgstr ""
+
+#: formatter.MISMATCHED_SIZE
+msgid "Size of ignored item \"{0}\" does not match."
+msgstr ""
+
+#: formatter.MISMATCHED_TYPE
+msgid "Cannot overwrite item \"{0}\" of different type."
+msgstr ""
+
+#: formatter.MISSING_BLOB
+msgid "Content for item \"{0}\" is missing."
+msgstr ""
+
+#: formatter.MISSING_META
+msgid "Meta information for item \"{0}\" is missing."
+msgstr ""
+
+#: formatter.MISSING_VCARD_FIELDS
+msgid "Contact item \"{0}\" does not contain any fields."
+msgstr ""
+
+#. # {0} = item name, {1} = original error message
+#: formatter.UNKNOWN_ERROR
+msgid "Unknown error for item \"{0}\": {1}"
+msgstr ""
+
+#. # The im.lower_case messages are received as part of a chat message
+#: im.forbidden
+msgid "Forbidden."
+msgstr ""
+
+#: im.internal_server_error
+msgid "An internal server error occurred."
+msgstr ""
+
+#: im.item_not_found
+msgid "The user was not found. The message may not have been sent."
+msgstr ""
+
+#: im.jid_malformed
+msgctxt "im.jid_malformed"
+msgid "The address is invalid."
+msgstr ""
+
+#: im.not_acceptable
+msgid "The message is not acceptable."
+msgstr ""
+
+#: im.not_allowed
+msgid "You are not allowed to send a message to the intended recipient."
+msgstr ""
+
+#: im.payment_required
+msgid "Payment required."
+msgstr ""
+
+#: im.recipient_unavailable
+msgid "The recipient is unavailable."
+msgstr ""
+
+#: im.redirect
+msgid "The user is at a different address."
+msgstr ""
+
+#: im.remote_server_not_found
+msgid "The remote server could not be found."
+msgstr ""
+
+#: im.remote_server_timeout
+msgid "The connection to the remote server timed out."
+msgstr ""
+
+#: im.resource_constraint
+msgid "The system is busy."
+msgstr ""
+
+#: im.service_unavailable
+msgid "Messages are not accepted by the service."
+msgstr ""
+
+#: im.undefined_condition
+msgid "An undefined error occurred. "
+msgstr ""
+
+#: im.unknown_error
+msgid "An unknown error occurred."
+msgstr ""
+
+#. # The following errors happen when trying to join a chat room
+#: im.Banned
+msgid "You have been banned from the room."
+msgstr ""
+
+#: im.MaxUsers
+msgid "The room has reached capacity."
+msgstr ""
+
+#: im.MustUseReservedRoomnick
+msgid "You must use a reserved nickname."
+msgstr ""
+
+#: im.NicknameConflict
+msgid "Someone else is already using your nickname."
+msgstr ""
+
+#: im.NoSuchRoom
+msgid "No such room."
+msgstr ""
+
+#: im.NotAllowed
+msgid "You are not allowed to create the room."
+msgstr ""
+
+#: im.NotAMember
+msgid "The room is invite-only, and you aren't a member."
+msgstr ""
+
+#: im.PasswordRequired
+msgid "A password is required to enter the room."
+msgstr ""
+
+#: im.Unknown
+msgid "Unknown error."
+msgstr ""
+
+#: im.INVALID_ADDRESS
+msgctxt "im.INVALID_ADDRESS"
+msgid "The address is invalid."
+msgstr ""
+
+#: mail.ALREADY_EXISTS
+msgid "An object with that name already exists."
+msgstr "Objekt s takovým názvem už existuje."
+
+#: mail.MODIFY_CONFLICT
+msgid ""
+"Item version number conflict. Another version was added between edit and "
+"save."
+msgstr ""
+"Konflikt čísel verzí položek. Mezi započetím úprav a uložením byla "
+"realizovaná další verze. "
+
+#: mail.INVALID_NAME
+msgid ""
+"Sorry, \"{0}\" is not a valid name. It contains at least one invalid "
+"character."
+msgstr "Promiňte, „{0}“ není platné jméno. Obsahuje aspoň jeden neplatný znak."
+
+#: mail.INVITE_OUT_OF_DATE
+msgid "The invite has been modified and is no longer current."
+msgstr ""
+
+#: mail.MAINTENANCE
+msgctxt "mail.MAINTENANCE"
+msgid "This account is currently in maintenance mode."
+msgstr ""
+
+#: mail.MESSAGE_TOO_BIG
+msgid ""
+"This message cannot be sent because it has exceeded the maximum allowed "
+"size."
+msgstr ""
+"Tuto zprávu není možné odeslat, protože překročila maximální povolenou "
+"velikost."
+
+#: mail.NO_SUCH_CONV
+msgid "No such conversation exists."
+msgstr "Taková konverzce neexistuje."
+
+#: mail.NO_SUCH_FOLDER
+msgid "No such folder exists."
+msgstr "Takový adresář neexistuje."
+
+#: mail.NO_SUCH_ITEM
+msgid "Item \"{0}\" does not exist."
+msgstr "Položka „{0}“ neexistuje."
+
+#: mail.NO_SUCH_CALITEM
+msgid ""
+"Calendar or task item \"{0}\" does not exist. It may have been rescheduled."
+msgstr ""
+
+#: mail.NO_SUCH_MSG
+msgid "No such message exists."
+msgstr "Taková zpráva neexistuje."
+
+#: mail.NO_SUCH_PART
+msgid "No such message part exists."
+msgstr "Taková část zprávy neexistuje."
+
+#: mail.NO_SUCH_TAG
+msgctxt "mail.NO_SUCH_TAG"
+msgid "No such tag exists."
+msgstr "Takový štítek neexistuje."
+
+#: mail.QUERY_PARSE_ERROR
+msgid "Unable to parse the search query."
+msgstr "Nebylo možné analyzovat vyhledávací řetězec."
+
+#: mail.QUOTA_EXCEEDED
+msgid ""
+"Your message could not be sent because you have exceeded your mail quota."
+msgstr ""
+"Vaši zprávu nebylo možné odeslat, protože jste překročili svoji kvótu pro "
+"poštu. "
+
+#: mail.TOO_MANY_CONTACTS
+msgid ""
+"Contact could not be created because you have exceeded your contact quota."
+msgstr ""
+"Kontakt nebylo možné vytvořit, protože jste překročili svoji kvótu pro "
+"kontakty."
+
+#: mail.TOO_MANY_QUERY_TERMS_EXPANDED
+msgid "Please be more specific in your search criteria."
+msgstr "Prosím, upřesněte své vyhledávací požadavky."
+
+#: mail.MAIL_UNABLE_TO_IMPORT_APPOINTMENTS
+msgctxt "mail.MAIL_UNABLE_TO_IMPORT_APPOINTMENTS"
+msgid "Unable to import. The chosen file may be invalid."
+msgstr "Nebylo možné importovat. Zvolený soubor je zřejmě neplatný."
+
+#: mail.MAIL_UNABLE_TO_IMPORT_CONTACTS
+msgctxt "mail.MAIL_UNABLE_TO_IMPORT_CONTACTS"
+msgid "Unable to import. The chosen file may be invalid."
+msgstr "Nebylo možné importovat. Zvolený soubor je zřejmě neplatný."
+
+#: mail.SEND_FAILURE
+msgid "Could not send message: {0}"
+msgstr "Nebylo možné odeslat zprávu: {0}"
+
+#: mail.SEND_ABORTED_ADDRESS_FAILURE
+msgid "Could not send message due to invalid address(es)"
+msgstr "Nebylo možné odeslat zprávu kvůli neplatným adresám."
+
+#: mail.TOO_MANY_TAGS
+msgid "A tag could not be created because you have exceeded the limit."
+msgstr "Štítek nebylo možné vytvořit, protože jste překročili limit."
+
+#: offline.ONLINE_ONLY_OP
+msgid ""
+"You must be online to use this feature. Please check your network connection "
+"and try again."
+msgstr ""
+
+#: remote.TIMEOUT
+msgid "A timeout error has occurred."
+msgstr ""
+
+#: service.PARSE_ERROR
+msgid "A parsing error has occurred."
+msgstr "Vyskytla se chyba při syntaktické analýze."
+
+#: service.PERM_DENIED
+msgid "Permission denied."
+msgstr "Přístup byl zamítnut."
+
+#: service.FAILURE
+msgctxt "service.FAILURE"
+msgid "A network service error has occurred."
+msgstr "Vyskytla se síťová chyba."
+
+#: service.INVALID_REQUEST
+msgid "An invalid request was made."
+msgstr "Byl uskutečněn neplatný požadavek."
+
+#: service.UNKNOWN_DOCUMENT
+msgid "Server error (unknown command sent to server)."
+msgstr "Chyba serveru (serveru byl poslán neznámy příkaz)."
+
+#: service.RESOURCE_UNREACHABLE
+msgid "Resource unreachable."
+msgstr "Zdroj je nedostupný."
+
+#: service.TEMPORARILY_UNAVAILABLE
+msgid "Service temporarily unavailable."
+msgstr "Služba je dočasně nedostupná."
+
+#: service.AUTH_REQUIRED
+msgid "Authentication Required"
+msgstr "Vyžaduje se ověření"
+
+#: service.AUTH_EXPIRED
+msgid "Your session has expired. Please login again."
+msgstr "Vaše relace vypršela. Prosím, přihlaste se znovu."
+
+#: service.WRONG_HOST
+msgid "Request was sent to the wrong server."
+msgstr "Požadavek byl odeslaný na nesprávný server."
+
+#: service.NON_READONLY_OPERATION_DENIED
+msgid "The server is in read-only mode."
+msgstr "Server je v režimu jen pro čtení."
+
+#: service.PROXY_ERROR
+msgid "Proxy error."
+msgstr "Chyba proxy."
+
+#: service.TOO_MANY_HOPS
+msgid "Too many hops between servers."
+msgstr "Příliš dlouhá cesta mezi servery (too many hops)."
+
+#: service.ALREADY_IN_PROGRESS
+msgid "Operation already in progress."
+msgstr "Operace už probíhá."
+
+#: service.NOT_IN_PROGRESS
+msgid "Operation not in progress."
+msgstr "Operace neprobíhá."
+
+#: service.INTERRUPTED
+msgid "The operation has been interrupted"
+msgstr "Operace byla přerušena."
+
+#: service.NO_SPELL_CHECK_URL
+msgid "No spell check server defined."
+msgstr "Nebyl definován server pro kontrolu pravopisu."
+
+#: voice.UNABLE_TO_RETRIEVE_PROFILE_SUMMARY
+msgid ""
+"The system is currently unable to complete your request. We apologize for "
+"this inconvenience."
+msgstr ""
+"Systém nebyl schopen dokončit váš požadavek. Omlouváme se za způsobené "
+"nepříjemnosti."
+
+#: voice.UNABLE_TO_RETRIEVE_CALLLOGS
+msgid ""
+"We are currently unable to display call records. We apologize for this "
+"inconvenience."
+msgstr ""
+"Momentálně nedokážeme zobrazit záznamy volání. Omlouváme se za způsobené "
+"nepříjemnosti. "
+
+#: voice.UNABLE_TO_RETRIEVE_VOICEMAIL_FOLDER
+msgid "We are temporarily unable to display voice mail records."
+msgstr "Dočasně nedokážeme zobrazovat záznamy hlasové pošty. "
+
+#: voice.UNABLE_TO_UPDATE_CALL_FEATURES
+msgctxt "voice.UNABLE_TO_UPDATE_CALL_FEATURES"
+msgid ""
+"We are temporarily unable to forward calls. We apologize for this "
+"inconvenience."
+msgstr ""
+"Dočasně nedokážeme přesměrovávat volání. Omlouváme se za způsobené "
+"nepříjemnosti."
+
+#: voice.UNABLE_TO_MODIFY_CALL_FEATURES
+msgctxt "voice.UNABLE_TO_MODIFY_CALL_FEATURES"
+msgid ""
+"We are temporarily unable to forward calls. We apologize for this "
+"inconvenience."
+msgstr ""
+"Dočasně nedokážeme přesměrovávat volání. Omlouváme se za způsobené "
+"nepříjemnosti."
+
+#: voice.UNABLE_TO_MODIFY_VOICEMAIL_PREFS
+msgid ""
+"An error occurred while attempting to update your voice mail preferences. "
+"Please try again."
+msgstr ""
+"Vyskytla se chyba při pokusu o aktualizaci nastavení vaší hlasové pošty. "
+"Prosím, zkuste to znovu. "
+
+#: voice.UNABLE_TO_FORWARD_VOICEMAIL
+msgid "Your email could not be forwarded at this time. Please try again later."
+msgstr ""
+"Vaši poštu momentálně nebylo možné přesměrovat. Prosím, zkuste to znovu. "
+
+#: voice.UNABLE_TO_RETRIEVE_CALL_FEATURES
+msgid "Unable to retrieve call features."
+msgstr "Nebylo možné zjistit možnosti volání."
+
+#: voice.UNABLE_TO_RETRIEVE_VOICEMAIL_CONTENT
+msgid "Unable to retrieve voice mail content."
+msgstr "Nebylo možné získat obsah hlasové pošty."
+
+#: voice.UNABLE_TO_RETRIEVE_VOICEMAIL_PREFS
+msgid "Unable to retrieve voice mail preferences."
+msgstr "Nebylo možné získat nastavení hlasové pošty."
+
+#: voice.UNABLE_TO_RETRIEVE_VOICEMAIL_SUMMARY
+msgid "Unable to retrieve voice mail summary."
+msgstr "Nebylo možné získat shrnutí hlasové pošty."
+
+#: voice.UNABLE_TO_MODIFY_VOICEMAIL_STATUS
+msgid "Unable to modify voice mail status. "
+msgstr "Nebylo možné změnit stav hlasové pošty."
+
+#: voice.UNABLE_TO_EMPTY_VOICEMAIL_TRASH
+msgid "Unable to empty voice mail trash."
+msgstr "Nebylo možné vyprázdnit Koš hlasové pošty."
+
+#: voice.UNABLE_TO_DELETE_VOICEMAIL
+msgid "Unable to delete voice mail."
+msgstr "Nebylo možné smazat hlasovou poštu."
+
+#: voice.UNABLE_TO_UNDELETE_VOICEMAIL
+msgid "Unable to undelete voice mail."
+msgstr "Nebylo možné obnovit smazanou hlasovou poštu."
+
+#: zclient.CLIENT_ERROR
+msgid "A network service error has occurred (zclient)."
+msgstr "Vyskytla se síťová chyba (zclient)."
+
+#: zclient.IO_ERROR
+msgid "A network service error has occurred (zclient/io)."
+msgstr "Vyskytla se síťová chyba (zclient/io)."
+
+#: ztaglib.TAG_EXCEPTION
+msgid "A client error occurred. Please try again."
+msgstr "Vyskytla se chyba klienta. Prosím, zkuste to znovu."
+
+#: unknownError
+msgid "An unknown error ({0}) has occurred."
+msgstr ""

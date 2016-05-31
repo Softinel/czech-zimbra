@@ -1,0 +1,2635 @@
+#. # # ***** BEGIN LICENSE BLOCK *****# Zimbra Collaboration Suite Web Client# Copyright (C) 2006, 2007, 2008, 2009, 2010, 2011, 2012, 2013, 2014 Zimbra, Inc.# # This program is free software: you can redistribute it and/or modify it under# the terms of the GNU General Public License as published by the Free Software Foundation,# version 2 of the License.# # This program is distributed in the hope that it will be useful, but WITHOUT ANY WARRANTY;# without even the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.# See the GNU General Public License for more details.# You should have received a copy of the GNU General Public License along with this program.# If not, see <http://www.gnu.org/licenses/>.# ***** END LICENSE BLOCK *****#
+#. extracted from ZmKeys.properties, ZmKeys_cs.properties
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2015-03-20 15:35+0200\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Translate Toolkit 1.9.0\n"
+
+#. # Keyboard Shortcuts for the ZCS Web Client### Below is a list of properties that define shortcuts. Each shortcut belongs# to a "map", which is the context in which the shortcut applies. For these# shortcuts, that is typically determined by the current view (for example,# a list of messages or a compose form).## The property key consists of several parts joined by dots. The first part# is always the name of a map. The second part is either the name of an action,# or the name of a field. Field names are lowercase, and action names are mixed# case. The final part of the key may be a platform.### Maps# ----## The map names in this properties file refer to views within the ZCS web # client. The following are valid map names:##    global					applies to all views#    compose				a form for creating a new message#    mail					a list of mail messages or conversations#    conversation			a single conversation, which is a list of mail messages#    message				the content of a single mail message#    contacts				a set of contacts#    editContact			a form for creating or editing a contact#    calendar				any of several calendar views (week, month, etc)#    editAppointment		a form for creating or editing an appointment#    options				a set of tabs for changing personal settings#    voicemail				a list of voicemail messages#    call					a list of phone calls#    address				an address bubble## Actions# -------## An action is an event triggered by a shortcut. It is what the shortcut# does. Most of the time, the action invoked by a web client shortcut emulates# something that could have been done using the mouse, for example by clicking# on a particular button. To see what actions are available and what each action does,# check the documentation section below. ## The action "INHERIT" has special meaning. When it is used, the name of a# map is given rather than a key sequence. The current map will copy all the# shortcuts of the given map, and then may add or override those shortcuts.# In general, you probably do not want to change the "INHERIT" properties.## To define a shortcut that applies only on a particular platform (Windows,# Macintosh, or Linux), add a platform identifier to the action. The platform# identifier can be one of:##    win mac linux## For example:##    compose.Send.display.mac = Ctrl+Enter; Ctrl+S#    compose.Send.keycode.mac = Ctrl+13; Ctrl+83#    # Key Sequences (shortcuts)# -------------## A key sequence is a set of one or more keys that triggers an action. Each# key in the sequence may have a modifier (such as the Control or Shift key).# Most key sequences consist of just one key. The keys in multiple-key# sequences are separated with a comma. The next key in a sequence must be# struck within a short time for the sequence to continue.## The following are valid modifiers:##    Ctrl Alt Shift Meta## To add a modifier to a key, specify the modifier, then a plus sign, then the# key. For example: Ctrl+C. If you want to add more than one modifier, use# another plus sign. For example: Ctrl+Shift+O.## If you want to have more than one shortcut for the same action, use a # semicolon (and optional space) to separate the shortcuts. For example, to# specify three different shortcuts for the global action Foo:##    global.Foo.display		= A; B; C #    global.Foo.keycode		= 65; 66; 67# # Key sequences have no notion of upper case or lower case. They map to what# you see on your keyboard (for example, a "T"), rather than the character it# produces when you strike it (a "t"). To specify a keystroke that requires the# Shift key, you must use the Shift modifier. For example, to specify the "@"# key, you'd use: Shift+2.## Each letter, number, and non-shifted printable character represents itself:##    A B C D E F G H I J K L M N O P Q R S T U V W X Y Z 0 1 2 3 4 5 6 7 8 9#    ` - = [ ] ' . /## Non-printable keys are specified with special names. The following special# names are available:##    Home End Esc Del Backspace Enter ArrowUp ArrowDown ArrowLeft ArrowRight Space### Documentation# -------------## Maps and actions can be documented by appending ".description" to the map# name or the action and using that as a property name. The descriptive# text is the property's value. The descriptions below show up as content in# the Shortcuts tab on the Options page.## The "sort" field sets the sorting order among either map names or among# the actions within a map, from low to high. There are gaps so that# properties may be inserted and given a sort order without having to# change the order of other properties.# Map: global
+#: global.description
+msgid "All Applications"
+msgstr "Zkratky pro všechny aplikace"
+
+#: global.sort
+msgid "10000"
+msgstr "10"
+
+#: global.Cancel.display
+msgctxt "global.Cancel.display"
+msgid "Esc"
+msgstr ""
+
+#: global.Cancel.keycode
+msgctxt "global.Cancel.keycode"
+msgid "27"
+msgstr ""
+
+#: global.Cancel.description
+msgctxt "global.Cancel.description"
+"global.Cancel.description"
+msgid "Close"
+msgstr "Zavřít aktuální pohled"
+
+#: global.Cancel.sort
+msgid "10220"
+msgstr "220"
+
+#: global.Delete.display
+msgctxt "global.Delete.display"
+msgid "Del; Backspace"
+msgstr ""
+
+#: global.Delete.keycode
+msgctxt "global.Delete.keycode"
+msgid "8; 46"
+msgstr ""
+
+#: global.Delete.description
+msgid "Delete item(s)"
+msgstr "Smazat vybrané položky"
+
+#: global.Delete.sort
+msgid "10210"
+msgstr "210"
+
+#: global.ShiftDelete.display
+msgid "Shift+Del; Shift+Backspace"
+msgstr ""
+
+#: global.ShiftDelete.keycode
+msgid "Shift+46; Shift+8"
+msgstr ""
+
+#: global.ShiftDelete.description
+msgid "Hard Delete item(s)"
+msgstr ""
+
+#: global.ShiftDelete.sort
+msgid "10215"
+msgstr ""
+
+#: global.FocusContentPane.display
+msgid "Ctrl+/"
+msgstr ""
+
+#: global.FocusContentPane.keycode
+msgid "Ctrl+191"
+msgstr ""
+
+#: global.FocusContentPane.description
+msgid "Focus content pane"
+msgstr "Přesunout se na vyhledávací panel"
+
+#: global.FocusContentPane.sort
+msgid "10063"
+msgstr "280"
+
+#: global.FocusSearchBox.display
+msgid "/"
+msgstr ""
+
+#: global.FocusSearchBox.keycode
+msgid "191"
+msgstr ""
+
+#: global.FocusSearchBox.description
+msgid "Focus search box"
+msgstr "Přesunout se na vyhledávací pole"
+
+#: global.FocusSearchBox.sort
+msgid "10060"
+msgstr "270"
+
+#: global.FocusToolbar.display
+msgid "Ctrl+Y"
+msgstr ""
+
+#: global.FocusToolbar.keycode
+msgid "Ctrl+89"
+msgstr ""
+
+#: global.FocusToolbar.description
+msgid "Focus toolbar"
+msgstr ""
+
+#: global.FocusToolbar.sort
+msgid "10067"
+msgstr ""
+
+#: global.GoToCalendar.display
+msgid "G,C"
+msgstr ""
+
+#: global.GoToCalendar.keycode
+msgid "71,67"
+msgstr ""
+
+#: global.GoToCalendar.description
+msgid "Go to Calendar"
+msgstr "Přepnout na Kalendář"
+
+#: global.GoToCalendar.sort
+msgid "10030"
+msgstr "30"
+
+#: global.GoToContacts.display
+msgid "G,A"
+msgstr ""
+
+#: global.GoToContacts.keycode
+msgid "71,65"
+msgstr ""
+
+#: global.GoToContacts.description
+msgid "Go to Contacts"
+msgstr "Přepnout na Adresář (Kontakty)"
+
+#: global.GoToContacts.sort
+msgid "10020"
+msgstr "20"
+
+#: global.GoToMail.display
+msgid "G,M"
+msgstr ""
+
+#: global.GoToMail.keycode
+msgid "71,77"
+msgstr ""
+
+#: global.GoToMail.description
+msgid "Go to Mail"
+msgstr "Přejít na Poštu"
+
+#: global.GoToMail.sort
+msgid "10010"
+msgstr "10"
+
+#: global.GoToBriefcase.display
+msgid "G,B"
+msgstr ""
+
+#: global.GoToBriefcase.keycode
+msgid "71,66"
+msgstr ""
+
+#: global.GoToBriefcase.description
+msgid "Go to Briefcase"
+msgstr ""
+
+#: global.GoToBriefcase.sort
+msgid "10040"
+msgstr ""
+
+#: global.GoToOptions.display
+msgid "G,P"
+msgstr ""
+
+#: global.GoToOptions.keycode
+msgid "71,80"
+msgstr ""
+
+#: global.GoToOptions.description
+msgid "Go to Preferences"
+msgstr "Přepnout na Možnosti"
+
+#: global.GoToOptions.sort
+msgid "10050"
+msgstr "50"
+
+#: global.GoToTasks.display
+msgid "G,T"
+msgstr ""
+
+#: global.GoToTasks.keycode
+msgid "71,84"
+msgstr ""
+
+#: global.GoToTasks.description
+msgid "Go to Tasks"
+msgstr "Přepnout na Úlohy"
+
+#: global.GoToTasks.sort
+msgid "10035"
+msgstr "35"
+
+#: global.GoToVoice.display
+msgid "G,V"
+msgstr ""
+
+#: global.GoToVoice.keycode
+msgid "71,86"
+msgstr ""
+
+#: global.GoToVoice.description
+msgid "Go to Voice"
+msgstr "Přepnout na Hlas"
+
+#: global.GoToVoice.sort
+msgid "10015"
+msgstr "15"
+
+#: global.Move.display
+msgid "M; M,M"
+msgstr ""
+
+#: global.Move.keycode
+msgid "77; 77,77"
+msgstr ""
+
+#: global.Move.description
+msgid "Move item(s)"
+msgstr ""
+
+#: global.Move.sort
+msgid "10235"
+msgstr ""
+
+#: global.New.display
+msgid "N"
+msgstr ""
+
+#: global.New.keycode
+msgid "78"
+msgstr ""
+
+#: global.New.description
+msgid "New item"
+msgstr "Vytvořit novou položku (v rámci aktuální aplikace)"
+
+#: global.New.sort
+msgid "10070"
+msgstr "70"
+
+#: global.NewAppointment.display
+msgid "N,A"
+msgstr ""
+
+#: global.NewAppointment.keycode
+msgid "78,65"
+msgstr ""
+
+#: global.NewAppointment.description
+msgid "New appointment"
+msgstr "Nová schůzka"
+
+#: global.NewAppointment.sort
+msgid "10110"
+msgstr "110"
+
+#: global.NewCalendar.display
+msgid "N,L"
+msgstr ""
+
+#: global.NewCalendar.keycode
+msgid "78,76"
+msgstr ""
+
+#: global.NewCalendar.description
+msgid "New calendar"
+msgstr "Nový kalendář"
+
+#: global.NewCalendar.sort
+msgid "10120"
+msgstr "120"
+
+#. #Change the display and keycode
+#: global.AddExternalCalendar.display
+msgid "N,E"
+msgstr ""
+
+#: global.AddExternalCalendar.keycode
+msgid "78,69"
+msgstr ""
+
+#: global.AddExternalCalendar.description
+msgid "Add external calendar"
+msgstr ""
+
+#: global.AddExternalCalendar.sort
+msgid "10130"
+msgstr ""
+
+#: global.NewChat.display
+msgid "N,H"
+msgstr ""
+
+#: global.NewChat.keycode
+msgid "78,72"
+msgstr ""
+
+#: global.NewChat.description
+msgid "New chat"
+msgstr ""
+
+#: global.NewChat.sort
+msgid "10117"
+msgstr ""
+
+#: global.NewContact.display
+msgid "N,C"
+msgstr ""
+
+#: global.NewContact.keycode
+msgid "78,67"
+msgstr ""
+
+#: global.NewContact.description
+msgid "New contact"
+msgstr "Nový kontakt"
+
+#: global.NewContact.sort
+msgid "10100"
+msgstr "100"
+
+#: global.NewMessage.display
+msgid "N,M; C"
+msgstr ""
+
+#: global.NewMessage.keycode
+msgid "78,77; 67"
+msgstr ""
+
+#: global.NewMessage.description
+msgctxt "global.NewMessage.description"
+msgid "Compose"
+msgstr "Nová zpráva (psát)"
+
+#: global.NewMessage.sort
+msgid "10080"
+msgstr "80"
+
+#: global.NewMessageWindow.display
+msgid "Shift+C"
+msgstr ""
+
+#: global.NewMessageWindow.keycode
+msgid "Shift+67"
+msgstr ""
+
+#: global.NewMessageWindow.description
+msgid "Compose in new window"
+msgstr "Nová zpráva v novém okně "
+
+#: global.NewMessageWindow.sort
+msgid "10090"
+msgstr "90"
+
+#: global.NewRosterItem.display
+msgid "N,B"
+msgstr ""
+
+#: global.NewRosterItem.keycode
+msgid "78,66"
+msgstr ""
+
+#: global.NewRosterItem.description
+msgid "New buddy"
+msgstr ""
+
+#: global.NewRosterItem.sort
+msgid "10125"
+msgstr ""
+
+#: global.NewSearch.display
+msgid "N,S"
+msgstr ""
+
+#: global.NewSearch.keycode
+msgid "78,83"
+msgstr ""
+
+#: global.NewSearch.description
+msgid "Open a search tab"
+msgstr ""
+
+#: global.NewSearch.sort
+msgid "10195"
+msgstr ""
+
+#: global.NewTag.display
+msgid "N,T"
+msgstr ""
+
+#: global.NewTag.keycode
+msgid "78,84"
+msgstr ""
+
+#: global.NewTag.description
+msgid "New tag"
+msgstr "Nový štítek"
+
+#: global.NewTag.sort
+msgid "10160"
+msgstr "160"
+
+#: global.NewTask.display
+msgid "N,K"
+msgstr ""
+
+#: global.NewTask.keycode
+msgid "78,75"
+msgstr ""
+
+#: global.NewTask.description
+msgid "New task"
+msgstr "Nová úloha"
+
+#: global.NewTask.sort
+msgid "10115"
+msgstr "115"
+
+#: global.NewDocument.display
+msgid "N,D"
+msgstr ""
+
+#: global.NewDocument.keycode
+msgid "78,68"
+msgstr ""
+
+#: global.NewDocument.description
+msgid "New document"
+msgstr ""
+
+#: global.NewDocument.sort
+msgid "10135"
+msgstr ""
+
+#: global.NextPage.display
+msgid "Ctrl+ArrowRight"
+msgstr ""
+
+#: global.NextPage.keycode
+msgid "Ctrl+39"
+msgstr ""
+
+#: global.NextPage.description
+msgid "Next page"
+msgstr "Další stránka položek "
+
+#: global.NextPage.sort
+msgid "10170"
+msgstr "170"
+
+#: global.PreviousPage.display
+msgid "Ctrl+ArrowLeft"
+msgstr ""
+
+#: global.PreviousPage.keycode
+msgid "Ctrl+37"
+msgstr ""
+
+#: global.PreviousPage.description
+msgid "Previous page"
+msgstr "Předešlá stránka položek"
+
+#: global.PreviousPage.sort
+msgid "10180"
+msgstr "180"
+
+#: global.Print.display
+msgctxt "global.Print.display"
+msgid "P"
+msgstr ""
+
+#: global.Print.keycode
+msgctxt "global.Print.keycode"
+msgid "80"
+msgstr ""
+
+#: global.Print.description
+msgctxt "global.Print.description"
+"global.Print.description"
+msgid "Print"
+msgstr "Vytisknout vybrané položky"
+
+#: global.Print.sort
+msgid "10190"
+msgstr "190"
+
+#: global.QuickReminder.display
+msgid "!"
+msgstr ""
+
+#: global.QuickReminder.keycode
+msgid "Shift+49"
+msgstr ""
+
+#: global.QuickReminder.description
+msgid "Quick Reminder"
+msgstr ""
+
+#: global.QuickReminder.sort
+msgid "10230"
+msgstr ""
+
+#: global.SavedSearch.display
+msgctxt "global.SavedSearch.display"
+msgid "S"
+msgstr ""
+
+#: global.SavedSearch.keycode
+msgctxt "global.SavedSearch.keycode"
+msgid "83"
+msgstr ""
+
+#: global.SavedSearch.description
+msgid "Run a saved search"
+msgstr ""
+"Zobrazit výsledky určeného vyhledávání (hledání nastavíte v záložce „Zkratky "
+"hledání“)"
+
+#: global.SavedSearch.sort
+msgid "10260"
+msgstr "260"
+
+#: global.SelectAll.display
+msgid "Ctrl+Shift+A"
+msgstr ""
+
+#: global.SelectAll.keycode
+msgid "Ctrl+Shift+65"
+msgstr ""
+
+#: global.SelectAll.description
+msgid "Select all search results"
+msgstr ""
+
+#: global.SelectAll.sort
+msgctxt "global.SelectAll.sort"
+msgid "10270"
+msgstr ""
+
+#: global.Shortcuts.display
+msgid "Ctrl+Q;Shift+/"
+msgstr ""
+
+#: global.Shortcuts.keycode
+msgid "Ctrl+81;Shift+191"
+msgstr ""
+
+#: global.Shortcuts.description
+msgctxt "global.Shortcuts.description"
+msgid "Show shortcuts"
+msgstr ""
+
+#: global.Shortcuts.sort
+msgctxt "global.Shortcuts.sort"
+msgid "10270"
+msgstr ""
+
+#: global.ContextMenu.display
+msgid ",; Ctrl+Enter; Ctrl+Space; Shift+F10"
+msgstr ""
+
+#: global.ContextMenu.keycode
+msgid "188; Ctrl+13; Ctrl+32; Shift+121"
+msgstr ""
+
+#: global.ContextMenu.display.mac
+msgid ",; Ctrl+Enter; Ctrl+Space"
+msgstr ""
+
+#: global.ContextMenu.keycode.mac
+msgid "188; Ctrl+13; Ctrl+32"
+msgstr ""
+
+#: global.ContextMenu.description
+msgid "Show right-click menu"
+msgstr ""
+
+#: global.ContextMenu.sort
+msgid "10275"
+msgstr ""
+
+#: global.Tag.display
+msgid "T"
+msgstr ""
+
+#: global.Tag.keycode
+msgid "84"
+msgstr ""
+
+#: global.Tag.description
+msgid "Tag item(s)"
+msgstr ""
+"Označit štítkem vybrané položky (štítek nastavíte v záložce „Zkratky "
+"štítků“)"
+
+#: global.Tag.sort
+msgid "10250"
+msgstr "250"
+
+#: global.Untag.display
+msgid "U"
+msgstr ""
+
+#: global.Untag.keycode
+msgid "85"
+msgstr ""
+
+#: global.Untag.description
+msgid "Remove tags"
+msgstr "Odstranit všechny štítky z vybraných položek"
+
+#: global.Untag.sort
+msgid "10255"
+msgstr "250"
+
+#: global.Visit.display
+msgid "V"
+msgstr ""
+
+#: global.Visit.keycode
+msgid "86"
+msgstr ""
+
+#: global.Visit.description
+msgid "Go to (visit) folder"
+msgstr ""
+
+#: global.Visit.sort
+msgid "10233"
+msgstr ""
+
+#: global.VisitTag.display
+msgid "V,V"
+msgstr ""
+
+#: global.VisitTag.keycode
+msgid "86,86"
+msgstr ""
+
+#: global.VisitTag.description
+msgid "Go to (visit) tag"
+msgstr ""
+
+#: global.VisitTag.sort
+msgid "10234"
+msgstr ""
+
+#. # Map: mail
+#. #L10N_IGNORE_BLOCK_BEGIN
+#: mail.INHERIT
+msgctxt "mail.INHERIT"
+msgid "global"
+msgstr "global"
+
+#. #L10N_IGNORE_BLOCK_END
+#: mail.description
+msgid "Mail"
+msgstr "Zkratky v Poště"
+
+#: mail.sort
+msgid "20000"
+msgstr "20"
+
+#: mail.DoubleClick.display
+msgctxt "mail.DoubleClick.display"
+msgid "Enter"
+msgstr ""
+
+#: mail.DoubleClick.keycode
+msgctxt "mail.DoubleClick.keycode"
+msgid "13"
+msgstr ""
+
+#: mail.DoubleClick.description
+msgid "Open message"
+msgstr "Otevřít zprávu"
+
+#: mail.DoubleClick.sort
+msgid "20060"
+msgstr "60"
+
+#: mail.FirstUnread.display
+msgid "Shift+["
+msgstr ""
+
+#: mail.FirstUnread.keycode
+msgid "Shift+219"
+msgstr ""
+
+#: mail.FirstUnread.description
+msgid "First unread"
+msgstr ""
+
+#: mail.FirstUnread.sort
+msgid "20194"
+msgstr ""
+
+#: mail.Flag.display
+msgid "M,F"
+msgstr ""
+
+#: mail.Flag.keycode
+msgid "77,70"
+msgstr ""
+
+#: mail.Flag.description
+msgid "Flag/Unflag messages"
+msgstr "Označit/odznačit zprávy"
+
+#: mail.Flag.sort
+msgid "20090"
+msgstr "90"
+
+#: mail.Forward.display
+msgctxt "mail.Forward.display"
+msgid "F"
+msgstr ""
+
+#: mail.Forward.keycode
+msgctxt "mail.Forward.keycode"
+msgid "70"
+msgstr ""
+
+#: mail.Forward.description
+msgid "Forward message"
+msgstr "Přeposlat zprávu"
+
+#: mail.Forward.sort
+msgid "20170"
+msgstr "170"
+
+#: mail.GetMail.display
+msgid "="
+msgstr ""
+
+#: mail.GetMail.keycode
+msgid "61; 187; 107"
+msgstr ""
+
+#: mail.GetMail.description
+msgid "Get Mail"
+msgstr ""
+
+#: mail.GetMail.sort
+msgid "20005"
+msgstr ""
+
+#: mail.GoToDrafts.display
+msgid "V,D"
+msgstr ""
+
+#: mail.GoToDrafts.keycode
+msgid "86,68"
+msgstr ""
+
+#: mail.GoToDrafts.description
+msgid "Drafts"
+msgstr "Přejít do adresáře Rozepsané"
+
+#: mail.GoToDrafts.sort
+msgid "20020"
+msgstr "20"
+
+#: mail.GoToInbox.display
+msgid "I; V,I"
+msgstr ""
+
+#: mail.GoToInbox.keycode
+msgid "73; 86,73"
+msgstr ""
+
+#: mail.GoToInbox.description
+msgid "Inbox"
+msgstr "Přejít na („navštívit“) Přijaté a Stáhnout poštu"
+
+#: mail.GoToInbox.sort
+msgid "20010"
+msgstr "10"
+
+#: mail.GoToJunk.display
+msgid "V,J"
+msgstr ""
+
+#: mail.GoToJunk.keycode
+msgid "86,74"
+msgstr ""
+
+#: mail.GoToJunk.description
+msgid "Junk"
+msgstr "Přejít do adresáře Spam"
+
+#: mail.GoToJunk.sort
+msgid "20025"
+msgstr "25"
+
+#: mail.GoToSent.display
+msgid "V,S"
+msgstr ""
+
+#: mail.GoToSent.keycode
+msgid "86,83"
+msgstr ""
+
+#: mail.GoToSent.description
+msgid "Sent"
+msgstr "Přejít do adresáře Odeslané"
+
+#: mail.GoToSent.sort
+msgid "20030"
+msgstr "30"
+
+#: mail.GoToTrash.display
+msgid "V,T"
+msgstr ""
+
+#: mail.GoToTrash.keycode
+msgid "86,84"
+msgstr ""
+
+#: mail.GoToTrash.description
+msgid "Trash"
+msgstr "Přejít do adresáře Koš"
+
+#: mail.GoToTrash.sort
+msgid "20040"
+msgstr "40"
+
+#: mail.KeepReading.display
+msgid "Space"
+msgstr ""
+
+#: mail.KeepReading.keycode
+msgid "32"
+msgstr ""
+
+#: mail.KeepReading.description
+msgid "Keep reading"
+msgstr ""
+
+#: mail.KeepReading.sort
+msgid "20177"
+msgstr ""
+
+#: mail.LastUnread.display
+msgid "Shift+]"
+msgstr ""
+
+#: mail.LastUnread.keycode
+msgid "Shift+221"
+msgstr ""
+
+#: mail.LastUnread.description
+msgid "Last unread"
+msgstr ""
+
+#: mail.LastUnread.sort
+msgid "20192"
+msgstr ""
+
+#. #mail.MuteUnmuteConv.display = E#mail.MuteUnmuteConv.keycode = 69#mail.MuteUnmuteConv.description = Mark mute#mail.MuteUnmuteConv.sort = 20063
+#: mail.MarkRead.display
+msgid "M,R; Z"
+msgstr ""
+
+#: mail.MarkRead.keycode
+msgid "77,82; 90"
+msgstr ""
+
+#: mail.MarkRead.description
+msgid "Mark read"
+msgstr "Označit zprávy jako přečtené"
+
+#: mail.MarkRead.sort
+msgid "20070"
+msgstr "70"
+
+#: mail.MarkUnread.display
+msgid "M,U; X"
+msgstr ""
+
+#: mail.MarkUnread.keycode
+msgid "77,85; 88"
+msgstr ""
+
+#: mail.MarkUnread.description
+msgid "Mark unread"
+msgstr "Označit zprávy jako nepřečtené "
+
+#: mail.MarkUnread.sort
+msgid "20080"
+msgstr "80"
+
+#: mail.MoveToInbox.display
+msgid ".,I"
+msgstr ""
+
+#: mail.MoveToInbox.keycode
+msgid "190,73"
+msgstr ""
+
+#: mail.MoveToInbox.description
+msgid "Move to Inbox"
+msgstr "Přesunout zprávy do adresáře Přijaté"
+
+#: mail.MoveToInbox.sort
+msgid "20130"
+msgstr "130"
+
+#: mail.MoveToTrash.display
+msgctxt "mail.MoveToTrash.display"
+msgid ".,T"
+msgstr ""
+
+#: mail.MoveToTrash.keycode
+msgctxt "mail.MoveToTrash.keycode"
+msgid "190,84"
+msgstr ""
+
+#: mail.MoveToTrash.description
+msgctxt "mail.MoveToTrash.description"
+msgid "Move to Trash"
+msgstr "Přesunout zprávy do adresáře Koš"
+
+#: mail.MoveToTrash.sort
+msgid "20110"
+msgstr "110"
+
+#: mail.NewFolder.display
+msgid "N,F"
+msgstr ""
+
+#: mail.NewFolder.keycode
+msgid "78,70"
+msgstr ""
+
+#: mail.NewFolder.description
+msgid "New folder"
+msgstr ""
+
+#: mail.NewFolder.sort
+msgid "20250"
+msgstr ""
+
+#: mail.NextUnread.display
+msgid "]"
+msgstr ""
+
+#: mail.NextUnread.keycode
+msgid "221"
+msgstr ""
+
+#: mail.NextUnread.description
+msgid "Next unread"
+msgstr "Vybrat další nepřečtenou zprávu"
+
+#: mail.NextUnread.sort
+msgid "20190"
+msgstr "180"
+
+#: mail.PreviousUnread.display
+msgid "["
+msgstr ""
+
+#: mail.PreviousUnread.keycode
+msgid "219"
+msgstr ""
+
+#: mail.PreviousUnread.description
+msgid "Previous unread"
+msgstr "Vybrat předešlou nepřečtenou zprávu"
+
+#: mail.PreviousUnread.sort
+msgid "20180"
+msgstr "190"
+
+#: mail.ReadingPaneAtBottom.display
+msgctxt "mail.ReadingPaneAtBottom.display"
+msgid "M,P,B"
+msgstr ""
+
+#: mail.ReadingPaneAtBottom.keycode
+msgctxt "mail.ReadingPaneAtBottom.keycode"
+msgid "77,80,66"
+msgstr ""
+
+#: mail.ReadingPaneAtBottom.description
+msgctxt "mail.ReadingPaneAtBottom.description"
+msgid "Reading pane at bottom"
+msgstr ""
+
+#: mail.ReadingPaneAtBottom.sort
+msgid "20220"
+msgstr ""
+
+#: mail.ReadingPaneOff.display
+msgctxt "mail.ReadingPaneOff.display"
+msgid "M,P,O"
+msgstr ""
+
+#: mail.ReadingPaneOff.keycode
+msgctxt "mail.ReadingPaneOff.keycode"
+msgid "77,80,79"
+msgstr ""
+
+#: mail.ReadingPaneOff.description
+msgctxt "mail.ReadingPaneOff.description"
+msgid "Turn off reading pane"
+msgstr ""
+
+#: mail.ReadingPaneOff.sort
+msgid "20226"
+msgstr ""
+
+#: mail.ReadingPaneOnRight.display
+msgctxt "mail.ReadingPaneOnRight.display"
+msgid "M,P,R"
+msgstr ""
+
+#: mail.ReadingPaneOnRight.keycode
+msgctxt "mail.ReadingPaneOnRight.keycode"
+msgid "77,80,82"
+msgstr ""
+
+#: mail.ReadingPaneOnRight.description
+msgctxt "mail.ReadingPaneOnRight.description"
+msgid "Reading pane on right"
+msgstr ""
+
+#: mail.ReadingPaneOnRight.sort
+msgid "20223"
+msgstr ""
+
+#: mail.Reply.display
+msgctxt "mail.Reply.display"
+msgid "R"
+msgstr ""
+
+#: mail.Reply.keycode
+msgctxt "mail.Reply.keycode"
+msgid "82"
+msgstr ""
+
+#: mail.Reply.description
+msgid "Reply"
+msgstr "Odpovědět odesílateli"
+
+#: mail.Reply.sort
+msgid "20150"
+msgstr "150"
+
+#: mail.ReplyAll.display
+msgid "A"
+msgstr ""
+
+#: mail.ReplyAll.keycode
+msgid "65"
+msgstr ""
+
+#: mail.ReplyAll.description
+msgid "Reply all"
+msgstr "Odpovědět všem"
+
+#: mail.ReplyAll.sort
+msgid "20160"
+msgstr "160"
+
+#: mail.SelectNext.display
+msgid "J"
+msgstr ""
+
+#: mail.SelectNext.keycode
+msgid "74"
+msgstr ""
+
+#: mail.SelectNext.repeat
+msgctxt "mail.SelectNext.repeat"
+msgid "true"
+msgstr ""
+
+#: mail.SelectNext.description
+msgid "Select next item"
+msgstr ""
+
+#: mail.SelectNext.sort
+msgid "20172"
+msgstr ""
+
+#: mail.SelectPrevious.display
+msgid "K"
+msgstr ""
+
+#: mail.SelectPrevious.keycode
+msgid "75"
+msgstr ""
+
+#: mail.SelectPrevious.repeat
+msgctxt "mail.SelectPrevious.repeat"
+msgid "true"
+msgstr ""
+
+#: mail.SelectPrevious.description
+msgid "Select previous item"
+msgstr ""
+
+#: mail.SelectPrevious.sort
+msgid "20174"
+msgstr ""
+
+#: mail.ShowFragment.display
+msgctxt "mail.ShowFragment.display"
+msgid "Q"
+msgstr ""
+
+#: mail.ShowFragment.keycode
+msgctxt "mail.ShowFragment.keycode"
+msgid "81"
+msgstr ""
+
+#: mail.ShowFragment.description
+msgid "Show snippet"
+msgstr "Zobrazit začátek vybrané zprávy"
+
+#: mail.ShowFragment.sort
+msgid "20230"
+msgstr "230"
+
+#: mail.Spam.display
+msgid "M,S"
+msgstr ""
+
+#: mail.Spam.keycode
+msgid "77,83"
+msgstr ""
+
+#: mail.Spam.description
+msgid "Report (mark as) spam"
+msgstr "Označit zprávy jako spam a přesounout je do adresáře Spam"
+
+#: mail.Spam.sort
+msgid "20100"
+msgstr "100"
+
+#. #mail.Undo.display = Ctrl+Z#mail.Undo.display.mac = Cmd+Z#mail.Undo.keycode = Ctrl+90#mail.Undo.keycode.mac = Meta+90#mail.Undo.description = Undo#mail.Undo.sort = 20300
+#: mail.ViewByConversation.display
+msgid "V,C"
+msgstr ""
+
+#: mail.ViewByConversation.keycode
+msgid "86,67"
+msgstr ""
+
+#: mail.ViewByConversation.description
+msgid "Conversation view"
+msgstr "Zobrazit poštu jako seznam rozbalitelných konverzací"
+
+#: mail.ViewByConversation.sort
+msgid "20200"
+msgstr "200"
+
+#: mail.ViewByMessage.display
+msgid "V,M"
+msgstr ""
+
+#: mail.ViewByMessage.keycode
+msgid "86,77"
+msgstr ""
+
+#: mail.ViewByMessage.description
+msgid "Message view"
+msgstr "Zobrazit poštu jako seznam zpráv"
+
+#: mail.ViewByMessage.sort
+msgid "20210"
+msgstr "210"
+
+#. # Map: conversationList
+#. #L10N_IGNORE_BLOCK_BEGIN
+#: conversationList.INHERIT
+msgctxt "conversationList.INHERIT"
+msgid "mail"
+msgstr "mail"
+
+#. #L10N_IGNORE_BLOCK_END
+#: conversationList.description
+msgid "Conversation List View"
+msgstr "Zobrazit poštu jako seznam rozbalitelných konverzací"
+
+#: conversationList.sort
+msgid "25000"
+msgstr "25"
+
+#: conversationList.Collapse.display
+msgctxt "conversationList.Collapse.display"
+msgid "ArrowLeft"
+msgstr ""
+
+#: conversationList.Collapse.keycode
+msgctxt "conversationList.Collapse.keycode"
+msgid "37"
+msgstr ""
+
+#: conversationList.Collapse.description
+msgid "Collapse conversation"
+msgstr ""
+
+#: conversationList.Collapse.sort
+msgid "25020"
+msgstr ""
+
+#: conversationList.CollapseAll.display
+msgid "Ctrl+O"
+msgstr ""
+
+#: conversationList.CollapseAll.keycode
+msgid "Ctrl+79"
+msgstr ""
+
+#: conversationList.CollapseAll.description
+msgid "Collapse all conversations"
+msgstr "Sbalit všechny konverzace"
+
+#: conversationList.CollapseAll.sort
+msgid "25036"
+msgstr "30"
+
+#: conversationList.Expand.display
+msgctxt "conversationList.Expand.display"
+msgid "ArrowRight"
+msgstr ""
+
+#: conversationList.Expand.keycode
+msgctxt "conversationList.Expand.keycode"
+msgid "39"
+msgstr ""
+
+#: conversationList.Expand.description
+msgid "Expand conversation"
+msgstr "Zobrazit nebo skrýt zprávy konverzace"
+
+#: conversationList.Expand.sort
+msgid "25010"
+msgstr "10"
+
+#: conversationList.ExpandAll.display
+msgid "Shift+O"
+msgstr ""
+
+#: conversationList.ExpandAll.keycode
+msgid "Shift+79"
+msgstr ""
+
+#: conversationList.ExpandAll.description
+msgid "Expand all conversations"
+msgstr "Rozbalit všechny konverzace"
+
+#: conversationList.ExpandAll.sort
+msgid "25032"
+msgstr "20"
+
+#: conversationList.FirstUnreadMsg.display
+msgid "Shift+Ctrl+["
+msgstr ""
+
+#: conversationList.FirstUnreadMsg.keycode
+msgid "Shift+Ctrl+219"
+msgstr ""
+
+#: conversationList.FirstUnreadMsg.description
+msgid "Select first unread message"
+msgstr ""
+
+#: conversationList.FirstUnreadMsg.sort
+msgid "25060"
+msgstr ""
+
+#: conversationList.LastUnreadMsg.display
+msgid "Shift+Ctrl+]"
+msgstr ""
+
+#: conversationList.LastUnreadMsg.keycode
+msgid "Shift+Ctrl+221"
+msgstr ""
+
+#: conversationList.LastUnreadMsg.description
+msgid "Select last unread message"
+msgstr ""
+
+#: conversationList.LastUnreadMsg.sort
+msgid "25070"
+msgstr ""
+
+#: conversationList.NextUnreadMsg.display
+msgid "Ctrl+]"
+msgstr ""
+
+#: conversationList.NextUnreadMsg.keycode
+msgid "Ctrl+221"
+msgstr ""
+
+#: conversationList.NextUnreadMsg.description
+msgid "Select next unread message"
+msgstr ""
+
+#: conversationList.NextUnreadMsg.sort
+msgid "25050"
+msgstr ""
+
+#: conversationList.PreviousUnreadMsg.display
+msgid "Ctrl+["
+msgstr ""
+
+#: conversationList.PreviousUnreadMsg.keycode
+msgid "Ctrl+219"
+msgstr ""
+
+#: conversationList.PreviousUnreadMsg.description
+msgid "Select previous unread message"
+msgstr ""
+
+#: conversationList.PreviousUnreadMsg.sort
+msgid "25040"
+msgstr ""
+
+#: conversationList.Toggle.display
+msgid "O"
+msgstr ""
+
+#: conversationList.Toggle.keycode
+msgid "79"
+msgstr ""
+
+#: conversationList.Toggle.description
+msgid "Expand/collapse conversation"
+msgstr ""
+
+#: conversationList.Toggle.sort
+msgid "25030"
+msgstr ""
+
+#. # Map: compose
+#: compose.description
+msgctxt "compose.description"
+msgid "Compose"
+msgstr "Zkratky ve formuláři Psaní pošty"
+
+#: compose.sort
+msgid "30000"
+msgstr "30"
+
+#: compose.AddressPicker.display
+msgid "Ctrl+G"
+msgstr ""
+
+#: compose.AddressPicker.keycode
+msgid "Ctrl+71"
+msgstr ""
+
+#: compose.AddressPicker.description
+msgid "Search for addresses"
+msgstr "Vybrat příjemce z adresáře"
+
+#: compose.AddressPicker.sort
+msgid "30050"
+msgstr "50"
+
+#: compose.Attachment.display
+msgid "Ctrl+M"
+msgstr ""
+
+#: compose.Attachment.keycode
+msgid "Ctrl+77"
+msgstr ""
+
+#: compose.Attachment.description
+msgid "Add attachment"
+msgstr "Přidat ke zprávě přílohu"
+
+#: compose.Attachment.sort
+msgid "30040"
+msgstr "40"
+
+#: compose.Cancel.display
+msgctxt "compose.Cancel.display"
+msgid "Esc"
+msgstr ""
+
+#: compose.Cancel.keycode
+msgctxt "compose.Cancel.keycode"
+msgid "27"
+msgstr ""
+
+#: compose.Cancel.description
+msgctxt "compose.Cancel.description"
+"compose.Cancel.description"
+"compose.Cancel.description"
+"compose.Cancel.description"
+msgid "Cancel"
+msgstr "Zrušit psaní této zprávy"
+
+#: compose.Cancel.sort
+msgid "30020"
+msgstr "20"
+
+#: compose.HtmlFormat.display
+msgctxt "compose.HtmlFormat.display"
+msgid "Ctrl+H"
+msgstr ""
+
+#: compose.HtmlFormat.keycode
+msgctxt "compose.HtmlFormat.keycode"
+msgid "Ctrl+72"
+msgstr ""
+
+#: compose.HtmlFormat.description
+msgctxt "compose.HtmlFormat.description"
+msgid "HTML/text format"
+msgstr "Přepnout mezi HTML a textovým formátem těla"
+
+#: compose.HtmlFormat.sort
+msgid "30060"
+msgstr "60"
+
+#: compose.NewWindow.display
+msgid "Ctrl+D"
+msgstr ""
+
+#: compose.NewWindow.keycode
+msgid "Ctrl+68"
+msgstr ""
+
+#: compose.NewWindow.description
+msgid "Detach into new window"
+msgstr "Psát zprávu v novém okně"
+
+#: compose.NewWindow.sort
+msgid "30080"
+msgstr "80"
+
+#: compose.Save.display
+msgctxt "compose.Save.display"
+msgid "Ctrl+S"
+msgstr ""
+
+#: compose.Save.keycode
+msgctxt "compose.Save.keycode"
+msgid "Ctrl+83"
+msgstr ""
+
+#: compose.Save.description
+msgid "Save draft"
+msgstr "Uložit (ponechat) zprávu rozepsanou"
+
+#: compose.Save.sort
+msgid "30030"
+msgstr "30"
+
+#: compose.Send.display
+msgctxt "compose.Send.display"
+msgid "Ctrl+Enter"
+msgstr ""
+
+#: compose.Send.keycode
+msgctxt "compose.Send.keycode"
+msgid "Ctrl+13"
+msgstr ""
+
+#: compose.Send.description
+msgctxt "compose.Send.description"
+msgid "Send"
+msgstr "Odeslat zprávu"
+
+#: compose.Send.sort
+msgid "30010"
+msgstr "10"
+
+#: compose.Shortcuts.display
+msgctxt "compose.Shortcuts.display"
+msgid "Ctrl+Q"
+msgstr ""
+
+#: compose.Shortcuts.keycode
+msgctxt "compose.Shortcuts.keycode"
+msgid "Ctrl+81"
+msgstr ""
+
+#: compose.Shortcuts.description
+msgctxt "compose.Shortcuts.description"
+msgid "Show shortcuts"
+msgstr ""
+
+#: compose.Shortcuts.sort
+msgid "31000"
+msgstr ""
+
+#: compose.Spellcheck.display
+msgid "Alt+X"
+msgstr ""
+
+#: compose.Spellcheck.display.mac
+msgid "Ctrl+X"
+msgstr ""
+
+#: compose.Spellcheck.keycode
+msgid "Alt+88"
+msgstr ""
+
+#: compose.Spellcheck.keycode.mac
+msgid "Ctrl+88"
+msgstr ""
+
+#: compose.Spellcheck.description
+msgid "Spellcheck"
+msgstr "Zkontrolovat pravopis"
+
+#: compose.Spellcheck.sort
+msgid "30070"
+msgstr "70"
+
+#. # Map: quickReply
+#: quickReply.description
+msgid "Quick reply (conversation view only)"
+msgstr ""
+
+#: quickReply.sort
+msgid "35000"
+msgstr ""
+
+#: quickReply.Cancel.display
+msgctxt "quickReply.Cancel.display"
+msgid "Esc"
+msgstr ""
+
+#: quickReply.Cancel.keycode
+msgctxt "quickReply.Cancel.keycode"
+msgid "27"
+msgstr ""
+
+#: quickReply.Cancel.description
+msgctxt "quickReply.Cancel.description"
+msgid "Cancel"
+msgstr ""
+
+#: quickReply.Cancel.sort
+msgid "35020"
+msgstr ""
+
+#: quickReply.Send.display
+msgctxt "quickReply.Send.display"
+msgid "Ctrl+Enter"
+msgstr ""
+
+#: quickReply.Send.keycode
+msgctxt "quickReply.Send.keycode"
+msgid "Ctrl+13"
+msgstr ""
+
+#: quickReply.Send.description
+msgctxt "quickReply.Send.description"
+msgid "Send"
+msgstr ""
+
+#: quickReply.Send.sort
+msgid "35010"
+msgstr ""
+
+#. # Map: conversation
+#. #L10N_IGNORE_BLOCK_BEGIN
+#: conversation.INHERIT
+msgctxt "conversation.INHERIT"
+msgid "mail"
+msgstr "mail"
+
+#. #L10N_IGNORE_BLOCK_END
+#: conversation.description
+msgid "Conversation View"
+msgstr "Zkratky v pohledu Poštovní konverzace"
+
+#: conversation.sort
+msgid "40000"
+msgstr "40"
+
+#: conversation.NextConversation.display
+msgid "Shift+ArrowRight"
+msgstr ""
+
+#: conversation.NextConversation.keycode
+msgid "Shift+39"
+msgstr ""
+
+#: conversation.NextConversation.description
+msgid "Next conversation"
+msgstr "Zobrazit další konverzaci "
+
+#: conversation.NextConversation.sort
+msgid "40010"
+msgstr "10"
+
+#: conversation.PreviousConversation.display
+msgid "Shift+ArrowLeft"
+msgstr ""
+
+#: conversation.PreviousConversation.keycode
+msgid "Shift+37"
+msgstr ""
+
+#: conversation.PreviousConversation.description
+msgid "Previous conversation"
+msgstr "Zobrazit předešlou konverzaci"
+
+#: conversation.PreviousConversation.sort
+msgid "40020"
+msgstr "20"
+
+#. # Map: message
+#. #L10N_IGNORE_BLOCK_BEGIN
+#: message.INHERIT
+msgctxt "message.INHERIT"
+msgid "mail"
+msgstr "mail"
+
+#. #L10N_IGNORE_BLOCK_END# Map: contacts
+#. #L10N_IGNORE_BLOCK_BEGIN
+#: contacts.INHERIT
+msgctxt "contacts.INHERIT"
+msgid "global"
+msgstr "global"
+
+#. #L10N_IGNORE_BLOCK_END
+#: contacts.description
+msgid "Address Book"
+msgstr "Zkratky v Adresáři"
+
+#: contacts.sort
+msgid "50000"
+msgstr "50"
+
+#: contacts.Edit.display
+msgctxt "contacts.Edit.display"
+msgid "E"
+msgstr ""
+
+#: contacts.Edit.keycode
+msgctxt "contacts.Edit.keycode"
+msgid "69"
+msgstr ""
+
+#: contacts.Edit.description
+msgid "Edit"
+msgstr "Upravit vybraný kontakt"
+
+#: contacts.Edit.sort
+msgid "50010"
+msgstr "10"
+
+#: contacts.PrintAll.display
+msgid "P,A"
+msgstr ""
+
+#: contacts.PrintAll.keycode
+msgid "80,65"
+msgstr ""
+
+#: contacts.PrintAll.description
+msgid "Print address book"
+msgstr ""
+
+#: contacts.PrintAll.sort
+msgid "50020"
+msgstr ""
+
+#. # Map: editContact
+#: editContact.description
+msgid "Edit Contact"
+msgstr "Zkratky ve formuláři Upravit kontakt"
+
+#: editContact.sort
+msgid "60000"
+msgstr "60"
+
+#: editContact.Cancel.display
+msgctxt "editContact.Cancel.display"
+msgid "Esc"
+msgstr ""
+
+#: editContact.Cancel.keycode
+msgctxt "editContact.Cancel.keycode"
+msgid "27"
+msgstr ""
+
+#: editContact.Cancel.description
+msgctxt "editContact.Cancel.description"
+msgid "Cancel"
+msgstr "Zrušit úpravu kontaktu"
+
+#: editContact.Cancel.sort
+msgid "60020"
+msgstr "20"
+
+#: editContact.Save.display
+msgctxt "editContact.Save.display"
+msgid "Ctrl+S"
+msgstr ""
+
+#: editContact.Save.keycode
+msgctxt "editContact.Save.keycode"
+msgid "Ctrl+83"
+msgstr ""
+
+#: editContact.Save.description
+msgctxt "editContact.Save.description"
+"editContact.Save.description"
+"editContact.Save.description"
+msgid "Save"
+msgstr "Uložit kontakt"
+
+#: editContact.Save.sort
+msgid "60010"
+msgstr "10"
+
+#. # Map: calendar
+#. #L10N_IGNORE_BLOCK_BEGIN
+#: calendar.INHERIT
+msgctxt "calendar.INHERIT"
+msgid "global"
+msgstr "global"
+
+#. #L10N_IGNORE_BLOCK_END
+#: calendar.description
+msgid "Calendar"
+msgstr "Zkratky v Kalendáři"
+
+#: calendar.sort
+msgid "70000"
+msgstr "70"
+
+#: calendar.Cancel.display
+msgctxt "calendar.Cancel.display"
+msgid "Esc"
+msgstr ""
+
+#: calendar.Cancel.keycode
+msgctxt "calendar.Cancel.keycode"
+msgid "27"
+msgstr ""
+
+#: calendar.Cancel.description
+msgctxt "calendar.Cancel.description"
+msgid "Close"
+msgstr "Zavřít pohled na schůzku jen pro čtení"
+
+#: calendar.Cancel.sort
+msgid "70100"
+msgstr "100"
+
+#: calendar.DayView.display
+msgid "D; 1"
+msgstr ""
+
+#: calendar.DayView.keycode
+msgid "68; 49"
+msgstr ""
+
+#: calendar.DayView.description
+msgid "Day view"
+msgstr "Zobrazit přehled jediného dne"
+
+#: calendar.DayView.sort
+msgid "70050"
+msgstr "50"
+
+#: calendar.Edit.display
+msgctxt "calendar.Edit.display"
+msgid "E"
+msgstr ""
+
+#: calendar.Edit.keycode
+msgctxt "calendar.Edit.keycode"
+msgid "69"
+msgstr ""
+
+#: calendar.Edit.description
+msgid "Edit appointment"
+msgstr "Upravit schůzku"
+
+#: calendar.Edit.sort
+msgid "70010"
+msgstr "10"
+
+#: calendar.FBView.display
+msgid "F; 2"
+msgstr ""
+
+#: calendar.FBView.keycode
+msgid "70; 50"
+msgstr ""
+
+#: calendar.FBView.description
+msgid "Free/Busy view"
+msgstr ""
+
+#: calendar.FBView.sort
+msgid "70096"
+msgstr ""
+
+#: calendar.CalListView.display
+msgid "L; 9"
+msgstr ""
+
+#: calendar.CalListView.keycode
+msgid "76; 57"
+msgstr ""
+
+#: calendar.CalListView.description
+msgid "List view"
+msgstr ""
+
+#: calendar.CalListView.sort
+msgid "70082"
+msgstr ""
+
+#: calendar.MonthView.display
+msgid "M; 3"
+msgstr ""
+
+#: calendar.MonthView.keycode
+msgid "77; 51"
+msgstr ""
+
+#: calendar.MonthView.description
+msgid "Month view"
+msgstr "Zobrazit přehled měsíce"
+
+#: calendar.MonthView.sort
+msgid "70080"
+msgstr "80"
+
+#: calendar.QuickAdd.display
+msgctxt "calendar.QuickAdd.display"
+msgid "Q"
+msgstr ""
+
+#: calendar.QuickAdd.keycode
+msgctxt "calendar.QuickAdd.keycode"
+msgid "81"
+msgstr ""
+
+#: calendar.QuickAdd.description
+msgid "Quick appointment creation"
+msgstr "Vytvořit rychlou schůzku"
+
+#: calendar.QuickAdd.sort
+msgid "70020"
+msgstr "20"
+
+#: calendar.Refresh.display
+msgctxt "calendar.Refresh.display"
+msgid "R"
+msgstr ""
+
+#: calendar.Refresh.keycode
+msgctxt "calendar.Refresh.keycode"
+msgid "82"
+msgstr ""
+
+#: calendar.Refresh.description
+msgid "Refresh"
+msgstr "Obnovit kalendář"
+
+#: calendar.Refresh.sort
+msgid "70030"
+msgstr "30"
+
+#: calendar.Today.display
+msgid "Y"
+msgstr ""
+
+#: calendar.Today.keycode
+msgid "89"
+msgstr ""
+
+#: calendar.Today.description
+msgid "Go to today"
+msgstr "Zobrazit dnešek"
+
+#: calendar.Today.sort
+msgid "70040"
+msgstr "40"
+
+#: calendar.WeekView.display
+msgid "W; 7"
+msgstr ""
+
+#: calendar.WeekView.keycode
+msgid "87; 55"
+msgstr ""
+
+#: calendar.WeekView.description
+msgid "Week view"
+msgstr "Zobrazit přehled týdne"
+
+#: calendar.WeekView.sort
+msgid "70060"
+msgstr "60"
+
+#: calendar.WorkWeekView.display
+msgid "W,W; 5"
+msgstr ""
+
+#: calendar.WorkWeekView.keycode
+msgid "87,87; 53"
+msgstr ""
+
+#: calendar.WorkWeekView.description
+msgid "Work week view"
+msgstr "Zobrazit přehled pracovního týdne"
+
+#: calendar.WorkWeekView.sort
+msgid "70070"
+msgstr "70"
+
+#. # Map: editAppointment
+#. #L10N_IGNORE_BLOCK_BEGIN
+#: editAppointment.INHERIT
+msgid "tabView"
+msgstr "tabView"
+
+#. #L10N_IGNORE_BLOCK_END
+#: editAppointment.description
+msgid "Edit Appointment"
+msgstr "Zkratky ve formuláři Upravit schůzku"
+
+#: editAppointment.sort
+msgid "80000"
+msgstr "80"
+
+#: editAppointment.Cancel.display
+msgctxt "editAppointment.Cancel.display"
+msgid "Esc"
+msgstr ""
+
+#: editAppointment.Cancel.keycode
+msgctxt "editAppointment.Cancel.keycode"
+msgid "27"
+msgstr ""
+
+#: editAppointment.Cancel.description
+msgctxt "editAppointment.Cancel.description"
+msgid "Cancel"
+msgstr "Zrušit úpravu schůzky"
+
+#: editAppointment.Cancel.sort
+msgid "80020"
+msgstr "20"
+
+#: editAppointment.HtmlFormat.display
+msgctxt "editAppointment.HtmlFormat.display"
+msgid "Ctrl+H"
+msgstr ""
+
+#: editAppointment.HtmlFormat.keycode
+msgctxt "editAppointment.HtmlFormat.keycode"
+msgid "Ctrl+72"
+msgstr ""
+
+#: editAppointment.HtmlFormat.description
+msgctxt "editAppointment.HtmlFormat.description"
+msgid "HTML/text format"
+msgstr "Přepnout mezi formáty HTML a text"
+
+#: editAppointment.HtmlFormat.sort
+msgid "80040"
+msgstr "40"
+
+#: editAppointment.Save.display
+msgctxt "editAppointment.Save.display"
+msgid "Ctrl+S"
+msgstr ""
+
+#: editAppointment.Save.keycode
+msgctxt "editAppointment.Save.keycode"
+msgid "Ctrl+83"
+msgstr ""
+
+#: editAppointment.Save.description
+msgctxt "editAppointment.Save.description"
+msgid "Save"
+msgstr "Uložit schůzku"
+
+#: editAppointment.Save.sort
+msgid "80010"
+msgstr "10"
+
+#: editAppointment.Shortcuts.display
+msgctxt "editAppointment.Shortcuts.display"
+msgid "Ctrl+Q"
+msgstr ""
+
+#: editAppointment.Shortcuts.keycode
+msgctxt "editAppointment.Shortcuts.keycode"
+msgid "Ctrl+81"
+msgstr ""
+
+#: editAppointment.Shortcuts.description
+msgctxt "editAppointment.Shortcuts.description"
+msgid "Show shortcuts"
+msgstr ""
+
+#: editAppointment.Shortcuts.sort
+msgid "81000"
+msgstr ""
+
+#. # Map: viewAppointment
+#. #L10N_IGNORE_BLOCK_BEGIN
+#: viewAppointment.INHERIT
+msgctxt "viewAppointment.INHERIT"
+msgid "global"
+msgstr ""
+
+#. #L10N_IGNORE_BLOCK_END
+#: viewAppointment.description
+msgid "View Appointment"
+msgstr ""
+
+#: viewAppointment.sort
+msgid "85000"
+msgstr ""
+
+#: viewAppointment.Cancel.display
+msgctxt "viewAppointment.Cancel.display"
+msgid "Esc"
+msgstr ""
+
+#: viewAppointment.Cancel.keycode
+msgctxt "viewAppointment.Cancel.keycode"
+msgid "27"
+msgstr ""
+
+#: viewAppointment.Cancel.description
+msgctxt "viewAppointment.Cancel.description"
+msgid "Close"
+msgstr ""
+
+#: viewAppointment.Cancel.sort
+msgid "85020"
+msgstr ""
+
+#. # Map: options
+#. #L10N_IGNORE_BLOCK_BEGIN
+#: options.INHERIT
+msgid "global,tabView"
+msgstr "global,tabView"
+
+#. #L10N_IGNORE_BLOCK_END
+#: options.description
+msgid "Preferences"
+msgstr "Zkratky v Možnostech"
+
+#: options.sort
+msgid "90000"
+msgstr "90"
+
+#: options.Save.display
+msgctxt "options.Save.display"
+msgid "Ctrl+S"
+msgstr ""
+
+#: options.Save.keycode
+msgctxt "options.Save.keycode"
+msgid "Ctrl+83"
+msgstr ""
+
+#: options.Save.description
+msgctxt "options.Save.description"
+msgid "Save"
+msgstr "Uložit nastavení ve všech záložkách Možnosti"
+
+#: options.Save.sort
+msgid "90010"
+msgstr "10"
+
+#. # Map: tasks
+#. #L10N_IGNORE_BLOCK_BEGIN
+#: tasks.INHERIT
+msgctxt "tasks.INHERIT"
+msgid "global"
+msgstr "global"
+
+#. #L10N_IGNORE_BLOCK_END
+#: tasks.description
+msgid "Tasks"
+msgstr "Zkratky v Úlohách"
+
+#: tasks.sort
+msgid "105000"
+msgstr "105"
+
+#: tasks.MarkComplete.display
+msgid "M,C"
+msgstr ""
+
+#: tasks.MarkComplete.keycode
+msgid "77,67"
+msgstr ""
+
+#: tasks.MarkComplete.description
+msgid "Mark completed"
+msgstr "Označit úlohu jako dokončenou"
+
+#: tasks.MarkComplete.sort
+msgid "105010"
+msgstr "10"
+
+#: tasks.MarkUncomplete.display
+msgctxt "tasks.MarkUncomplete.display"
+msgid "M,U"
+msgstr ""
+
+#: tasks.MarkUncomplete.keycode
+msgctxt "tasks.MarkUncomplete.keycode"
+msgid "77,85"
+msgstr ""
+
+#: tasks.MarkUncomplete.description
+msgid "Mark not completed"
+msgstr "Označit úlohu jako nedokončenou"
+
+#: tasks.MarkUncomplete.sort
+msgid "105020"
+msgstr "20"
+
+#: tasks.ReadingPaneAtBottom.display
+msgctxt "tasks.ReadingPaneAtBottom.display"
+msgid "M,P,B"
+msgstr ""
+
+#: tasks.ReadingPaneAtBottom.keycode
+msgctxt "tasks.ReadingPaneAtBottom.keycode"
+msgid "77,80,66"
+msgstr ""
+
+#: tasks.ReadingPaneAtBottom.description
+msgctxt "tasks.ReadingPaneAtBottom.description"
+msgid "Reading pane at bottom"
+msgstr ""
+
+#: tasks.ReadingPaneAtBottom.sort
+msgid "105030"
+msgstr ""
+
+#: tasks.ReadingPaneOff.display
+msgctxt "tasks.ReadingPaneOff.display"
+msgid "M,P,O"
+msgstr ""
+
+#: tasks.ReadingPaneOff.keycode
+msgctxt "tasks.ReadingPaneOff.keycode"
+msgid "77,80,79"
+msgstr ""
+
+#: tasks.ReadingPaneOff.description
+msgctxt "tasks.ReadingPaneOff.description"
+msgid "Turn off reading pane"
+msgstr ""
+
+#: tasks.ReadingPaneOff.sort
+msgid "105036"
+msgstr ""
+
+#: tasks.ReadingPaneOnRight.display
+msgctxt "tasks.ReadingPaneOnRight.display"
+msgid "M,P,R"
+msgstr ""
+
+#: tasks.ReadingPaneOnRight.keycode
+msgctxt "tasks.ReadingPaneOnRight.keycode"
+msgid "77,80,82"
+msgstr ""
+
+#: tasks.ReadingPaneOnRight.description
+msgctxt "tasks.ReadingPaneOnRight.description"
+msgid "Reading pane on right"
+msgstr ""
+
+#: tasks.ReadingPaneOnRight.sort
+msgid "105033"
+msgstr ""
+
+#: tasks.MoveToTrash.display
+msgctxt "tasks.MoveToTrash.display"
+msgid ".,T"
+msgstr ""
+
+#: tasks.MoveToTrash.keycode
+msgctxt "tasks.MoveToTrash.keycode"
+msgid "190,84"
+msgstr ""
+
+#: tasks.MoveToTrash.description
+msgctxt "tasks.MoveToTrash.description"
+msgid "Move to Trash"
+msgstr ""
+
+#: tasks.MoveToTrash.sort
+msgid "105038"
+msgstr ""
+
+#. # Map: editTask
+#: editTask.description
+msgid "Edit Task"
+msgstr "Zkratky ve formuláři Úprava úlohy"
+
+#: editTask.sort
+msgid "106000"
+msgstr "106"
+
+#: editTask.Cancel.display
+msgctxt "editTask.Cancel.display"
+msgid "Esc"
+msgstr ""
+
+#: editTask.Cancel.keycode
+msgctxt "editTask.Cancel.keycode"
+msgid "27"
+msgstr ""
+
+#: editTask.Cancel.description
+msgctxt "editTask.Cancel.description"
+msgid "Cancel"
+msgstr "Zrušit úpravu úlohy"
+
+#: editTask.Cancel.sort
+msgid "106020"
+msgstr "20"
+
+#: editTask.Save.display
+msgctxt "editTask.Save.display"
+msgid "Ctrl+S"
+msgstr ""
+
+#: editTask.Save.keycode
+msgctxt "editTask.Save.keycode"
+msgid "Ctrl+83"
+msgstr ""
+
+#: editTask.Save.description
+msgctxt "editTask.Save.description"
+msgid "Save"
+msgstr "Uložit úlohu"
+
+#: editTask.Save.sort
+msgid "106010"
+msgstr "10"
+
+#. # Map: briefcase
+#. #L10N_IGNORE_BLOCK_BEGIN
+#: briefcase.INHERIT
+msgctxt "briefcase.INHERIT"
+msgid "global"
+msgstr ""
+
+#. #L10N_IGNORE_BLOCK_END
+#: briefcase.description
+msgid "Briefcase"
+msgstr ""
+
+#: briefcase.sort
+msgid "107000"
+msgstr ""
+
+#: briefcase.ReadingPaneAtBottom.display
+msgctxt "briefcase.ReadingPaneAtBottom.display"
+msgid "M,P,B"
+msgstr ""
+
+#: briefcase.ReadingPaneAtBottom.keycode
+msgctxt "briefcase.ReadingPaneAtBottom.keycode"
+msgid "77,80,66"
+msgstr ""
+
+#: briefcase.ReadingPaneAtBottom.description
+msgctxt "briefcase.ReadingPaneAtBottom.description"
+msgid "Reading pane at bottom"
+msgstr ""
+
+#: briefcase.ReadingPaneAtBottom.sort
+msgid "107010"
+msgstr ""
+
+#: briefcase.ReadingPaneOff.display
+msgctxt "briefcase.ReadingPaneOff.display"
+msgid "M,P,O"
+msgstr ""
+
+#: briefcase.ReadingPaneOff.keycode
+msgctxt "briefcase.ReadingPaneOff.keycode"
+msgid "77,80,79"
+msgstr ""
+
+#: briefcase.ReadingPaneOff.description
+msgctxt "briefcase.ReadingPaneOff.description"
+msgid "Turn off reading pane"
+msgstr ""
+
+#: briefcase.ReadingPaneOff.sort
+msgid "107016"
+msgstr ""
+
+#: briefcase.ReadingPaneOnRight.display
+msgctxt "briefcase.ReadingPaneOnRight.display"
+msgid "M,P,R"
+msgstr ""
+
+#: briefcase.ReadingPaneOnRight.keycode
+msgctxt "briefcase.ReadingPaneOnRight.keycode"
+msgid "77,80,82"
+msgstr ""
+
+#: briefcase.ReadingPaneOnRight.description
+msgctxt "briefcase.ReadingPaneOnRight.description"
+msgid "Reading pane on right"
+msgstr ""
+
+#: briefcase.ReadingPaneOnRight.sort
+msgid "107013"
+msgstr ""
+
+#. # Map: voicemail
+#. #L10N_IGNORE_BLOCK_BEGIN
+#: voicemail.INHERIT
+msgctxt "voicemail.INHERIT"
+msgid "global"
+msgstr "global"
+
+#. #L10N_IGNORE_BLOCK_END
+#: voicemail.description
+msgid "Voice Mail View"
+msgstr "Zkratky v pohledu na Hlasovou poštu"
+
+#: voicemail.sort
+msgid "45000"
+msgstr "45"
+
+#: voicemail.CallManager.display
+msgctxt "voicemail.CallManager.display"
+msgid "C"
+msgstr ""
+
+#: voicemail.CallManager.keycode
+msgctxt "voicemail.CallManager.keycode"
+msgid "67"
+msgstr ""
+
+#: voicemail.CallManager.description
+msgctxt "voicemail.CallManager.description"
+msgid "Call Manager"
+msgstr "Přejít na Správce volání"
+
+#: voicemail.CallManager.sort
+msgid "45050"
+msgstr "50"
+
+#: voicemail.Download.display
+msgctxt "voicemail.Download.display"
+msgid "S"
+msgstr ""
+
+#: voicemail.Download.keycode
+msgctxt "voicemail.Download.keycode"
+msgid "83"
+msgstr ""
+
+#: voicemail.Download.description
+msgid "Download message"
+msgstr "Uložit zprávu hlasové pošty na váš počítač"
+
+#: voicemail.Download.sort
+msgid "45045"
+msgstr "45"
+
+#: voicemail.Forward.display
+msgctxt "voicemail.Forward.display"
+msgid "F"
+msgstr ""
+
+#: voicemail.Forward.keycode
+msgctxt "voicemail.Forward.keycode"
+msgid "70"
+msgstr ""
+
+#: voicemail.Forward.description
+msgid "Forward as email"
+msgstr "Přeposlat zprávu hlasové pošty emailem"
+
+#: voicemail.Forward.sort
+msgid "45030"
+msgstr "30"
+
+#: voicemail.MarkHeard.display
+msgid "M,H"
+msgstr ""
+
+#: voicemail.MarkHeard.keycode
+msgid "77,72"
+msgstr ""
+
+#: voicemail.MarkHeard.description
+msgid "Mark heard"
+msgstr "Označit zprávy hlasové pošty jako poslechnuté"
+
+#: voicemail.MarkHeard.sort
+msgid "45060"
+msgstr "60"
+
+#: voicemail.MarkUnheard.display
+msgctxt "voicemail.MarkUnheard.display"
+msgid "M,U"
+msgstr ""
+
+#: voicemail.MarkUnheard.keycode
+msgctxt "voicemail.MarkUnheard.keycode"
+msgid "77,85"
+msgstr ""
+
+#: voicemail.MarkUnheard.description
+msgid "Mark unheard"
+msgstr "Označit zprávy hlasové pošty jako neposlechnuté"
+
+#: voicemail.MarkUnheard.sort
+msgid "45070"
+msgstr "70"
+
+#: voicemail.Play.display
+msgctxt "voicemail.Play.display"
+msgid "Enter"
+msgstr ""
+
+#: voicemail.Play.keycode
+msgctxt "voicemail.Play.keycode"
+msgid "13"
+msgstr ""
+
+#: voicemail.Play.description
+msgid "Play"
+msgstr "Přehrát vybranou zprávu hlasové pošty"
+
+#: voicemail.Play.sort
+msgid "45005"
+msgstr "5"
+
+#: voicemail.Print.display
+msgctxt "voicemail.Print.display"
+msgid "P"
+msgstr ""
+
+#: voicemail.Print.keycode
+msgctxt "voicemail.Print.keycode"
+msgid "80"
+msgstr ""
+
+#: voicemail.Print.description
+msgctxt "voicemail.Print.description"
+msgid "Print"
+msgstr "Vytisknout seznam zpráv hlasové pošty"
+
+#: voicemail.Print.sort
+msgid "45010"
+msgstr "10"
+
+#: voicemail.Reply.display
+msgctxt "voicemail.Reply.display"
+msgid "R"
+msgstr ""
+
+#: voicemail.Reply.keycode
+msgctxt "voicemail.Reply.keycode"
+msgid "82"
+msgstr ""
+
+#: voicemail.Reply.description
+msgid "Reply by email"
+msgstr "Odpovědět emailem odesílateli zprávy hlasové pošty"
+
+#: voicemail.Reply.sort
+msgid "45020"
+msgstr "20"
+
+#. # Map: call
+#. #L10N_IGNORE_BLOCK_BEGIN
+#: call.INHERIT
+msgctxt "call.INHERIT"
+msgid "global"
+msgstr "global"
+
+#. #L10N_IGNORE_BLOCK_END
+#: call.description
+msgid "Call List View"
+msgstr "Zkratky v pohledu na Seznam volání"
+
+#: call.sort
+msgid "46000"
+msgstr "46"
+
+#: call.CallManager.display
+msgctxt "call.CallManager.display"
+msgid "C"
+msgstr ""
+
+#: call.CallManager.keycode
+msgctxt "call.CallManager.keycode"
+msgid "67"
+msgstr ""
+
+#: call.CallManager.description
+msgctxt "call.CallManager.description"
+msgid "Call Manager"
+msgstr "Přejít na Správce volání"
+
+#: call.CallManager.sort
+msgid "46050"
+msgstr "50"
+
+#: call.Print.display
+msgctxt "call.Print.display"
+msgid "P"
+msgstr ""
+
+#: call.Print.keycode
+msgctxt "call.Print.keycode"
+msgid "80"
+msgstr ""
+
+#: call.Print.description
+msgctxt "call.Print.description"
+msgid "Print"
+msgstr "Vypsat seznam volání"
+
+#: call.Print.sort
+msgid "46010"
+msgstr "10"
+
+#. # Map: address
+#. #L10N_IGNORE_BLOCK_BEGIN
+#. #address.INHERIT = compose
+#. #L10N_IGNORE_BLOCK_END
+#: address.description
+msgid "Address Bubble"
+msgstr ""
+
+#: address.sort
+msgid "30100"
+msgstr ""
+
+#: address.Delete.display
+msgctxt "address.Delete.display"
+msgid "Del; Backspace"
+msgstr ""
+
+#: address.Delete.keycode
+msgctxt "address.Delete.keycode"
+msgid "8; 46"
+msgstr ""
+
+#: address.Delete.description
+msgid "Delete selected addresses"
+msgstr ""
+
+#: address.Delete.sort
+msgid "30110"
+msgstr ""
+
+#: address.SelectNext.display
+msgctxt "address.SelectNext.display"
+msgid "ArrowRight"
+msgstr ""
+
+#: address.SelectNext.keycode
+msgctxt "address.SelectNext.keycode"
+msgid "39"
+msgstr ""
+
+#: address.SelectNext.description
+msgid "Select next address"
+msgstr ""
+
+#: address.SelectNext.sort
+msgid "30120"
+msgstr ""
+
+#: address.SelectPrevious.display
+msgctxt "address.SelectPrevious.display"
+msgid "ArrowLeft"
+msgstr ""
+
+#: address.SelectPrevious.keycode
+msgctxt "address.SelectPrevious.keycode"
+msgid "37"
+msgstr ""
+
+#: address.SelectPrevious.description
+msgid "Select previous address"
+msgstr ""
+
+#: address.SelectPrevious.sort
+msgid "30130"
+msgstr ""

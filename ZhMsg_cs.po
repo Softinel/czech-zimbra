@@ -1,0 +1,8371 @@
+#. extracted from ZhMsg.properties, ZhMsg_cs.properties
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2015-03-20 15:35+0200\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Translate Toolkit 1.9.0\n"
+
+#. #
+#. # ***** BEGIN LICENSE BLOCK *****
+#. # Zimbra Collaboration Suite Web Client
+#. # Copyright (C) 2006, 2007, 2008, 2009, 2010, 2011, 2012, 2013, 2014 Zimbra, Inc.
+#. # 
+#. # This program is free software: you can redistribute it and/or modify it under
+#. # the terms of the GNU General Public License as published by the Free Software Foundation,
+#. # version 2 of the License.
+#. # 
+#. # This program is distributed in the hope that it will be useful, but WITHOUT ANY WARRANTY;
+#. # without even the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
+#. # See the GNU General Public License for more details.
+#. # You should have received a copy of the GNU General Public License along with this program.
+#. # If not, see <http://www.gnu.org/licenses/>.
+#. # ***** END LICENSE BLOCK *****
+#. #
+#: aboveQuotedText
+msgid "Above included messages"
+msgstr "Nad vloženou zprávou"
+
+#: acceptShare
+msgid "Accept Share"
+msgstr "Přijmout sdílení"
+
+#: actionAddCallerToForward
+msgid "Add to Call Forwarding List"
+msgstr ""
+
+#: actionAddCallerToReject
+msgid "Add to Call Screening List"
+msgstr ""
+
+#: actionAddCallerToForwardTT
+msgid "Add the caller to the Call Forwarding List"
+msgstr ""
+
+#: actionAddCallerToRejectTT
+msgid "Add the caller to the Call Screening List"
+msgstr ""
+
+#: actionCallerAddedToForwardPl
+msgid "{0} phone numbers were added to the Call Forwarding List."
+msgstr ""
+
+#: actionCallerAddedToForwardSi
+msgid "The phone number was added to the Call Forwarding List."
+msgstr ""
+
+#: actionCallerAlreadyInForward
+msgctxt "actionCallerAlreadyInForward"
+msgid "The phone number is already in the Call Forwarding List."
+msgstr ""
+
+#: actionCallerAddForwardError
+msgid "The phone number could not be added to the Call Forwarding List."
+msgstr ""
+
+#: actionCallerAddedToRejectPl
+msgid "{0} phone numbers were added to the Call Screening List."
+msgstr ""
+
+#: actionCallerAddedToRejectSi
+msgid "The phone number was added to the Call Screening List."
+msgstr ""
+
+#: actionCallerAlreadyInReject
+msgctxt "actionCallerAlreadyInReject"
+msgid "The phone number is already in the Call Screening List."
+msgstr ""
+
+#: actionCallerAddRejectError
+msgid "The phone number could not be added to the Call Screening List."
+msgstr ""
+
+#: actionAddressBookCreated
+msgid "Created contacts folder \"{0}\"."
+msgstr "Vytvořen adresář „{0}“."
+
+#: actionAddressBookCheckConfirm
+msgid "Please check the checkbox to confirm contacts folder deletion."
+msgstr "Prosím, potvrďte smazání adresáře zaškrtnutím pole."
+
+#: actionAddressBookColorChanged
+msgid "Contact folder \"{0}\" color changed to \"{1}\"."
+msgstr "Barva adresáře „{0}“ se změnila na: „{1}“."
+
+#: actionAddressBookContactsImported
+msgid ""
+"Imported {0,number,integer} {0,choice,0#contacts.|1#contact|1<contacts.}"
+msgstr ""
+"{0,choice,0#Importovaných 0 kontaktů.|1#Importovaný jeden "
+"kontakt|1<Importováno {0,number,integer} kontaktů.}"
+
+#: actionAddressBookDeleted
+msgid "Deleted contacts folder \"{0}\"."
+msgstr "Smazaný adresář „{0}“."
+
+#: actionAddressBookModified
+msgid "Contacts folder \"{0}\" modified."
+msgstr ""
+
+#: actionAddressBookRenamed
+msgid "Contacts folder \"{0}\" renamed to \"{1}\"."
+msgstr "Adresář „{0}“ byl přejmenován na „{1}“."
+
+#: actionAddressBookTrashed
+msgid "Contacts folder trashed \"{0}\"."
+msgstr ""
+
+#: actionAddressBookMovedToTrash
+msgid "Contacts folder \"{0}\" moved to \"Trash\"."
+msgstr "Adresář „{0}“ přesunut do Koše."
+
+#: actionBriefcaseCreated
+msgid "Created briefcase \"{0}\"."
+msgstr ""
+
+#: actionBriefcaseCheckConfirm
+msgid "Please check the checkbox to confirm briefcase deletion."
+msgstr ""
+
+#: actionBriefcaseColorChanged
+msgid "Briefcase \"{0}\" color changed to \"{1}\"."
+msgstr ""
+
+#: actionBriefcaseDeleted
+msgid "Deleted briefcase \"{0}\"."
+msgstr ""
+
+#: actionBriefcaseModified
+msgid "Briefcase \"{0}\" modified\"."
+msgstr ""
+
+#: actionBriefcaseRenamed
+msgid "Briefcase \"{0}\" renamed to \"{1}\"."
+msgstr ""
+
+#: actionBriefcaseItemsMoved
+msgid ""
+"{0,choice,0#0 items have been moved to \"{1}\"|1#1 item has been moved to "
+"\"{1}\"|1<{0,number,integer} items have been moved to \"{1}\"}."
+msgstr ""
+
+#: actionBriefcaseItemsDeleted
+msgid ""
+"{0,choice,0#0 items have been deleted|1#1 item has been "
+"deleted|1<{0,number,integer} items have been deleted}."
+msgstr ""
+
+#: actionBriefcaseMovedToTrash
+msgid "Briefcase \"{0}\" moved to \"Trash\"."
+msgstr ""
+
+#: actionBriefcaseTrashed
+msgid "Briefcase \"{0}\" trashed."
+msgstr ""
+
+#: actionBriefcaseTag
+msgid ""
+"The tag \"{1}\" has been added to {0,choice,0#0 items|1#1 "
+"item|1<{0,number,integer} items}."
+msgstr ""
+
+#: actionBriefcaseUntag
+msgid ""
+"The tag \"{1}\" has been removed from {0,choice,0#0 items|1#1 "
+"item|1<{0,number,integer} items}."
+msgstr ""
+
+#: actionBriefcaseUntagAll
+msgid ""
+"All tags have been removed from {0,choice,0#0 items|1#1 "
+"item|1<{0,number,integer} items}."
+msgstr ""
+
+#: actionAddFlag
+msgid "Add flag"
+msgstr "Přidat příznak"
+
+#: actionAddTag
+msgid "Add Tag:"
+msgstr "Přidat štítek:"
+
+#: actionApptCancelTT
+msgctxt "actionApptCancelTT"
+msgid "Cancel Appointment"
+msgstr "Zrušit schůzku"
+
+#: actionApptDeleteTT
+msgid "Delete Appointment"
+msgstr "Smazat schůzku"
+
+#: actionApptDeleteInstTT
+msgid "Delete Appointment Instance"
+msgstr "Smazat instanci schůzky"
+
+#: actionApptCancelled
+msgid "Appointment cancelled."
+msgstr "Schůzka zrušena."
+
+#: actionApptCreated
+msgid "Appointment created."
+msgstr "Schůzka vytvořena."
+
+#: actionApptDeleted
+msgid "Appointment deleted."
+msgstr "Schůzka smazána."
+
+#: actionApptSaved
+msgid "Appointment saved."
+msgstr "Schůzka uložena."
+
+#: actionApptFlag
+msgid ""
+"{0,choice,0#0 appointments have been flagged|1#1 appointment has been "
+"flagged|1<{0,number,integer} appointments have been flagged}."
+msgstr ""
+"{0,choice,0#0 schůzek bylo označeno|1#1 schůzka byla "
+"označena|1<{0,number,integer} schůzek bylo označeno}."
+
+#: actionApptTag
+msgid ""
+"The tag \"{1}\" has been added to {0,choice,0#0 appointments|1#1 "
+"appointment|1<{0,number,integer} appointments}."
+msgstr ""
+"Štítek „{1}“ byl přidán {0,choice,0#0 schůzkám|1#jedné "
+"schůzce|1<{0,number,integer} schůzkám}."
+
+#: actionApptUntag
+msgid ""
+"The tag \"{1}\" has been removed from {0,choice,0#0 appointments|1#1 "
+"appointment|1<{0,number,integer} appointments}."
+msgstr ""
+"Štítek „{1}“ byl odstraněn z {0,choice,0#0 schůzek|1#jedné "
+"schůzky|1<{0,number,integer} schůzek}."
+
+#: actionApptUntagAll
+msgid ""
+"All tags have been removed from {0,choice,0#0 appointments|1#1 "
+"appointment|1<{0,number,integer} appointments}."
+msgstr ""
+"Všechny štítky byly odstraněny z {0,choice,0#0 schůzek|1#jedné "
+"schůzky|1<{0,number,integer} schůzek}."
+
+#: actionApptUnflag
+msgid ""
+"{0,choice,0#0 appointments have been unflagged|1#1 appointment has been "
+"unflagged|1<{0,number,integer} appointments have been unflagged}."
+msgstr ""
+"{0,choice,0#0 schůzkám bylo odebráno označení|1#Jedné schůzce bylo odebráno "
+"označení|1<{0,number,integer} schůzkám bylo odebráno označení}."
+
+#: actionCalendarAppointmentsImported
+msgid ""
+"Imported {0,number,integer} "
+"{0,choice,0#appointments.|1#appointment|1<appointments.}"
+msgstr ""
+"{0,choice,0#Importovaných 0 schůzek.|1#Importovaná jedna "
+"schůzka|1<Importovaných {0,number,integer} schůzek.}"
+
+#: actionCalendarCreated
+msgid "Created calendar \"{0}\"."
+msgstr "Vytvořen kalendář „{0}“."
+
+#: actionCalendarModified
+msgid "Calendar \"{0}\" modified."
+msgstr ""
+
+#: actionCalendarReloaded
+msgid "Reloaded calendar \"{0}\"."
+msgstr "Znovu načten kalendář „{0}“."
+
+#: actionCalendarTrashed
+msgid "Calendar trashed \"{0}\"."
+msgstr ""
+
+#: actionCalendarCheckConfirm
+msgid "Please check the checkbox to confirm calendar deletion."
+msgstr "Prosím, potvrďte smazání kalendáře zaškrtnutím pole."
+
+#: actionCalendarDeleted
+msgid "Calendar \"{0}\" deleted."
+msgstr "Kalendář „{0}“ byl smazán."
+
+#: actionCallManager
+msgctxt "actionCallManager"
+msgid "Call Manager"
+msgstr "Správce volání"
+
+#: actionChange
+msgctxt "actionChange"
+msgid "Change"
+msgstr ""
+
+#: actionChangeTT
+msgid "Click to change the view"
+msgstr ""
+
+#: actionContactHardDeleted
+msgid ""
+"{0,choice,0#0 contacts have been deleted|1#1 contact has been "
+"deleted|1<{0,number,integer} contacts have been deleted}."
+msgstr ""
+"{0,choice,0#0 kontaktů bylo smazáno|1#Jeden kontakt byl "
+"smazán|1<{0,number,integer} kontaktů bylo smazáno}."
+
+#: actionContactFlag
+msgid ""
+"{0,choice,0#0 contacts have been flagged|1#1 contact has been "
+"flagged|1<{0,number,integer} contacts have been flagged}."
+msgstr ""
+
+#: actionContactUnflag
+msgid ""
+"{0,choice,0#0 contacts have been unflagged|1#1 contact has been "
+"unflagged|1<{0,number,integer} contacts have been unflagged}."
+msgstr ""
+
+#: actionContactTag
+msgid ""
+"The tag \"{1}\" has been added to {0,choice,0#0 contacts|1#1 "
+"contact|1<{0,number,integer} contacts}."
+msgstr ""
+"Štítek „{1}“ byl přidán {0,choice,0#0 kontaktům|1#jednomu "
+"kontaktu|1<{0,number,integer} kontaktům}."
+
+#: actionContactUntag
+msgid ""
+"The tag \"{1}\" has been removed from {0,choice,0#0 contacts|1#1 "
+"contact|1<{0,number,integer} contacts}."
+msgstr ""
+"Štítek „{1}“ byl odstraněn z {0,choice,0#0 kontaktů|1#jednoho "
+"kontaktu|1<{0,number,integer} kontaktů}."
+
+#: actionContactUntagAll
+msgid ""
+"All tags have been removed from {0,choice,0#0 contacts|1#1 "
+"contact|1<{0,number,integer} contacts}."
+msgstr ""
+"Všechny štítky byly odstraněny z {0,choice,0#0 kontaktů|1#jednoho "
+"kontaktu|1<{0,number,integer} kontaktů}."
+
+#: actionContactMoved
+msgid ""
+"{0,choice,0#0 contacts have been moved to \"{1}\"|1#1 contact has been moved "
+"to \"{1}\"|1<{0,number,integer} contacts have been moved to \"{1}\"}."
+msgstr ""
+"{0,choice,0#0 kontaktů bylo přesunuto do „{1}“|1#Jeden kontakt byl přesunut "
+"do „{1}“|1<{0,number,integer} kontaktů bylo přesunuto do „{1}“}."
+
+#: actionContactMovedTrash
+msgid ""
+"{0,choice,0#0 contacts have been moved to the Trash folder|1#1 contact has "
+"been moved to the Trash folder|1<{0,number,integer} contacts have been moved "
+"to the Trash folder}."
+msgstr ""
+"{0,choice,0#0 kontaktů bylo přesunuto do složky Koš|1#Jeden kontakt byl "
+"přesunut do složky Koš|1<{0,number,integer} kontaktů bylo přesunuto do "
+"složky Koš}."
+
+#: actionConvHardDeleted
+msgid ""
+"{0,choice,0#0 conversations have been deleted|1#1 conversation has been "
+"deleted|1<{0,number,integer} conversations have been deleted}."
+msgstr ""
+"{0,choice,0#0 konverzací bylo smazáno|1#Jedna konverzace byla "
+"smazána|1<{0,number,integer} konverzací bylo smazáno}."
+
+#: actionConvMessageHardDeleted
+msgid ""
+"{0} {0,choice,1#conversation|2#conversations} and {1} "
+"{1,choice,1#message|2#messages} have been deleted. "
+msgstr ""
+
+#: actionConvFlag
+msgid ""
+"{0,choice,0#0 conversations have been flagged|1#1 conversation has been "
+"flagged|1<{0,number,integer} conversations have been flagged}."
+msgstr ""
+"{0,choice,0#0 konverzací bylo označeno|1#Jedna konverzace byla "
+"označena|1<{0,number,integer} konverzací bylo označeno}."
+
+#: actionConvMessageFlag
+msgid ""
+"{0} {0,choice,1#conversation|2#conversations} and {1} "
+"{1,choice,1#message|2#messages} have been flagged."
+msgstr ""
+
+#: actionConvUnflag
+msgid ""
+"{0,choice,0#0 conversations have been unflagged|1#1 conversation has been "
+"unflagged|1<{0,number,integer} conversations have been unflagged}."
+msgstr ""
+"{0,choice,0#0 konverzací bylo odznačeno|1#Jedna konverzace byla "
+"odznačena|1<{0,number,integer} konverzací bylo označeno}."
+
+#: actionConvMessageUnflag
+msgid ""
+"{0} {0,choice,1#conversation|2#conversations} and {1} "
+"{1,choice,1#message|2#messages} have been unflagged."
+msgstr ""
+
+#: actionConvMarkedRead
+msgid ""
+"{0,choice,0#0 conversations have been marked read|1#1 conversation has been "
+"marked read|1<{0,number,integer} conversations have been marked read}."
+msgstr ""
+"{0,choice,0#0 konverzací bylo označeno jako přečtené|1#Jedna konverzace byla "
+"označena jako přečtená|1<{0,number,integer} konverzací bylo označeno jako "
+"přečtené}."
+
+#: actionConvMessageMarkedRead
+msgid ""
+"{0} {0,choice,1#conversation|2#conversations} and {1} "
+"{1,choice,1#message|2#messages} have been marked read."
+msgstr ""
+
+#: actionConvMarkedUnread
+msgid ""
+"{0,choice,0#0 conversations have been marked unread|1#1 conversation has "
+"been marked unread|1<{0,number,integer} conversations have been marked "
+"unread}."
+msgstr ""
+"{0,choice,0#0 konverzací bylo označeno jako nepřečtené|1#Jedna konverzace "
+"byla označena jako nepřečtená|1<{0,number,integer} konverzací bylo označeno "
+"jako nepřečtené}."
+
+#: actionConvMessageMarkedUnread
+msgid ""
+"{0} {0,choice,1#conversation|2#conversations} and {1} "
+"{1,choice,1#message|2#messages} have been marked unread."
+msgstr ""
+
+#: actionConvMarkedNotSpam
+msgid ""
+"{0,choice,0#0 conversations have been moved to the Inbox folder|1#1 "
+"conversation has been moved to the Inbox folder|1<{0,number,integer} "
+"conversations have been moved to the Inbox folder}."
+msgstr ""
+"{0,choice,0#0 konverzací bylo přesunuto do složky Přijaté|1#Jedna konverzace "
+"byla přesunuta do složky Přijaté|1<{0,number,integer} konverzací bylo "
+"přesunuto do složky Přijaté}."
+
+#: actionConvMessageMarkedNotSpam
+msgid ""
+"{0} {0,choice,1#conversation|2#conversations} and {1} "
+"{1,choice,1#message|2#messages} have been moved to the Inbox folder."
+msgstr ""
+
+#: actionConvMarkedSpam
+msgid ""
+"{0,choice,0#0 conversations have been moved to the Spam folder|1#1 "
+"conversation has been moved to the Spam folder|1<{0,number,integer} "
+"conversations have been moved to the Spam folder}."
+msgstr ""
+"{0,choice,0#0 konverzací bylo přesunuto do složky Spam|1#Jedna konverzace "
+"byla přesunuta do složky Spam|1<{0,number,integer} konverzací bylo přesunuto "
+"do složky Spam}."
+
+#: actionConvMessageMarkedSpam
+msgid ""
+"{0} {0,choice,1#conversation|2#conversations} and {1} "
+"{1,choice,1#message|2#messages} have been moved to the Spam folder."
+msgstr ""
+
+#: actionConvTag
+msgid ""
+"The tag \"{1}\" has been added to {0,choice,0#0 conversations|1#1 "
+"conversation|1<{0,number,integer} conversations}."
+msgstr ""
+"Štítek „{1}“ byl přidán {0,choice,0#0 konverzacím|1#jedné "
+"konverzaci|1<{0,number,integer} konverzacím}."
+
+#: actionConvMessageTag
+msgid ""
+"The tag \"{2}\" has been added to {0} "
+"{0,choice,1#conversation|2#conversations} and {1} "
+"{1,choice,1#message|2#messages}."
+msgstr ""
+
+#: actionConvUntag
+msgid ""
+"The tag \"{1}\" has been removed from {0,choice,0#0 conversations|1#1 "
+"conversation|1<{0,number,integer} conversations}."
+msgstr ""
+"Štítek „{1}“ byl odstraněn z {0,choice,0#0 konverzací|1#jedné "
+"konverzace|1<{0,number,integer} konverzací}."
+
+#: actionConvMessageUntag
+msgid ""
+"The tag \"{2}\" had been removed from {0} "
+"{0,choice,1#conversation|2#conversations} and {1} "
+"{1,choice,1#message|2#messages}."
+msgstr ""
+
+#: actionConvUntagAll
+msgid ""
+"All tags have been removed from {0,choice,0#0 conversations|1#1 "
+"conversation|1<{0,number,integer} conversations}."
+msgstr ""
+"Všechny štítky byly odstraněny z {0,choice,0#0 konverzací|1#jedné "
+"konverzace|1<{0,number,integer} konverzací}."
+
+#: actionConvMessageUntagAll
+msgid ""
+"All tags have been removed from {0} "
+"{0,choice,1#conversation|2#conversations} and {1} "
+"{1,choice,1#message|2#messages}."
+msgstr ""
+
+#: actionConvMoved
+msgid ""
+"{0,choice,0#0 conversations have been moved to \"{1}\"|1#1 conversation has "
+"been moved to \"{1}\"|1<{0,number,integer} conversations have been moved to "
+"\"{1}\"}."
+msgstr ""
+"{0,choice,0#0 konverzací bylo přesunuto do složky „{1}“|1#Jedna konverzace "
+"byla přesunuta do složky „{1}“|1<{0,number,integer} konverzací bylo "
+"přesunuto do složky „{1}“}."
+
+#: actionConvMessageMoved
+msgid ""
+"{0} {0,choice,1#conversation|2#conversations} and {1} "
+"{1,choice,1#message|2#messages} have been moved to \"{2}\"."
+msgstr ""
+
+#: actionConvMovedTrash
+msgid ""
+"{0,choice,0#0 conversations have been moved to the Trash folder|1#1 "
+"conversation has been moved to the Trash folder|1<{0,number,integer} "
+"conversations have been moved to the Trash folder}."
+msgstr ""
+"{0,choice,0#0 konverzací bylo přesunuto do složky Koš|1#Jedna konverzace "
+"byla přesunuta do složky Koš|1<{0,number,integer} konverzací bylo přesunuto "
+"do složky Koš}."
+
+#: actionConvMessageMovedTrash
+msgid ""
+"{0} {0,choice,1#conversation|2#conversations} and {1} "
+"{1,choice,1#message|2#messages} have been moved to the Trash folder."
+msgstr ""
+
+#: actionDelete
+msgctxt "actionDelete"
+msgid "Delete"
+msgstr "Smazat"
+
+#: actionDeleteCheckConfirm
+msgid "Please check the checkbox to confirm deletion."
+msgstr "Prosím, potvrďte smazání zaškrtnutím pole."
+
+#: actionDownload
+msgctxt "actionDownload"
+msgid "Download"
+msgstr ""
+
+#: actionDownloadTT
+msgid "Download the voice mail message"
+msgstr ""
+
+#: actionFolderCreated
+msgid "Created folder \"{0}\"."
+msgstr "Složka „{0}“  vytvořena."
+
+#: actionFolderDeleted
+msgid "Deleted folder \"{0}\"."
+msgstr "Složka „{0}“ smazána."
+
+#: actionFolderMarkRead
+msgid "All items in folder \"{0}\" marked as read."
+msgstr "Všechny položky ve složce „{0}“ byly označeny jako přečtené."
+
+#: actionFolderModified
+msgid "Folder \"{0}\" modified."
+msgstr ""
+
+#: actionFolderMovedToTrash
+msgid "Folder \"{0}\" moved to \"Trash\"."
+msgstr "Složka „{0}“ přesunuta do Koše."
+
+#: actionFolderReloaded
+msgid "Reloaded folder \"{0}\"."
+msgstr "Znovu načtená složka „{0}“."
+
+#: actionFolderTrashed
+msgid "Folder trashed \"{0}\"."
+msgstr ""
+
+#: actionForwardByEmail
+msgctxt "actionForwardByEmail"
+msgid "Forward"
+msgstr "Přeposlat"
+
+#: actionForwardByEmailTT
+msgid "Forward the selected voice mail message as an email attachment"
+msgstr "Přeposlat vybranou hlasovou zprávu jako přílohu emailu"
+
+#: actionGo
+msgid "Go"
+msgstr "Vykonat"
+
+#: actionContactGoTT
+msgid "Perform action on selected contact(s)"
+msgstr "Vykonat činnost na vybraných kontaktech"
+
+#: actionTaskListGoTT
+msgid "Perform action on selected tasks(s)"
+msgstr "Vykonat činnost na vybraných úlohách"
+
+#: actionAppointmentGoTT
+msgid "Perform action on selected appointment(s)"
+msgstr ""
+
+#: actionTaskCancelled
+msgid "Task cancelled."
+msgstr "Úloha zrušena."
+
+#: actionTaskSingleDeleted
+msgid "Task Deleted."
+msgstr "Úloha smazána."
+
+#: actionTaskDeleted
+msgid ""
+"{0,choice,0#0 tasks have been deleted|1#1 task has been "
+"deleted|1<{0,number,integer} tasks have been deleted}."
+msgstr ""
+"{0,choice,0#0 úloh bylo smazáno|1#1 úloha byla smazána|1<{0,number,integer} "
+"úloh bylo smazáno}."
+
+#: actionConvGoTT
+msgid "Perform action on selected conversation(s)"
+msgstr "Vykonat činnost na vybraných konverzacích"
+
+#: actionMessageGoTT
+msgid "Perform action on selected message(s)"
+msgstr "Vykonat činnost na vybraných zprávách"
+
+#: actionMarkAllRead
+msgid "Mark All Read"
+msgstr "Označit všechny jako přečtené"
+
+#: actionMarkHeard
+msgctxt "actionMarkHeard"
+msgid "Mark Heard"
+msgstr "Označit jako vyslechnuté"
+
+#: actionMarkHeardTT
+msgctxt "actionMarkHeardTT"
+msgid "Mark Heard"
+msgstr "Označit jako vyslechnuté"
+
+#: actionMarkRead
+msgctxt "actionMarkRead"
+msgid "Mark as read"
+msgstr "Označit jako přečtené"
+
+#: actionMarkUnheard
+msgctxt "actionMarkUnheard"
+msgid "Mark Unheard"
+msgstr "Označit jako nevyslechnuté"
+
+#: actionMarkUnheardTT
+msgctxt "actionMarkUnheardTT"
+msgid "Mark Unheard"
+msgstr "Označit jako nevyslechnuté"
+
+#: actionMarkUnread
+msgid "Mark as unread"
+msgstr "Označit jako nepřečtené"
+
+#: actionMessageHardDeleted
+msgid ""
+"{0,choice,0#0 messages have been deleted|1#1 message has been "
+"deleted|1<{0,number,integer} messages have been deleted}."
+msgstr ""
+"{0,choice,0#0 zpráv bylo smazáno|1#Jedna zpráva byla "
+"smazána|1<{0,number,integer} zpráv bylo smazáno}."
+
+#: actionMessageFlag
+msgid ""
+"{0,choice,0#0 messages have been flagged|1#1 message has been "
+"flagged|1<{0,number,integer} messages have been flagged}."
+msgstr ""
+"{0,choice,0#0 zpráv bylo označeno|1#Jedna zpráva byla "
+"označena|1<{0,number,integer} zpráv bylo označeno}."
+
+#: actionMessageUnflag
+msgid ""
+"{0,choice,0#0 messages have been unflagged|1#1 message has been "
+"unflagged|1<{0,number,integer} messages have been unflagged}."
+msgstr ""
+"{0,choice,0#0 zpráv bylo odznačeno|1#Jedna zpráva byla "
+"odznačena|1<{0,number,integer} zpráv bylo odznačeno}."
+
+#: actionMessageMarkedRead
+msgid ""
+"{0,choice,0#0 messages have been marked read|1#1 message has been marked "
+"read|1<{0,number,integer} messages have been marked read}."
+msgstr ""
+"{0,choice,0#0 zpráv bylo označeno jako Přečtené|1#Jedna zpráva bylo označena "
+"jako Přečtená|1<{0,number,integer} zpráv bylo označeno jako Přečtené}."
+
+#: actionMessageMarkedUnread
+msgid ""
+"{0,choice,0#0 messages have been marked unread|1#1 message has been marked "
+"unread|1<{0,number,integer} messages have been marked unread}."
+msgstr ""
+"{0,choice,0#0 zpráv bylo označeno jako Nepřečtené|1#Jedna zpráva bylo "
+"označena jako Nepřečtená|1<{0,number,integer} zpráv bylo označeno jako "
+"Nepřečtené}."
+
+#: actionMessageMarkedNotSpam
+msgid ""
+"{0,choice,0#0 messages have been moved to the Inbox folder|1#1 message has "
+"been moved to the Inbox folder|1<{0,number,integer} messages have been moved "
+"to the Inbox folder}."
+msgstr ""
+"{0,choice,0#0 zpráv bylo přesunuto do složky Přijaté|1#Jedna zpráva byla "
+"přesunuta do složky Přijaté|1<{0,number,integer} zpráv bylo přesunuto do "
+"složky Přijaté}."
+
+#: actionMessageMarkedSpam
+msgid ""
+"{0,choice,0#0 messages have been moved to the Spam folder|1#1 message has "
+"been moved to the Spam folder|1<{0,number,integer} messages have been moved "
+"to the Spam folder}."
+msgstr ""
+"{0,choice,0#0 zpráv bylo přesunuto do složky Spam|1#Jedna zpráva byla "
+"přesunuta do složky Spam|1<{0,number,integer} zpráv bylo přesunuto do složky "
+"Spam}."
+
+#: actionMessageTag
+msgid ""
+"The tag \"{1}\" has been added to {0,choice,0#0 messages|1#1 "
+"message|1<{0,number,integer} messages}."
+msgstr ""
+"Štítek „{1}“ byl přidán {0,choice,0#0 zprávám|1#jedné "
+"zprávě|1<{0,number,integer} zprávám}."
+
+#: actionMessageUntag
+msgid ""
+"The tag \"{1}\" has been removed from {0,choice,0#0 messages|1#1 "
+"message|1<{0,number,integer} messages}."
+msgstr ""
+"Štítek „{1}“ byl odstraněn z {0,choice,0#0 zpráv|1#jedné "
+"zprávy|1<{0,number,integer} zpráv}."
+
+#: actionMessageUntagAll
+msgid ""
+"All tags have been removed from {0,choice,0#0 messages|1#1 "
+"message|1<{0,number,integer} messages}."
+msgstr ""
+"Všechny štítky byly odstraněny z {0,choice,0#0 zpráv|1#jedné "
+"zprávy|1<{0,number,integer} zpráv}."
+
+#: actionMessageMoved
+msgid ""
+"{0,choice,0#0 messages have been moved to \"{1}\"|1#1 message has been moved "
+"to \"{1}\"|1<{0,number,integer} messages have been moved to \"{1}\"}."
+msgstr ""
+"{0,choice,0#0 zpráv bylo přesunuto do složky „{1}“|1#Jedna zpráva byla "
+"přesunuta do složky „{1}“|1<{0,number,integer} zpráv bylo přesunuto do "
+"složky „{1}“}."
+
+#: actionSingleMessageMoved
+msgid "1 message has been moved to \"{0}\"."
+msgstr "Zpráva byla přesunuta do složky „{0}“."
+
+#: actionMessageMovedTrash
+msgid ""
+"{0,choice,0#0 messages have been moved to the Trash folder|1#1 message has "
+"been moved to the Trash folder|1<{0,number,integer} messages have been moved "
+"to the Trash folder}."
+msgstr ""
+"{0,choice,0#0 zpráv bylo přesunuto do složky Koš|1#Jedna zpráva byla "
+"přesunuta do složky Koš|1<{0,number,integer} zpráv bylo přesunuto do složky "
+"Koš}."
+
+#: actionMessageDeleted
+msgid "Message has been moved to Trash folder."
+msgstr "Zpráva byla přesunuta do složky Koš."
+
+#: actionMove
+msgid "Move"
+msgstr "Přesunout"
+
+#: actionMoveTT
+msgid "Move selected item(s)"
+msgstr "Přesunout zvolené položky"
+
+#: actionNoAddressBookNameSpecified
+msgid "No contacts folder name specified."
+msgstr "Nebyl uveden název adresáře."
+
+#: actionNoAddressBookFileImportSpecified
+msgctxt "actionNoAddressBookFileImportSpecified"
+"actionNoAddressBookFileImportSpecified"
+msgid "No file specified."
+msgstr "Nebyl uveden soubor."
+
+#: actionNoAddressBookSelected
+msgid "No contacts folder selected."
+msgstr "Nebyl zvolen adresář."
+
+#: actionNoBriefcaseNameSpecified
+msgid "No briefcase name specified."
+msgstr ""
+
+#: actionNoTaskListFileImportSpecified
+msgctxt "actionNoTaskListFileImportSpecified"
+msgid "No file specified."
+msgstr "Nebyl zadán soubor."
+
+#: actionNoTaskSelected
+msgid "No task selected."
+msgstr "Nebyla zadána úloha."
+
+#: actionNoCalendarFileImportSpecified
+msgctxt "actionNoCalendarFileImportSpecified"
+msgid "No file specified."
+msgstr "Nebyl zvolen soubor."
+
+#: actionNoColorSelected
+msgid "No color selected."
+msgstr "Nebyla zvolena barva."
+
+#: actionNoActionSelected
+msgid "No action selected."
+msgstr "Nebyla zvolena činnost."
+
+#: actionNoCalendarNameSpecified
+msgid "No calendar name specified."
+msgstr "Nebyl uveden název kalendáře."
+
+#: actionNoCalendarUrlSpecified
+msgid "No calendar URL specified."
+msgstr "Nebyl uveden URL kalendáře."
+
+#: actionNoContactSelected
+msgid "No contact selected."
+msgstr "Nebyl zvolen kontakt."
+
+#: actionNoConvSelected
+msgid "No conversation selected."
+msgstr "Nebyla zvolena konverzace."
+
+#: actionNoConvMessageSelected
+msgid "No conversation or message selected."
+msgstr ""
+
+#: actionNoMessageSelected
+msgid "No message selected."
+msgstr "Nebyla zvolena zpráva."
+
+#: actionNoFolderMarkReadSelected
+msgctxt "actionNoFolderMarkReadSelected"
+msgid "No folder selected."
+msgstr "Nebyla zvolena složka."
+
+#: actionNoFolderSelected
+msgctxt "actionNoFolderSelected"
+msgid "No folder selected."
+msgstr "Nebyla zvolena složka."
+
+#: actionNoFolderNameSpecified
+msgid "No folder name specified."
+msgstr "Nebyl uveden název složky."
+
+#: actionNoItemSelected
+msgid "No item selected."
+msgstr ""
+
+#: actionNoNameSpecified
+msgid "No name specified."
+msgstr "Nebyl uveden název."
+
+#: actionNoOwnerEmailSpecified
+msgid "No owner Email specified."
+msgstr "Nebyl uveden email vlastníka."
+
+#: actionNoOwnerAddressBookSpecified
+msgid "No owner's contacts folder specified."
+msgstr "Nebyl uveden adresář vlastníka."
+
+#: actionNoOwnerCalendarSpecified
+msgid "No owner's calendar specified."
+msgstr "Nebyl uveden kalendář vlastníka."
+
+#: actionNoOwnerTaskListSpecified
+msgid "No owner's task list specified."
+msgstr "Nebyl zadán seznam úloh vlastníka."
+
+#: actionNoParentFolderSelected
+msgid "No parent folder selected."
+msgstr "Nebyla uvedena nadřazená složka."
+
+#: actionNoSearchQuerySpecified
+msgid "No search query specified."
+msgstr "Nebyl uveden vyhledávací dotaz."
+
+#: actionNoTagNameSpecified
+msgid "No tag name selected."
+msgstr "Nebyl uveden název štítku."
+
+#: actionNoTagRenameSelected
+msgctxt "actionNoTagRenameSelected"
+msgid "No tag selected."
+msgstr "Nebyl zvolen štítek."
+
+#: actionNoTagMarkReadSelected
+msgctxt "actionNoTagMarkReadSelected"
+msgid "No tag selected."
+msgstr "Nebyl zvolen štítek."
+
+#: actionNoTagChangeColorSelected
+msgctxt "actionNoTagChangeColorSelected"
+msgid "No tag selected."
+msgstr "Nebyl zvolen štítek."
+
+#: actionNoTagToDeleteSelected
+msgctxt "actionNoTagToDeleteSelected"
+msgid "No tag selected."
+msgstr "Nebyl zvolen štítek."
+
+#: actionNoTaskListNameSpecified
+msgid "No task list name specified."
+msgstr "Nebyl zadán název seznamu úloh."
+
+#: actionNoUrlSpecified
+msgid "No URL specified."
+msgstr "Nebyl zvolen URL."
+
+#: actionNoVoiceMailMessageSelected
+msgid "No voice mail message selected."
+msgstr "Nebyla vybrána hlasová zpráva."
+
+#: actionOptSep
+msgid "----------"
+msgstr "----------"
+
+#: actionPrint
+msgctxt "actionPrint"
+msgid "Print"
+msgstr "Tisknout"
+
+#: actionPrintCallsTT
+msgid "Print the list of calls"
+msgstr "Vypsat seznam volání"
+
+#: actionPrintPageTT
+msgid "Show a printer-friendly version of the page"
+msgstr "Zobrazit verzi stránky vhodnou pro tisk"
+
+#: actionRemoveFlag
+msgid "Remove flag"
+msgstr "Odstranit příznak"
+
+#: actionRemoveTag
+msgid "Remove Tag:"
+msgstr "Odstranit příznak:"
+
+#: actionReplyByEmail
+msgctxt "actionReplyByEmail"
+msgid "Reply"
+msgstr "Odpovědět"
+
+#: actionReplyByEmailTT
+msgid "Reply by email to the caller of the selected voice mail message"
+msgstr "Odpovědět emailem volajícímu zvoleného hovoru"
+
+#: actionRuleNoName
+msgid "You must specify a filter name"
+msgstr "Musíte uvést název filtru"
+
+#: actionRuleNoConditions
+msgid "A filter must have at least one condition"
+msgstr "Filtr musí obsahovat aspoň jednu podmínku"
+
+#: actionRuleNoActions
+msgid "A filter must have at least one action"
+msgstr "Filtr musí obsahovat aspoň jednu činnost"
+
+#: actionSearchCreated
+msgid "Created search \"{0}\"."
+msgstr "Vytvořeno hledání „{0}“."
+
+#: actionSearchModified
+msgid "Search \"{0}\" modified."
+msgstr ""
+
+#: actionSearchTrashed
+msgid "Search trashed \"{0}\"."
+msgstr ""
+
+#: actionSearchDeleted
+msgid "Search deleted \"{0}\"."
+msgstr ""
+
+#: actionNotSpam
+msgid "Not Spam"
+msgstr "Není Spam"
+
+#: actionNotSpamTT
+msgid "Mark selected item(s) as not Spam"
+msgstr "Označit zvolené položky Není Spam"
+
+#: actionSave
+msgctxt "actionSave"
+msgid "Save"
+msgstr "Uložit"
+
+#: actionSaveTT
+msgid "Save the select voice mail message"
+msgstr "Uložit vybranou emailovou zprávu"
+
+#: actionSpam
+msgid "Spam"
+msgstr "Spam"
+
+#: actionSpamTT
+msgid "Mark selected item(s) as Spam"
+msgstr "Označit zvolené položky jako Spam"
+
+#: actionTag
+msgctxt "actionTag"
+msgid "Tag"
+msgstr "Štítek"
+
+#: actionTagCheckConfirm
+msgid "Please check the checkbox to confirm tag deletion."
+msgstr "Prosím, potvrďte smazání štítku zaškrtnutím pole."
+
+#: actionTagCreated
+msgid "Created tag \"{0}\"."
+msgstr "Vytvořen štítek „{0}“."
+
+#: actionTagDeleted
+msgid "Tag \"{0}\" deleted."
+msgstr "Štítek „{0}“ smazán."
+
+#: actionTagMarkRead
+msgid "All items with tag \"{0}\" marked as read."
+msgstr "Všechny položky se štítkem „{0}“ byly označeny jako přečtené."
+
+#: actionTagModified
+msgid "Tag \"{0}\" modified."
+msgstr ""
+
+#: actionTaskListCreated
+msgid "Created task list \"{0}\"."
+msgstr "Vytvořen seznam úloh „{0}“."
+
+#: actionTaskListDeleted
+msgid "Task List \"{0}\" deleted."
+msgstr "Seznam úloh „{0}“ smazán."
+
+#: actionTaskListTrashed
+msgid "Task List \"{0}\" trashed."
+msgstr ""
+
+#: actionTaskTag
+msgid ""
+"The tag \"{1}\" has been added to {0,choice,0#0 tasks|1#1 "
+"task|1<{0,number,integer} tasks}."
+msgstr ""
+"Štítek „{1}“ byl přidaný na {0,choice,0#0 úloh|1#1 "
+"úlohu|1<{0,number,integer} úloh}."
+
+#: actionTaskUntag
+msgid ""
+"The tag \"{1}\" has been removed from {0,choice,0#0 tasks|1#1 "
+"task|1<{0,number,integer} tasks}."
+msgstr ""
+"Štítek „{1}“ byl odstraněn z {0,choice,0#0 úloh|1#1 "
+"úlohy|1<{0,number,integer} úloh}."
+
+#: actionTaskUntagAll
+msgid ""
+"All tags have been removed from {0,choice,0#0 tasks|1#1 "
+"task|1<{0,number,integer} tasks}."
+msgstr ""
+"Všechny štítky byly odstraněny z {0,choice,0#0 úloh|1#1 "
+"úlohy|1<{0,number,integer} úloh}."
+
+#: actionTaskListTasksImported
+msgid "Imported {0,number,integer} {0,choice,0#tasks.|1#task|1<tasks.}"
+msgstr "Bylo importováno {0,number,integer} {0,choice,0#úloh.|1#úloha|1<úloh.}"
+
+#: actionTaskListCheckConfirm
+msgid "Please check the checkbox to confirm task list deletion."
+msgstr "Prosím, potvrďte smazání seznamu úloh označením zaškrtávacího pole."
+
+#: actionTaskMoved
+msgid ""
+"{0,choice,0#0 tasks have been moved to \"{1}\"|1#1 task has been moved to "
+"\"{1}\"|1<{0,number,integer} tasks have been moved to \"{1}\"}."
+msgstr ""
+"{0,choice,0#0 úloh bylo přesunuto do „{1}“|1#1 úloha byla přesunuta do "
+"„{1}“|1<{0,number,integer} úloh bylo přesunuto do „{1}“}."
+
+#: actionTaskCreated
+msgid "Task Created"
+msgstr "Úloha vytvořena"
+
+#: actionTaskSaved
+msgid "Task Saved"
+msgstr "Úloha uložena"
+
+#: actionTaskDeleteTT
+msgid "Delete Task"
+msgstr "Smazať úlohu"
+
+#: actionTaskDeleteInstTT
+msgid "Delete Task Instance"
+msgstr "Smazat instanci úlohy"
+
+#: actionTaskCancelTT
+msgctxt "actionTaskCancelTT"
+msgid "Cancel"
+msgstr "Zrušit"
+
+#: actionTrash
+msgctxt "actionTrash"
+msgid "Delete"
+msgstr "Smazat"
+
+#: actionTrashTT
+msgid "Move selected item(s) to Trash"
+msgstr "Přesunout zvolené položky do Koše"
+
+#: actionUntrashVoiceMail
+msgid "Undelete"
+msgstr ""
+
+#: actionUntrashVoiceMailTT
+msgid "Move selected item(s) back to Voice Mail folder"
+msgstr ""
+
+#: actionVoiceMailMovedInbox
+msgid ""
+"{0,choice,0#0 voice mail messages have been moved to the Voice Mail "
+"folder|1#1 voice mail message has been moved to the Voice Mail "
+"folder|1<{0,number,integer} voice mail messages have been moved to the Voice "
+"Mail folder}."
+msgstr ""
+
+#: actionVoiceMailMovedTrash
+msgid ""
+"{0,choice,0#0 voice mail messages have been moved to the Trash folder|1#1 "
+"voice mail message has been moved to the Trash folder|1<{0,number,integer} "
+"voice mail messages have been moved to the Trash folder}."
+msgstr ""
+"{0,choice,0#0 zpráv hlasové pošty bylo přesunuto do Koše|1#Jedna zpráva "
+"hlasové pošty byla přesunuta do Koš|1<{0,number,integer} zpráv hlasové pošty "
+"bylo přesunuto do Koš}."
+
+#: actionVoiceMailMovedTrash1
+msgid "The voice mail message has been moved to the Trash folder."
+msgstr ""
+
+#: actionVoiceMailMarkedHeard
+msgid ""
+"{0,choice,0#0 voice mail messages have been marked heard|1#1 voice mail "
+"message has been marked heard|1<{0,number,integer} voice mail messages have "
+"been marked heard}."
+msgstr ""
+"{0,choice,0#0 zpráv hlasové pošty bylo označeno jako vyslechnuté|1#Jedna "
+"zpráva hlasové pošty byla označena jako vyslechnutá|1<{0,number,integer} "
+"zpráv hlasové pošty bylo označeno jako vyslechnuté}."
+
+#: actionVoiceMailMarkedUnheard
+msgid ""
+"{0,choice,0#0 voice mail messages have been marked unheard|1#1 voice mail "
+"message has been marked unheard|1<{0,number,integer} voice mail messages "
+"have been marked unheard}."
+msgstr ""
+"{0,choice,0#0 zpráv hlasové pošty bylo označeno jako nevyslechnuté|1#Jedna "
+"zpráva hlasové pošty byla označena jako nevyslechnutá|1<{0,number,integer} "
+"zpráv hlasové pošty bylo označeno jako nevyslechnuté}."
+
+#: actionVoiceMailPrivate
+msgid ""
+"The selected voice mail message is private, so it can not be attached to an "
+"email message."
+msgstr ""
+"Zvolená zpráva hlasové pošty je soukromá, proto ji není možné připojit k "
+"emailové zprávě."
+
+#: actionVoiceMailTooMany
+msgid ""
+"More than one voice mail message selected. Only one voice mail message at a "
+"time may be attached to an email message."
+msgstr ""
+"Byla vybrána více než jedna zpráva. K emailové zprávě je možné najednou "
+"přiložit pouze jednu zprávu."
+
+#: actionWikiCreated
+msgid "Created notebook \"{0}\"."
+msgstr ""
+
+#: actionWikiModified
+msgid "Notebook \"{0}\" modified."
+msgstr ""
+
+#: actionWikiTrashed
+msgid "Notebook \"{0}\" trashed."
+msgstr ""
+
+#: actionWikiDeleted
+msgid "Notebook \"{0}\" deleted."
+msgstr ""
+
+#: active
+msgid "Active"
+msgstr "Aktivní"
+
+#: add
+msgctxt "add"
+msgid "Add"
+msgstr "Přidat"
+
+#: addAttachments
+msgid "Add Attachments"
+msgstr "Přidat přílohy"
+
+#: addAttendeesFromContacts
+msgid "Add Attendees"
+msgstr "Přidat účastníky"
+
+#: addAttendeesResourcesFromContacts
+msgid "Add Attendees and Resources"
+msgstr ""
+
+#: addFromContacts
+msgid "Add Recipients"
+msgstr "Přidat příjemce"
+
+#: addMembers
+msgid "Add members."
+msgstr ""
+
+#: addLabel
+msgid "Add:"
+msgstr "Přidat:"
+
+#: addressBook
+msgctxt "addressBook"
+"addressBook"
+"addressBook"
+"addressBook"
+msgid "Contacts"
+msgstr "Adresář"
+
+#: addressBookLabel
+msgid "Contact Folder:"
+msgstr ""
+
+#: addressBookNew
+msgid "New Contact Folder"
+msgstr "Nový adresář"
+
+#: addressBookNewShared
+msgid "Link to Contact Folder"
+msgstr "Odkaz na adresář"
+
+#: addressBookName
+msgid "Contact Folder Name"
+msgstr "Název adresáře"
+
+#: addressBookUser
+msgctxt "addressBookUser"
+msgid "Contact Folder"
+msgstr "Adresář"
+
+#: addressBookSystem
+msgid "System Contact Folder"
+msgstr "Systémový adresář"
+
+#: addressBookShared
+msgid "Shared Contact Folder"
+msgstr "Sdílený adresář"
+
+#: addressBookDelete
+msgctxt "addressBookDelete"
+msgid "Delete Contact Folder"
+msgstr "Smazat adresář"
+
+#: addressBookUpdated
+msgid "Contacts Updated"
+msgstr "Adresář byl aktualizován"
+
+#: addressBookDeleteConfirmation
+msgid "Delete this contacts folder (move to trash)"
+msgstr "Smazat tento adresář (přesunout do Koše)"
+
+#: addressBookPermDeleteConfirmation
+msgid "Permanently delete this contacts folder"
+msgstr "Permanentně smazat tento adresář"
+
+#: addressBooks
+msgctxt "addressBooks"
+msgid "Contacts"
+msgstr "Adresáře"
+
+#: addressBooksLabel
+msgid "Contacts:"
+msgstr ""
+
+#: addSelected
+msgid "Add Selected"
+msgstr "Přidat vybrané"
+
+#: addToList
+msgid "Add to list"
+msgstr ""
+
+#: adminLinkLabel
+msgid "Domain Admin"
+msgstr ""
+
+#: advertisement
+msgid "ADVERTISEMENT"
+msgstr ""
+
+#: all
+msgid "All"
+msgstr ""
+
+#: allDay
+msgid "All day"
+msgstr ""
+
+#: allDayEvent
+msgid "All day event"
+msgstr "celodenní událost"
+
+#: alwaysShowReadingPane
+msgid "Always show the reading pane"
+msgstr "Vždy zobrazovat panel pro čtení"
+
+#: answeredCalls
+msgid "Answered Calls"
+msgstr "Odpovězené volání"
+
+#: appointments
+msgid "Appointments"
+msgstr ""
+
+#: applyChanges
+msgid "Apply Changes"
+msgstr ""
+
+#: apptAllDay
+msgid "All-day"
+msgstr "Celodenní"
+
+#: apptCancelled
+msgid "The following meeting has been cancelled:"
+msgstr "následovné setkání bylo zrušeno:"
+
+#: apptDateBlurb
+msgid "{0} from {1} - {2}"
+msgstr "{0} od {1} - {2}"
+
+#: apptDateBlurbDiffEndDay
+msgid "From {0} {1} - {2}  {3}"
+msgstr "od {0} {1} - {2}  {3}"
+
+#: apptDateBlurbAllDay
+msgctxt "apptDateBlurbAllDay"
+msgid "{0}"
+msgstr "{0}"
+
+#: apptDateBlurbAllDayDiffEndDay
+msgctxt "apptDateBlurbAllDayDiffEndDay"
+msgid "{0} - {1}"
+msgstr "{0} - {1}"
+
+#: apptExceptionNote
+msgid "This is an exception to the series."
+msgstr "Toto je výjimka z posloupnosti."
+
+#: apptInstanceCancelled
+msgid "A single instance of the following meeting has been cancelled:"
+msgstr "Jediná instance následného střetnutí byla zrušena:"
+
+#: apptInstanceModified
+msgid "A single instance of the following meeting has been modified:"
+msgstr "Jediná instance následného střetnutí byla změnena:"
+
+#: apptInstEditSeries
+msgid "Edit the series."
+msgstr "Upravit posloupnost."
+
+#: apptInstViewSeries
+msgid "View the series."
+msgstr "Zobrazit posloupnost."
+
+#: apptInstNote
+msgid "You are editing a single instance of a recurring appointment."
+msgstr "Upravujete jedinou instanci opakovaně se vyskytující schůzky."
+
+#: apptInstViewNote
+msgid "You are viewing a single instance of a recurring appointment."
+msgstr "Prohlížíte jedinou instanci opakovaně se vyskytující schůzky."
+
+#: apptModified
+msgid "The following meeting has been modified:"
+msgstr "Následné střetnutí bylo změněno:"
+
+#: apptModifiedStamp
+msgid "[MODIFIED]"
+msgstr "[ZMĚNĚNO]"
+
+#: apptNew
+msgid "The following is a new meeting request:"
+msgstr "Následuje nový požadavek na setkání:"
+
+#: apptPtstAC
+msgid "Accepted"
+msgstr "Přijat"
+
+#: apptPtstDE
+msgid "Declined"
+msgstr "Zamítnut"
+
+#: apptPtstTE
+msgctxt "apptPtstTE"
+msgid "Tentative"
+msgstr "Nezávazně"
+
+#: apptPtstNE
+msgid "(no response given yet)"
+msgstr "(zatím bez odpovědi)"
+
+#: apptPtstDG
+msgid "Delegated"
+msgstr "Delegováno"
+
+#: apptPtstNEW
+msgctxt "apptPtstNEW"
+msgid "New"
+msgstr ""
+
+#: apptViewFrom
+msgid "from"
+msgstr "od"
+
+#: assistant
+msgctxt "assistant"
+msgid "Assistant"
+msgstr "Asistent"
+
+#: at
+msgid "@"
+msgstr ""
+
+#: atBottomOfMessage
+msgid "Below included messages"
+msgstr "Pod vloženými zprávami"
+
+#: attachFiles
+msgid "Attach Files"
+msgstr "Přiložit soubory"
+
+#: attachments
+msgid "Attachments"
+msgstr ""
+
+#: attachmentCount
+msgid ""
+"{0,choice,0#no attachments|1#{0,number,integer} "
+"attachment|1<{0,number,integer} attachments}"
+msgstr "{0,choice,0#bez příloh|1#jedna příloha|1<{0,number,integer} příloh}"
+
+#: attachmentLimitMsg
+msgid "<b>Note:&nbsp;</b>Attachments may not be larger than {0}"
+msgstr ""
+
+#: attendee
+msgid "Attendee"
+msgstr "Účastník"
+
+#: attendees
+msgid "Attendees"
+msgstr "Účastníci"
+
+#: attendeesLabel
+msgid "Attendees:"
+msgstr ""
+
+#: autoAddContacts
+msgid "Add new contacts to \"Emailed Contacts\""
+msgstr "Zapnout automatické přidávání kontaktů"
+
+#: automaticallyAddSignature
+msgid "Automatically add signature"
+msgstr "Automaticky přidat signaturu"
+
+#: awayMessageEnabled
+msgid "Send auto-reply message"
+msgstr "Zpráva o nedostupnosti zapnuta"
+
+#: awayMessage
+msgid "Away message"
+msgstr "Zpráva o nedostupnosti"
+
+#: arrangedBy
+msgid "Arranged by"
+msgstr ""
+
+#: b
+msgid "B                                             "
+msgstr ""
+
+#: back
+msgid "Back"
+msgstr "Zpět"
+
+#: backToConvList
+msgctxt "backToConvList"
+msgid "List"
+msgstr "Seznam"
+
+#: backToMsgList
+msgctxt "backToMsgList"
+msgid "List"
+msgstr "Seznam"
+
+#: backToConv
+msgid "Conv"
+msgstr "Konv"
+
+#: backToTag
+msgctxt "backToTag"
+msgid "Back to \"{0}\""
+msgstr "Zpět na „{0}“"
+
+#: backToSearchFolder
+msgctxt "backToSearchFolder"
+msgid "Back to \"{0}\""
+msgstr "Zpět na „{0}“"
+
+#: backToFolder
+msgid "Back to {0}"
+msgstr "Zpět na {0}"
+
+#: backToSearch
+msgid "Back to Search results"
+msgstr "Zpět na Výsledky hledání"
+
+#: backToVoiceMail
+msgid "Back to Voice Mail"
+msgstr ""
+
+#: basicClientLoginNotice
+msgid ""
+"You are using the basic client. Click <a href=\"{0}\">here</a> to switch to "
+"the advanced client.<br><br><a target=\"_new\" "
+"href=\"http://www.zimbra.com\">Zimbra</a> :: the leader in open source "
+"messaging and collaboration<br><a target=\"_new\" "
+"href=\"http://www.zimbra.com/blog\">Zimbra Blog</a> <a target=\"_new\" "
+"href=\"http://wiki.zimbra.com\">Zimbra Wiki</a>"
+msgstr ""
+"Používáte základní verzi klienta. <a href=„{0}“>Kliknutím sem</a> se "
+"přepnete na pokročilého klienta.<br><br><a target=\"_new\" "
+"href=\"http://www.zimbra.com\">Zimbra</a> :: lídr v open source posílání zpráv "
+"a spolupráci<br><a target=\"_new\" href=\"http://www.zimbra.com/blog\">Zimbra "
+"Blog</a> <a target=\"_new\" href=\"http://wiki.zimbra.com\">Zimbra Wiki</a>"
+
+#: bcc
+msgid "Bcc"
+msgstr "Slepá kopie"
+
+#: bccLabel
+msgid "Bcc:"
+msgstr ""
+
+#: briefcase
+msgctxt "briefcase"
+msgid "Briefcase"
+msgstr ""
+
+#: briefcaseNew
+msgid "New Briefcase"
+msgstr ""
+
+#: briefcaseNewShared
+msgid "Link to Briefcase"
+msgstr ""
+
+#: briefcaseUser
+msgctxt "briefcaseUser"
+msgid "Briefcase"
+msgstr ""
+
+#: briefcaseSystem
+msgid "System Briefcase"
+msgstr ""
+
+#: briefcaseShared
+msgid "Shared Briefcase"
+msgstr ""
+
+#: briefcaseDelete
+msgid "Delete Briefcase"
+msgstr ""
+
+#: briefcaseUpdated
+msgid "Briefcase Updated"
+msgstr ""
+
+#: briefcaseEmptied
+msgid "Briefcase folder \"{0}\" emptied"
+msgstr ""
+
+#: briefcaseDeleteConfirmation
+msgid "Delete this briefcase (move to trash)"
+msgstr ""
+
+#: briefcasePermDeleteConfirmation
+msgid "Permanently delete this briefcase"
+msgstr ""
+
+#: briefcaseExpView
+msgid "Explorer View"
+msgstr ""
+
+#: briefcaseDtlView
+msgid "Detail View"
+msgstr ""
+
+#: briefcaseDocName
+msgctxt "briefcaseDocName"
+msgid "Name"
+msgstr ""
+
+#: briefcaseModifiedBy
+msgid "Author"
+msgstr ""
+
+#: briefcaseModifiedOn
+msgid "Modified"
+msgstr ""
+
+#: briefcaseVersion
+msgid "Version"
+msgstr ""
+
+#: blue
+msgid "Blue"
+msgstr "modrá"
+
+#: black
+msgid "Black"
+msgstr "černá"
+
+#: bothNewPasswordsMustMatch
+msgid "Both new passwords must match. Please retype them."
+msgstr "Obě hesla se musí shodovat. Prosím, napište je znovu."
+
+#: bothPasswordsMustMatch
+msgid "Both passwords must match. Please retype them."
+msgstr ""
+
+#: briefcases
+msgid "Briefcases"
+msgstr ""
+
+#: busy
+msgid "Busy"
+msgstr "Zaneprázdněn"
+
+#: callingPartyFormat
+msgid "{0} ({1})&nbsp;&nbsp;{2}"
+msgstr ""
+
+#: callingPartyCallerIdFormat
+msgid "{0}&nbsp;&nbsp;{1}"
+msgstr ""
+
+#: by
+msgctxt "by"
+msgid "by"
+msgstr ""
+
+#: byConversation
+msgid "By Conversation"
+msgstr ""
+
+#: byMessage
+msgid "By Message"
+msgstr ""
+
+#: callingPartyFormat
+msgid "{0} ({1})"
+msgstr ""
+
+#: callingPartyCallerIdFormat
+msgctxt "callingPartyCallerIdFormat"
+msgid "{0}"
+msgstr ""
+
+#: calViewListShort
+msgctxt "calViewListShort"
+msgid "List"
+msgstr "Seznam"
+
+#: calViewDay
+msgctxt "calViewDay"
+msgid "Day View"
+msgstr "Přehled dne"
+
+#: calViewDayShort
+msgctxt "calViewDayShort"
+msgid "Day"
+msgstr "Den"
+
+#: calViewMonth
+msgctxt "calViewMonth"
+msgid "Month View"
+msgstr "Přehled měsíce"
+
+#: calViewMonthShort
+msgctxt "calViewMonthShort"
+msgid "Month"
+msgstr "Měsíc"
+
+#: calViewWeek
+msgid "7 Day Week View"
+msgstr "Přehled 7 dní týdne"
+
+#: calViewWorkWeek
+msgctxt "calViewWorkWeek"
+msgid "Work Week View"
+msgstr "Přehled pracovních dní týdne"
+
+#: calViewSchedule
+msgctxt "calViewSchedule"
+msgid "Schedule View"
+msgstr "Přehled rozvrhu"
+
+#: calendar
+msgctxt "calendar"
+msgid "Calendar"
+msgstr "Kalendář"
+
+#: calendarLabel
+msgid "Calendar:"
+msgstr ""
+
+#: calendarCheckedInUI
+msgid "Checked in UI"
+msgstr "Zkontrolováno v rozhraní"
+
+#: checkedCalendars
+msgid "Checked calendars"
+msgstr ""
+
+#: calendarExport
+msgid "Export to .ICS"
+msgstr "Export do .ICS"
+
+#: calendarImport
+msgid "Import from .ICS"
+msgstr "Import z .ICS"
+
+#: calendarDelete
+msgctxt "calendarDelete"
+msgid "Delete Calendar"
+msgstr "Smazat kalendář"
+
+#: calendarDeleteConfirmation
+msgid "Permanently delete this calendar. This operation can not be undone."
+msgstr "Permanentně smazat tento kalendář"
+
+#: calendarUser
+msgctxt "calendarUser"
+msgid "Calendar"
+msgstr "Kalendář"
+
+#: calendarNew
+msgid "New Calendar"
+msgstr "Nový kalendář"
+
+#: calendarNewShared
+msgctxt "calendarNewShared"
+msgid "Link to Shared Calendar"
+msgstr "Odkaz na sdílený kalendář"
+
+#: calendarNewSubscribed
+msgid "Subscribe to Calendar"
+msgstr "Přihlásit k odběru kalendáře"
+
+#: calendarSystem
+msgid "System Calendar"
+msgstr "Systémový kalendář"
+
+#: calendarShared
+msgid "Shared Calendar"
+msgstr "Sdílený kalendář"
+
+#: calendarSubscribed
+msgid "Subscribed Calendar"
+msgstr "Odebíraný kalendář"
+
+#: calendarUpdated
+msgid "Calendar Updated"
+msgstr "Kalendář byl aktualizován"
+
+#: calendars
+msgid "Calendars"
+msgstr "Kalendáře"
+
+#: calendarsLabel
+msgid "Calendars:"
+msgstr ""
+
+#: calendarFirstDayOfWeek
+msgid "First day of the week"
+msgstr "První den v týdnu"
+
+#: calendarInitialView
+msgid "Initial calendar view"
+msgstr "Úvodní pohled na kalendář"
+
+#: calendarDayEndsAt
+msgid "View ends at"
+msgstr "Den končí"
+
+#: calendarDayStartsAt
+msgid "View starts at"
+msgstr "Den začíná"
+
+#: calendarHoursInvalid
+msgid "End time must be greater than start time."
+msgstr ""
+
+#: calendarName
+msgid "Calendar Name"
+msgstr "Název kalendáře"
+
+#: calendarURL
+msgid "Calendar URL"
+msgstr "URL kalendáře"
+
+#: calendarWorkHoursHeader
+msgid "Work week"
+msgstr ""
+
+#: calendarWorkWeek
+msgid "Work week:"
+msgstr ""
+
+#: callForwarding
+msgid "Call Forwarding :"
+msgstr "Přesměrování volání:"
+
+#: callManager
+msgctxt "callManager"
+msgid "Call Manager"
+msgstr "Správce volání"
+
+#: cancel
+msgctxt "cancel"
+msgid "Cancel"
+msgstr "Zrušit"
+
+#: cancelAppt
+msgctxt "cancelAppt"
+msgid "Cancel Appointment"
+msgstr "Zrušit schůzku"
+
+#: cc
+msgctxt "cc"
+msgid "Cc"
+msgstr "Kopie"
+
+#: ccbcc
+msgid "Cc/Bcc"
+msgstr ""
+
+#: ccLabel
+msgid "Cc:"
+msgstr ""
+
+#: change
+msgctxt "change"
+msgid "Change"
+msgstr "Změnit"
+
+#: changePassword
+msgid "Change password"
+msgstr "Změnit heslo"
+
+#: checked
+msgid "Checked"
+msgstr "Zkontrolováno"
+
+#: checkFeed
+msgid "Load Feed"
+msgstr "Načíst kanál"
+
+#: chooseAddressBookToChange
+msgid "Choose contacts folder to change"
+msgstr "Vybrat adresář, který se má změnit"
+
+#: chooseAddressBookToRename
+msgid "Choose contacts folder to rename"
+msgstr "Vybrat adresář, který se má přejmenovat"
+
+#: chooseAddressBookToDelete
+msgid "Choose contacts folder to delete"
+msgstr "Vybrat adresář, který se má smazat"
+
+#: chooseFolderToMarkRead
+msgid "Choose folder to mark read"
+msgstr "Vybrat složku, která se má označit jako přečtený"
+
+#: chooseFolderToDelete
+msgid "Choose folder to delete"
+msgstr "Vybrat složku, která se má smazat"
+
+#: chooseFolderToMove
+msgid "Choose folder to move"
+msgstr "Vybrat složku, která se má přesunout"
+
+#: chooseFolderToRename
+msgid "Choose folder to rename"
+msgstr "Vybrat složku, která se má přejmenovat"
+
+#: chooseColor
+msgid "Choose color"
+msgstr "Vybrat barvu"
+
+#: changeTagColor
+msgid "Change Tag Color"
+msgstr "Vybrat barvu štítku"
+
+#: changeAddressBookColor
+msgid "Change Contact Folder Color"
+msgstr "Změnit barvu adresářě"
+
+#: changeCalendarColor
+msgid "Change Calendar Color"
+msgstr "Změnit barvu kalendáře"
+
+#: changeCalendarExcludeFromFreeBusy
+msgid "Change Calendar Exclude From Free Busy"
+msgstr "Změnit vynětí kalendáře z volný/zaneprázdněn"
+
+#: chooseCalendarToChange
+msgid "Choose calendar to change"
+msgstr "Vybrat kalendář, který se má změnit"
+
+#: chooseCalendarToDelete
+msgid "Choose calendar to delete"
+msgstr "Vybrat kalendář, který se má smazat"
+
+#: chooseCalendarToRename
+msgid "Choose calendar to rename"
+msgstr "Vybrat kalendář, který se má přejmenovat"
+
+#: chooseTagToDelete
+msgid "Choose tag to delete"
+msgstr "Vybrat štítek, který se má smazat"
+
+#: chooseTagToChange
+msgid "Choose tag to change"
+msgstr "Vybrat štítek, který se má změnit"
+
+#: chooseTagToRename
+msgid "Choose tag to rename"
+msgstr "Vybrat štítek, který se má přejmenovat"
+
+#: chooseTagToMarkRead
+msgid "Choose tag to mark read"
+msgstr "Vybrat štítek, který se má označit jako přečtený"
+
+#: close
+msgid "Close"
+msgstr "Zavřít"
+
+#: color
+msgctxt "color"
+msgid "Color"
+msgstr "Barva"
+
+#: colorBlue
+msgid "#5b9bf2"
+msgstr ""
+
+#: colorCyan
+msgid "#43eded"
+msgstr ""
+
+#: colorGray
+msgid "#bebebe"
+msgstr ""
+
+#: colorGreen
+msgid "#6acb9e"
+msgstr ""
+
+#: colorOrange
+msgid "#fdbc55"
+msgstr ""
+
+#: colorPink
+msgid "#fe98d3"
+msgstr ""
+
+#: colorPurple
+msgid "#ba86e5"
+msgstr ""
+
+#: colorRed
+msgid "#f66666"
+msgstr ""
+
+#: colorYellow
+msgid "#f8fa33"
+msgstr ""
+
+#: company
+msgctxt "company"
+"company"
+msgid "Company"
+msgstr "Společnost"
+
+#: compose
+msgctxt "compose"
+msgid "Compose"
+msgstr "Napsát"
+
+#: compSubjectMissing
+msgid "No subject. Send anyway?"
+msgstr "Nebyl uveden předmět. Přesto poslat?"
+
+#: composeExitConfirmation
+msgid "Your mail is not saved."
+msgstr "Váš email není uložen."
+
+#: confidential
+msgid "Confidential"
+msgstr "Důvěrné"
+
+#: confirm
+msgid "Confirm"
+msgstr "Potvrdit"
+
+#: confirmEmptyTrashFolder
+msgid ""
+"{0}This action will delete all items in both the Email and Contacts trash "
+"folders.  Are you sure that you want to permanently delete everything in the "
+"trash folder? {1}{2}"
+msgstr ""
+
+#: confirmUnsavedChanges
+msgid "Do you really want to cancel? {0}"
+msgstr ""
+
+#: contact
+msgctxt "contact"
+msgid "Contact"
+msgstr "Kontakt"
+
+#: contacts
+msgctxt "contacts"
+msgid "Contacts"
+msgstr "Kontakty"
+
+#: contactCancelCreate
+msgid "Create contact cancelled."
+msgstr "Vytvoření kontaktu zrušeno."
+
+#: contactCancelModify
+msgid "Edit contact cancelled."
+msgstr "Úprava kontaktu zrušena."
+
+#: contactCreated
+msgid "Contact created."
+msgstr "Kontakt vytvořen."
+
+#: contactGroupCreated
+msgid "Contact group created."
+msgstr "Skupina kontaktů vytvořena."
+
+#: contactGroupModified
+msgid "Contact group modified."
+msgstr ""
+
+#: contactExport
+msgid "Export to .CSV"
+msgstr "Export do .CSV"
+
+#: contactImport
+msgid "Import from .CSV"
+msgstr "Import z .CSV"
+
+#: contactImportTT
+msgid "Import Contacts from CSV file"
+msgstr "Import kontaktů z CSV souboru"
+
+#: contactModified
+msgid "Contact modified."
+msgstr "Kontakt změněn."
+
+#: conversation
+msgctxt "conversation"
+msgid "Conversation"
+msgstr "Konverzace"
+
+#: createAddressBook
+msgid "Create Contact Folder"
+msgstr "Vytvořit adresář"
+
+#: createBriefcase
+msgid "Create Briefcase"
+msgstr ""
+
+#: createCalendar
+msgid "Create Calendar"
+msgstr "Vytvořit kalendář"
+
+#: created
+msgid "created"
+msgstr ""
+
+#: createFolder
+msgctxt "createFolder"
+msgid "Create Folder"
+msgstr "Vytvořit složku"
+
+#: createFolderIn
+msgid "Create folder in"
+msgstr "Vytvořit složku v"
+
+#: createNewAddressBook
+msgid "Create New Contact Folder"
+msgstr "Vytvořit nový adresář"
+
+#: createNewCalendar
+msgid "Create New Calendar"
+msgstr "Vytvořit nový kalendář"
+
+#: createNewFolder
+msgid "Create New Folder"
+msgstr "Vytvořit novou složku"
+
+#: createNewTag
+msgid "Create New Tag"
+msgstr "Vytvořit nový štítek"
+
+#: createNewSearch
+msgid "Create New Search"
+msgstr "Vytvořit nové hledání"
+
+#: createSearch
+msgctxt "createSearch"
+msgid "Create Search"
+msgstr "Vytvořit hledání"
+
+#: createSearchIn
+msgid "Create search in"
+msgstr "Vytvořit hledání v"
+
+#: createTaskList
+msgid "Create Task List"
+msgstr "Vytvořit seznam úloh"
+
+#: create
+msgid "Create"
+msgstr "Vytvořit"
+
+#: createTag
+msgid "Create Tag"
+msgstr "Vytvořit štítek"
+
+#: currentName
+msgid "Current name"
+msgstr "Aktuální název"
+
+#: customRepeat
+msgid "Custom Repeat"
+msgstr "Vlastní opakování"
+
+#: cyan
+msgid "Cyan"
+msgstr "zelenomodrá"
+
+#: date
+msgid "Date"
+msgstr "dátum"
+
+#: day
+msgctxt "day"
+msgid "Day"
+msgstr "den"
+
+#: default
+msgid "Default"
+msgstr ""
+
+#: defaultInviteReplyAcceptMessage
+msgid ""
+"Yes, I will attend.\r\n"
+"\r\n"
+msgstr ""
+"Ano, zúčastním se.\r\n"
+"\r\n"
+
+#: defaultInviteReplyAcceptInstanceMessage
+msgid ""
+"I will attend on {0,date,full}.\r\n"
+"\r\n"
+msgstr ""
+"Zúčastním se {0,date,full}.\r\n"
+"\r\n"
+
+#: defaultInviteReplyDeclineMessage
+msgid ""
+"No, I won't attend.\r\n"
+"\r\n"
+msgstr ""
+"Ne, nezúčastním se.\r\n"
+"\r\n"
+
+#: defaultInviteReplyDeclineInstanceMessage
+msgid ""
+"I won't attend on {0,date,full}.\r\n"
+"\r\n"
+msgstr ""
+"Nezúčastním se {0,date,full}.\r\n"
+"\r\n"
+
+#: defaultInviteReplyTentativeMessage
+msgid ""
+"I might attend.\r\n"
+"\r\n"
+msgstr ""
+"Možná se zúčastním.\r\n"
+"\r\n"
+
+#: defaultInviteReplyTentativeInstanceMessage
+msgid ""
+"I might attend on {0,date,full}.\r\n"
+"\r\n"
+msgstr ""
+"Možná se zúčastním {0,date,full}.\r\n"
+"\r\n"
+
+#: delete
+msgctxt "delete"
+msgid "Delete"
+msgstr "Smazat"
+
+#: deleteInst
+msgid "Delete Instance"
+msgstr "Smazat instanci"
+
+#: deleteAddressBook
+msgctxt "deleteAddressBook"
+msgid "Delete Contact Folder"
+msgstr "Smazat adresář"
+
+#: deleteCalendar
+msgctxt "deleteCalendar"
+msgid "Delete Calendar"
+msgstr "Smazat kalendář"
+
+#: deleteFilter
+msgid "Delete Filter"
+msgstr "Smazat filtr"
+
+#: deleteFolder
+msgctxt "deleteFolder"
+msgid "Delete Folder"
+msgstr "Smazat složku"
+
+#: deleteSearch
+msgid "Delete Search"
+msgstr "Smazat hledání"
+
+#: deleteTag
+msgid "Delete Tag"
+msgstr "Smazat štítek"
+
+#: department
+msgctxt "department"
+msgid "Department"
+msgstr ""
+
+#: deskphone
+msgid "DeskPhone"
+msgstr ""
+
+#: details
+msgid "Details"
+msgstr "Podrobnosti"
+
+#: displayExternalImages
+msgid "Display images below"
+msgstr "Zobrazit obrázky níže"
+
+#: documentsSaved
+msgid "{0} documents saved in \"{1}\"."
+msgstr ""
+
+#: done
+msgid "Done"
+msgstr "Hotovo"
+
+#: download
+msgctxt "download"
+msgid "Download"
+msgstr "Stáhnout"
+
+#: downloadAllAttachments
+msgid "Download all attachments"
+msgstr "Stáhnout všechny přílohy"
+
+#: draftSavedSuccessfully
+msgid "Draft saved successfully."
+msgstr "Rozepsaná zpráva úspěšně uložena."
+
+#: drafts
+msgctxt "drafts"
+msgid "Drafts"
+msgstr "Rozepsané"
+
+#: draftSavedAuto
+msgid "Draft Autosaved."
+msgstr ""
+
+#: duration
+msgid "Duration"
+msgstr "Trvání"
+
+#: durationDisplayMinutes
+msgid "{0} minutes, {1} seconds"
+msgstr "{0} minut, {1} sekund"
+
+#: durationDisplaySeconds
+msgid "{0} seconds"
+msgstr "{0} sekund"
+
+#: edit
+msgid "Edit"
+msgstr "Upravit"
+
+#: editContact
+msgid "Edit Contact: {0}"
+msgstr "Upravit kontakt: {0}"
+
+#: editFilter
+msgid "Edit Filter"
+msgstr "Upravit filtr"
+
+#: editGroup
+msgid "Edit Group: {0}"
+msgstr "Upravit skupinu: save{0}"
+
+#: editRecurrence
+msgid "Edit Recurrence"
+msgstr "Upravit opakovaný výskyt"
+
+#: email
+msgctxt "email"
+msgid "Email"
+msgstr "Email"
+
+#: emailedContacts
+msgctxt "emailedContacts"
+msgid "Emailed Contacts"
+msgstr "Kontakty z emailů"
+
+#: emailNotification
+msgid "Email Notification :"
+msgstr "Upozornění emailem:"
+
+#: empty
+msgid "Empty"
+msgstr "Prázdní"
+
+#: emptyTrash
+msgid "Empty Trash"
+msgstr "Vyprázdnit Koš"
+
+#: emptyJunk
+msgid "Empty Spam"
+msgstr "Vyprázdnit Spam"
+
+#: emptyMessage
+msgid "Click to view."
+msgstr ""
+
+#: emptyPassword
+msgid "Empty passwords are not allowed."
+msgstr ""
+
+#: emptySearchQuery
+msgid "Please specify search query to search."
+msgstr ""
+
+#: enableAppleICalDelegation
+msgid "Enable delegation for Apple iCal CalDAV client"
+msgstr ""
+
+#: end
+msgid "End"
+msgstr "Konec"
+
+#: endLabel
+msgid "End:"
+msgstr ""
+
+#: enterAddrBelow
+msgid "Or enter addresses below (comma separated)"
+msgstr ""
+
+#: enterAddresses
+msgid "Enter addresses on separate lines"
+msgstr "Zadejte adresy na samostatných řádcích"
+
+#: enterContactToSearchFor
+msgid "Enter contact to search for in text field and click on \"Search\"."
+msgstr ""
+"Zadejte kontakt, který se má hledat do textového pole a klikněte na „Hledat "
+"kotakty“."
+
+#: enterNewPassword
+msgid "Please enter a new password and re-enter it in the confirmation field."
+msgstr "Prosím, zadejte nové heslo a znovu ho zadejte do pole pro potvrzení."
+
+#: error
+msgctxt "error"
+msgid "Error"
+msgstr "Chyba"
+
+#: errorInvalidApptStartDate
+msgid "The appointment start date is invalid."
+msgstr "Datum začátku schůzky je neplatné."
+
+#: errorInvalidApptEndDate
+msgid "The appointment end date is invalid."
+msgstr "Datum konce schůzky je neplatné."
+
+#: errorInvalidApptEndBeforeStart
+msgid "The end time must occur after the start time."
+msgstr "Čas konce musí být později než čas začátku."
+
+#: errorMissingSubject
+msgid "Subject is a required field."
+msgstr "Pole Předmět je nutné vyplnit."
+
+#: errorMyCardDelete
+msgid "My Card cannot be deleted."
+msgstr "Moji Kartu není možné smazat."
+
+#: errorMyCardMove
+msgid "My Card cannot be moved."
+msgstr "Moji Kartu není možné přesunout."
+
+#: errorEmptyTaskDueDate
+msgid "Due Date is required, when Start Date is specified."
+msgstr ""
+
+#: errorPhoneFAQLink
+msgid "Please see the <a href=\"{1}\" target=\"_blank\">FAQ</a> for more info."
+msgstr ""
+
+#: errorPhoneFAQURL
+msgid "http://www.comcast.net"
+msgstr ""
+
+#: errorPhoneNotUnique
+msgid "The phone number is already in the list of numbers being forwarded."
+msgstr ""
+
+#: errorPhoneNotUniqueReject
+msgid "The phone number is already in the list of numbers being screened."
+msgstr ""
+
+#: errorPhoneIsInList
+msgid ""
+"Sorry, you entered a telephone number that is already added. Please enter "
+"another valid 10 digit (XXX-XXX-XXXX) or 11 digit(1-XXX-XXX-XXXX) US "
+"telephone number and try again. SCC-0398"
+msgstr ""
+
+#: errorPhoneIsTo
+msgid "Sorry, the phone number may not be the same as the \"forward to\" number."
+msgstr ""
+
+#: errorPhoneIsOwn
+msgid ""
+"Sorry, you cannot use your telephone number with this feature. Please enter "
+"a valid 10 digit (XXX-XXX-XXXX) or 11 digit(1- XXX-XXX-XXXX) US telephone "
+"number and try again. SCC-0390"
+msgstr ""
+
+#: errorPhoneIsInternational
+msgctxt "errorPhoneIsInternational"
+msgid ""
+"Sorry, this feature does not support international telephone numbers. Please "
+"enter a valid 10 digit (XXX-XXX-XXXX) or 11 digit(1-XXX-XXX-XXXX) US "
+"telephone number and try again. SCC-0391"
+msgstr ""
+
+#: errorPhoneInvalidAreaCode
+msgctxt "errorPhoneInvalidAreaCode"
+msgid ""
+"Sorry, this feature does not support telephone numbers with area codes of "
+"900, 500, 700 or 976. Please enter a valid 10 digit (XXX-XXX-XXXX) or 11 "
+"digit(1-XXX-XXX-XXXX) US telephone number and try again. SCC-0392"
+msgstr ""
+
+#: errorPhoneInvalidExtension
+msgctxt "errorPhoneInvalidExtension"
+msgid ""
+"Sorry, this feature does not support telephone numbers with the 555 "
+"exchange. (e.g. XXX-555-XXXX). Please enter a valid 10 digit (XXX-XXX-XXXX) "
+"or 11 digit(1-XXX-XXX-XXXX) US telephone number and try again. SCC-0393"
+msgstr ""
+
+#: errorPhoneIs911
+msgctxt "errorPhoneIs911"
+msgid ""
+"Sorry, this feature does not support the 911 telephone numbers. Please enter "
+"a valid 10 digit (XXX-XXX-XXXX) or 11 digit(1-XXX-XXX-XXXX) US telephone "
+"number and try again. SCC-0394"
+msgstr ""
+
+#: errorPhoneIs411
+msgctxt "errorPhoneIs411"
+msgid ""
+"Sorry, this feature does not support the 411 telephone numbers. Please enter "
+"a valid 10 digit (XXX-XXX-XXXX) or 11 digit(1-XXX-XXX-XXXX) US telephone "
+"number and try again. SCC-0395"
+msgstr ""
+
+#: errorPhoneInvalid
+msgctxt "errorPhoneInvalid"
+msgid ""
+"Sorry, this feature does not support the telephone number entered. Please "
+"enter a valid 10 digit (XXX-XXX-XXXX) or 11 digit(1-XXX-XXX-XXXX) US "
+"telephone number and try again. SCC-0396"
+msgstr ""
+
+#: excludeFromFreeBusy
+msgid "Exclude from free/busy"
+msgstr "Vyjmout z volný/zaneprázdněn"
+
+#: excludeFromFreeBusyTimes
+msgid "Exclude this calendar when reporting free/busy times"
+msgstr "Vyjmout tento kalendář z oznamování času volna/zaneprázdněnosti"
+
+#: externalImages
+msgid "External images are not displayed."
+msgstr "Externí obrázky nejsou zobrazeny."
+
+#: of
+msgid "of"
+msgstr "z"
+
+#: ifAnyOfTheFollowingConditionsAreMet
+msgid "If any of the following conditions are met:"
+msgstr "Jestli je splněna kterákoliv z následujících podmínek:"
+
+#: ifAllOfTheFollowingConditionsAreMet
+msgid "If all of the following conditions are met:"
+msgstr "Jestli jsou splněny všechny z následujících podmínek:"
+
+#: itemModifiedByOn
+msgid "modified by {0} on {1}"
+msgstr ""
+
+#. #URL for the favorites icon, relative to the webapp directory (eg: /zimbraAdmin)
+#: favIconUrl
+msgid "/img/logo/favicon.ico"
+msgstr "/img/logo/favicon.ico"
+
+#: fax
+msgid "Fax"
+msgstr "Fax"
+
+#: feedLoaded
+msgid "Feed \"{0}\" loaded."
+msgstr "Kanál „{0}“ načtený."
+
+#: fileAs
+msgid "File As"
+msgstr "Uložit jako"
+
+#: files
+msgctxt "files"
+msgid "Files"
+msgstr ""
+
+#: filterActiveHint
+msgid "active"
+msgstr "aktivní"
+
+#: filterCancelCreate
+msgid "Create filter cancelled."
+msgstr "Vytvoření filtru zrušeno."
+
+#: filterCancelModify
+msgid "Edit filter cancelled."
+msgstr "Úprava filtru zrušena."
+
+#: filterMoveDown
+msgid "Move Down"
+msgstr "Přesunout níž"
+
+#: filterMoveUp
+msgid "Move Up"
+msgstr "Přesunout výš"
+
+#: filterName
+msgid "Filter Name"
+msgstr "Název filtru"
+
+#: find
+msgid "Find"
+msgstr "Najít"
+
+#: folder
+msgctxt "folder"
+msgid "Folder"
+msgstr "Složka"
+
+#: folderCreate
+msgctxt "folderCreate"
+msgid "Create Folder"
+msgstr "Vytvořit složku"
+
+#: folderCreateFeed
+msgid "Create Feed"
+msgstr "Vytvořit kanál"
+
+#: folderCreateSearch
+msgctxt "folderCreateSearch"
+msgid "Create Search"
+msgstr "Vytvořit hledání"
+
+#: folderDelete
+msgctxt "folderDelete"
+msgid "Delete Folder"
+msgstr "Smazat složku"
+
+#: folderDeleteConfirmation
+msgid "Delete this folder (move to trash)"
+msgstr "Smazat tuto složku (přesunout do Koše)"
+
+#: folderEmptyFolder
+msgid "Empty Folder"
+msgstr "Prázdná složka"
+
+#: folderEmptyNonTrashFolder
+msgid "Delete All Items"
+msgstr "Smazat všechny položky"
+
+#: folderEmptyCalendar
+msgid "Delete All Appointments"
+msgstr "Smazat všechny schůzky"
+
+#: folderEmptyTaskList
+msgid "Delete All Tasks"
+msgstr "Smazat všechny úlohy"
+
+#: folderEmptyAddressBook
+msgid "Delete All Contacts"
+msgstr "Smazat všechny kontakty"
+
+#: folderEmptyNonTrashFolderConfirmation
+msgid ""
+"Permanently hard delete all items in this folder. This operation can not be "
+"undone."
+msgstr ""
+"Trvale smazat všechny položky této složky. Tuto operaci nelze vrátit zpět."
+
+#: calendarEmptyConfirmation
+msgid ""
+"Permanently delete all appointments in this calendar. This operation can not "
+"be undone."
+msgstr ""
+"Trvale smazat všechny schůzky v tomto kalendáři. Tuto operaci nelze vrátit "
+"zpět."
+
+#: taskListEmptyConfirmation
+msgid ""
+"Permanently delete all tasks in this task list. This operation can not be "
+"undone."
+msgstr ""
+"Trvale smazat všechny úlohy v tomto seznamu úloh. Tuto operaci nelze vrátit "
+"zpět."
+
+#: addressBookEmptyConfirmation
+msgid ""
+"Permanently delete all contacts in this folder. This operation can not be "
+"undone."
+msgstr ""
+"Trvale smazat všechny kontakty v tomto adresáři. Tuto operaci nelze vrátit "
+"zpět."
+
+#: folderPermDeleteConfirmation
+msgid "Permanently delete this folder"
+msgstr "Trvale smazat tuto složku"
+
+#: folderEmptied
+msgid "Folder \"{0}\" emptied."
+msgstr "Složka „{0}“ vyprázdněna."
+
+#: taskListEmptied
+msgid "Task List \"{0}\" emptied."
+msgstr "Seznam úloh „{0}“ vyprázdněn."
+
+#: calendarEmptied
+msgid "All appointments deleted in \"{0}\"."
+msgstr "Kalendář „{0}“ vyprázdněn."
+
+#: addressBookEmptied
+msgid "Contact folder \"{0}\" emptied."
+msgstr "Adresář „{0}“ vyprázdněn."
+
+#: folderItemCount
+msgid "{0,choice,0#0 items|1#1 item|1<{0,number,integer} items}"
+msgstr "{0,choice,0#0 položek|1#jedna položka|1<{0,number,integer} položek}"
+
+#: folderFolderCount
+msgid "{0,choice,0#0 folders|1#1 folder|1<{0,number,integer} folders}"
+msgstr "{0,choice,0#0 složek|1#jedna složka|1<{0,number,integer} složek}"
+
+#: folderItemUnreadCount
+msgid "({0} unread)"
+msgstr "({0} nepřečtených)"
+
+#: folderName
+msgid "Folder name"
+msgstr "Název složky"
+
+#: folderNew
+msgid "New Folder"
+msgstr "Nová složka"
+
+#: folderNewRssAtomFeed
+msgid "New RSS/Atom Feed"
+msgstr "Nový RSS/Atom kanál"
+
+#: folderNewSearchFolder
+msgid "New Search"
+msgstr "Nové hledání"
+
+#: folderSearch
+msgid "Search Folder"
+msgstr "Složka hledání"
+
+#: folderSubscribed
+msgid "Subscribed Folder"
+msgstr "Složka objednaných"
+
+#: folderShared
+msgid "Shared Folder"
+msgstr "Sdílená složka"
+
+#: folderSystem
+msgid "System Folder"
+msgstr "Systémová složka"
+
+#: folderUpdated
+msgid "Folder Updated"
+msgstr "Složka aktualizována"
+
+#: folderUser
+msgctxt "folderUser"
+msgid "Folder"
+msgstr "Složka"
+
+#: folders
+msgid "Folders"
+msgstr "Složky"
+
+#: foldersLabel
+msgid "Folders:"
+msgstr ""
+
+#: fontSize
+msgid "Font Size"
+msgstr ""
+
+#. # Copyright string must not be translated
+#: footerCopyright
+msgctxt "footerCopyright"
+msgid ""
+"Copyright © 2005-2014 Zimbra, Inc. All rights reserved. \"Zimbra\" is a "
+"registered trademark of Zimbra, Inc."
+msgstr "Copyright ř 2006 Zimbra, Inc."
+
+#: formatDateSent
+msgid "EEE, MMM dd, yyyy hh:mm a"
+msgstr "EEE, dd. MMM, yyyy hh:mm"
+
+#: forward
+msgctxt "forward"
+msgid "Forward"
+msgstr "Přeposlat"
+
+#: forwardAllCalls
+msgid "Forward <b>ALL</b> calls to:"
+msgstr "Přesměrovat <b>VŠECHNY</b> volání na:"
+
+#: forwardCallFrom
+msgid "Forward Call From"
+msgstr "Přesměrovat volání od"
+
+#: forwardSomeCalls
+msgid "Forward the following numbers to:"
+msgstr "Přesměrovat následující čísla na:"
+
+#: fragment
+msgid "Fragment"
+msgstr "Fragment"
+
+#: fragmentIsEmpty
+msgid "<No Fragment>"
+msgstr "<žádný fragment>"
+
+#: free
+msgid "Free"
+msgstr "Volný"
+
+#: freeBusy
+msgid "Free/Busy"
+msgstr ""
+
+#: from
+msgctxt "from"
+msgid "From"
+msgstr "Od"
+
+#: fromLabel
+msgid "From:"
+msgstr ""
+
+#: fromDate
+msgctxt "fromDate"
+msgid "Start Date"
+msgstr "Datum začátku"
+
+#: untilDate
+msgid "End Date"
+msgstr "Datum konce"
+
+#: gb
+msgid "GB"
+msgstr ""
+
+#: general
+msgctxt "general"
+msgid "General"
+msgstr "Obecné"
+
+#: GAL
+msgid "Global Address List"
+msgstr "Globální adresář"
+
+#: getCalls
+msgid "Get Calls"
+msgstr "Zjistit volání"
+
+#: getVoiceMail
+msgid "Get Voice Mail"
+msgstr "Zjistit Hlasovou poštu"
+
+#: gray
+msgid "Gray"
+msgstr "šedá"
+
+#: green
+msgid "Green"
+msgstr "zelená"
+
+#: groupMailBy
+msgid "Group mail by"
+msgstr "Seskupit poštu podle"
+
+#: group
+msgctxt "group"
+msgid "Group"
+msgstr "Seskupit"
+
+#: help
+msgctxt "help"
+msgid "Help"
+msgstr "Pomoc"
+
+#: high
+msgctxt "high"
+msgid "High"
+msgstr "Vysoká"
+
+#: hide
+msgid "Hide"
+msgstr ""
+
+#: hideBcc
+msgid "Hide Bcc"
+msgstr ""
+
+#: home
+msgctxt "home"
+"home"
+msgid "Home"
+msgstr "Domů"
+
+#: htmlWelcomeMesg
+msgid "You are using the Zimbra Standard Version"
+msgstr "Používáte Standardní verzi balíku Zimbra"
+
+#: junk
+msgctxt "junk"
+msgid "Junk"
+msgstr "Spam"
+
+#: kb
+msgid "KB"
+msgstr ""
+
+#: key
+msgid "Key"
+msgstr ""
+
+#: im
+msgctxt "im"
+msgid "IM"
+msgstr ""
+
+#: import
+msgid "Import"
+msgstr "Import"
+
+#: in
+msgid "in"
+msgstr "ve"
+
+#: includeJunkFolder
+msgid "Include Spam folder in searches"
+msgstr "Zahrnout složku Spam do vyhledávání"
+
+#: includeTrashFolder
+msgid "Include Trash folder in searches"
+msgstr "Zahrnout složku Koš do vyhledávání"
+
+#: inbox
+msgctxt "inbox"
+msgid "Inbox"
+msgstr "Přijaté"
+
+#: includeJunk
+msgid "Also search Spam"
+msgstr "Prohledávat také Spam"
+
+#: includeShared
+msgid "Include shared "
+msgstr ""
+
+#: invalidForwardNumber
+msgid "The call forwarding number is invalid"
+msgstr ""
+
+#: invalidEmailAddress
+msgid "Invalid email address"
+msgstr ""
+
+#: invalidAttendees
+msgid "Invalid attendees"
+msgstr ""
+
+#: missingEmailAddress
+msgid "Missing email address"
+msgstr ""
+
+#: lostEmailNotification
+msgid ""
+"The email notification will be turned off and the email address will be "
+"removed."
+msgstr ""
+
+#: invitees
+msgid "Invitees"
+msgstr "Pozvaní"
+
+#: linkToSharedAddressBook
+msgid "Link to Shared Contact Folder"
+msgstr "Odkaz na sdílený adresář"
+
+#: linkToSharedCalendar
+msgctxt "linkToSharedCalendar"
+msgid "Link to Shared Calendar"
+msgstr "Odkaz na sdílený kalendář"
+
+#: list
+msgctxt "list"
+msgid "List"
+msgstr ""
+
+#: listen
+msgctxt "listen"
+msgid "Listen"
+msgstr "Vyslechnout"
+
+#: location
+msgid "Location"
+msgstr "Umístění"
+
+#: locationLabel
+msgid "Location:"
+msgstr ""
+
+#: login
+msgid "Log In"
+msgstr "Přihlásit se"
+
+#: logOut
+msgid "Log Out"
+msgstr "Odhlásit se"
+
+#: logoURL
+msgid "http://www.zimbra.com"
+msgstr "http://www.zimbra.com"
+
+#: low
+msgctxt "low"
+msgid "Low"
+msgstr "Nízká"
+
+#: lowBandwidth
+msgid "Thin (EDGE/GPRS)"
+msgstr ""
+
+#: labelModifiedOn
+msgid "modified on"
+msgstr ""
+
+#: labelVersion
+msgid "version"
+msgstr ""
+
+#: labelBy
+msgctxt "labelBy"
+msgid "by"
+msgstr ""
+
+#: mail
+msgctxt "mail"
+msgid "Mail"
+msgstr "Pošta"
+
+#: mailHeader
+msgid "My Email Accounts"
+msgstr ""
+
+#: mailSearch
+msgid "Mail/Search"
+msgstr "Pošta/Hledání"
+
+#: mailDeliveryDisabled
+msgid "Don't keep a local copy of messages"
+msgstr "Neudržovat lokální kopii zpráv"
+
+#: mailFilters
+msgid "Mail Filters"
+msgstr "Filtry pošty"
+
+#: mailForwardingAddress
+msgid "Address to forward mail to"
+msgstr "Adresy, kam přeposílat poštu"
+
+#: mailIdentity
+msgid "Mail Identity"
+msgstr "Identita pošty"
+
+#: mailNotifAddress
+msgid "Address for new mail notifications"
+msgstr "Adresa pro notifikaci nové pošty"
+
+#: mailNotifEnabled
+msgid "Send a notification message to"
+msgstr "Zapnout adresu pro notifikaci nové pošty"
+
+#: manage
+msgid "Manage"
+msgstr "Spravovat"
+
+#: manageAddressBooks
+msgctxt "manageAddressBooks"
+msgid "Manage Contacts"
+msgstr "Spravovat adresáře"
+
+#: manageBriefcase
+msgid "Manage Briefcases"
+msgstr ""
+
+#: manageCalendars
+msgctxt "manageCalendars"
+msgid "Manage Calendars"
+msgstr "Spravovat kalendáře"
+
+#: manageTaskLists
+msgid "Manage Task Lists"
+msgstr "Spravovat seznamy úloh"
+
+#: manageFolders
+msgctxt "manageFolders"
+msgid "Manage Folders"
+msgstr "Spravovat složky"
+
+#: manageTags
+msgctxt "manageTags"
+msgid "Manage Tags"
+msgstr "Spravovat štítky"
+
+#: markAs
+msgid "Mark as"
+msgstr "Označit jako"
+
+#: markAsLabel
+msgid "Mark as:"
+msgstr ""
+
+#: markFolderRead
+msgid "Mark Folder Read"
+msgstr "Označit složku jako přečtenou"
+
+#: mb
+msgid "MB"
+msgstr ""
+
+#: message
+msgid "Message"
+msgstr "Zpráva"
+
+#: messageSent
+msgid "Your message has been sent."
+msgstr "Vaše zpráva byla odeslána."
+
+#: missedCalls
+msgid "Missed Calls"
+msgstr "Zmeškaná volání"
+
+#: mimeAudio
+msgid "Audio"
+msgstr ""
+
+#: mimeUnknownBinaryType
+msgid "Unknown Binary Type"
+msgstr ""
+
+#: mimeAdobePdfDocument
+msgid "Adobe PDF"
+msgstr ""
+
+#: mimeAdobePsDocument
+msgid "Adobe Postscript"
+msgstr ""
+
+#: mimeApplication
+msgid "Application"
+msgstr ""
+
+#: mimeMsDownload
+msgid "Microsoft DLL"
+msgstr ""
+
+#: mimeMsExcelDocument
+msgid "Microsoft Excel"
+msgstr ""
+
+#: mimeMsWinmailDat
+msgid "Microsoft Outlook (TNEF)"
+msgstr ""
+
+#: mimeMsPPTDocument
+msgid "Microsoft PowerPoint"
+msgstr ""
+
+#: mimeMsProjectDocument
+msgid "Microsoft Project"
+msgstr ""
+
+#: mimeMsVisioDocument
+msgid "Microsoft Visio"
+msgstr ""
+
+#: mimeMsWMV
+msgid "Windows Media Video"
+msgstr ""
+
+#: mimeMsWordDocument
+msgid "Microsoft Word"
+msgstr ""
+
+#: mimeMp3Audio
+msgid "MP3 Audio"
+msgstr ""
+
+#: mimeWaveAudio
+msgid "WAV Audio"
+msgstr ""
+
+#: mimeZipFile
+msgid "Zip File"
+msgstr ""
+
+#: mimeVideo
+msgid "Video"
+msgstr ""
+
+#: mimeImage
+msgid "Image"
+msgstr ""
+
+#: mimeGifImage
+msgid "GIF Image"
+msgstr ""
+
+#: mimeJpegImage
+msgid "JPEG Image"
+msgstr ""
+
+#: mimePngImage
+msgid "PNG Image"
+msgstr ""
+
+#: mimeTiffImage
+msgid "TIFF Image"
+msgstr ""
+
+#: mimeMailMessage
+msgid "Mail Message"
+msgstr ""
+
+#: mimeTextDocuments
+msgid "Text Documents"
+msgstr ""
+
+#: mimeTextFile
+msgid "Text File"
+msgstr ""
+
+#: mimeEnrichedText
+msgid "Enriched Text"
+msgstr ""
+
+#: mimeHtmlDocument
+msgid "HTML"
+msgstr ""
+
+#: mimeJavaSource
+msgid "Java Source Code"
+msgstr ""
+
+#: mimeXmlDocument
+msgid "XML"
+msgstr ""
+
+#: mobile
+msgctxt "mobile"
+"mobile"
+msgid "Mobile"
+msgstr "Mobil"
+
+#: modified
+msgid "modified"
+msgstr ""
+
+#: modify
+msgid "Modify"
+msgstr "Změnit"
+
+#: month
+msgctxt "month"
+msgid "Month"
+msgstr "Měsíc"
+
+#: more
+msgid "More"
+msgstr ""
+
+#: moreActions
+msgctxt "moreActions"
+msgid "Actions"
+msgstr "Více činností..."
+
+#: moveAction
+msgid "Move to..."
+msgstr "Přesunout..."
+
+#: moveFolder
+msgid "Move Folder"
+msgstr "Přesunout složku"
+
+#: myCard
+msgid "My Card"
+msgstr "Moje Karta"
+
+#: name
+msgctxt "name"
+msgid "Name"
+msgstr "Název"
+
+#: nameLabel
+msgid "Name:"
+msgstr ""
+
+#: nameTooLong
+msgid "The name must be at most {0} characters long"
+msgstr "Název musí mít nejvíce {0} znaků"
+
+#: new
+msgctxt "new"
+msgid "New"
+msgstr "Nový"
+
+#: newAppointment
+msgctxt "newAppointment"
+msgid "New Appointment"
+msgstr "Nová schůzka"
+
+#: newFilterRule
+msgid "New Filter Rule"
+msgstr "Nové pravidlo filtru"
+
+#: newLocation
+msgid "New location"
+msgstr "Nové umístění"
+
+#: newName
+msgid "New Name"
+msgstr "Nový název"
+
+#: newPassword
+msgid "New password"
+msgstr "Nové heslo"
+
+#: newContact
+msgid "New Contact"
+msgstr "Nový kontakt"
+
+#: newFilter
+msgid "New Filter"
+msgstr "Nový filtr"
+
+#: newGroup
+msgid "New Group"
+msgstr "Nová skupina"
+
+#: newTask
+msgctxt "newTask"
+msgid "New Task"
+msgstr "Nová úloha"
+
+#: newWindow
+msgid "Open in new window"
+msgstr "Otevřít v novém okně"
+
+#: no
+msgid "No"
+msgstr ""
+
+#: none
+msgid "None"
+msgstr ""
+
+#: normal
+msgctxt "normal"
+msgid "Normal"
+msgstr "Běžná"
+
+#: notes
+msgid "Notes"
+msgstr "Poznámky"
+
+#: notebook
+msgctxt "notebook"
+msgid "Documents"
+msgstr ""
+
+#: notebooks
+msgid "Notebooks"
+msgstr ""
+
+#: noAddresses
+msgid "There must be at least one address in the To:, Cc:, or Bcc: fields"
+msgstr "V polích Komu:, Kopie: nebo Skrytá kopie: musí být alespoň jedna adresa"
+
+#: noContactGroupMembers
+msgid "The contact group must have at least one member."
+msgstr "Skupina kontaktů musí mít alespoň jednoho člena."
+
+#: noContactGroupName
+msgid "The contact group must have a name."
+msgstr "Skupina kontaktů musí mít název."
+
+#: noDisplayAs
+msgctxt "noDisplayAs"
+msgid "<None>"
+msgstr "<žádné>"
+
+#: noFileAs
+msgctxt "noFileAs"
+msgid "<None>"
+msgstr "<žádné>"
+
+#: noFilterRules
+msgid "No filters."
+msgstr "Žádné filtry."
+
+#: noName
+msgid "<No Name>"
+msgstr ""
+
+#: noOptionsChanged
+msgid "No options changed."
+msgstr "Nebyly změněny žádné volby."
+
+#: noResultsFound
+msgid "No results found."
+msgstr "Nebyly nalezeny žádné výsledky."
+
+#: noSubject
+msgid "<No Subject>"
+msgstr "<bez předmětu>"
+
+#: noVoiceMail
+msgid "Voice mail is not available."
+msgstr ""
+
+#: number
+msgid "Number"
+msgstr "Číslo"
+
+#: numbers
+msgid "Numbers"
+msgstr ""
+
+#: numberOfItemsPerPage
+msgid "Number of items to display per page"
+msgstr "Počet položek, který se má zobrazit na stránku"
+
+#: numberOfContactsToDisplayPerPage
+msgid "Number of contacts to display per page"
+msgstr "Počet kontaktů, který se má zobrazit na stránku"
+
+#: oldPassword
+msgid "Old Password"
+msgstr "Staré heslo"
+
+#: on
+msgid "on"
+msgstr ""
+
+#: options
+msgid "Preferences"
+msgstr "Nastavení"
+
+#: optionsAccess
+msgid "Access from Other Mail Clients"
+msgstr ""
+
+#: optionsAccessPop
+msgid "POP access:"
+msgstr ""
+
+#: optionsAccessPopDownloadAll
+msgid "Allow all mail, including old mail, to be downloaded"
+msgstr ""
+
+#: optionsAccessPopDownloadFromNow
+msgid "Allow only mail from now to be downloaded"
+msgstr ""
+
+#: optionsAccessPopNotSet
+msgid "Current value is to download all mail, including old mail."
+msgstr ""
+
+#: optionsAccessPopCurrentValue
+msgid ""
+"Current value is to only download mail that has arrived after {0,date,short} "
+"at {0,time,short}."
+msgstr ""
+
+#: optionsAccounts
+msgid "Accounts"
+msgstr "Účty"
+
+#: optionsAccountFrom
+msgctxt "optionsAccountFrom"
+msgid "From"
+msgstr "Od"
+
+#: optionsAccountFromChoose
+msgid "Choose the name that appears in the \"From:\" field of email messages"
+msgstr "Zvolte název, který se vyskytuje v poli „Od:“ emailových zpráv"
+
+#: optionsAccountName
+msgid "Account Name"
+msgstr "Název účtu"
+
+#: optionsAccountNoSignature
+msgid "(no signature)"
+msgstr "(bez podpisu)"
+
+#: optionsAccountEmail
+msgctxt "optionsAccountEmail"
+msgid "Email Address"
+msgstr "Emailová adresa"
+
+#: optionsAccountReplyTo
+msgctxt "optionsAccountReplyTo"
+msgid "Reply-to"
+msgstr "„Odpovědět na“"
+
+#: optionsAccountReplyToSet
+msgid "Set the \"Reply-to\" field of email messages to"
+msgstr "Nastavit pole „Odpovědět na“ emailových zpráv"
+
+#: optionsAccountPrimarySettings
+msgid "Primary Account Settings"
+msgstr "Primární nastavení účtu"
+
+#: optionsAccountSignature
+msgctxt "optionsAccountSignature"
+msgid "Signature"
+msgstr "Signatura"
+
+#: optionsAccountType
+msgctxt "optionsAccountType"
+msgid "Type"
+msgstr "Typ"
+
+#: optionsAccountTypePrimary
+msgid "Primary"
+msgstr "Primární"
+
+#: optionsAutoAdd
+msgid "Auto Add"
+msgstr "Automatické přidání"
+
+#: optionsClientType
+msgid "Client Type"
+msgstr "Typ klienta"
+
+#: optionsClientAdvanced
+msgid "Advanced (AJAX)"
+msgstr "Pokročilý (AJAX)"
+
+#: optionsClientStandard
+msgid "Standard (HTML)"
+msgstr "Standardní (HTML)"
+
+#: optionsExitConfirmation
+msgid "Your changes are not saved."
+msgstr "Neuložili jste své nastavení"
+
+#: optionsEmailPersonalHint
+msgid "John Smith"
+msgstr "Janko Hraško"
+
+#: optionsEmailAddressHint
+msgid "smith@example.domain"
+msgstr "hrasko@example.com"
+
+#: optionsManageAccounts
+msgctxt "optionsManageAccounts"
+msgid "{0} {1} {2}"
+msgstr "{0} {1} {2}"
+
+#: optionsSigManageAccountsPre
+msgid "Additional signature options can be found on the"
+msgstr "Další možnosti signatury naleznete na stránce"
+
+#: optionsComposeManageAccountsPre
+msgid "Additional compose options can be found on the"
+msgstr "Další možnosti psaní zprávy naleznete na stránce"
+
+#: optionsManageAccountsLink
+msgid "account options"
+msgstr "Možnosti účtu"
+
+#: optionsManageAccountsPost
+msgctxt "optionsManageAccountsPost"
+msgid "page."
+msgstr "."
+
+#: optionsManageAddressBooks
+msgctxt "optionsManageAddressBooks"
+msgid "{0} {1} {2}"
+msgstr "{0} {1} {2}"
+
+#: optionsManageAddressBooksPre
+msgctxt "optionsManageAddressBooksPre"
+msgid "Additional options can be found on the"
+msgstr "Další možnosti naleznete na stránce"
+
+#: optionsManageAddressBooksLink
+msgid "manage contacts"
+msgstr "spravovat adresáře"
+
+#: optionsManageAddressBooksPost
+msgctxt "optionsManageAddressBooksPost"
+msgid "page."
+msgstr "."
+
+#: optionsManageCalendars
+msgctxt "optionsManageCalendars"
+msgid "{0} {1} {2}"
+msgstr "{0} {1} {2}"
+
+#: optionsManageCalendarsPre
+msgctxt "optionsManageCalendarsPre"
+msgid "Additional options can be found on the"
+msgstr "Další možnosti naleznete na stránce"
+
+#: optionsManageCalendarsLink
+msgid "manage calendars"
+msgstr "Správa kalendářů"
+
+#: optionsManageCalendarsPost
+msgctxt "optionsManageCalendarsPost"
+msgid "page."
+msgstr "."
+
+#: optionsManageSignatures
+msgctxt "optionsManageSignatures"
+msgid "{0} {1} {2}"
+msgstr "{0} {1} {2}"
+
+#: optionsManageSignaturesPre
+msgid "Signatures can be managed on the"
+msgstr "Signatury můžete spravovat na stránce"
+
+#: optionsManageSignaturesLink
+msgid "signature options"
+msgstr "Možnosti signatur"
+
+#: optionsManageSignaturesPost
+msgctxt "optionsManageSignaturesPost"
+msgid "page."
+msgstr "."
+
+#: optionsComposing
+msgid "Composing"
+msgstr "Psaní zprávy"
+
+#: optionsComposingMessages
+msgid "Composing Messages"
+msgstr "Psaní zpráv"
+
+#: optionsCompose
+msgctxt "optionsCompose"
+msgid "Compose"
+msgstr "Psát"
+
+#: optionsComposeAsHTML
+msgid "As HTML"
+msgstr "Jako HTML"
+
+#: optionsComposeAsText
+msgctxt "optionsComposeAsText"
+msgid "As Text"
+msgstr "Jako text"
+
+#: optionsComposeFont
+msgid "Font"
+msgstr "Písmo"
+
+#: optionsComposeSize
+msgctxt "optionsComposeSize"
+msgid "Size"
+msgstr "Velikost"
+
+#: optionsComposeColor
+msgctxt "optionsComposeColor"
+msgid "Color"
+msgstr "Barva"
+
+#: optionsContacts
+msgid "Contacts Options"
+msgstr "Možnosti kontaktů"
+
+#: optionsContactsPerPage
+msgid "Contacts per page"
+msgstr "Kontaktů na stránku"
+
+#: optionsCreatingAppointments
+msgid "Creating Appointments"
+msgstr "Tvorba schůzek"
+
+#: optionsDayWeekView
+msgid "Day/Week View"
+msgstr "Denní/týdenní přehled"
+
+#: optionsDefaultMailSearch
+msgid "Default Mail Search"
+msgstr "Standardní vyhledávání v pošte"
+
+#: optionsVoicemailDisplayPerPage
+msgid "Number of Voice Mails To Display"
+msgstr ""
+
+#: optionsDisplay
+msgid "Display"
+msgstr "Zobrazení"
+
+#: optionsGeneral
+msgctxt "optionsGeneral"
+msgid "General"
+msgstr "Obecné"
+
+#: optionsEmailPerPage
+msgid "Emails per page"
+msgstr "Emailů na stránku"
+
+#: optionsDisplayingMessages
+msgid "Displaying Messages"
+msgstr "Zobrazování zpráv"
+
+#: optionsDisplayHtml
+msgid "Display HTML"
+msgstr "Zobrazování HTML"
+
+#: optionsDisplayHtmlAsHtml
+msgid "As HTML (when possible)"
+msgstr "Jako HTML (pokud je to možné)"
+
+#: optionsDisplayHtmlAsText
+msgctxt "optionsDisplayHtmlAsText"
+msgid "As Text"
+msgstr "Jako text"
+
+#: add
+msgctxt "add"
+msgid "Add"
+msgstr "Přidat"
+
+#: optionsRings
+msgid "Number Of Rings"
+msgstr ""
+
+#: optionsRingsSend
+msgid "Send call to voice mail after:"
+msgstr ""
+
+#: optionsRingsSendSuffix
+msgid "rings"
+msgstr ""
+
+#: optionsLanguage
+msgid "Language"
+msgstr ""
+
+#: optionsLanguageIncoming
+msgid "Incoming Calls:"
+msgstr ""
+
+#: optionsLanguageIncomingPrompt
+msgid "When someone is sent to voice mail, prompt them in:"
+msgstr ""
+
+#: optionsLanguageChecking
+msgid "Checking Voice Mail:"
+msgstr ""
+
+#: optionsLanguageCheckingPrompt
+msgid "When I call to check voice mail, prompt me in:"
+msgstr ""
+
+#: language_ENGLISH
+msgid "English"
+msgstr ""
+
+#: language_SPANISH
+msgid "Spanish"
+msgstr ""
+
+#: optionsPrompts
+msgid "Prompts:"
+msgstr ""
+
+#: optionsPromptsPlayback
+msgid "Playback:"
+msgstr ""
+
+#: optionsPromptsMessagePlayback
+msgid "Message Playback"
+msgstr ""
+
+#: optionsPromptsAutoplay
+msgid "Automatically play my new messages"
+msgstr ""
+
+#: optionsVoicemailPrompts
+msgid "Voice Mail Prompts"
+msgstr ""
+
+#: optionsPromptsLength
+msgid "Voice mails prompts should be..."
+msgstr ""
+
+#: optionsPromptsLengthShort
+msgid "Rapid (Fewer prompts)"
+msgstr ""
+
+#: optionsPromptsLengthMedium
+msgid "Standard"
+msgstr ""
+
+#: optionsPromptsLengthLong
+msgid "Extended (More prompts)"
+msgstr ""
+
+#: optionsPromptsAnnounce
+msgid "Announce date &amp; time when playing voice message"
+msgstr ""
+
+#: optionsVoiceSecurity
+msgid "Security"
+msgstr ""
+
+#: optionsVoiceSecurityChPwd
+msgid "Change Voice Mail PIN:"
+msgstr ""
+
+#: optionsVoiceSecurityChPwdLink
+msgid "Change your Voice Mail PIN on Comcast.net"
+msgstr ""
+
+#: optionsVoiceSecurityLogin
+msgid "Voice Mail Login:"
+msgstr ""
+
+#: optionsVoiceSecurityLoginRequire
+msgid ""
+"Require my voice mail password to access voice mail from my Comcast Digital "
+"Voice phone"
+msgstr ""
+
+#: optionsVoiceSecurityChPwdUrl
+msgid "https://customer.comcast.com/SmartUrl/Secure/VMPIN"
+msgstr ""
+
+#: optionsCallLog
+msgid "Display - Call Logs"
+msgstr ""
+
+#: optionsCallLogPerPage
+msgid "Calls per Page"
+msgstr ""
+
+#: optionsVoiceNotifications
+msgid "Notifications"
+msgstr ""
+
+#: optionsVoiceNotificationsEmail
+msgid "Email Notifications:"
+msgstr ""
+
+#: optionsVoiceNotificationsActive
+msgid "Send an email notification when a new voice mail is received to:"
+msgstr ""
+
+#: optionsVoiceNotificationsAddresses
+msgid "Email Notification Addresses"
+msgstr ""
+
+#: optionsVoiceNotificationsErrorMax
+msgid ""
+"Sorry, you can only enter a maximum of 25 email addresses in the list. "
+"SCC-1506"
+msgstr ""
+
+#: optionsVoiceNotificationsErrorInvalid
+msgid "Sorry, the entered email address is invalid."
+msgstr ""
+
+#: optionsVoiceNotificationsErrorLong
+msgid "Sorry, the email addresses must be 100 characters or fewer. SCC-1505"
+msgstr ""
+
+#: optionsVoiceNotificationsErrorNotUnique
+msgid "Sorry, the entered address is already in the list."
+msgstr ""
+
+#: optionsVoiceNotificationsTrans
+msgid "Send notification when a voice mail is transferred"
+msgstr ""
+
+#: optionsVoiceNotificationsAttach
+msgid "Send notification when a voice mail is attached"
+msgstr ""
+
+#: optionsCallForwarding
+msgid "Call Forwarding"
+msgstr ""
+
+#: optionsCallForwardingAll
+msgid "Call Forwarding:"
+msgstr ""
+
+#: optionsCallForwardingAllLabel
+msgid "Forward ALL calls to:"
+msgstr ""
+
+#: optionsCallForwardingSelective
+msgid "Selective Forwarding:"
+msgstr ""
+
+#: optionsCallForwardingSelectiveLabel
+msgid "Forward ONLY calls from the following number(s):"
+msgstr ""
+
+#: optionsCallForwardingSelectiveDestination
+msgctxt "optionsCallForwardingSelectiveDestination"
+msgid "To this number:"
+msgstr ""
+
+#: optionsCallForwardingSelectiveAdd
+msgctxt "optionsCallForwardingSelectiveAdd"
+msgid "Add this number:"
+msgstr ""
+
+#: optionsCallForwardingErrorMax
+msgctxt "optionsCallForwardingErrorMax"
+msgid "You may only specify 12 numbers to forward calls from"
+msgstr ""
+
+#: optionsCallForwardingRules
+msgctxt "optionsCallForwardingRules"
+msgid "(You may forward up to 12 numbers)"
+msgstr ""
+
+#: optionsCallForwardingErrorToEmpty
+msgctxt "optionsCallForwardingErrorToEmpty"
+msgid ""
+"Sorry, the Forward To number cannot be blank with call forward option "
+"selected. You must enter a valid telephone number to use this feature. "
+"Please enter a valid 10 digit (XXX-XXX-XXXX) or 11 digit (1-XXX-XXX-XXXX) US "
+"telephone number and try again. SCC-0397"
+msgstr ""
+
+#: optionsCallForwardingSelectiveErrorToEmpty
+msgctxt "optionsCallForwardingSelectiveErrorToEmpty"
+msgid ""
+"Sorry, the Forward To number cannot be blank with call forward option "
+"selected. You must enter a valid telephone number to use this feature. "
+"Please enter a valid 10 digit (XXX-XXX-XXXX) or 11 digit (1-XXX-XXX-XXXX) US "
+"telephone number and try again. SCC-0397"
+msgstr ""
+
+#: optionsCallForwardingSelectiveToEmptyInstructions
+msgid ""
+"To turn off this feature please remove all the &quot;From&quot; numbers or "
+"provide a valid &quot;To&quot; number"
+msgstr ""
+
+#: optionsCallRejection
+msgid "Call Screening"
+msgstr ""
+
+#: optionsCallRejectionAll
+msgid "Anonymous Call Rejection:"
+msgstr ""
+
+#: optionsCallRejectionAllLabel
+msgid ""
+"Screen ALL anonymous calls (you can also manage this feature by dialing "
+"*77/*87 from your Comcast Digital Voice Phone)"
+msgstr ""
+
+#: optionsCallRejectionSelective
+msgid "Selective Call Rejection:"
+msgstr ""
+
+#: optionsCallRejectionSelectiveLabel
+msgid "Screen ONLY the following number(s):"
+msgstr ""
+
+#: optionsCallRejectionSelectiveDestination
+msgctxt "optionsCallRejectionSelectiveDestination"
+msgid "To this number:"
+msgstr ""
+
+#: optionsCallRejectionSelectiveAdd
+msgctxt "optionsCallRejectionSelectiveAdd"
+msgid "Add this number:"
+msgstr ""
+
+#: optionsCallRejectionErrorMax
+msgctxt "optionsCallRejectionErrorMax"
+msgid "You may only specify 12 numbers to screen calls from"
+msgstr ""
+
+#: optionsCallRejectionRules
+msgid "(You may reject calls from up to 12 numbers)"
+msgstr ""
+
+#: optionsVoiceCenterHeader
+msgid "Need more controls over your voice service?"
+msgstr ""
+
+#: optionsVoiceCenterLinkText
+msgid "Visit the Digital Voice Center"
+msgstr ""
+
+#: optionsVoiceCenterLinkURL
+msgid ""
+"https://digitalvoice.comcast.net/Comcast/DVPPortal/Dvp.portal?_nfpb=true&_pa"
+"geLabel=DvpPreferencesBook"
+msgstr ""
+
+#: optionsForwardAcopyTo
+msgid "Forward a copy to"
+msgstr "Přeposílat kopii na"
+
+#: optionsLoginOptions
+msgid "Login Options"
+msgstr "Možnosti přihlašování"
+
+#: optionsMessagesFromMe
+msgid "Messages from me"
+msgstr "Zprávy ode mě"
+
+#: optionsMessagePreview
+msgid "Message Preview"
+msgstr "Náhled zprávy"
+
+#: optionsAddSignature
+msgid "Add Signature"
+msgstr "Přidat signaturu"
+
+#: optionsReadingPane
+msgid "Reading Pane"
+msgstr ""
+
+#: optionsReceivingMessages
+msgid "Receiving Messages"
+msgstr "Přijímání zpráv"
+
+#: optionsReplyReplyAll
+msgid "Reply/Reply All"
+msgstr "Odpovědět/odpovědět všem"
+
+#: optionsImportExport
+msgid "Import / Export"
+msgstr "Import/export"
+
+#: optionsIncludeBody
+msgid "Full text inline"
+msgstr "Plný text v těle zprávy"
+
+#: optionsIncludeBodyWithPrefix
+msgid "Full text inline with prefix"
+msgstr "Plný text v těle zprávy s předponou"
+
+#: optionsIncludeAsAttachment
+msgid "An Attachment"
+msgstr "Jako příloha"
+
+#: optionsIncludeNone
+msgid "Do Not Include"
+msgstr "Nepřikládat"
+
+#: optionsPrefixChar
+msgid "Prefix character"
+msgstr "Znak přípony"
+
+#: optionsForward
+msgctxt "optionsForward"
+msgid "Forward"
+msgstr "Přeposlat"
+
+#: optionsSaved
+msgid "Options Saved."
+msgstr "Možnosti uložené."
+
+#: optionsSaveSent
+msgid "Save a copy to Sent folder"
+msgstr "Uložit kopii Odeslaných zpráv"
+
+#: optionsDontSaveSent
+msgid "Do not save Sent Messages"
+msgstr "Neukládat Odeslané zprávy"
+
+#: optionsSearchLanguage
+msgid "Search Language"
+msgstr "Jazyk vyhledávání"
+
+#: optionsSearches
+msgctxt "optionsSearches"
+msgid "Searches"
+msgstr "Vyhledávání"
+
+#: optionsSearchFolders
+msgid "Search Folders"
+msgstr "Hledat ve složkách"
+
+#: optionsSentMessages
+msgid "Sent Messages"
+msgstr "Odeslané zprávy"
+
+#: optionsShowFragments
+msgid "Display text of messages in email list"
+msgstr "Zobrazovat text zpráv v seznamu zpráv"
+
+#: optionsSignatures
+msgid "Signatures"
+msgstr "Signatury"
+
+#: optionsNewSignature
+msgid "New Signature"
+msgstr "Nová signatura"
+
+#: optionsSignatureAttach
+msgid "Attach Signature"
+msgstr "Připojit signaturu"
+
+#: optionsSignatureAttachAuto
+msgid "Automatically attach the default signature to every message I send"
+msgstr "Automaticky připojit standardní signaturu ke každé zprávě, kterou pošlu"
+
+#: optionsSignature
+msgctxt "optionsSignature"
+msgid "Signature"
+msgstr "Signatura"
+
+#: optionsSignatureDeleted
+msgid "Signature Deleted."
+msgstr "Signatura smázaná."
+
+#: optionsSignaturePlacement
+msgid "Placement"
+msgstr "Umístění"
+
+#: optionsSignaturePlaceTheSignature
+msgid "Place the signature"
+msgstr "Umístit signaturu"
+
+#: optionsSignatureName
+msgid "Signature Name"
+msgstr "Název signatury"
+
+#: optionsSignatureMaxNumber
+msgid "Create up to {0} signatures to choose from when composing an email."
+msgstr ""
+"Můžete vytvořit až {0} signatur, ze kterých si můžete vybírat při psaní "
+"poštovní zprávy."
+
+#: optionsUsingSignatures
+msgid "Using Signatures"
+msgstr "Používání signatur"
+
+#: optionsNoSignatureName
+msgid "No signature name specified."
+msgstr "Název signatury nebyl uveden."
+
+#: optionsNoSignatureValue
+msgid "No signature value specified."
+msgstr "Hodnota signatury nebyla uvedena."
+
+#: optionsWhenAMessageArrives
+msgid "When a message arrives"
+msgstr "Po příchodě zprávy"
+
+#: optionsWhenForwarding
+msgid "When forwarding an email, include the original email message as"
+msgstr "Při přeposílání pošty vložit původní zprávu jako"
+
+#: optionsWhenReplying
+msgid "When replying to an email, include the original email message as"
+msgstr "Při odpovídání na poštu vložit původní zprávu jako"
+
+#: optionsReplyForwardInSameFormat
+msgid "Reply/Forward using format of the original message"
+msgstr "Odpovědět/přeposlat ve formátu původní zprávy"
+
+#: optionsDedupeNone
+msgid "Place in Inbox"
+msgstr "Umístit do Přijatých"
+
+#: optionsDedupeAll
+msgid "Ignore message"
+msgstr "Ignorovat zprávu"
+
+#: optionsDedupeSecondCopy
+msgid "Place in Inbox if I'm in To: or Cc:"
+msgstr "Umístit do Přijatých, jestli jsem uveden v Komu: nebo Kopie:"
+
+#: orange
+msgid "Orange"
+msgstr "oranžová"
+
+#: organizer
+msgid "Organizer"
+msgstr "Organizér"
+
+#: organizerLabel
+msgid "Organizer:"
+msgstr ""
+
+#: other
+msgctxt "other"
+"other"
+msgid "Other"
+msgstr "Jiné"
+
+#: otherPhone
+msgid "Other Phone"
+msgstr "Jiný telefon"
+
+#: otherFax
+msgctxt "otherFax"
+msgid "Other Fax"
+msgstr "Jiný fax"
+
+#: outOfOffice
+msgid "Out of Office"
+msgstr "Mimo kanceláře"
+
+#: owner
+msgid "Owner"
+msgstr "Vlastník"
+
+#: ownersEmail
+msgid "Owner's Email"
+msgstr "Email vlastníka"
+
+#: ownersAddressBookName
+msgid "Owner's Contact Folder Name"
+msgstr "Název adresáře vlastníka"
+
+#: ownersBriefcaseName
+msgid "Owner's Briefcase Name"
+msgstr ""
+
+#: ownersCalendarName
+msgid "Owner's Calendar Name"
+msgstr "Název kalendáře vlastníka"
+
+#: ownersTaskListName
+msgid "Owner's Task List Name"
+msgstr "Název seznamu úloh vlastníka"
+
+#: ownersFolderName
+msgid "Owner's Folder Name"
+msgstr "Název složky vlastníka"
+
+#: quotaUsage
+msgctxt "quotaUsage"
+msgid "{0} of {1}"
+msgstr "Kvóta: {0} z {1}"
+
+#: pager
+msgctxt "pager"
+msgid "Pager"
+msgstr "Pager"
+
+#: pages
+msgctxt "pages"
+msgid "Pages"
+msgstr ""
+
+#: parentFolder
+msgid "Parent folder"
+msgstr "Nadřazená složka"
+
+#: password
+msgid "Password"
+msgstr "Heslo"
+
+#: passwordChangeSucceededCloseWindow
+msgid "Your password has been changed. You may now close this window."
+msgstr "Vaše heslo bylo změněno. Teď můžete zavřít toto okno."
+
+#: passwordFieldMissing
+msgid "You must fill in all the password fields"
+msgstr "Musíte vyplnit všechna pole s heslem"
+
+#: path
+msgid "Path"
+msgstr "Cesta"
+
+#: performTheFollowingActions
+msgid "Perform the following actions:"
+msgstr "Vykonat následující činnosti:"
+
+#: permissions
+msgid "Permissions"
+msgstr "Povolení"
+
+#: phone
+msgid "Phone"
+msgstr "Telefon"
+
+#: phone2
+msgid "Phone 2"
+msgstr "Telefon 2"
+
+#: phoneLabelCallback
+msgctxt "phoneLabelCallback"
+msgid "Callback"
+msgstr ""
+
+#: phoneLabelCar
+msgctxt "phoneLabelCar"
+msgid "Car"
+msgstr ""
+
+#: phoneLabelAssistant
+msgctxt "phoneLabelAssistant"
+msgid "Assistant"
+msgstr ""
+
+#: phoneLabelCompany
+msgctxt "phoneLabelCompany"
+msgid "Company"
+msgstr ""
+
+#: phoneLabelHomeFax
+msgctxt "phoneLabelHomeFax"
+msgid "Home Fax"
+msgstr ""
+
+#: phoneLabelHome
+msgctxt "phoneLabelHome"
+msgid "Home"
+msgstr ""
+
+#: phoneLabelHome2
+msgid "Home 2"
+msgstr ""
+
+#: phoneLabelHomeAlternate
+msgid "Home Alternate"
+msgstr ""
+
+#: phoneLabelMobile
+msgctxt "phoneLabelMobile"
+msgid "Mobile"
+msgstr ""
+
+#: phoneLabelOther
+msgctxt "phoneLabelOther"
+msgid "Other"
+msgstr ""
+
+#: phoneLabelWork
+msgctxt "phoneLabelWork"
+msgid "Work"
+msgstr ""
+
+#: phoneLabelWork2
+msgid "Work 2"
+msgstr ""
+
+#: phoneticName
+msgid "Phonetic name"
+msgstr ""
+
+#: pink
+msgid "Pink"
+msgstr "růžová"
+
+#: placedCalls
+msgid "Placed Calls"
+msgstr "Uskutečněné volání"
+
+#: placeSignature
+msgid "Place signature"
+msgstr "Vložit signaturu"
+
+#: prefixTextWith
+msgid "Prefix included messages with"
+msgstr "Předpona vložených zpráv:"
+
+#: privacyPolicy
+msgid "Privacy Policy"
+msgstr "Politika správy soukromých údajů"
+
+#: print
+msgctxt "print"
+msgid "Print"
+msgstr "Tisknout"
+
+#: printFontSizePref
+msgid "Print Font Size"
+msgstr ""
+
+#: priority
+msgctxt "priority"
+msgid "Priority"
+msgstr "Priorita"
+
+#: private
+msgid "Private"
+msgstr "Soukromé"
+
+#: public
+msgid "Public"
+msgstr "Veřejné"
+
+#: purple
+msgid "Purple"
+msgstr "fialová"
+
+#: readingPaneAtBottom
+msgid "Reading Pane At The Bottom"
+msgstr ""
+
+#: readingPaneOff
+msgid "Reading Pane Off"
+msgstr ""
+
+#: readingPaneOnRight
+msgid "Reading Pane On The Right"
+msgstr ""
+
+#: reloadCalendar
+msgid "Reload Calendar"
+msgstr "Znovu načíst kalendář"
+
+#: received
+msgid "Received"
+msgstr "Přijaté"
+
+#: recurrence
+msgid "Recurrence"
+msgstr "Opakovaný výskyt"
+
+#: recurFirst
+msgid "first"
+msgstr "první"
+
+#: recurSecond
+msgid "second"
+msgstr "druhý"
+
+#: recurThird
+msgid "third"
+msgstr "třetí"
+
+#: recurFourth
+msgid "fourth"
+msgstr "čtvrtý"
+
+#: recurLast
+msgid "last"
+msgstr "poslední"
+
+#: recurNone
+msgid "None."
+msgstr "žádné."
+
+#: recurDailyEveryDay
+msgid "Every day."
+msgstr "Každý den."
+
+#: recurDailyEveryWeek
+msgid "Every week."
+msgstr "Každý týden."
+
+#: recurDailyEveryWeekday
+msgid "Every weekday."
+msgstr "Každý den v týdnu."
+
+#: recurDailyEveryNumDays
+msgid "Every {0,number,integer} {0,choice,0#days|1#day|1<days}."
+msgstr ""
+"{0,choice,0#Každých {0,number,integer} dní|1#Každý den|1<Každých "
+"{0,number,integer} dní}."
+
+#: recurWeeklyEveryWeekday
+msgid "Every {0,date,EEEE}."
+msgstr "Každý {0,date,EEEE}."
+
+#: recurWeeklyEveryNumWeeks
+msgid "Every {0,number,integer} weeks on"
+msgstr "Každých {0,number,integer} týdnů v"
+
+#: recurWeeklyEveryNumWeeksSep
+msgid ","
+msgstr ","
+
+#: recurWeeklyEveryNumWeeksLastSep
+msgid "and"
+msgstr "a"
+
+#: recurWeeklyEveryNumWeeksDay
+msgid "{0,date,EEEE}"
+msgstr "{0,date,EEEE}"
+
+#: recurMonthlyEveryNumMonthsDate
+msgid ""
+"Day {0,number,integer} of every {1,number,integer} "
+"{1,choice,1#month|1<months}."
+msgstr ""
+"{0,number,integer}. den {1,choice,1#každého měsíce|1<každých "
+"{1,number,integer} měsíců}."
+
+#: recurMonthly
+msgid "Every month."
+msgstr "Každý měsíc."
+
+#: recurMonthlyEveryNumMonthsNumDay
+msgid ""
+"The {0,choice,-1#last|1#first|2#second|3#third|4#fourth} {1,date,EEEE} of "
+"every {2,number,integer} month(s)."
+msgstr ""
+"{0,choice,-1#Poslední|1#První|2#Druhý|3#Třetí|4#Čtvrtý} {1,date,EEEE} "
+"každých {2,number,integer} měsíců."
+
+#: recurYearly
+msgid "Every year."
+msgstr "Každý rok."
+
+#: recurYearlyEveryDate
+msgid "Every year on {0,date,MMMM} {1,number,integer}."
+msgstr "Každý rok {0,date,MMMM} {1,number,integer}."
+
+#: recurYearlyEveryMonthNumDay
+msgid ""
+"The {0,choice,-1#last|1#first|2#second|3#third|4#fourth} {1,date,EEEE} of "
+"every {2,date,MMMM}."
+msgstr ""
+"{0,choice,-1#Poslední|1#První|2#Druhý|3#Třetí|4#Čtvrtý} {1,date,EEEE} "
+"každých {2,date,MMMM}."
+
+#: recurComplex
+msgid "Complex repeat specification."
+msgstr "Komplexní zadání opakování."
+
+#: recurEndNone
+msgid "No end date."
+msgstr "bez datumu ukončení."
+
+#: recurEndNumber
+msgid "End after {0,number,integer} occurrence(s)."
+msgstr "Konec po {0,number,integer} výskytech."
+
+#: recurEndByDate
+msgid "End by {0}."
+msgstr "Konec do {0}."
+
+#: recurStart
+msgid "Effective {0}."
+msgstr "Účinný od {0}."
+
+#: recurBasicSelectDaily
+msgid "Every Day"
+msgstr "Každý den"
+
+#: recurBasicSelectWeekly
+msgid "Every Week"
+msgstr "Každý týden"
+
+#: recurBasicSelectMonthly
+msgid "Every Month"
+msgstr "Každý měsíc"
+
+#: recurBasicSelectYearly
+msgid "Every Year"
+msgstr "Každý rok"
+
+#: recurBasicNoEnd
+msgid "(no end date)"
+msgstr "(bez datumu ukončení)"
+
+#: red
+msgid "Red"
+msgstr "červená"
+
+#: refresh
+msgid "Refresh"
+msgstr "Obnovit"
+
+#: rememberMe
+msgid "Stay signed in"
+msgstr "Zapamatovat si mě na tomto počítači"
+
+#: remove
+msgid "Remove"
+msgstr "Odstranit"
+
+#: removeAll
+msgid "Remove all"
+msgstr ""
+
+#: removeDupesToSelf
+msgid "When I receive a message originally sent by me"
+msgstr "Když pošlu zprávu, kterou pak přijmu"
+
+#: rename
+msgid "Rename"
+msgstr "Přejmenovat"
+
+#: renameAddressBook
+msgid "Rename Contact Folder"
+msgstr "Přejmenovat adresář"
+
+#: renameCalendar
+msgid "Rename Calendar"
+msgstr "Přejmenovat kalendář"
+
+#: renameFolder
+msgid "Rename Folder"
+msgstr "Přejmenovat složku"
+
+#: renameTag
+msgid "Rename Tag"
+msgstr "Přejmenovat štítek"
+
+#: repeat
+msgid "Repeat"
+msgstr "Opakovat"
+
+#: repeatLabel
+msgid "Repeat:"
+msgstr ""
+
+#: repeatAdvanced
+msgid "Advanced"
+msgstr "Pokročilé"
+
+#: repeatBasic
+msgid "Basic"
+msgstr "Základní"
+
+#: repeatBlurb
+msgctxt "repeatBlurb"
+msgid "{0} {1} {2}"
+msgstr "{0} {1} {2}"
+
+#: repeatEditDailyInterval
+msgid "<td>Every</td><td>{0}</td><td>day(s).</td>"
+msgstr "<td>Každých</td><td>{0}</td><td>dní.</td>"
+
+#: repeatEditWeeklyByDay
+msgid "<td>Every</td><td>{0}.</td>"
+msgstr "<td>Každých</td><td>{0}.</td>"
+
+#: repeatEditWeeklyCustom
+msgid "<td>Every</td><td>{0}</td><td>weeks on</td>"
+msgstr "<td>Každých</td><td>{0}</td><td>týdnů</td>"
+
+#: repeatEditMonthlyByDay
+msgid "<td>Day</td><td>{0}</td><td>of every</td><td>{1}</td><td>month(s).</td>"
+msgstr "<td>{0}.</td><td>den</td><td>každého</td><td>{1}</td><td>měsíce.</td>"
+
+#: repeatEditMonthlyRelative
+msgid ""
+"<td>The</td><td>{0}</td><td>{1}</td><td>of "
+"every</td><td>{2}</td><td>month(s).</td>"
+msgstr ""
+"<td></td><td>{0}</td><td>{1}</td><td>každého</td><td>{2}</td><td>měsíce.</td"
+">"
+
+#: repeatEditYearlyByDate
+msgid "<td>Every year on</td><td>{0}</td><td>{1}.</td>"
+msgstr "<td>Každý rok</td><td>{0}</td><td>{1}.</td>"
+
+#: repeatEditYearlyRelative
+msgid "<td>The</td><td>{0}</td><td>{1}</td><td>of every</td><td>{2}.</td>"
+msgstr "<td></td><td>{0}</td><td>{1}</td><td>každého</td><td>{2}.</td>"
+
+#: repeatEditEndCount
+msgid "<td>End after</td><td>{0}</td><td>occurrence(s).</td>"
+msgstr "<td>Konec po</td><td>{0}</td><td>výskytech.</td>"
+
+#: repeatEditEndUntil
+msgid "<td>End by</td><td>{0}.</td>"
+msgstr "<td>Konec</td><td>{0}.</td>"
+
+#: repeatSecDaily
+msgid "Daily:"
+msgstr "Denně:"
+
+#: repeatSecWeekly
+msgid "Weekly:"
+msgstr "Týdně:"
+
+#: repeatSecMonthly
+msgid "Monthly:"
+msgstr "Měsíčně:"
+
+#: repeatSecYearly
+msgid "Yearly:"
+msgstr "Ročně:"
+
+#: repeats
+msgid "Repeats"
+msgstr "Opakování"
+
+#: repeatsLabel
+msgid "Repeats:"
+msgstr ""
+
+#: reply
+msgctxt "reply"
+msgid "Reply"
+msgstr "Odpovědět"
+
+#: replyAccept
+msgid "Accept"
+msgstr "Přijmout"
+
+#: replyAll
+msgid "Reply All"
+msgstr "Odpovědět všem"
+
+#: replyDecline
+msgid "Decline"
+msgstr "Odmítnout"
+
+#: replyTentative
+msgctxt "replyTentative"
+msgid "Tentative"
+msgstr "Nezávazně"
+
+#: replyTo
+msgid "Reply To"
+msgstr "Odpovědět na"
+
+#: replyToEnabled
+msgid "Reply-to enabled"
+msgstr "„Odpovědět na“ zapnuté"
+
+#: replyToIdentity
+msgctxt "replyToIdentity"
+msgid "Reply-to"
+msgstr "„Odpovědět na“"
+
+#: resend
+msgid "Resend"
+msgstr "Poslat znovu"
+
+#: resource
+msgid "Resource"
+msgstr ""
+
+#: resources
+msgid "Resources"
+msgstr ""
+
+#: rootFolder
+msgid "(root folder)"
+msgstr "(kořenová složka)"
+
+#: save
+msgctxt "save"
+msgid "Save"
+msgstr "Uložit"
+
+#: saveChanges
+msgid "Save Changes"
+msgstr "Uložit změny"
+
+#: saveDraft
+msgid "Save Draft"
+msgstr "Uložit rozepsané"
+
+#: saveSearch
+msgid "Save this search"
+msgstr ""
+
+#: saveToSent
+msgid "Save copies of messages to sent folder"
+msgstr "Ukládat kopie zpráv do složky Odeslané"
+
+#: schedule
+msgid "Schedule"
+msgstr "Rozvrh"
+
+#: search
+msgid "Search"
+msgstr "Hledat"
+
+#: advancedSearch
+msgid "Advanced Search"
+msgstr "Pokročilé hledání"
+
+#: searchContacts
+msgid "Search Contacts"
+msgstr "Hledat kontakty"
+
+#: searchMail
+msgid "Email Messages"
+msgstr "Emailové zprávy"
+
+#: searchName
+msgid "Search name"
+msgstr "Hledat jméno"
+
+#: searchNameLabel
+msgid "Search name:"
+msgstr ""
+
+#: searchPersonalCalendars
+msgid "Personal Calendars"
+msgstr "Osobní kalendáře"
+
+#: searchPersonalContacts
+msgid "Personal Contacts"
+msgstr "Osobní kontakty"
+
+#: searchPersonalTaskLists
+msgid "Personal Task Lists"
+msgstr "Osobní seznam úloh"
+
+#: searchQuery
+msgid "Search query"
+msgstr "Vyhledávací řetězec"
+
+#: searchQueryLabel
+msgid "Search query:"
+msgstr ""
+
+#: searches
+msgctxt "searches"
+msgid "Searches"
+msgstr "Hledání"
+
+#: searchWeb
+msgid "Search web"
+msgstr "Hledat na webu"
+
+#: searchURL
+msgid "http://search.yahoo.com/search"
+msgstr "http://search.yahoo.com/search"
+
+#: searchFieldName
+msgid "p"
+msgstr "p"
+
+#: select
+msgid "Select"
+msgstr ""
+
+#: selectFilesToAttach
+msgid "Select files to attach and click \"Done\" when finished."
+msgstr ""
+"Vyberte soubory, které chcete přiložit a po skončení klikněte na „Hotovo“."
+
+#: selectCallForwardingRule
+msgctxt "selectCallForwardingRule"
+msgid "(You may forward up to 12 numbers)"
+msgstr "(Můžete přesměrovat do 12 čísel)"
+
+#: send
+msgid "Send"
+msgstr "Poslat"
+
+#: sendAsAttachments
+msgid "Send as attachment(s)"
+msgstr ""
+
+#: sendEmailNotification
+msgid "Send an email notification to:"
+msgstr "Poslat upozornění emailem na:"
+
+#: sendMailFrom
+msgid "Send mail from"
+msgstr "Poslat poštu z"
+
+#: sendFreeBusyLink
+msgid "Send Free / Busy Link"
+msgstr ""
+
+#: sender
+msgid "Sender"
+msgstr "Odesílatel"
+
+#: senderLabel
+msgid "Sender:"
+msgstr ""
+
+#: sent
+msgctxt "sent"
+msgid "Sent"
+msgstr "Odeslané"
+
+#: sentBy
+msgid "Sent by"
+msgstr "Odeslal"
+
+#: shareAccepted
+msgid "Share accepted."
+msgstr "Sdílení přijato."
+
+#: shareAlreadyAccepted
+msgid "This share has been accepted."
+msgstr "Toto sdílení bylo přijato."
+
+#: shareNewName
+msgid "{0}''s {1}"
+msgstr "{0}''s {1}"
+
+#: shortcuts
+msgid "Shortcuts"
+msgstr "Odkazy"
+
+#: shouldShowTimezone
+msgid "Show timezone list in appointment view"
+msgstr "Zobrazit seznam časových pásem v přehledu schůzek"
+
+#: showApptsFromThrough
+msgid "Show appointments from {0} through {1}"
+msgstr ""
+
+#: showAs
+msgid "Show as"
+msgstr "Zobrazit jako"
+
+#: showAsLabel
+msgid "Show as:"
+msgstr ""
+
+#: showConversation
+msgid "Show Conversation"
+msgstr "Zobrazit konverzaci"
+
+#: showDeclinedMeetings
+msgid "Show declined meetings"
+msgstr ""
+
+#: showOrig
+msgid "Show Original"
+msgstr "Zobrazit originál"
+
+#: showSearchString
+msgid "Always show search string"
+msgstr "Vždy zobrazovat vyhledávací řetězec"
+
+#: showBcc
+msgid "Show Bcc"
+msgstr ""
+
+#: signature
+msgctxt "signature"
+msgid "Signature"
+msgstr "Signatura"
+
+#: size
+msgctxt "size"
+msgid "Size"
+msgstr "Velikost"
+
+#: slides_endSlideMsg
+msgid "End of slide show. <br> Click to run again"
+msgstr ""
+
+#: spellcheckNoMistakesFound
+msgid "No spelling mistakes found."
+msgstr ""
+
+#: spellcheckNoSuggestions
+msgid "No suggestions."
+msgstr ""
+
+#: spellcheckServiceUnavailableMessage
+msgid "The spell checking service is unavailable."
+msgstr ""
+
+#: spellcheckSpellingSuggestions
+msgid "Spelling Suggestions "
+msgstr ""
+
+#: spellcheckSuggestionsLabel
+msgid "Suggestions:"
+msgstr ""
+
+#. # Copyright string must not be translated
+#: splashScreenCopyright
+msgctxt "splashScreenCopyright"
+msgid ""
+"Copyright © 2005-2014 Zimbra, Inc. All rights reserved. \"Zimbra\" is a "
+"registered trademark of Zimbra, Inc."
+msgstr ""
+"Copyright ř 2006 Zimbra, Inc.     „Zimbra“ a loga Zimbra jsou obchodní "
+"značky Zimbra, Inc."
+
+#: splashScreenAppName
+msgid "Web Client"
+msgstr "Kolaborační balík"
+
+#: splashScreenMobileAppName
+msgid "Mobile Web Client"
+msgstr ""
+
+#: start
+msgid "Start"
+msgstr "Začátek"
+
+#: startLabel
+msgid "Start:"
+msgstr ""
+
+#: startDate
+msgctxt "startDate"
+msgid "Start Date"
+msgstr "Datum začátku"
+
+#: status
+msgctxt "status"
+msgid "Status"
+msgstr "Stav"
+
+#: subject
+msgctxt "subject"
+msgid "Subject"
+msgstr "Předmět"
+
+#: subjectLabel
+msgid "Subject:"
+msgstr ""
+
+#: subscribe
+msgid "Subscribe"
+msgstr "Přihlásit k odběru"
+
+#: subscribeToFeed
+msgid "Subscribe to RSS/Atom Feed"
+msgstr "Přihlásit k odběru RSS/Atom kanálu"
+
+#: subscribeToRemoteCalendar
+msgid "Subscribe to Remote Calendar"
+msgstr "Přihlásit k odběru vzdáleného kalendáře"
+
+#: switchToAdvancedClient
+msgid "Advanced Version"
+msgstr "Použít rozšířenou (Ajax) verzi"
+
+#: switchToOfflineClient
+msgid "Offline Version"
+msgstr "Offline verze"
+
+#: switchToOfflineURL
+msgid "http://www.zimbra.com/products/desktop.html"
+msgstr "http://www.zimbra.com/products/desktop.html"
+
+#: tags
+msgid "Tags"
+msgstr "Štítky"
+
+#: tagColor
+msgid "Tag Color"
+msgstr "Barva štítku"
+
+#: tagDelete
+msgid "Delete tag"
+msgstr "Smazat štítek"
+
+#: tagDeleteConfirmation
+msgid "Permanently delete this tag"
+msgstr "Trvale smazat tento štítek"
+
+#: tagName
+msgid "Tag Name"
+msgstr "Název štítku"
+
+#: tagNew
+msgid "New Tag"
+msgstr "Nový štítek"
+
+#: tagUpdated
+msgid "Tag Updated"
+msgstr "Štítek byl aktualizován"
+
+#: tagNoTags
+msgid "No tags. Use the \"New Tag\" button to create a tag."
+msgstr ""
+"Žádné štítky. Použijte tlačítko „Nový štítek“ na vytvoření nového štítku."
+
+#: taskPerComplete
+msgid "% Complete"
+msgstr "% hotovo"
+
+#: taskDueDate
+msgid "Due Date"
+msgstr "Termín"
+
+#: taskDueDateLabel
+msgid "Due Date:"
+msgstr ""
+
+#: taskNew
+msgctxt "taskNew"
+msgid "New Task List"
+msgstr "Nový seznam úloh"
+
+#: taskListNew
+msgctxt "taskListNew"
+msgid "New Task List"
+msgstr "Nový seznam úloh"
+
+#: taskListDelete
+msgid "Delete Task List"
+msgstr "Smazat seznam úloh"
+
+#: taskListDeleteConfirmation
+msgid "Permanently delete this task list. This operation can not be undone."
+msgstr "Trvale smazat tento seznam úloh. Tuto operaci není možné vrátit."
+
+#: taskListNewShared
+msgid "Link to Shared Task List"
+msgstr "Odkaz na sdílený seznam úloh."
+
+#: taskListUpdated
+msgid "Task List Updated"
+msgstr "Seznam úloh aktualizován."
+
+#: taskListSystem
+msgid "System Task List"
+msgstr "Systémový seznam úloh"
+
+#: taskListShared
+msgid "Shared Task List"
+msgstr "Sdílený seznam úloh"
+
+#: taskListUser
+msgctxt "taskListUser"
+msgid "Task List"
+msgstr "Seznam úloh"
+
+#: taskList
+msgctxt "taskList"
+msgid "Task List"
+msgstr "Seznam úloh"
+
+#: taskPrioLow
+msgctxt "taskPrioLow"
+msgid "Low"
+msgstr "Nízká"
+
+#: taskPrioNormal
+msgctxt "taskPrioNormal"
+msgid "Normal"
+msgstr "Běžná"
+
+#: taskPrioHigh
+msgctxt "taskPrioHigh"
+msgid "High"
+msgstr "Vysoká"
+
+#: task
+msgctxt "task"
+msgid "Task"
+msgstr "Úloha"
+
+#: tasks
+msgctxt "tasks"
+msgid "Tasks"
+msgstr "Úlohy"
+
+#: tasksLabel
+msgid "Tasks:"
+msgstr ""
+
+#: TASK_CANC
+msgid "Cancelled"
+msgstr "Zrušené"
+
+#: TASK_COMP
+msgid "Completed"
+msgstr "Hotovo"
+
+#: TASK_DEFERRED
+msgid "Deferred"
+msgstr "Odložené"
+
+#: TASK_INPR
+msgid "In Progress"
+msgstr "Probíhá"
+
+#: TASK_NEED
+msgid "Not Started"
+msgstr "Nezačaté"
+
+#: TASK_WAITING
+msgid "Waiting on someone else"
+msgstr "Čeká na někoho jiného"
+
+#: tentative
+msgctxt "tentative"
+msgid "Tentative"
+msgstr "Nezávazně"
+
+#: time
+msgid "Time"
+msgstr "Čas"
+
+#: timeZonePref
+msgid "Time Zone"
+msgstr "Časové pásmo"
+
+#: timeZonePrefLabel
+msgid "Time Zone:"
+msgstr ""
+
+#: to
+msgctxt "to"
+msgid "To"
+msgstr "Komu"
+
+#: tocc
+msgctxt "tocc"
+msgid "To or Cc"
+msgstr ""
+
+#: toLabel
+msgid "To:"
+msgstr ""
+
+#: today
+msgid "Today"
+msgstr "Dnes"
+
+#: total
+msgid "total"
+msgstr "celkem"
+
+#: trash
+msgctxt "trash"
+msgid "Trash"
+msgstr "Koš"
+
+#: type
+msgctxt "type"
+msgid "Type"
+msgstr "Typ"
+
+#: unchecked
+msgid "Unchecked"
+msgstr "Neskontrolované"
+
+#: unheard
+msgid "unheard"
+msgstr "nevyposlechnutá"
+
+#: unknown
+msgid "Unknown "
+msgstr ""
+
+#: unknownContentType
+msgid "Unknown <{0}>"
+msgstr "Neznámý <{0}>"
+
+#: unknownRecipient
+msgctxt "unknownRecipient"
+msgid "<No Address>"
+msgstr "<bez adresy>"
+
+#: unknownSender
+msgctxt "unknownSender"
+msgid "<No Address>"
+msgstr "<bez adresy>"
+
+#: unlimited
+msgid "unlimited"
+msgstr "neomezené"
+
+#: unread
+msgid "unread"
+msgstr "nepřečtená"
+
+#: unsupportedRestView
+msgid "No HTML formatter available for item"
+msgstr "pro položku není dostupný žádný formátovač HTML"
+
+#: uploadNewFile
+msgid "Upload File"
+msgstr ""
+
+#: url
+msgid "URL"
+msgstr "URL"
+
+#: username
+msgctxt "username"
+msgid "Username"
+msgstr "Uživatelské jméno"
+
+#: usernameFieldMissing
+msgid "You must fill in the Username"
+msgstr ""
+
+#: view
+msgctxt "view"
+msgid "View"
+msgstr "Zobrazit"
+
+#: viewLabel
+msgid "View:"
+msgstr ""
+
+#: viewAsHtml
+msgid "View As Html"
+msgstr "Zobrazit jako HTML"
+
+#: viewMessage
+msgid "To view a message, click on it."
+msgstr ""
+
+#: voice
+msgid "Voice"
+msgstr "Hlas"
+
+#: voiceErrorUnableToAuth
+msgid ""
+"Authentication error: please update your voice account password at "
+"Preferences|Voice and verify voice username is correct."
+msgstr ""
+
+#: voiceErrorUnsupported
+msgid ""
+"Account not provisioned for Voice feature. Kindly contact your "
+"administrator."
+msgstr ""
+
+#: voiceErrorGeneric
+msgid ""
+"Voice mailbox not configured correctly. Check preference settings or contact "
+"your administrator."
+msgstr ""
+
+#: voiceErrorPIN
+msgid "Invalid PIN: please reset your PIN at Preferences|Voice"
+msgstr ""
+
+#: voiceMailsPerPage
+msgid "Voice mail messages per page"
+msgstr "Hlasových zpráv na stránku"
+
+#: voiceMail
+msgid "Voice Mail"
+msgstr "Hlasová pošta"
+
+#: voiceMailBody
+msgid ""
+"\n"
+"\n"
+"\n"
+"\n"
+"A voice customer has sent you a new voice mail message. You can listen to "
+"the voice mail by simply opening the attached file.\n"
+"From: {0}  |  Duration: {1}  |  Received: {2}\n"
+"\n"
+"http://www.zimbra.com "
+msgstr ""
+"\n"
+"\n"
+"\n"
+"\n"
+"Kontakt vám poslal novou hlasovou zprávu. Hlasovou zprávu si můžete "
+"vyslechnout jednoduše otevřením přiloženého souboru.\n"
+"Od: {0}  |  Trvání: {1}  |  Přijaté: {2}\n"
+"\n"
+"http://www.zimbra.com"
+
+#: voiceMailForwardSubject
+msgid "Listen to this voice mail I received"
+msgstr "Vyslechnout tuto hlasovou zprávu"
+
+#: voiceMailMessage
+msgid "Voice Mail Message"
+msgstr ""
+
+#: voiceMailReplySubject
+msgid "About your voice mail"
+msgstr "O vaší hlasové poště"
+
+#: voiceOptInstructions
+msgid ""
+"Select the phone number you want to manage then select the options for that "
+"number."
+msgstr ""
+"Vyberte telefonní číslo, které chcete spravovat a pak vybete možnosti pro "
+"dané číslo."
+
+#: week
+msgid "Week"
+msgstr "Týden"
+
+#: workWeek
+msgid "Work Week"
+msgstr "Pracovní týden"
+
+#: whenForwarding
+msgid "When forwarding"
+msgstr "Při přeposílaní"
+
+#: whenReplying
+msgid "When replying"
+msgstr "Při odpovídání"
+
+#: work
+msgctxt "work"
+msgid "Work"
+msgstr "Práce"
+
+#: yellow
+msgid "Yellow"
+msgstr "žlutá"
+
+#: yes
+msgid "Yes"
+msgstr ""
+
+#: zimbraDocument
+msgid "Zimbra Document"
+msgstr ""
+
+#: zimbraPresentation
+msgid "Zimbra Presentation"
+msgstr ""
+
+#: zimbraSpreadsheet
+msgid "Zimbra Spreadsheet"
+msgstr ""
+
+#: zimbraTitle
+msgctxt "zimbraTitle"
+msgid "Zimbra"
+msgstr "Zimbra"
+
+#: zimbraTitleLabel
+msgid "Zimbra:"
+msgstr ""
+
+#: zeroSizedAtts
+msgid "Files of zero size and invalid path have been discarded."
+msgstr ""
+
+#: uncheckToRemoveMembers
+msgid "Note: Uncheck to remove members from group."
+msgstr ""
+
+#. #error codes and description
+#: errorTryAgainLater
+msgid "Please try again later."
+msgstr ""
+
+#: errorGoBack
+msgid "Go back"
+msgstr ""
+
+#: 400Title
+msgid "Bad Request"
+msgstr ""
+
+#: 400Msg
+msgid "The request contains bad syntax or cannot be fulfilled."
+msgstr ""
+
+#: 401Title
+msgid "Authorization Required"
+msgstr ""
+
+#: 401Msg
+msgid ""
+"The server could not verify that you are authorized to access the requested "
+"resource.  Either you supplied the wrong credentials (e.g., bad password), "
+"or your browser doesn't understand how to supply the credentials required."
+msgstr ""
+
+#: 402Title
+msgid "Payment Required"
+msgstr ""
+
+#: 402Msg
+msgctxt "402Msg"
+msgid ""
+"The server has encountered an internal error or misconfiguration and was "
+"unable to complete your request."
+msgstr ""
+
+#: 403Title
+msgid "Forbidden"
+msgstr ""
+
+#: 403Msg
+msgid ""
+"You don't have enough permission to access the requested resource on the "
+"server."
+msgstr ""
+
+#: 404Title
+msgid "Not Found"
+msgstr ""
+
+#: 404Msg
+msgid "The requested URL was not found on this server."
+msgstr ""
+
+#: 405Title
+msgid "Method Not Allowed"
+msgstr ""
+
+#: 405Msg
+msgid "The requested method GET is not allowed for the requested URL."
+msgstr ""
+
+#: 406Title
+msgid "Not Acceptable"
+msgstr ""
+
+#: 406Msg
+msgid "No acceptable representation was found for the requested resource."
+msgstr ""
+
+#: 407Title
+msgid "Proxy Authentication Required"
+msgstr ""
+
+#: 407Msg
+msgid ""
+"The server could not verify that you are authorized to access the requested "
+"resource."
+msgstr ""
+
+#: 408Title
+msgid "Request Time-out"
+msgstr ""
+
+#: 408Msg
+msgid ""
+"The server closed the network connection because the browser didn't finish "
+"the request within the specified time."
+msgstr ""
+
+#: 409Title
+msgid "Conflict"
+msgstr ""
+
+#: 409Msg
+msgctxt "409Msg"
+msgid ""
+"The server has encountered an internal error or misconfiguration and was "
+"unable to complete your request."
+msgstr ""
+
+#: 410Title
+msgid "Gone"
+msgstr ""
+
+#: 410Msg
+msgid ""
+"The requested URL is no longer available on this server and there is no "
+"forwarding address."
+msgstr ""
+
+#: 411Title
+msgid "Length Required"
+msgstr ""
+
+#: 411Msg
+msgid "A request of the requested method GET requires a valid Content-length."
+msgstr ""
+
+#: 412Title
+msgid "Precondition Failed"
+msgstr ""
+
+#: 412Msg
+msgid "The precondition on the request for the URL evaluated to false."
+msgstr ""
+
+#: 413Title
+msgid "Request Entity Too Large"
+msgstr ""
+
+#: 413Msg
+msgid ""
+"The redirect request method does not allow the data transmitted, or the data "
+"volume exceeds the capacity limit."
+msgstr ""
+
+#: 414Title
+msgid "Request-URI Too Large"
+msgstr ""
+
+#: 414Msg
+msgid "The requested URL's length exceeds the capacity limit for this server."
+msgstr ""
+
+#: 415Title
+msgid "Unsupported Media Type"
+msgstr ""
+
+#: 415Msg
+msgid "The server does not support the media type transmitted in the request."
+msgstr ""
+
+#: 416Title
+msgid "Requested Range Not Satisfiable"
+msgstr ""
+
+#: 416Msg
+msgid ""
+"None of the range-specifier values in the range request-header field overlap "
+"the current extent of the selected resource."
+msgstr ""
+
+#: 417Title
+msgid "Expectation Failed"
+msgstr ""
+
+#: 417Msg
+msgid ""
+"The expectation given in the Expect request-header field could not be met by "
+"this server."
+msgstr ""
+
+#: 422Title
+msgid "Unprocessable Entity"
+msgstr ""
+
+#: 422Msg
+msgid ""
+"The server understands the media type of the request entity, but was unable "
+"to process the contained instructions."
+msgstr ""
+
+#: 423Title
+msgid "Locked"
+msgstr ""
+
+#: 423Msg
+msgid ""
+"The requested resource is currently locked. The lock must be released or "
+"proper identification given before the method can be applied."
+msgstr ""
+
+#: 424Title
+msgid "Failed Dependency"
+msgstr ""
+
+#: 424Msg
+msgid ""
+"The method could not be performed on the resource because the requested "
+"action depended on another action and that other action failed."
+msgstr ""
+
+#: 425Title
+msgid "No code"
+msgstr ""
+
+#: 425Msg
+msgctxt "425Msg"
+msgid ""
+"The server has encountered an internal error or misconfiguration and was "
+"unable to complete your request."
+msgstr ""
+
+#: 426Title
+msgid "Upgrade Required"
+msgstr ""
+
+#: 426Msg
+msgid "The requested resource can only be retrieved using SSL."
+msgstr ""
+
+#: 500Title
+msgid "Internal Server Error"
+msgstr ""
+
+#: 500Msg
+msgid "The server has encountered an internal error."
+msgstr ""
+
+#: 501Title
+msgid "Not Implemented"
+msgstr ""
+
+#: 501Msg
+msgid ""
+"The server either does not recognise the request method, or it lacks the "
+"ability to fulfil the request."
+msgstr ""
+
+#: 502Title
+msgid "Bad Gateway"
+msgstr ""
+
+#: 502Msg
+msgid ""
+"The server was acting as a gateway or proxy and received an invalid response "
+"from the upstream server."
+msgstr ""
+
+#: 503Title
+msgid "Service Unavailable"
+msgstr ""
+
+#: 503Msg
+msgid ""
+"The server is currently unavailable (because it is overloaded or down for "
+"maintenance)."
+msgstr ""
+
+#: 504Title
+msgid "Gateway Timeout"
+msgstr ""
+
+#: 504Msg
+msgid ""
+"The server was acting as a gateway or proxy and did not receive a timely "
+"request from the upstream server."
+msgstr ""
+
+#: 505Title
+msgid "HTTP Version Not Supported"
+msgstr ""
+
+#: 505Msg
+msgid ""
+"The server does not support the HTTP protocol version used in the request."
+msgstr ""
+
+#: 506Title
+msgid "Variant Also Negotiates"
+msgstr ""
+
+#: 506Msg
+msgid ""
+"A variant for the requested entity is itself a negotiable resource. This "
+"indicates a configuration error."
+msgstr ""
+
+#: 507Title
+msgid "Insufficient Storage (WebDAV)"
+msgstr ""
+
+#: 507Msg
+msgid "There is insufficient free space left in your storage allocation."
+msgstr ""
+
+#: 509Title
+msgid "Bandwidth Limit Exceeded"
+msgstr ""
+
+#: 509Msg
+msgctxt "509Msg"
+msgid ""
+"The server has encountered an internal error or misconfiguration and was "
+"unable to complete your request."
+msgstr ""
+
+#: 510Title
+msgid "Not Extended"
+msgstr ""
+
+#: 510Msg
+msgid ""
+"A mandatory extension policy in the request is not accepted by the server "
+"for this resource."
+msgstr ""
+
+#: SKIN_uiTheme
+msgid "Theme"
+msgstr "Vzhled rozhraní"
+
+#: SKIN_bare
+msgid "Bare"
+msgstr "holá"
+
+#: SKIN_beach
+msgid "Beach"
+msgstr ""
+
+#: SKIN_bones
+msgid "Bones"
+msgstr ""
+
+#: SKIN_carbon
+msgid "Carbon"
+msgstr ""
+
+#: SKIN_froggy
+msgid "Froggy"
+msgstr "žabí"
+
+#: SKIN_harmony
+msgid "Harmony"
+msgstr ""
+
+#: SKIN_harvest
+msgid "Harvest"
+msgstr "sklizeň"
+
+#: SKIN_hotrod
+msgid "Hotrod"
+msgstr ""
+
+#: SKIN_lake
+msgid "Lake"
+msgstr ""
+
+#: SKIN_lavender
+msgid "Lavender"
+msgstr "levandule"
+
+#: SKIN_lemongrass
+msgid "Lemongrass"
+msgstr ""
+
+#: SKIN_oasis
+msgid "Oasis"
+msgstr ""
+
+#: SKIN_pebble
+msgid "Pebble"
+msgstr ""
+
+#: SKIN_rose
+msgid "Rose"
+msgstr "růže"
+
+#: SKIN_sand
+msgid "Sand"
+msgstr "písek"
+
+#: SKIN_serenity
+msgid "Serenity"
+msgstr ""
+
+#: SKIN_sky
+msgid "Sky"
+msgstr "obloha"
+
+#: SKIN_smoke
+msgid "Smoke"
+msgstr ""
+
+#: SKIN_steel
+msgid "Steel"
+msgstr "ocel"
+
+#: SKIN_tree
+msgid "Tree"
+msgstr ""
+
+#: SKIN_twilight
+msgid "Twilight"
+msgstr ""
+
+#: SKIN_vanilla
+msgid "Vanilla"
+msgstr "vanilka"
+
+#: SKIN_waves
+msgid "Waves"
+msgstr ""
+
+#: SKIN_yahoo
+msgctxt "SKIN_yahoo"
+msgid "Yahoo!"
+msgstr ""
+
+#: SKIN_zmail
+msgctxt "SKIN_zmail"
+msgid "Zimbra"
+msgstr ""
+
+#. # generic address
+#: AB_FIELD_street
+msgid "Street"
+msgstr "Ulice"
+
+#: AB_FIELD_city
+msgid "City"
+msgstr "Město"
+
+#: AB_FIELD_state
+msgid "State/Province"
+msgstr "Stát/region"
+
+#: AB_FIELD_postalCode
+msgid "Postal Code"
+msgstr "Poštovní směrovací číslo"
+
+#: AB_FIELD_country
+msgid "Country/Region"
+msgstr "Krajina"
+
+#: AB_FIELD_URL
+msgctxt "AB_FIELD_URL"
+"AB_FIELD_URL"
+msgid "Web Page"
+msgstr "Webstránka"
+
+#: AB_ADDR_WORK
+msgctxt "AB_ADDR_WORK"
+msgid "Work Address"
+msgstr "Adresa práce"
+
+#: AB_ADDR_HOME
+msgctxt "AB_ADDR_HOME"
+msgid "Home Address"
+msgstr "Adresa domů"
+
+#: AB_ADDR_OTHER
+msgctxt "AB_ADDR_OTHER"
+msgid "Other Address"
+msgstr "Jiná adresa"
+
+#: AB_EDIT_CONTACT
+msgid "Edit Contact"
+msgstr "Upravit kontakt"
+
+#: AB_EDIT_GROUP
+msgid "Edit Group"
+msgstr "Upravit skupinu"
+
+#: AB_ADD_CONTACT
+msgid "Add To Contacts"
+msgstr "Přidat do kontaktů"
+
+#: AB_MOVE_CONTACT
+msgid "Move Contact"
+msgstr "Přesunout kontakt"
+
+#: AB_MOVE_CONTACTS
+msgid "Move Contacts"
+msgstr "Přesunout kontakty"
+
+#: AB_TAG_CONTACT
+msgid "Tag Contact"
+msgstr "Označit kontakt štítkem"
+
+#: AB_TAG_CONTACTS
+msgid "Tag Contacts"
+msgstr "Označit kontakty štítkem"
+
+#: AB_WORK_URL
+msgid "Work URL"
+msgstr "URL práce"
+
+#: AB_HOME_URL
+msgid "Home URL"
+msgstr "URL domů"
+
+#: AB_OTHER_URL
+msgid "Other URL"
+msgstr "Jiné URL"
+
+#: AB_GROUP_NAME
+msgid "Group Name"
+msgstr "Název skupiny"
+
+#: AB_GROUP_MEMBERS
+msgid "Group Members"
+msgstr "Členové skupiny"
+
+#. # these need to be kept in sync with ZmContact.F_*
+#: AB_FIELD_firstName
+msgid "First"
+msgstr "Křestní jméno"
+
+#: AB_FIELD_lastName
+msgid "Last"
+msgstr "Příjmení"
+
+#: AB_FIELD_middleName
+msgid "Middle"
+msgstr "Střední"
+
+#: AB_FIELD_fullName
+msgid "Full Name"
+msgstr "Plné jméno"
+
+#: AB_FIELD_jobTitle
+msgid "Job Title"
+msgstr "Pracovní zařazení"
+
+#: AB_FIELD_company
+msgctxt "AB_FIELD_company"
+msgid "Company"
+msgstr "Společnost"
+
+#: AB_FIELD_phoneticFirstName
+msgid "Phonetic First"
+msgstr ""
+
+#: AB_FIELD_phoneticLastName
+msgid "Phonetic Last"
+msgstr ""
+
+#: AB_FIELD_phoneticCompany
+msgid "Phonetic Company"
+msgstr ""
+
+#. # email addresses
+#: AB_FIELD_email
+msgctxt "AB_FIELD_email"
+msgid "Email"
+msgstr "Email"
+
+#: AB_FIELD_email2
+msgid "Email 2"
+msgstr "Email 2"
+
+#: AB_FIELD_email3
+msgid "Email 3"
+msgstr "Email 3"
+
+#. # work address
+#: AB_FIELD_workStreet
+msgid "Work Street"
+msgstr "Práce - ulice"
+
+#: AB_FIELD_workCity
+msgid "Work City"
+msgstr "Práce - město"
+
+#: AB_FIELD_workState
+msgid "Work State/Province"
+msgstr "Práce - stát/region"
+
+#: AB_FIELD_workPostalCode
+msgid "Work Postal Code"
+msgstr "Práce - poštovní směrovací číslo"
+
+#: AB_FIELD_workCountry
+msgid "Work Country/Region"
+msgstr "Práce - krajina"
+
+#: AB_FIELD_workURL
+msgctxt "AB_FIELD_workURL"
+msgid "Web Page"
+msgstr "Práce - webstránka"
+
+#. # work phone numbers
+#: AB_FIELD_workPhone
+msgid "Work Phone"
+msgstr "Práce - telefon"
+
+#: AB_FIELD_workPhone2
+msgctxt "AB_FIELD_workPhone2"
+"AB_FIELD_workPhone2"
+msgid "Alternate Phone"
+msgstr "Práce - telefon 2"
+
+#: AB_FIELD_workFax
+msgid "Work Fax"
+msgstr "Práce - fax"
+
+#: AB_FIELD_assistantPhone
+msgid "Assistant Phone"
+msgstr "Práce - asistent"
+
+#: AB_FIELD_companyPhone
+msgid "Company Phone"
+msgstr "Telefon společnosti"
+
+#: AB_FIELD_callbackPhone
+msgctxt "AB_FIELD_callbackPhone"
+msgid "Callback"
+msgstr "Zpětné volání"
+
+#: AB_FIELD_workMobile
+msgid "Work Mobile"
+msgstr ""
+
+#: AB_FIELD_workAlternatePhone
+msgid "Work Alternate Phone"
+msgstr ""
+
+#. # IM
+#: AB_FIELD_imAddress1
+msgctxt "AB_FIELD_imAddress1"
+msgid "IM"
+msgstr ""
+
+#: AB_FIELD_imAddress2
+msgid "IM 2"
+msgstr ""
+
+#: AB_FIELD_imAddress3
+msgid "IM 3"
+msgstr ""
+
+#: AB_FIELD_IM_xmpp
+msgid "XMPP"
+msgstr ""
+
+#: AB_FIELD_IM_yahoo
+msgctxt "AB_FIELD_IM_yahoo"
+msgid "Yahoo!"
+msgstr ""
+
+#: AB_FIELD_IM_msn
+msgid "MSN"
+msgstr ""
+
+#: AB_FIELD_IM_aol
+msgid "AOL"
+msgstr ""
+
+#: AB_FIELD_IM_other
+msgctxt "AB_FIELD_IM_other"
+msgid "Other"
+msgstr ""
+
+#. # home address
+#. #For Velodrome2 skin#
+#: AB_FIELD_homeAddress
+msgctxt "AB_FIELD_homeAddress"
+msgid "Home Address"
+msgstr "Domácí adresa"
+
+#: AB_FIELD_birthDay
+msgid "Birthday"
+msgstr "Narozeniny"
+
+#: AB_FIELD_homeIM
+msgid "Home IM"
+msgstr "IM domů"
+
+#: AB_FIELD_otherHomeIM
+msgid "Other Home IM"
+msgstr "Jiný IM domů"
+
+#: AB_FIELD_workEmail1
+msgctxt "AB_FIELD_workEmail1"
+msgid "Email"
+msgstr "Email"
+
+#: AB_FIELD_workAddress
+msgctxt "AB_FIELD_workAddress"
+msgid "Work Address"
+msgstr "Adresa do práce"
+
+#: AB_FIELD_workIM
+msgid "Work IM"
+msgstr "Pracovní IM"
+
+#: AB_FIELD_otherWorkIM
+msgid "Other Work IM"
+msgstr "Jiný pracovní IM"
+
+#: AB_FIELD_otherDepartment
+msgctxt "AB_FIELD_otherDepartment"
+msgid "Department"
+msgstr "Oddělení"
+
+#: AB_FIELD_otherOffice
+msgid "Office"
+msgstr "Kancelář"
+
+#: AB_FIELD_otherProfession
+msgid "Profession"
+msgstr "Povolání"
+
+#: AB_FIELD_nickname
+msgid "Nickname"
+msgstr "Přezdívka"
+
+#: AB_FIELD_otherAddress
+msgctxt "AB_FIELD_otherAddress"
+msgid "Other Address"
+msgstr "Jiná adresa"
+
+#: AB_FIELD_otherMgrName
+msgid "Manager's Name"
+msgstr "Jméno nadřízeného"
+
+#: AB_FIELD_otherAsstName
+msgid "Assistant's Name"
+msgstr "Jméno asistenta"
+
+#: AB_FIELD_otherAnniversary
+msgid "Anniversary"
+msgstr "Výročí"
+
+#: AB_FIELD_otherCustom1
+msgid "Custom1"
+msgstr "Vlastní1"
+
+#: AB_FIELD_otherCustom2
+msgid "Custom2"
+msgstr "Vlastní2"
+
+#: AB_FIELD_otherCustom3
+msgid "Custom3"
+msgstr "Vlastní3"
+
+#: AB_FIELD_otherCustom4
+msgid "Custom4"
+msgstr "Vlastní4"
+
+#: scheduleDeletion
+msgid "Schedule Email Deletion"
+msgstr "Naplánovat smazání emailu"
+
+#: deletionDays
+msgid "{0} Days"
+msgstr "{0} dní"
+
+#. ## end For Velodrome2 skin#
+#: AB_FIELD_homeStreet
+msgid "Home Street"
+msgstr "Domů - ulice"
+
+#: AB_FIELD_homeCity
+msgid "Home City"
+msgstr "Domů - město"
+
+#: AB_FIELD_homeState
+msgid "Home State/Province"
+msgstr "Domů - stát/region"
+
+#: AB_FIELD_homePostalCode
+msgid "Home Postal Code"
+msgstr "Domů - poštovní směrovací číslo"
+
+#: AB_FIELD_homeCountry
+msgid "Home Country/Region"
+msgstr "Domů - krajina"
+
+#: AB_FIELD_homeURL
+msgctxt "AB_FIELD_homeURL"
+msgid "Web Page"
+msgstr "Domů - webstránka"
+
+#. # home phone numbers
+#: AB_FIELD_homePhone
+msgid "Home Phone"
+msgstr "Domů - telefon"
+
+#: AB_FIELD_homePhone2
+msgctxt "AB_FIELD_homePhone2"
+msgid "Alternate Phone"
+msgstr "Domů - telefon 2"
+
+#: AB_FIELD_homeFax
+msgctxt "AB_FIELD_homeFax"
+msgid "Home Fax"
+msgstr "Domů - fax"
+
+#: AB_FIELD_mobilePhone
+msgctxt "AB_FIELD_mobilePhone"
+msgid "Mobile"
+msgstr "Mobil"
+
+#: AB_FIELD_pager
+msgctxt "AB_FIELD_pager"
+msgid "Pager"
+msgstr "Pager"
+
+#: AB_FIELD_carPhone
+msgctxt "AB_FIELD_carPhone"
+msgid "Car"
+msgstr "Auto"
+
+#. # other address
+#: AB_FIELD_otherStreet
+msgid "Other Street"
+msgstr "Jiné - ulice"
+
+#: AB_FIELD_otherCity
+msgid "Other City"
+msgstr "Jiné - město"
+
+#: AB_FIELD_otherState
+msgid "Other State/Province"
+msgstr "Jiné - stát/region"
+
+#: AB_FIELD_otherPostalCode
+msgid "Other Postal Code"
+msgstr "Jiné - poštovní směrovací číslo"
+
+#: AB_FIELD_otherCountry
+msgid "Other Country/Region"
+msgstr "Jiné - krajina"
+
+#: AB_FIELD_otherURL
+msgid "Other Web Page"
+msgstr "Jiné - webstránka"
+
+#. # other phone numbers
+#: AB_FIELD_otherPhone
+msgctxt "AB_FIELD_otherPhone"
+msgid "Alternate Phone"
+msgstr "Jiné - telefon"
+
+#: AB_FIELD_tollFree
+msgid "Toll Free"
+msgstr "nezpoplatněné"
+
+#: AB_FIELD_otherFax
+msgctxt "AB_FIELD_otherFax"
+msgid "Other Fax"
+msgstr "Jiné - fax"
+
+#. # these need to be kept in sync with ZmContact.FA_*
+#: AB_FILE_AS_lastFirst
+msgid "Last, First"
+msgstr "Příjmení, Křestní jméno"
+
+#: AB_FILE_AS_firstLast
+msgid "First Last"
+msgstr "Křestní jméno Příjmení"
+
+#: AB_FILE_AS_company
+msgctxt "AB_FILE_AS_company"
+msgid "Company"
+msgstr "Společnost"
+
+#: AB_FILE_AS_lastFirstCompany
+msgid "Last, First (Company)"
+msgstr "Příjmení, Křestní jméno (Společnost)"
+
+#: AB_FILE_AS_firstLastCompany
+msgid "First Last (Company)"
+msgstr "Křestní jméno Příjmení (Společnost)"
+
+#: AB_FILE_AS_companyLastFirst
+msgid "Company (Last, First)"
+msgstr "Společnost (Příjmení, Křestní jméno)"
+
+#: AB_FILE_AS_companyFirstLast
+msgid "Company (First Last)"
+msgstr "Společnost (Křestní jméno Příjmení)"
+
+#. # edit link in overview trees
+#: TREE_EDIT
+msgid "edit"
+msgstr "upravit"
+
+#. # folder labels (folder id -> label) used by zm:getFolderName
+#: FOLDER_LABEL_2
+msgctxt "FOLDER_LABEL_2"
+msgid "Inbox"
+msgstr "Přijaté"
+
+#: FOLDER_LABEL_3
+msgctxt "FOLDER_LABEL_3"
+msgid "Trash"
+msgstr "Koš"
+
+#: FOLDER_LABEL_4
+msgctxt "FOLDER_LABEL_4"
+msgid "Junk"
+msgstr "Spam"
+
+#: FOLDER_LABEL_5
+msgctxt "FOLDER_LABEL_5"
+msgid "Sent"
+msgstr "Odeslané"
+
+#: FOLDER_LABEL_6
+msgctxt "FOLDER_LABEL_6"
+msgid "Drafts"
+msgstr "Rozepsané"
+
+#: FOLDER_LABEL_7
+msgctxt "FOLDER_LABEL_7"
+msgid "Contacts"
+msgstr "Kontakty"
+
+#: FOLDER_LABEL_10
+msgctxt "FOLDER_LABEL_10"
+msgid "Calendar"
+msgstr "Kalendář"
+
+#: FOLDER_LABEL_13
+msgctxt "FOLDER_LABEL_13"
+msgid "Emailed Contacts"
+msgstr "Kontakty emailem"
+
+#: FOLDER_LABEL_15
+msgctxt "FOLDER_LABEL_15"
+msgid "Tasks"
+msgstr ""
+
+#: FOLDER_LABEL_16
+msgctxt "FOLDER_LABEL_16"
+msgid "Briefcase"
+msgstr ""
+
+#. # calendar
+#: CAL_MINICAL_TITLE_FORMAT
+msgctxt "CAL_MINICAL_TITLE_FORMAT"
+msgid "MMMMM yyyy"
+msgstr "MMMMM yyyy"
+
+#: CAL_MINICAL_DAY_FORMAT
+msgctxt "CAL_MINICAL_DAY_FORMAT"
+msgid "d"
+msgstr "d"
+
+#. # these need to correspond to java.util.Calendar.SUNDAY, etc.
+#: CAL_MINICAL_WDAY1
+msgctxt "CAL_MINICAL_WDAY1"
+msgid "S"
+msgstr "N"
+
+#: CAL_MINICAL_WDAY2
+msgid "M"
+msgstr "P"
+
+#: CAL_MINICAL_WDAY3
+msgctxt "CAL_MINICAL_WDAY3"
+msgid "T"
+msgstr "U"
+
+#: CAL_MINICAL_WDAY4
+msgid "W"
+msgstr "S"
+
+#: CAL_MINICAL_WDAY5
+msgctxt "CAL_MINICAL_WDAY5"
+msgid "T"
+msgstr "Č"
+
+#: CAL_MINICAL_WDAY6
+msgid "F"
+msgstr "P"
+
+#: CAL_MINICAL_WDAY7
+msgctxt "CAL_MINICAL_WDAY7"
+msgid "S"
+msgstr "S"
+
+#: CAL_MONTH_TITLE_FORMAT
+msgctxt "CAL_MONTH_TITLE_FORMAT"
+msgid "MMMMM yyyy"
+msgstr "MMMMM yyyy"
+
+#: CAL_LIST_TITLE_FORMAT
+msgid "MMM d"
+msgstr ""
+
+#: CAL_MONTH_DAY_FORMAT
+msgctxt "CAL_MONTH_DAY_FORMAT"
+msgid "d"
+msgstr "d"
+
+#: CAL_MONTH_DAY_MONTH_CHANGE_FORMAT
+msgctxt "CAL_MONTH_DAY_MONTH_CHANGE_FORMAT"
+msgid "M/d"
+msgstr "d.M"
+
+#: CAL_DAY_TITLE_YEAR_FORMAT
+msgid "yyyy"
+msgstr "yyyy"
+
+#: CAL_DAY_TB_TITLE_FORMAT
+msgctxt "CAL_DAY_TB_TITLE_FORMAT"
+msgid "M/d"
+msgstr "d.M"
+
+#: CAL_MDAY_TITLE_FORMAT
+msgctxt "CAL_MDAY_TITLE_FORMAT"
+msgid "{0} - {1}"
+msgstr "{0} - {1}"
+
+#: CAL_HOUR_RANGE_FORMAT
+msgctxt "CAL_HOUR_RANGE_FORMAT"
+msgid "{0} - {1}"
+msgstr "{0} - {1}"
+
+#: CAL_MDAY_DAY_TITLE_FORMAT
+msgctxt "CAL_MDAY_DAY_TITLE_FORMAT"
+msgid "EEE, MMM d"
+msgstr "EEE, d. MMM"
+
+#: CAL_DAY_TITLE_FORMAT
+msgctxt "CAL_DAY_TITLE_FORMAT"
+msgid "EEEE, MMMM d"
+msgstr "EEEE, d. MMMM"
+
+#: CAL_SCHEDULE_TITLE_FORMAT
+msgctxt "CAL_SCHEDULE_TITLE_FORMAT"
+msgid "EEEE, MMMM d"
+msgstr "EEEE, d. MMMM"
+
+#: CAL_SCHEDULE_TB_TITLE_FORMAT
+msgctxt "CAL_SCHEDULE_TB_TITLE_FORMAT"
+msgid "EEE, MMM d"
+msgstr "EEE, d. MMM"
+
+#: CAL_APPT_SCHEDULE_HEADER_FORMAT
+msgid "MMM d, yyyy"
+msgstr ""
+
+#: CAL_APPT_EDIT_DATE_FORMAT
+msgctxt "CAL_APPT_EDIT_DATE_FORMAT"
+"CAL_APPT_EDIT_DATE_FORMAT"
+msgid "MM/dd/yyyy"
+msgstr "dd.MM.yyyy"
+
+#. # this is displayed to the user as a hint on the date format
+#: CAL_APPT_EDIT_DATE_FORMAT_HINT
+msgctxt "CAL_APPT_EDIT_DATE_FORMAT_HINT"
+msgid "MM/dd/yyyy"
+msgstr "dd.mm.yyyy"
+
+#. # format used in the appt editor to pick an hour
+#: CAL_APPT_EDIT_HOUR_FORMAT
+msgid "h a"
+msgstr "hh"
+
+#. # IMG ALT text
+#: ALT_APP_MAIL
+msgctxt "ALT_APP_MAIL"
+msgid "Mail"
+msgstr "Pošta"
+
+#: ALT_APP_CALENDAR
+msgctxt "ALT_APP_CALENDAR"
+msgid "Calendar"
+msgstr "Kalendář"
+
+#: ALT_APP_CONTACTS
+msgctxt "ALT_APP_CONTACTS"
+msgid "Contacts"
+msgstr "Adresář"
+
+#: ALT_APP_OPTIONS
+msgid "Options"
+msgstr "Možnosti"
+
+#: ALT_APP_COMPOSE
+msgid "Compose New Message"
+msgstr "Napsat novou zprávu"
+
+#: ALT_APP_TASK
+msgctxt "ALT_APP_TASK"
+msgid "Task"
+msgstr "ÚLOHA"
+
+#: ALT_APP_BRIEFCASE
+msgctxt "ALT_APP_BRIEFCASE"
+msgid "Briefcase"
+msgstr ""
+
+#: ALT_APP_MANAGE_TAGS
+msgctxt "ALT_APP_MANAGE_TAGS"
+msgid "Manage Tags"
+msgstr "Spravovat štítky"
+
+#: ALT_APP_MANAGE_FOLDERS
+msgctxt "ALT_APP_MANAGE_FOLDERS"
+msgid "Manage Folders"
+msgstr "Spravovat složky"
+
+#: ALT_APP_MANAGE_ADDRESS_BOOKS
+msgctxt "ALT_APP_MANAGE_ADDRESS_BOOKS"
+msgid "Manage Contacts"
+msgstr "Spravovat adresáře"
+
+#: ALT_APP_MANAGE_CALENDARS
+msgctxt "ALT_APP_MANAGE_CALENDARS"
+msgid "Manage Calendars"
+msgstr "Spravovat kalendáře"
+
+#: ALT_APP_NOTEBOOK
+msgctxt "ALT_APP_NOTEBOOK"
+msgid "Documents"
+msgstr ""
+
+#: ALT_APP_LINK_HELP
+msgctxt "ALT_APP_LINK_HELP"
+msgid "Help"
+msgstr "Pomoc"
+
+#: ALT_APP_LINK_LOGOFF
+msgid "Log Off"
+msgstr "Odhlásit se"
+
+#: ALT_ATTACHMENT
+msgid "Attachment"
+msgstr "Příloha"
+
+#: ALT_CAL_NEW_APPT
+msgctxt "ALT_CAL_NEW_APPT"
+msgid "New Appointment"
+msgstr "Nová schůzka"
+
+#: ALT_CAL_MINI_PREV_MONTH
+msgid "Previous Month"
+msgstr "Předchozí měsíc"
+
+#: ALT_CAL_MINI_NEXT_MONTH
+msgid "Next Month"
+msgstr "Následující měsíc"
+
+#: ALT_CAL_MINI_PREV_YEAR
+msgid "Previous Year"
+msgstr "Předchozí rok"
+
+#: ALT_CAL_MINI_NEXT_YEAR
+msgid "Next Year"
+msgstr "Následující rok"
+
+#: ALT_CAL_DAY_VIEW
+msgctxt "ALT_CAL_DAY_VIEW"
+msgid "Day View"
+msgstr "Přehled dne"
+
+#: ALT_CAL_WORKWEEK_VIEW
+msgctxt "ALT_CAL_WORKWEEK_VIEW"
+msgid "Work Week View"
+msgstr "Přehled pracovního týdne"
+
+#: ALT_CAL_WEEK_VIEW
+msgid "Week View"
+msgstr "Přehled týdne"
+
+#: ALT_CAL_MONTH_VIEW
+msgctxt "ALT_CAL_MONTH_VIEW"
+msgid "Month View"
+msgstr "Přehled měsíce"
+
+#: ALT_CAL_REFRESH
+msgid "Refresh Calendar View"
+msgstr "Obnovit pohled na kalendář"
+
+#: ALT_CAL_SCHEDULE_VIEW
+msgctxt "ALT_CAL_SCHEDULE_VIEW"
+msgid "Schedule View"
+msgstr "Přehled rozvrhu"
+
+#: ALT_CAL_TODAY
+msgid "Go to today"
+msgstr "Přejít na dnešek"
+
+#: ALT_CONTACT_GROUP_EMAIL
+msgctxt "ALT_CONTACT_GROUP_EMAIL"
+msgid "Email Address"
+msgstr "Emailová adresa"
+
+#: ALT_CONTACT_FOLDER
+msgctxt "ALT_CONTACT_FOLDER"
+msgid "Contact Folder"
+msgstr "Složka kontaktu"
+
+#: ALT_CONTACT_NEXT_CONTACT
+msgid "Next Contact"
+msgstr "Další kontakt"
+
+#: ALT_CONTACT_PREVIOUS_CONTACT
+msgid "Previous Contact"
+msgstr "Předchozí kontakt"
+
+#: ALT_CONTACT_CONTACT
+msgctxt "ALT_CONTACT_CONTACT"
+msgid "Contact"
+msgstr "Kontakt"
+
+#: ALT_CONTACT_GAL_CONTACT
+msgid "Directory Contact"
+msgstr "Kontakt adresáře"
+
+#: ALT_CONTACT_GROUP
+msgctxt "ALT_CONTACT_GROUP"
+msgid "Group"
+msgstr "Skupina"
+
+#: ALT_CONVERSATION
+msgctxt "ALT_CONVERSATION"
+msgid "Conversation"
+msgstr "Konverzace"
+
+#: ALT_CONV_NEXT_PAGE_IN_CONVERSATION
+msgid "go to next page in conversation"
+msgstr "přejít na další stránku v konverzaci"
+
+#: ALT_CONV_PREVIOUS_PAGE_IN_CONVERSATION
+msgid "go to previous page in conversation"
+msgstr "přejít na předchozí stránku v konverzaci"
+
+#: ALT_CONV_NEXT_CONVERSATION
+msgid "go to next conversation"
+msgstr "přejít na další konverzaci"
+
+#: ALT_CONV_PREVIOUS_CONVERSATION
+msgid "go to previous conversation"
+msgstr "přejít na předchozí konverzaci"
+
+#: ALT_CONV_NO_NEXT_PAGE_IN_CONVERSATION
+msgid "No more pages in conversation"
+msgstr "V konverzaci není více stránek"
+
+#: ALT_CONV_NO_PREVIOUS_PAGE_IN_CONVERSATION
+msgid "No previous pages in conversation"
+msgstr "V konverzaci nejsou předchozí stránky"
+
+#: ALT_CONV_NO_NEXT_CONVERSATION
+msgid "No more conversations"
+msgstr "Není více konverzací"
+
+#: ALT_CONV_NO_PREVIOUS_CONVERSATION
+msgid "No Previous Conversation"
+msgstr "Žádné předchozí konverzace"
+
+#: ALT_ERROR
+msgctxt "ALT_ERROR"
+msgid "Error"
+msgstr "Chyba"
+
+#: ALT_FOLDER
+msgctxt "ALT_FOLDER"
+msgid "Folder"
+msgstr "Složka"
+
+#: ALT_FLAGGED
+msgctxt "ALT_FLAGGED"
+msgid "Flagged"
+msgstr "Označené"
+
+#: ALT_EDIT_APPOINTMENT
+msgid "Edit Appointment"
+msgstr "Upravit schůzku"
+
+#: ALT_EDIT_TASK
+msgid "Edit Task"
+msgstr "Upravit úlohu"
+
+#: ALT_HIGH_PRIORITY
+msgid "High Priority"
+msgstr "Vysoká priorita"
+
+#: ALT_LISTEN
+msgctxt "ALT_LISTEN"
+msgid "Listen"
+msgstr "Vyslechnout"
+
+#: ALT_LOW_PRIORITY
+msgid "Low Priority"
+msgstr "Nízká priorita"
+
+#: ALT_MSG_NEXT_MESSAGE
+msgid "go to next message"
+msgstr "přejít na další zprávu"
+
+#: ALT_MSG_PREVIOUS_MESSAGE
+msgid "go to previous message"
+msgstr "přejít na předchozí zprávu"
+
+#: ALT_MSG_STATUS_APPT
+msgid "Appointment"
+msgstr "Schůzka"
+
+#: ALT_MSG_STATUS_UNREAD
+msgid "Unread Message"
+msgstr "Nepřečtená zpráva"
+
+#: ALT_MSG_STATUS_DRAFT
+msgid "Draft Message"
+msgstr "Rozepsaná zpráva"
+
+#: ALT_MSG_STATUS_REPLIEDTO
+msgid "Replied To Message"
+msgstr "Odpovězená zpráva"
+
+#: ALT_MSG_STATUS_FORWARDED
+msgid "Forwarded Message"
+msgstr "Přeposlaná zpráva"
+
+#: ALT_MSG_STATUS_SENTBYME
+msgid "Sent Message"
+msgstr "Odeslaná zpráva"
+
+#: ALT_MSG_STATUS_READ
+msgid "Read Message"
+msgstr "Přečtená zpráva"
+
+#: ALT_NEW_APPOINTMENT
+msgctxt "ALT_NEW_APPOINTMENT"
+msgid "New Appointment"
+msgstr "Nová schůzka"
+
+#: ALT_NEW_TASK
+msgctxt "ALT_NEW_TASK"
+msgid "New Task"
+msgstr "Nová úloha"
+
+#: ALT_NORMAL_PRIORITY
+msgid "Normal Priority"
+msgstr "Běžná priorita"
+
+#: ALT_PAGE_NO_PREVIOUS
+msgid "No previous page"
+msgstr "žádná předchozí stránka"
+
+#: ALT_PAGE_NO_NEXT
+msgid "no next page"
+msgstr "žádná další stránka"
+
+#: ALT_PAGE_NEXT
+msgid "go to next page"
+msgstr "přejít na další stránku"
+
+#: ALT_PAGE_PREVIOUS
+msgid "go to previous page"
+msgstr "přejít na předchozí stránku"
+
+#: ALT_PRIORITY
+msgctxt "ALT_PRIORITY"
+msgid "Priority"
+msgstr "Priorita"
+
+#: ALT_TAG
+msgctxt "ALT_TAG"
+msgid "Tag"
+msgstr "Štítek"
+
+#: ALT_TAG_ORANGE
+msgid "Orange Tag"
+msgstr "Oranžový štítek"
+
+#: ALT_TAG_BLUE
+msgid "Blue Tag"
+msgstr "Modrý štítek"
+
+#: ALT_TAG_CYAN
+msgid "Cyan Tag"
+msgstr "Zelenomodrý štítek"
+
+#: ALT_TAG_GREEN
+msgid "Green Tag"
+msgstr "Zelený štítek"
+
+#: ALT_TAG_PURPLE
+msgid "Purple Tag"
+msgstr "Fialový štítek"
+
+#: ALT_TAG_RED
+msgid "Red Tag"
+msgstr "Červený štítek"
+
+#: ALT_TAG_YELLOW
+msgid "Yellow Tag"
+msgstr "Žlutý štítek"
+
+#: ALT_TAG_MULTI
+msgid "Multiple Tags"
+msgstr "Více štítků"
+
+#: ALT_TAG_TAG
+msgctxt "ALT_TAG_TAG"
+msgid "Tag"
+msgstr "Štítek"
+
+#: ALT_TREE_COLLAPSED
+msgid "Collapsed Tree"
+msgstr "Sbalený strom"
+
+#: ALT_TREE_EXPANDED
+msgid "Expanded Tree"
+msgstr "Rozbalený strom"
+
+#: FILT_COND_ADDRESSBOOK_IN
+msgid "An address in \"<b>{0}</b>\" header is in Contacts"
+msgstr "Adresa pod hlavičkou „<b>{0}</b>“ je v Kontaktech"
+
+#: FILT_COND_ADDRESSBOOK_NOT_IN
+msgid "An address in \"<b>{0}</b>\" header is <b>not</b> in Contacts"
+msgstr "Adresa pod hlavičkou „<b>{0}</b>“ <b>není</b> je v Kontaktech"
+
+#: FILT_COND_SIZE_UNDER
+msgid "<b>Size</b> is under <b>{0} {1}</b>"
+msgstr "<b>Velikost</b> je méně než <b>{0} {1}</b>"
+
+#: FILT_COND_SIZE_NOT_UNDER
+msgid "<b>Size</b> is <b>not</b> under <b>{0} {1}</b>"
+msgstr "<b>Velikost</b> <b>není</b> je méně než <b>{0} {1}</b>"
+
+#: FILT_COND_SIZE_OVER
+msgid "<b>Size</b> is over <b>{0} {1}</b>"
+msgstr "<b>Velikost</b> je více než <b>{0} {1}</b>"
+
+#: FILT_COND_SIZE_NOT_OVER
+msgid "<b>Size</b> is <b>not</b> over <b>{0} {1}</b>"
+msgstr "<b>Velikost</b> <b>není</b> je více než <b>{0} {1}</b>"
+
+#: FILT_COND_BODY_CONTAINS
+msgid "<b>Body</b> contains \"<b>{0}</b>\""
+msgstr "<b>Tělo</b> obsahuje „<b>{0}</b>“"
+
+#: FILT_COND_BODY_NOT_CONTAINS
+msgid "<b>Body</b> does <b>not</b> contain \"<b>{0}</b>\""
+msgstr "<b>Tělo</b> <b>neobsahuje</b> „<b>{0}</b>“"
+
+#: FILT_COND_DATE_BEFORE
+msgid "<b>Date</b> is before <b>{0}</b>"
+msgstr "<b>Datum</b> je dřív než <b>{0}</b>"
+
+#: FILT_COND_DATE_NOT_BEFORE
+msgid "<b>Date</b> is <b>not</b> before <b>{0}</b>"
+msgstr "<b>Datum</b> <b>není</b> dřív než <b>{0}</b>"
+
+#: FILT_COND_DATE_AFTER
+msgid "<b>Date</b> is after <b>{0}</b>"
+msgstr "<b>Dátum</b> je později než <b>{0}</b>"
+
+#: FILT_COND_DATE_NOT_AFTER
+msgid "<b>Date</b> is <b>not</b> after <b>{0}</b>"
+msgstr "<b>Datum</b> <b>není</b> později než <b>{0}</b>"
+
+#: FILT_COND_DATE_FORMAT
+msgctxt "FILT_COND_DATE_FORMAT"
+msgid "MM/dd/yyyy"
+msgstr "dd.MM.yyyy"
+
+#: FILT_COND_HEADER_subject
+msgctxt "FILT_COND_HEADER_subject"
+msgid "Subject"
+msgstr "Předmět"
+
+#: FILT_COND_HEADER_from
+msgctxt "FILT_COND_HEADER_from"
+msgid "From"
+msgstr "Od"
+
+#: FILT_COND_HEADER_cc
+msgctxt "FILT_COND_HEADER_cc"
+msgid "Cc"
+msgstr "Kopie"
+
+#: FILT_COND_HEADER_to
+msgctxt "FILT_COND_HEADER_to"
+msgid "To"
+msgstr "Komu"
+
+#: FILT_COND_HEADER_to,cc
+msgctxt "FILT_COND_HEADER_to,cc"
+msgid "To or Cc"
+msgstr ""
+
+#: FILT_COND_HEADER_IS
+msgid "<b>{0}</b> matches exactly \"<b>{1}</b>\""
+msgstr "<b>{0}</b> je (přesně) „<b>{1}</b>“"
+
+#: FILT_COND_HEADER_NOT_IS
+msgid "<b>{0}</b> does <b>not</b> exactly match\"<b>{1}</b>\""
+msgstr "<b>{0}</b> <b>není</b> (přesně) „<b>{1}</b>“"
+
+#: FILT_COND_HEADER_CONTAINS
+msgid "<b>{0}</b> contains \"<b>{1}</b>\""
+msgstr "<b>{0}</b> obsahuje „<b>{1}</b>“"
+
+#: FILT_COND_HEADER_NOT_CONTAINS
+msgid "<b>{0}</b> does <b>not</b> contain \"<b>{1}</b>\""
+msgstr "<b>{0}</b> <b>neobsahuje</b> „<b>{1}</b>“"
+
+#: FILT_COND_HEADER_MATCHES
+msgid "<b>{0}</b> matches pattern \"<b>{1}</b>\""
+msgstr "<b>{0}</b> odpovídá vzoru „<b>{1}</b>“"
+
+#: FILT_COND_HEADER_NOT_MATCHES
+msgid "<b>{0}</b> does <b>not</b> match pattern \"<b>{1}</b>\""
+msgstr "<b>{0}</b> <b>odpovídá</b> vzoru „<b>{1}</b>“"
+
+#: FILT_COND_HEADER_EXISTS
+msgid "Header \"<b>{0}</b>\" exists"
+msgstr "Hlavička „<b>{0}</b>“ existuje"
+
+#: FILT_COND_HEADER_NOT_EXISTS
+msgid "Header \"<b>{0}</b>\" does <b>not</b> exist"
+msgstr "Hlavička „<b>{0}</b>“ <b>neexistuje</b>"
+
+#: FILT_COND_GENERIC_HEADER_IS
+msgid "Header \"<b>{0}</b>\" matches exactly \"<b>{1}</b>\""
+msgstr "Hlavička „<b>{0}</b>“ je (přesně) „<b>{1}</b>“"
+
+#: FILT_COND_GENERIC_HEADER_NOT_IS
+msgid "Header \"<b>{0}</b>\" does <b>not</b> exactly match\"<b>{1}</b>\""
+msgstr "Hlavička „<b>{0}</b>“ <b>není</b> (přesně)„<b>{1}</b>“"
+
+#: FILT_COND_GENERIC_HEADER_CONTAINS
+msgid "Header \"<b>{0}</b>\" contains \"<b>{1}</b>\""
+msgstr "Hlavička „<b>{0}</b>“ obsahuje „<b>{1}</b>“"
+
+#: FILT_COND_GENERIC_HEADER_NOT_CONTAINS
+msgid "Header \"<b>{0}</b>\" does <b>not</b> contain \"<b>{1}</b>\""
+msgstr "Hlavička „<b>{0}</b>“ <b>neobsahuje</b> „<b>{1}</b>“"
+
+#: FILT_COND_GENERIC_HEADER_MATCHES
+msgid "Header \"<b>{0}</b>\" matches wildcard condition \"<b>{1}</b>\""
+msgstr "Hlavička „<b>{0}</b>“ odpovídá vzoru „<b>{1}</b>“"
+
+#: FILT_COND_GENERIC_HEADER_NOT_MATCHES
+msgid ""
+"Header \"<b>{0}</b>\" does <b>not</b> match wildcard condition \"<b>{1}</b>\""
+msgstr "Hlavička „<b>{0}</b>“ <b>neodpovídá</b> vzoru „<b>{1}</b>“"
+
+#: FILT_COND_ATTACHMENT_EXISTS
+msgid "Has an <b>attachment</b>"
+msgstr "Má <b>přílohu</b>"
+
+#: FILT_COND_ATTACHMENT_NOT_EXISTS
+msgid "Does <b>not</b> have an <b>attachment</b>"
+msgstr "<b>Nemá přílohu</b>"
+
+#: FILT_ACTION_KEEP
+msgid "<b>Keep</b> in Inbox"
+msgstr "<b>Ponechat</b> v Přijatých"
+
+#: FILT_ACTION_DISCARD
+msgid "<b>Discard</b>"
+msgstr "<b>Zahodit</b>"
+
+#: FILT_ACTION_STOP
+msgid "<b>Stop</b> (do not process additional filters)"
+msgstr "<b>Stop</b> (nezpracovávat další filtry)"
+
+#: FILT_ACTION_FILEINTO
+msgid "<b>File</b> into folder \"<b>{0}</b>\""
+msgstr "<b>Zařadit</b> do složky „<b>{0}</b>“"
+
+#: FILT_ACTION_TAG
+msgid "<b>Tag</b> with \"<b>{0}</b>\""
+msgstr "<b>Označit štítkem</b> „<b>{0}</b>“"
+
+#: FILT_ACTION_REDIRECT
+msgid "<b>Forward</b> to address \"<b>{0}</b>\""
+msgstr "<b>Přeposlat</b> na adresu „<b>{0}</b>“"
+
+#: FILT_ACTION_FLAG_READ
+msgid "<b>Mark</b> as <b>read</b>"
+msgstr "<b>Označit</b> jako <b>přečtené</b>"
+
+#: FILT_ACTION_FLAG_FLAGGED
+msgid "<b>Mark</b> as <b>flagged</b>"
+msgstr "<b>Označit</b> jako <b>s příznakem</b>"
+
+#: EFILT_any
+msgid "any"
+msgstr "jakákoliv"
+
+#: EFILT_all
+msgid "all"
+msgstr "všechny"
+
+#: EFILT_ALLCOND_PRE
+msgid "If"
+msgstr "jestli splňuje"
+
+#: EFILT_ALLCOND_POST
+msgid "of the following conditions are met:"
+msgstr "z následujících podmínek:"
+
+#: EFILT_add
+msgid "add"
+msgstr "přidat"
+
+#: EFILT_remove
+msgid "remove"
+msgstr "odstranit"
+
+#: EFILT_COND_addressIn
+msgid "An Address in {0} header"
+msgstr "Adresa {0} ve hlavičce"
+
+#: EFILT_COND_ADDRESS_IN
+msgid "is in Contacts"
+msgstr "je v Kontaktech"
+
+#: EFILT_COND_ADDRESS_NOT_IN
+msgid "is not in Contacts"
+msgstr "není v Kontaktech"
+
+#: EFILT_COND_SIZE_UNDER
+msgid "Size is under"
+msgstr "Velikost je menší než"
+
+#: EFILT_COND_SIZE_NOT_UNDER
+msgid "Size is not under"
+msgstr "Velikost není menší než"
+
+#: EFILT_COND_SIZE_OVER
+msgid "Size is over"
+msgstr "Velikost je větší než"
+
+#: EFILT_COND_SIZE_NOT_OVER
+msgid "Size is not over"
+msgstr "Velikost není větší než"
+
+#: EFILT_COND_BODY_CONTAINS
+msgid "Body contains"
+msgstr "Tělo obsahuje"
+
+#: EFILT_COND_BODY_NOT_CONTAINS
+msgid "Body does not contain"
+msgstr "Tělo neobsahuje"
+
+#: EFILT_COND_DATE_BEFORE
+msgid "Date is before"
+msgstr "Datum je před"
+
+#: EFILT_COND_DATE_NOT_BEFORE
+msgid "Date is not before"
+msgstr "Datum není před"
+
+#: EFILT_COND_DATE_AFTER
+msgid "Date is after"
+msgstr "Datum je po"
+
+#: EFILT_COND_DATE_NOT_AFTER
+msgid "Date is not after"
+msgstr "Datum není po"
+
+#: EFILT_COND_ATTACHMENT_EXISTS
+msgid "Attachment exists"
+msgstr "Příloha existuje"
+
+#: EFILT_COND_ATTACHMENT_NOT_EXISTS
+msgid "Attachment does not exist"
+msgstr "Příloha neexistuje"
+
+#: EFILT_COND_HEADER_EXISTS
+msgid "Header exists"
+msgstr "Hlavička existuje"
+
+#: EFILT_COND_HEADER_NOT_EXISTS
+msgid "Header does not exist"
+msgstr "Hlavička neexistuje"
+
+#: EFILT_COND_HEADER_headerNamed
+msgid "Header Named"
+msgstr "Hlavička je pojmenována"
+
+#: EFILT_COND_HEADER_IS
+msgid "matches exactly"
+msgstr "je (přesně)"
+
+#: EFILT_COND_HEADER_NOT_IS
+msgid "does not exactly match"
+msgstr "není (přesně)"
+
+#: EFILT_COND_HEADER_CONTAINS
+msgid "contains"
+msgstr "obsahuje"
+
+#: EFILT_COND_HEADER_NOT_CONTAINS
+msgid "does not contain"
+msgstr "neobsahuje"
+
+#: EFILT_COND_HEADER_MATCHES
+msgid "matches wildcard condition"
+msgstr "odpovídá vzoru"
+
+#: EFILT_COND_HEADER_NOT_MATCHES
+msgid "does not match wildcard condition"
+msgstr "neodpovídá vzoru"
+
+#: EFILT_ACTION_KEEP
+msgctxt "EFILT_ACTION_KEEP"
+msgid "Keep in Inbox"
+msgstr "Ponechat v Přijatých"
+
+#: EFILT_ACTION_DISCARD
+msgctxt "EFILT_ACTION_DISCARD"
+msgid "Discard"
+msgstr "Zahodit"
+
+#: EFILT_ACTION_STOP
+msgid "Do not process additional filters"
+msgstr "Nezpracovávat další filtry"
+
+#: EFILT_ACTION_FILEINTO
+msgid "File into folder"
+msgstr "Zařadit do složky"
+
+#: EFILT_ACTION_TAG
+msgid "Tag with"
+msgstr "Označit štítkem"
+
+#: EFILT_ACTION_REDIRECT
+msgid "Forward to address"
+msgstr "Přeposlat na adresu"
+
+#: EFILT_ACTION_FLAG_READ
+msgctxt "EFILT_ACTION_FLAG_READ"
+msgid "Mark as read"
+msgstr "Označit jako přečtené"
+
+#: EFILT_ACTION_FLAG_FLAGGED
+msgid "Mark as flagged"
+msgstr "Označit jako s příznakem"
+
+#: EFILT_NEW_COND_SELECT
+msgid "Select condition..."
+msgstr "Vybrat podmínku..."
+
+#: EFILT_NEW_COND_FROM
+msgid "From..."
+msgstr "Od..."
+
+#: EFILT_NEW_COND_TO
+msgid "To..."
+msgstr "Komu..."
+
+#: EFILT_NEW_COND_CC
+msgid "Cc..."
+msgstr "Kopie..."
+
+#: EFILT_NEW_COND_TOCC
+msgid "To or Cc..."
+msgstr ""
+
+#: EFILT_NEW_COND_SUBJECT
+msgid "Subject..."
+msgstr "Předmět..."
+
+#: EFILT_NEW_COND_HEADER
+msgid "Header..."
+msgstr "Hlavička..."
+
+#: EFILT_NEW_COND_HEADER_EXISTS
+msgid "Header Exists..."
+msgstr "Hlavička existuje..."
+
+#: EFILT_NEW_COND_SIZE
+msgid "Size..."
+msgstr "Veľkosť..."
+
+#: EFILT_NEW_COND_DATE
+msgid "Date..."
+msgstr "Datum..."
+
+#: EFILT_NEW_COND_BODY
+msgid "Body..."
+msgstr "Tělo..."
+
+#: EFILT_NEW_COND_ATTACHMENT
+msgid "Attachment..."
+msgstr "Příloha..."
+
+#: EFILT_NEW_COND_ADDRESS_IN
+msgid "Address in..."
+msgstr "Adresa v..."
+
+#: EFILT_NEW_COND_ADDRESS
+msgid "Address"
+msgstr ""
+
+#: EFILT_NEW_ACTION_SELECT
+msgid "Select action..."
+msgstr "Vybrat činnost..."
+
+#: EFILT_NEW_ACTION_KEEP
+msgctxt "EFILT_NEW_ACTION_KEEP"
+msgid "Keep in Inbox"
+msgstr "Ponechat v Přijatých"
+
+#: EFILT_NEW_ACTION_DISCARD
+msgctxt "EFILT_NEW_ACTION_DISCARD"
+msgid "Discard"
+msgstr "Zahodit"
+
+#: EFILT_NEW_ACTION_FILEINTO
+msgid "File into folder..."
+msgstr "Zařadit do složky..."
+
+#: EFILT_NEW_ACTION_TAG
+msgid "Tag with..."
+msgstr "Označit štítkem..."
+
+#: EFILT_NEW_ACTION_REDIRECT
+msgid "Forward to address..."
+msgstr "Přeposlat na adresu..."
+
+#: EFILT_NEW_ACTION_MARK
+msgid "Mark..."
+msgstr "označit..."
+
+#. #mobile
+#: MO_CAL_LIST_DOW
+msgid "EEE"
+msgstr "EEE"
+
+#: MO_CAL_LIST_DATE_FORMAT
+msgctxt "MO_CAL_LIST_DATE_FORMAT"
+msgid "EEE, MMM d"
+msgstr "EEE, d. MMM"
+
+#: MO_CAL_LIST_TITLE_FORMAT
+msgctxt "MO_CAL_LIST_TITLE_FORMAT"
+msgid "{0} - {1}"
+msgstr "{0} - {1}"
+
+#: MO_MAIN
+msgctxt "MO_MAIN"
+msgid "Home"
+msgstr "Domů"
+
+#: MO_NEXT
+msgid "Next"
+msgstr "Další"
+
+#: MO_PREV
+msgid "Prev"
+msgstr "Zpět"
+
+#: MO_actions
+msgctxt "MO_actions"
+msgid "Actions"
+msgstr "Činnosti"
+
+#: MO_actionAddTag
+msgid "Add tag"
+msgstr "Přidat štítek"
+
+#: MO_actionRemoveTag
+msgid "Remove tag"
+msgstr "odstranit štítek"
+
+#: MO_larger
+msgid "larger"
+msgstr "větší"
+
+#: MO_flag
+msgid "Flag"
+msgstr ""
+
+#: MO_Unflag
+msgid "Unflag"
+msgstr ""
+
+#: MO_flagged
+msgctxt "MO_flagged"
+msgid "Flagged"
+msgstr "Označené"
+
+#: MO_in
+msgid "In"
+msgstr "V"
+
+#: MO_mailFoldersTags
+msgid "Mail Folders/Tags"
+msgstr "Poštovních složkách/štítcích"
+
+#: MO_username
+msgctxt "MO_username"
+msgid "Username"
+msgstr "Uživatelské jméno"
+
+#: MO_quota
+msgid "Quota"
+msgstr "Kvóta"
+
+#: MO_quotaLabel
+msgid "Quota:"
+msgstr ""
+
+#: MO_quotaUsage
+msgctxt "MO_quotaUsage"
+msgid "{0} of {1}"
+msgstr "{0} z {1}"
+
+#: MO_selectFolder
+msgid "(select folder)"
+msgstr "(vyberte složku)"
+
+#: MO_selectTag
+msgid "(select tag)"
+msgstr "(vyberte štítek)"
+
+#: MO_smaller
+msgid "smaller"
+msgstr "menší"
+
+#: MO_size
+msgctxt "MO_size"
+msgid "Size"
+msgstr "Velikost"
+
+#: MO_status
+msgctxt "MO_status"
+msgid "Status"
+msgstr "Stav"
+
+#: MO_tag
+msgctxt "MO_tag"
+msgid "Tag"
+msgstr "Štítek"
+
+#: MO_tocc
+msgctxt "MO_tocc"
+msgid "To or Cc"
+msgstr "Komu/Kopie"
+
+#: MO_unread
+msgid "Unread"
+msgstr "Nepřečtené"
+
+#: MO_read
+msgid "Read"
+msgstr ""
+
+#: MO_loadingMsg
+msgid "Loading..."
+msgstr ""
+
+#: MO_requestTimedOut
+msgid "Request timed out. Retry later."
+msgstr ""
+
+#: MO_sendingRequestMsg
+msgid "Sending request..."
+msgstr ""
+
+#: MO_view
+msgctxt "MO_view"
+msgid "View"
+msgstr ""
+
+#: MO_viewList
+msgctxt "MO_viewList"
+msgid "List"
+msgstr ""
+
+#: MO_viewExplorer
+msgid "Explorer"
+msgstr ""
+
+#: MO_pages
+msgctxt "MO_pages"
+msgid "Pages"
+msgstr ""
+
+#: MO_files
+msgctxt "MO_files"
+msgid "Files"
+msgstr ""
+
+#: MO_noAppointments
+msgid "No Appointments"
+msgstr ""
+
+#: MO_showDetails
+msgid "Show Details"
+msgstr ""
+
+#: MO_hideDetails
+msgid "Hide Details"
+msgstr ""
+
+#. ## contact
+#: MO_AB_email
+msgid "email"
+msgstr "email"
+
+#: MO_AB_email2
+msgid "email2"
+msgstr "email2"
+
+#: MO_AB_email3
+msgid "email3"
+msgstr "email3"
+
+#: MO_AB_mobile
+msgid "mobile"
+msgstr "mobil"
+
+#: MO_AB_work
+msgid "work"
+msgstr "práce"
+
+#: MO_AB_work2
+msgid "work2"
+msgstr "práce2"
+
+#: MO_AB_workFax
+msgid "work fax"
+msgstr "fax do práce"
+
+#: MO_AB_home
+msgid "home"
+msgstr "domů"
+
+#: MO_AB_home2
+msgid "home2"
+msgstr "domů2"
+
+#: MO_AB_homeFax
+msgid "home fax"
+msgstr "fax domů"
+
+#: MO_AB_assistant
+msgid "assistant"
+msgstr "asistent"
+
+#: MO_AB_other
+msgid "other"
+msgstr "jiné"
+
+#: MO_AB_otherFax
+msgid "other fax"
+msgstr "jiný fax"
+
+#: MO_AB_pager
+msgid "pager"
+msgstr "pager"
+
+#: MO_AB_car
+msgid "car"
+msgstr "auto"
+
+#: MO_AB_company
+msgid "company"
+msgstr "společnost"
+
+#: MO_AB_callback
+msgid "callback"
+msgstr "zpětné volání"
+
+#. # For mo max folders features
+#: MO_AddTo
+msgid "Add to"
+msgstr ""
+
+#: MO_SelectBriefcase
+msgid "Select Briefcase"
+msgstr ""
+
+#: MO_SessionPrefs
+msgid "Session options"
+msgstr ""
+
+#: MO_MaxFolders
+msgid "Max Folders"
+msgstr ""
+
+#: MO_MaxFoldersInvalidValueMsg
+msgid "Invalid value for max folders. "
+msgstr ""
+
+#: MO_MaxFoldersAllowedNote
+msgid ""
+"Allowed value is between 1 to 1000. Your mobile browser may crash while "
+"rendering large list."
+msgstr ""
+
+#: MO_MaxFoldersNote
+msgid ""
+"You might be seeing max {0} folders. You can change this value from "
+"Preferences."
+msgstr ""
+
+#: MO_SessionPrefsNote
+msgid "These changes are temporary (session only)."
+msgstr ""
+
+#. #=======================================# these messages are really part  of the core toolkit as opposed to the app
+#: ZM_formatDateMediumNoYear
+msgid "MMM dd"
+msgstr "dd. MMM"
+
+#: ZM_formatVoiceDateToday
+msgid "'Today,' h:mm a"
+msgstr ""
+
+#: ZM_formatVoiceDateYesterday
+msgid "'Yesterday,' h:mm a"
+msgstr ""
+
+#: ZM_formatVoiceDate
+msgid "EEE, M/d/yy, h:mm a"
+msgstr ""
+
+#: ZM_formatDocDate
+msgid "M/d/yyyy h:mm a"
+msgstr ""
+
+#. # these are for quoting headers in ZMessageComposeBean
+#: ZM_HEADER_FROM
+msgctxt "ZM_HEADER_FROM"
+msgid "From"
+msgstr "Od"
+
+#: ZM_HEADER_TO
+msgctxt "ZM_HEADER_TO"
+msgid "To"
+msgstr "Komu"
+
+#: ZM_HEADER_CC
+msgctxt "ZM_HEADER_CC"
+msgid "Cc"
+msgstr "Kopie"
+
+#: ZM_HEADER_SENT
+msgctxt "ZM_HEADER_SENT"
+msgid "Sent"
+msgstr "Odeslané"
+
+#: ZM_HEADER_SUBJECT
+msgctxt "ZM_HEADER_SUBJECT"
+msgid "Subject"
+msgstr "Předmět"
+
+#: ZM_forwardPrefix
+msgctxt "ZM_forwardPrefix"
+msgid "----- {0} wrote:"
+msgstr "----- {0} napsal:"
+
+#: ZM_replyPrefix
+msgctxt "ZM_replyPrefix"
+msgid "----- {0} wrote:"
+msgstr "----- {0} napsal:"
+
+#: ZM_originalMessage
+msgid "----- Original Message -----"
+msgstr "----- Původní zpráva -----"
+
+#: ZM_forwardedMessage
+msgid "----- Forwarded Message -----"
+msgstr "----- Přeposlaná zpráva -----"
+
+#. ####### service.*
+#: service.FAILURE
+msgid "A network service error has occurred."
+msgstr "Vyskytla se chyba síťové služby."
+
+#: service.INVALID_REQUEST
+msgid "An invalid request was made."
+msgstr "Neplatný požadavek."
+
+#: service.UNKNOWN_DOCUMENT
+msgid "Server error (unknown command sent to server)."
+msgstr "Chyba serveru (serveru byl odeslán neznámý příkaz)."
+
+#: service.PARSE_ERROR
+msgid "A parsing error occurred on the server."
+msgstr "Při zpracování na serveru se vyskytla syntaktická chyba."
+
+#: service.RESOURCE_UNREACHABLE
+msgid "Resource unreachable."
+msgstr "Zdroj nedostupný."
+
+#: service.TEMPORARILY_UNAVAILABLE
+msgid "Service temporarily unavailable."
+msgstr "Služba je dočasně nedostupná."
+
+#: service.PERM_DENIED
+msgid "Permission denied."
+msgstr "Povolení zamítnuto."
+
+#: service.AUTH_REQUIRED
+msgid "Authentication Required"
+msgstr "Vyžaduje se autentizace"
+
+#: service.AUTH_EXPIRED
+msgid "Your session has expired. Please login again."
+msgstr "Vaše relace vypršela. Prosím, přihlašte se znovu."
+
+#: service.WRONG_HOST
+msgid "Request was sent to the wrong server."
+msgstr "Požadavek byl odeslán na nesprávný server."
+
+#: service.NON_READONLY_OPERATION_DENIED
+msgid "The server is in read-only mode."
+msgstr "Server je v režimu pouze na čtení."
+
+#: service.PROXY_ERROR
+msgid "Proxy error."
+msgstr "Chyba proxy."
+
+#: service.TOO_MANY_HOPS
+msgid "Too many hops between servers."
+msgstr "Příliš mnoho serverů na cestě (příliš dlouhá cesta)."
+
+#: service.ALREADY_IN_PROGRESS
+msgid "Operation already in progress."
+msgstr "Operace už probíhá."
+
+#: service.NOT_IN_PROGRESS
+msgid "Operation not in progress."
+msgstr "Operace neprobíhá."
+
+#: service.INTERRUPTED
+msgid "The operation has been interrupted"
+msgstr "Operace byla přerušena"
+
+#: service.NO_SPELL_CHECK_URL
+msgid "No spell check server defined."
+msgstr "Nebyl definován server kontroly pravopisu."
+
+#. ####### account.*
+#: account.AUTH_FAILED
+msgid ""
+"The username or password is incorrect. Verify that CAPS LOCK is not on, and "
+"then retype the current username and password."
+msgstr ""
+"Uživatelské jméno nebo heslo je nesprávné. Ujistěte se, že není zapnutý CAPS "
+"LOCK a potom znovu napište uživatelské jméno a heslo."
+
+#: account.CHANGE_PASSWORD
+msgid "Your password in no longer valid. Please choose a new password."
+msgstr "Vaše heslo už není platné. Prosím, zvolte si nové heslo."
+
+#: account.EXTERNAL_AUTH_FAILED
+msgid ""
+"The email or password is incorrect. Verify that CAPS LOCK is not on, and "
+"then retype the current email and password."
+msgstr ""
+
+#: account.PASSWORD_LOCKED
+msgid ""
+"Password locked. User not allowed to change password. Please contact your "
+"System Administrator."
+msgstr ""
+"Heslo zamknuté. Uživateli není dovoleno změnit heslo. Prosím, kontaktujte "
+"správce systému."
+
+#: account.PASSWORD_CHANGE_TOO_SOON
+msgid "Password cannot be changed too soon."
+msgstr "Heslo není možné změnit příliš brzy."
+
+#: account.PASSWORD_RECENTLY_USED
+msgid ""
+"The password you submitted has recently been used. Please choose a different "
+"password."
+msgstr ""
+"Heslo, které jste zadali, bylo nedávno použité. Prosím, zvolte odlišné "
+"heslo."
+
+#: account.INVALID_PASSWORD
+msgid ""
+"New password does not meet the system's rules (i.e. length). Contact your "
+"System Administrator for more information."
+msgstr ""
+"Nové heslo neodpovídá požadavkům systému (např. délka). Podrobnosti zjistíte "
+"od správce systému."
+
+#: account.INVALID_PASSWORD.zimbraPasswordAllowedChars
+msgid ""
+"New password does not meet the system's rules (i.e allowed chars). Contact "
+"your System Administrator for more information."
+msgstr ""
+
+#: account.INVALID_PASSWORD.zimbraPasswordMinLength
+msgid ""
+"New password must have minimum length of {0} chars. Contact your System "
+"Administrator for more information."
+msgstr ""
+
+#: account.INVALID_PASSWORD.zimbraPasswordMaxLength
+msgid ""
+"New password can have maximum length of {0} chars. Contact your System "
+"Administrator for more information."
+msgstr ""
+
+#: account.INVALID_PASSWORD.zimbraPasswordMinLowerCaseChars
+msgid ""
+"New password must have minimum {0} lowercase chars. Contact your System "
+"Administrator for more information."
+msgstr ""
+
+#: account.INVALID_PASSWORD.zimbraPasswordMinUpperCaseChars
+msgid ""
+"New password must have minimum {0} uppercase chars. Contact your System "
+"Administrator for more information."
+msgstr ""
+
+#: account.INVALID_PASSWORD.zimbraPasswordMinNumericChars
+msgid ""
+"New password must have minimum {0} numeric chars. Contact your System "
+"Administrator for more information."
+msgstr ""
+
+#: account.INVALID_PASSWORD.zimbraPasswordMinAlphaChars
+msgid ""
+"New password must have minimum {0} alphabet chars. Contact your System "
+"Administrator for more information."
+msgstr ""
+
+#: account.INVALID_PASSWORD.zimbraPasswordMinPunctuationChars
+msgid ""
+"New password must have minimum {0} punctuation chars. Contact your System "
+"Administrator for more information."
+msgstr ""
+
+#: account.INVALID_PASSWORD.zimbraPasswordMinDigitsOrPuncs
+msgid ""
+"New password must have minimum {0} numeric or punctuation chars. Contact "
+"your System Administrator for more information."
+msgstr ""
+
+#: account.INVALID_ATTR_NAME
+msgid "Invalid attribute name."
+msgstr "Neplatný název atributu."
+
+#: account.INVALID_ATTR_VALUE
+msgid "Invalid attribute value."
+msgstr "Neplatná hodnota atributu."
+
+#: account.MULTIPLE_ACCOUNTS_MATCHED
+msgid "Multiple accounts matched search query."
+msgstr "Více účtů odpovídalo vyhledávacímu dotazu."
+
+#: account.NO_SUCH_ACCOUNT
+msgid "No such account exists."
+msgstr "Takový účet neexistuje."
+
+#: account.NO_SUCH_ALIAS
+msgid "No such alias exists."
+msgstr "Takový alias neexistuje."
+
+#: account.NO_SUCH_DOMAIN
+msgid "No such domain exists."
+msgstr "Taková doména neexistuje."
+
+#: account.NO_SUCH_COS
+msgid "No such COS exists."
+msgstr "Taková TS neexistuje."
+
+#: account.NO_SUCH_IDENTITY
+msgid "No such identity exists."
+msgstr "Taková identita neexistuje."
+
+#: account.NO_SUCH_DATA_SOURCE
+msgid "No such data source exists."
+msgstr "Takový zdroj údajů neexistuje."
+
+#: account.NO_SUCH_SERVER
+msgid "No such server exists."
+msgstr "Takový server neexistuje."
+
+#: account.NO_SUCH_ZIMLET
+msgid "No such Zimlet exists."
+msgstr "Takový zimlet neexistuje."
+
+#: account.NO_SUCH_DISTRIBUTION_LIST
+msgid "No such distribution list exists."
+msgstr "Takový distribuční seznam neexistuje."
+
+#: account.NO_SUCH_CALENDAR_RESOURCE
+msgid "No such calendar resource exists."
+msgstr "Takový zdroj kalendáře neexistuje."
+
+#: account.MEMBER_EXISTS
+msgid "Member exists."
+msgstr "Člen existuje."
+
+#: account.NO_SUCH_MEMBER
+msgid "No such member."
+msgstr "Takový člen neexistuje."
+
+#: account.ACCOUNT_EXISTS
+msgid "Account already exists."
+msgstr "Účet už existuje."
+
+#: account.DOMAIN_EXISTS
+msgid "Domain already exists."
+msgstr "Doména už existuje."
+
+#: account.DOMAIN_NOT_EMPTY
+msgid "Domain is not empty."
+msgstr "Doména nie je prázdna."
+
+#: account.COS_EXISTS
+msgid "COS already exists."
+msgstr "TS už existuje."
+
+#: account.SERVER_EXISTS
+msgid "Server already exists."
+msgstr "Server už existuje."
+
+#: account.DISTRIBUTION_LIST_EXISTS
+msgid "Distribution list exists."
+msgstr "Distribuční seznam už existuje."
+
+#: account.MAINTENANCE_MODE
+msgid "Account is currently in maintenance mode."
+msgstr "Účet je momentálně v režimu údržby."
+
+#: account.ACCOUNT_INACTIVE
+msgid "Account is inactive."
+msgstr "Účet je neaktivní."
+
+#: account.NO_SUCH_SIGNATURE
+msgid "No such signature."
+msgstr "Taká signatura neexistuje."
+
+#: account.SIGNATURE_EXISTS
+msgid "Signature with that name already exists."
+msgstr "Signatura s takovým názvem už neexistuje."
+
+#: account.TOO_MANY_SIGNATURES
+msgid "A signature could not be created because you have exceeded the limit."
+msgstr "Signaturu nebylo možné vytvořit, protože jste překročili limit."
+
+#: account.IDENTITY_EXISTS
+msgid "Identity already exists."
+msgstr "Identita už existuje."
+
+#: account.TOO_MANY_IDENTITIES
+msgid "An identity could not be created because you have exceeded the limit."
+msgstr "Identitu nebylo možné vytvořit, protože jste překročili limit."
+
+#: account.DATA_SOURCE_EXISTS
+msgid "Data source already exists."
+msgstr "Zdroj údajů už existuje."
+
+#: account.TOO_MANY_DATA_SOURCES
+msgid "A data source could not be created because you have exceeded the limit."
+msgstr "Zdroj údajů nebylo možné vytvořit, protože jste překročili limit."
+
+#. ####### mail.*
+#: mail.MAINTENANCE
+msgid "Mailbox is currently in maintenance mode."
+msgstr "Poštovní schránka je momentálně v režimu údržby."
+
+#: mail.NO_SUCH_MBOX
+msgid "Mailbox does not exist."
+msgstr "Poštová schránka neexistuje."
+
+#: mail.NO_SUCH_ITEM
+msgid "No such item exists."
+msgstr "Taková položka neexistuje."
+
+#: mail.NO_SUCH_CONV
+msgid "No such conversation exists."
+msgstr "Taková konverzace neexistuje."
+
+#: mail.NO_SUCH_MSG
+msgid "No such message exists."
+msgstr "Taková zpráva neexistuje."
+
+#: mail.NO_SUCH_PART
+msgid "No such part exists."
+msgstr "Taková část neexistuje."
+
+#: mail.NO_SUCH_CONTACT
+msgid "No such contact exists."
+msgstr "Takový kontakt neexistuje."
+
+#: mail.NO_SUCH_FOLDER
+msgid "No such folder exists."
+msgstr "Taková složka neexistuje."
+
+#: mail.NO_SUCH_NOTE
+msgid "No such note exists."
+msgstr "Taková poznámka neexistuje."
+
+#: mail.NO_SUCH_CALITEM
+msgid "No such calendar item exists."
+msgstr "Takový kalendář neexistuje."
+
+#: mail.NO_SUCH_APPT
+msgid "No such appointment exists."
+msgstr "Taková schůzka neexistuje."
+
+#: mail.NO_SUCH_TASK
+msgid "No such task exists."
+msgstr "Taková úloha neexistuje."
+
+#: mail.NO_SUCH_DOC
+msgid "No such document exists."
+msgstr "Takový dokument neexistuje."
+
+#: mail.NO_SUCH_TAG
+msgid "No such tag exists."
+msgstr "Takový štítek neexistuje."
+
+#: mail.NO_SUCH_UPLOAD
+msgid "Specified upload does not exist."
+msgstr "Uvedený nahraný soubor neexistuje."
+
+#: mail.SCAN_ERROR
+msgid "Upload could not be scanned."
+msgstr "Nahrávaný soubor nebylo možné přeskenovat."
+
+#: mail.UPLOAD_REJECTED
+msgid "Upload rejected."
+msgstr "Nahrávání bylo zamítnuto."
+
+#: mail.TOO_MANY_TAGS
+msgid "A tag could not be created because you have exceeded the limit."
+msgstr "Štítek nebylo možné vytvořit, protože jste překročili limit."
+
+#: mail.TOO_MANY_UPLOADS
+msgid "Too many uploads."
+msgstr "Příliš mnoho nahrávání."
+
+#: mail.TOO_MANY_CONTACTS
+msgid "A contact could not be created because you exceeded your quota."
+msgstr "Kontakt nebylo možné vytvořit, protože jste překročili kvótu."
+
+#: mail.UNABLE_TO_IMPORT_CONTACTS
+msgid "Unable to import contacts."
+msgstr "Nebylo možné importovat kontakty."
+
+#: mail.QUOTA_EXCEEDED
+msgid ""
+"Your message could not be sent because you have exceeded your mail quota."
+msgstr "Vaši zprávu nebylo možné odeslat, protože jste překročili kvótu."
+
+#: mail.INVALID_ID
+msgid "Invalid id."
+msgstr "Neplatný id."
+
+#: mail.INVALID_NAME
+msgid "Invalid name. It contains at least one invalid character."
+msgstr "Neplatný název. Obsahuje alespoň jeden neplatný znak."
+
+#: mail.INVALID_TYPE
+msgid "Invalid type."
+msgstr "Neplatný typ."
+
+#: mail.INVALID_CONTENT_TYPE
+msgid "Invalid contact type."
+msgstr "Neplatný typ kontaktu."
+
+#: mail.WRONG_MAILBOX
+msgid "Cannot combine objects from different mailboxes."
+msgstr "Není možné kombinovat objekty z různých poštovních schránek."
+
+#: mail.CANNOT_SUBSCRIBE
+msgid "Cannot add subscription to existing folder."
+msgstr "Není možné přidat odběr do stávající složky."
+
+#: mail.CANNOT_CONTAIN
+msgid "Cannot put object in that folder."
+msgstr "Není možné vložit objekt do této složky."
+
+#: mail.CANNOT_COPY
+msgid "Cannot copy object."
+msgstr "Není možné kopírovat objekt."
+
+#: mail.CANNOT_TAG
+msgid "Cannot tag that item."
+msgstr "Není možné označit štítkem tuto položku."
+
+#: mail.CANNOT_PARENT
+msgid "Cannot make object a child of that parent."
+msgstr "Není možné učinit objekt potomkem uvedeného předka."
+
+#: mail.IS_NOT_CHILD
+msgid "Tried to remove object from non-parent."
+msgstr "Pokus odstranit objekt z objektu, který není předkem."
+
+#: mail.MODIFY_CONFLICT
+msgid ""
+"Item version number conflict. Another version was added between edit and "
+"save."
+msgstr ""
+"Konflikt verzí položky. Jiná verze byla přidána mezi začátkem úprav a "
+"uložením."
+
+#: mail.IMMUTABLE_OBJECT
+msgid "Cannot modify immutable object."
+msgstr "Není možné změnit nemodifikovatelný objekt."
+
+#: mail.ALREADY_EXISTS
+msgid "Item already exists."
+msgstr "Položka už existuje."
+
+#: mail.QUERY_PARSE_ERROR
+msgid "Unable to parse the search query."
+msgstr "Nebylo možné analyzovat vyhledávací řetězec."
+
+#: mail.MESSAGE_PARSE_ERROR
+msgid "Unable to parse message."
+msgstr "Nebylo možné analyzovat zprávu."
+
+#: mail.ADDRESS_PARSE_ERROR
+msgid "Unable to parse address."
+msgstr "Nebylo možné analyzovat adresu."
+
+#: mail.ICALENDAR_PARSE_ERROR
+msgid "Unable to parse iCalendar."
+msgstr "Nebylo možné analyzovat iCalendar."
+
+#: mail.MUST_BE_ORGANIZER
+msgid "Must be the appointment organizer."
+msgstr "Musí být organizátor schůzky."
+
+#: mail.CANNOT_CANCEL_INSTANCE_OF_EXCEPTION
+msgid "Cannot cancel instance of exception."
+msgstr "Nebolo možné zrušiť inštanciu výnimky."
+
+#: mail.INVITE_OUT_OF_DATE
+msgid "Invite is out of date."
+msgstr "Pozvánka je zastaralá."
+
+#: mail.SEND_ABORTED_ADDRESS_FAILURE
+msgid "Could not send message due to invalid address(es)"
+msgstr "Nebylo možné odeslat zprávu kvůli neplatné adrese"
+
+#: mail.SEND_PARTIAL_ADDRESS_FAILURE
+msgid "Partial address failure on send."
+msgstr "Částečná chyba adresy při odesílání."
+
+#: mail.SEND_FAILURE
+msgid "Could not send message."
+msgstr "Nebylo možné odeslat zprávu."
+
+#: mail.TRY_AGAIN
+msgid "Try again."
+msgstr "Zkuste to znova."
+
+#: mail.TOO_MANY_QUERY_TERMS_EXPANDED
+msgid "Too many query terms expanded."
+msgstr "Příliš mnoho položek požadavku bylo expandováno."
+
+#: mail.MESSAGE_TOO_BIG
+msgid ""
+"This file cannot be attached because it has exceeded the maximum allowed "
+"size."
+msgstr ""
+
+#: zclient.CLIENT_ERROR
+msgid "A network service error has occurred (zclient)."
+msgstr "Vyskytla se chyba síťové služby (zclient)."
+
+#: zclient.IO_ERROR
+msgid "A network service error has occurred (zclient/io)."
+msgstr "Vyskytla se chyba síťové služby (zclient/io)."
+
+#: zclient.UPLOAD_SIZE_LIMIT_EXCEEDED
+msgctxt "zclient.UPLOAD_SIZE_LIMIT_EXCEEDED"
+msgid "Attachment size limit exceeded."
+msgstr "Limit velikosti přílohy byl překročen."
+
+#: zclient.UPLOAD_FAILED
+msgctxt "zclient.UPLOAD_FAILED"
+msgid "Attachment upload failed."
+msgstr "Nahrávání přílohy selhalo."
+
+#: ztaglib.TAG_EXCEPTION
+msgid "A client error occurred. Please try again."
+msgstr "Vyskytla se chyba klienta. Prosím, zkuste to znova."
+
+#: ztaglib.UPLOAD_SIZE_LIMIT_EXCEEDED
+msgctxt "ztaglib.UPLOAD_SIZE_LIMIT_EXCEEDED"
+msgid "Attachment size limit exceeded."
+msgstr "Limit velikosti přílohy byl překročen."
+
+#: ztaglib.UPLOAD_FAILED
+msgctxt "ztaglib.UPLOAD_FAILED"
+msgid "Attachment upload failed."
+msgstr "Nahrávání přílohy selhalo."
+
+#: ztaglib.EMPTY_CONTACT
+msgid "Contact must have at least one field set."
+msgstr "Kontakt musí mít vyplněno alespoň jedno pole."
+
+#: ztaglib.INVALID_FILTER_DATE
+msgid "Invalid filter date format."
+msgstr "Neplatný formát datumu filtru."
+
+#: ztaglib.INVALID_APPT_DATE
+msgid "Invalid appointment date format."
+msgstr "Neplatný formát datumu schůzky."
+
+#: ztaglib.FILTER_EXISTS
+msgid "A filter with that name already exists."
+msgstr "Filtr s takovým názvem už existuje."
+
+#: ztaglib.NO_SUCH_FILTER_EXISTS
+msgid "No filter with that name exists."
+msgstr "Filtr s takovým názvem neexistuje."
+
+#: ztaglib.INVALID_CRUMB
+msgid "Your session has expired. Please log in again."
+msgstr "Činnost není povolena bez odpovídající obálky (crumb)."
+
+#. # this one should never get displayed since we should catch and redirect
+#: ztaglib.SERVER_REDIRECT
+msgid "Redirect to correct server."
+msgstr "Přesměrování na správný server."
+
+#: voice.UNABLE_TO_RETRIEVE_PROFILE_SUMMARY
+msgid ""
+"The system is currently unable to complete your request. We apologize for "
+"this inconvenience."
+msgstr ""
+"Systém momentálně nemůže dokončit váš požadavek. Omlouváme se za způsobené "
+"potíže."
+
+#: voice.UNABLE_TO_RETRIEVE_CALLLOGS
+msgid ""
+"We are currently unable to display call records. We apologize for this "
+"inconvenience."
+msgstr ""
+"Momentálně nedokážeme zobrazit záznamy volání. Omlouváme se za způsobené "
+"potíže."
+
+#: voice.UNABLE_TO_RETRIEVE_VOICEMAIL_FOLDER
+msgid "We are temporarily unable to display voice mail records."
+msgstr "Dočasně nedokážeme zobrazovat záznamy hlasové pošty."
+
+#: voice.UNABLE_TO_UPDATE_CALL_FEATURES
+msgctxt "voice.UNABLE_TO_UPDATE_CALL_FEATURES"
+msgid ""
+"We are temporarily unable to forward calls. We apologize for this "
+"inconvenience."
+msgstr ""
+"Dočasně nedokážeme přesměrovávat volání. Omlouváme se za způsobené potíže."
+
+#: voice.UNABLE_TO_MODIFY_CALL_FEATURES
+msgctxt "voice.UNABLE_TO_MODIFY_CALL_FEATURES"
+msgid ""
+"We are temporarily unable to forward calls. We apologize for this "
+"inconvenience."
+msgstr ""
+"Dočasně nedokážeme přesměrovávat volání. Omlouváme se za způsobené potíže."
+
+#: voice.UNABLE_TO_MODIFY_VOICEMAIL_PREFS
+msgid ""
+"An error occurred while attempting to update your voice mail preferences. "
+"Please try again."
+msgstr ""
+"Vyskytla se chyba při pokusu o aktualizaci nastavení vaší hlasové pošty. "
+"Prosím, zkuste to znovu."
+
+#: voice.UNABLE_TO_FORWARD_VOICEMAIL
+msgid "Your email could not be forwarded at this time. Please try again later."
+msgstr ""
+"Vaši poštu momentálně nebylo možné přesměrovat. Prosím, zkuste to znovu."
+
+#: voice.UNABLE_TO_RETRIEVE_CALL_FEATURES
+msgid "Unable to retrieve call features."
+msgstr "Nebylo možné zjistit možnosti volání."
+
+#: voice.UNABLE_TO_RETRIEVE_VOICEMAIL_CONTENT
+msgid "Unable to retrieve voice mail content."
+msgstr "Nebylo možné získat obsah hlasové pošty."
+
+#: voice.UNABLE_TO_RETRIEVE_VOICEMAIL_PREFS
+msgid "Unable to retrieve voice mail preferences."
+msgstr "Nebylo možné získat nastavení hlasové pošty."
+
+#: voice.UNABLE_TO_RETRIEVE_VOICEMAIL_SUMMARY
+msgid "Unable to retrieve voice mail summary."
+msgstr "Nebylo možné získat shrnutí hlasové pošty."
+
+#: voice.UNABLE_TO_MODIFY_VOICEMAIL_STATUS
+msgid "Unable to modify voice mail status."
+msgstr "Nebylo možné změnit stav hlasové pošty."
+
+#: voice.UNABLE_TO_EMPTY_VOICEMAIL_TRASH
+msgid "Unable to empty voice mail trash."
+msgstr "Nebylo možné vyprázdnit Koš hlasové pošty."
+
+#: voice.UNABLE_TO_DELETE_VOICEMAIL
+msgid "Unable to delete voice mail."
+msgstr "Nebylo možné smazat hlasovou poštu."
+
+#: voice.UNABLE_TO_UNDELETE_VOICEMAIL
+msgid "Unable to undelete voice mail."
+msgstr "Nebylo možné obnovit smazanou hlasovou poštu."
+
+#: voice.SECONDARY_NOT_ALLOWED
+msgctxt "voice.SECONDARY_NOT_ALLOWED"
+msgid "You are not allowed to access voice mail."
+msgstr ""
+
+#: voice.SECONDARY_NOT_ALLOWED_VOICE
+msgctxt "voice.SECONDARY_NOT_ALLOWED_VOICE"
+msgid "You are not allowed to access voice mail."
+msgstr ""
+
+#: voice.SECONDARY_NOT_ALLOWED_PREFS
+msgctxt "voice.SECONDARY_NOT_ALLOWED_PREFS"
+msgid "You are not allowed to access voice mail."
+msgstr ""
+
+#: voice.UNABLE_TO_RETRIEVE_CALL_FEATURES
+msgid ""
+"An error occurred while attempting to retrieve your voice mail preferences. "
+"Your telephone number may be out of service. We apologize for this "
+"inconvenience."
+msgstr "Nebylo možné zjistit možnosti volání."
+
+#: voice.INVALID_PHNUM_OWN_PHONE_NUMBER
+msgid ""
+"Sorry, you cannot use your telephone number with this feature. Please enter "
+"a valid 10 digit (XXX-XXX-XXXX) or 11 digit(1- XXX-XXX-XXXX) US telephone "
+"number and try again. SCC- 0390"
+msgstr ""
+
+#: voice.INVALID_PHNUM_INTERNATIONAL_NUMBER
+msgctxt "voice.INVALID_PHNUM_INTERNATIONAL_NUMBER"
+msgid ""
+"Sorry, this feature does not support international telephone numbers. Please "
+"enter a valid 10 digit (XXX-XXX-XXXX) or 11 digit(1-XXX-XXX-XXXX) US "
+"telephone number and try again. SCC-0391"
+msgstr ""
+
+#: voice.INVALID_PHNUM_BAD_NPA
+msgctxt "voice.INVALID_PHNUM_BAD_NPA"
+msgid ""
+"Sorry, this feature does not support telephone numbers with area codes of "
+"900, 500, 700 or 976. Please enter a valid 10 digit (XXX-XXX-XXXX) or 11 "
+"digit(1-XXX-XXX-XXXX) US telephone number and try again. SCC-0392"
+msgstr ""
+
+#: voice.INVALID_PHNUM_BAD_LINE
+msgctxt "voice.INVALID_PHNUM_BAD_LINE"
+msgid ""
+"Sorry, this feature does not support telephone numbers with the 555 "
+"exchange. (e.g. XXX-555-XXXX). Please enter a valid 10 digit (XXX-XXX-XXXX) "
+"or 11 digit(1-XXX-XXX-XXXX) US telephone number and try again. SCC-0393"
+msgstr ""
+
+#: voice.INVALID_PHNUM_EMERGENCY_ASSISTANCE
+msgctxt "voice.INVALID_PHNUM_EMERGENCY_ASSISTANCE"
+msgid ""
+"Sorry, this feature does not support the 911 telephone numbers. Please enter "
+"a valid 10 digit (XXX-XXX-XXXX) or 11 digit(1-XXX-XXX-XXXX) US telephone "
+"number and try again. SCC-0394"
+msgstr ""
+
+#: voice.INVALID_PHNUM_DIRECTORY_ASSISTANCE
+msgctxt "voice.INVALID_PHNUM_DIRECTORY_ASSISTANCE"
+msgid ""
+"Sorry, this feature does not support the 411 telephone numbers. Please enter "
+"a valid 10 digit (XXX-XXX-XXXX) or 11 digit(1-XXX-XXX-XXXX) US telephone "
+"number and try again. SCC-0395"
+msgstr ""
+
+#: voice.INVALID_PHNUM_BAD_FORMAT
+msgctxt "voice.INVALID_PHNUM_BAD_FORMAT"
+msgid ""
+"Sorry, this feature does not support the telephone number entered. Please "
+"enter a valid 10 digit (XXX-XXX-XXXX) or 11 digit(1-XXX-XXX-XXXX) US "
+"telephone number and try again. SCC-0396"
+msgstr ""
+
+#: voice.SELECTIVE_CALL_FORWARD_LIST_FULL
+msgctxt "voice.SELECTIVE_CALL_FORWARD_LIST_FULL"
+msgid "You may only specify 12 numbers to forward calls from"
+msgstr ""
+
+#: voice.SELECTIVE_CALL_REJECT_LIST_FULL
+msgctxt "voice.SELECTIVE_CALL_REJECT_LIST_FULL"
+msgid "You may only specify 12 numbers to screen calls from"
+msgstr ""
+
+#: voice.SELECTIVE_CALL_FORWARD_ALREADY_IN_LIST
+msgctxt "voice.SELECTIVE_CALL_FORWARD_ALREADY_IN_LIST"
+msgid "The phone number is already in the Call Forwarding List."
+msgstr ""
+
+#: voice.SELECTIVE_CALL_REJECT_ALREADY_IN_LIST
+msgctxt "voice.SELECTIVE_CALL_REJECT_ALREADY_IN_LIST"
+msgid "The phone number is already in the Call Screening List."
+msgstr ""
